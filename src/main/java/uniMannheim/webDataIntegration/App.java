@@ -1,7 +1,10 @@
 package uniMannheim.webDataIntegration;
 
-import org.apache.jena.rdf.model.Model;
-import org.apache.jena.rdf.model.ModelFactory;
+import static spark.Spark.post;
+import static spark.Spark.get;
+import static spark.SparkBase.port;
+
+import java.io.IOException;
 
 /**
  * Hello world!
@@ -9,15 +12,32 @@ import org.apache.jena.rdf.model.ModelFactory;
  */
 public class App 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-        
-        String filePath = "C:\\Users\\D059373\\Downloads\\DNBTitel.ttl\\DNBTitel.ttl";
-        
-        Model model = ModelFactory.createDefaultModel();
-        model.read(filePath, "TTL");
+    public static void main( String[] args ) throws IOException {
+        System.out.println("Starting server..." );
+        //String filePath = "C:\\Users\\D059373\\Downloads\\DNBTitel.ttl\\DNBTitel.ttl";
         
         
+        //Model model = ModelFactory.createDefaultModel();
+        //model.read(filePath, "TTL");
+        
+        int port = 5000;
+        port(port);
+        
+        get("/", (request, response) -> {
+        	return "Hello world!";
+        });
+        
+        post("/", (request, response) -> {
+        	SparqlHandler handler = SparqlHandler.getInstance();
+        	if (!handler.isModelLoaded()) {
+        		return "Model not loaded yet.";
+        	}
+        	String sparql = request.body();
+        	String result = handler.doQuery(sparql);
+        	return result;
+        });
+        
+        System.out.println("Loading data...");
+        SparqlHandler.getInstance().loadModel(SparqlHandler.FILE_DNB, SparqlHandler.FILE_TYPE_RDFXML);
     }
 }
