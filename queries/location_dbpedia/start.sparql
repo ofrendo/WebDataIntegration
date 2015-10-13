@@ -1,0 +1,10 @@
+# Something like this might be a good start
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+SELECT ?label ?pop WHERE {
+  ?location rdf:type dbo:Location .
+  ?location rdfs:label ?label .
+  ?location dbo:populationTotal ?pop .
+  FILTER(?pop >= 10000)
+}
+LIMIT 100
