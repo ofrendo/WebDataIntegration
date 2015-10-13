@@ -8,3 +8,26 @@
     "/location/mailing_address/street_address": []
   }]
 }]
+
+
+---------------------------------------------------------------------------------
+//13.10 updated
+[{
+  "name": null,
+  "/business/employer/number_of_employees": [{
+    "number": null
+  }],
+  "/organization/organization/date_founded": null,
+  "/organization/organization/headquarters": [{
+    "/location/mailing_address/street_address": []
+  }],
+  "/organization/organization/leadership": [{
+    "/organization/leadership/person": null
+  }],
+  "/business/business_operation/revenue": [{
+    "/measurement_unit/dated_money_value/amount": null,
+    "/measurement_unit/dated_money_value/currency": null,
+    "/measurement_unit/dated_money_value/valid_date": null
+  }],
+  "/business/business_operation/industry": []
+}]
