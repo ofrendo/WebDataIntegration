@@ -3,5 +3,8 @@
   "/business/employer/number_of_employees": [{
     "number": null
   }],
-  "/organization/organization/date_founded": null
+  "/organization/organization/date_founded": null,
+  "/organization/organization/headquarters": [{
+    "/location/mailing_address/street_address": []
+  }]
 }]
