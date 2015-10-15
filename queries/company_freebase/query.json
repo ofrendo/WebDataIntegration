@@ -8,16 +8,19 @@
     "/measurement_unit/dated_money_value/currency": null,
     "/measurement_unit/dated_money_value/valid_date": null,
 	"limit": 1,
-    "sort": "/measurement_unit/dated_money_value/valid_date"
+    "sort": "/measurement_unit/dated_money_value/valid_date",
+    "optional": true
   }],
   "/organization/organization/headquarters": [{
-    "/location/mailing_address/street_address": []
+    "/location/mailing_address/street_address": [],
+	"optional": true
   }],
   "/organization/organization/leadership": [{
-    "/organization/leadership/person": null
+    "/organization/leadership/person": null,
+    "optional": true
   }],
   "/organization/organization/date_founded": null,
   "/business/business_operation/industry": [],
-  "limit": 25,
+  "limit": 500,
   "sort": "name"
 }]
