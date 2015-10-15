@@ -1,4 +1,4 @@
-[{5
+[{
   "name": null,
   "/business/employer/number_of_employees": [{
     "number": null
@@ -12,9 +12,8 @@
     "optional": true
   }],
   "/organization/organization/headquarters": [{
-    "/location/mailing_address/street_address": [{
-		"optional": true
-	}]
+    "/location/mailing_address/street_address": [],
+	"optional": true
   }],
   "/organization/organization/leadership": [{
     "/organization/leadership/person": null,
@@ -22,6 +21,6 @@
   }],
   "/organization/organization/date_founded": null,
   "/business/business_operation/industry": [],
-  "limit": 25,
+  "limit": 500,
   "sort": "name"
 }]
