@@ -42,7 +42,7 @@ public class Main {
 	      String resultString = "";
 	      String cursor = "";
 	      boolean isDone = false;
-	      int max = 2;
+	      JSONArray allResults = new JSONArray();
 	      int i = 0;
 	      while (!isDone) {
 	    	  i++;
@@ -64,13 +64,15 @@ public class Main {
 		      
 		      System.out.println("Request " + i + "; cursor=" + cursor);
 		      for (Object result : results) {
-		    	  resultString += ((JSONObject) result).toString() + "\n";
+		    	  //resultString += ((JSONObject) result).toString() + "\n";
+		    	  allResults.add( (JSONObject) result );
 		    	  //System.out.println(result);
 		      }
 	      }
 	      
+	      resultString = allResults.toJSONString();
 	      resultString = resultString.replace("\\", "");
-
+	      
 	      System.out.println("Writing to fie...");
 	      FileWriter fw = new FileWriter("queries/company_freebase/result.json");
 	      fw.write(resultString);
