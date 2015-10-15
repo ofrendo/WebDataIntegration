@@ -6,7 +6,9 @@
   "/business/business_operation/revenue": [{
     "/measurement_unit/dated_money_value/amount": null,
     "/measurement_unit/dated_money_value/currency": null,
-    "/measurement_unit/dated_money_value/valid_date": null
+    "/measurement_unit/dated_money_value/valid_date": null,
+	"limit": 1,
+    "sort": "/measurement_unit/dated_money_value/valid_date"
   }],
   "/organization/organization/headquarters": [{
     "/location/mailing_address/street_address": []
@@ -15,5 +17,7 @@
     "/organization/leadership/person": null
   }],
   "/organization/organization/date_founded": null,
-  "/business/business_operation/industry": []
+  "/business/business_operation/industry": [],
+  "limit": 25,
+  "sort": "name"
 }]
