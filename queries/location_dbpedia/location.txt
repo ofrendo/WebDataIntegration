@@ -1,0 +1,14 @@
+
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+SELECT ?label ?pop ?areaTotal ?elevation ?country ?postalCode
+WHERE {
+?location rdf:type dbo:Location .
+?location rdfs:label ?label .
+?location dbo:areaTotal ?areaTotal .
+?location dbo:elevation ?elevation .
+?location dbp:postalCode ?postalCode .
+?location dbo:country ?country .
+?location dbo:populationTotal ?pop .
+FILTER(?pop >= 100000)
+}
