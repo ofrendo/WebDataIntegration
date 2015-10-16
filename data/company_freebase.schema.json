@@ -8,48 +8,6 @@
     "object_01": {
       "type": "object",
       "required": [
-        "/location/mailing_address/street_address"
-      ],
-      "additionalProperties": false,
-      "properties": {
-        "/location/mailing_address/street_address": {
-          "type": "array",
-          "title": "/location/mailing_address/street_address",
-          "items": {
-            "type": "string"
-          }
-        }
-      }
-    },
-    "object_02": {
-      "type": "object",
-      "required": [
-        "/measurement_unit/dated_money_value/valid_date",
-        "/measurement_unit/dated_money_value/currency",
-        "/measurement_unit/dated_money_value/amount"
-      ],
-      "additionalProperties": false,
-      "properties": {
-        "/measurement_unit/dated_money_value/valid_date": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "/measurement_unit/dated_money_value/currency": {
-          "type": "string"
-        },
-        "/measurement_unit/dated_money_value/amount": {
-          "type": [
-            "number",
-            "null"
-          ]
-        }
-      }
-    },
-    "object_03": {
-      "type": "object",
-      "required": [
         "/organization/leadership/person"
       ],
       "additionalProperties": false,
@@ -59,6 +17,59 @@
             "string",
             "null"
           ]
+        }
+      }
+    },
+    "object_02": {
+      "type": "object",
+      "required": [
+        "/location/mailing_address/citytown"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "/location/mailing_address/citytown": {
+          "oneOf": [
+            {
+              "type": "array",
+              "title": "/location/mailing_address/citytown",
+              "items": {
+                "type": "string"
+              }
+            },
+            {
+              "type": "array",
+              "title": "/location/mailing_address/citytown",
+              "items": {
+                "type": "null"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "object_03": {
+      "type": "object",
+      "required": [
+        "/measurement_unit/dated_money_value/amount",
+        "/measurement_unit/dated_money_value/valid_date",
+        "/measurement_unit/dated_money_value/currency"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "/measurement_unit/dated_money_value/amount": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "/measurement_unit/dated_money_value/valid_date": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "/measurement_unit/dated_money_value/currency": {
+          "type": "string"
         }
       }
     },
@@ -80,34 +91,21 @@
     "object_05": {
       "type": "object",
       "required": [
+        "/organization/organization/leadership",
+        "name",
         "/organization/organization/date_founded",
+        "/business/business_operation/industry",
         "/organization/organization/headquarters",
         "/business/business_operation/revenue",
-        "name",
-        "/organization/organization/leadership",
-        "/business/employer/number_of_employees",
-        "/business/business_operation/industry"
+        "/business/employer/number_of_employees"
       ],
       "additionalProperties": false,
       "properties": {
-        "/organization/organization/date_founded": {
-          "type": [
-            "string",
-            "null"
-          ]
-        },
-        "/organization/organization/headquarters": {
+        "/organization/organization/leadership": {
           "type": "array",
-          "title": "/organization/organization/headquarters",
+          "title": "/organization/organization/leadership",
           "items": {
             "$ref": "#/definitions/object_01"
-          }
-        },
-        "/business/business_operation/revenue": {
-          "type": "array",
-          "title": "/business/business_operation/revenue",
-          "items": {
-            "$ref": "#/definitions/object_02"
           }
         },
         "name": {
@@ -116,19 +114,11 @@
             "null"
           ]
         },
-        "/organization/organization/leadership": {
-          "type": "array",
-          "title": "/organization/organization/leadership",
-          "items": {
-            "$ref": "#/definitions/object_03"
-          }
-        },
-        "/business/employer/number_of_employees": {
-          "type": "array",
-          "title": "/business/employer/number_of_employees",
-          "items": {
-            "$ref": "#/definitions/object_04"
-          }
+        "/organization/organization/date_founded": {
+          "type": [
+            "string",
+            "null"
+          ]
         },
         "/business/business_operation/industry": {
           "oneOf": [
@@ -163,6 +153,27 @@
               "$ref": "#/definitions/array_10"
             }
           ]
+        },
+        "/organization/organization/headquarters": {
+          "type": "array",
+          "title": "/organization/organization/headquarters",
+          "items": {
+            "$ref": "#/definitions/object_02"
+          }
+        },
+        "/business/business_operation/revenue": {
+          "type": "array",
+          "title": "/business/business_operation/revenue",
+          "items": {
+            "$ref": "#/definitions/object_03"
+          }
+        },
+        "/business/employer/number_of_employees": {
+          "type": "array",
+          "title": "/business/employer/number_of_employees",
+          "items": {
+            "$ref": "#/definitions/object_04"
+          }
         }
       }
     },
@@ -187,7 +198,7 @@
     },
     "array_02": {
       "type": "array",
-      "title": "/business/business_operation/industry, /location/mailing_address/street_address",
+      "title": "/business/business_operation/industry",
       "description": "tuple type",
       "additionalItems": false,
       "minItems": 2,
