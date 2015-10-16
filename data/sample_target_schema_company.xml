@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<companies>
+	<company>	
+		<name>IBM</name>
+		<country>America</country>
+		<industries>
+			<industry>Software</industry>
+			<industry>Computer Hardware</industry>
+		</industries>
+		<revenue>92793000000</revenue>
+		<operatingIncome>10418000000.00</operatingIncome>
+		<netIncome>12334000000.00</netIncome>
+		<numberOfEmployees>431212.00</numberOfEmployees>
+		<dateFounded>16.06.1911</dateFounded>
+		<headquarters>New York</headquarters>
+		<keyPeople>
+			<person>Ginni Rometty</person>
+		</keyPeople>
+		<sector>Electronic and Electrical Equipment</sector>
+		<subSector>Electrical Components and Equipment</subSector>
+		<countryOfIncorporation>US</countryOfIncorporation>
+		<market>AIM</market>
+		<marketCap>14263422.08</marketCap>
+		<internationalMainMarket>N</internationalMainMarket>
+		<fcaListingCategory>Premium</fcaListingCategory>
+		<dateListed>21.08.2015</dateListed>
+	</company>
+</companies>

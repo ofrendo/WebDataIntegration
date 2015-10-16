@@ -71,10 +71,10 @@ public class Main {
 	      }
 	      
 	      resultString = allResults.toJSONString();
-	      resultString = resultString.replace("\\", "");
+	      //resultString = resultString.replace("\\", "");
 	      
-	      System.out.println("Writing to fie...");
-	      FileWriter fw = new FileWriter("queries/company_freebase/result.json");
+	      System.out.println("Writing to file...");
+	      FileWriter fw = new FileWriter("data/company_freebase.json");
 	      fw.write(resultString);
 	      fw.flush();
 	      fw.close();
