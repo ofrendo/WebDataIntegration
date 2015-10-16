@@ -20,7 +20,13 @@
 							<xs:element name="netIncome" type="xs:decimal"/>
 							<xs:element name="numberOfEmployees" type="xs:decimal"/>
 							<xs:element name="dateFounded" type="xs:string"/>
-							<xs:element name="headquarters" type="xs:string"/>
+							<xs:element name="headquarters">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="address" type="xs:string"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
 							<xs:element name="keyPeople">
 								<xs:complexType>
 									<xs:sequence>

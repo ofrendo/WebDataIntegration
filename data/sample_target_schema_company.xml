@@ -12,7 +12,9 @@
 		<netIncome>12334000000.00</netIncome>
 		<numberOfEmployees>431212.00</numberOfEmployees>
 		<dateFounded>16.06.1911</dateFounded>
-		<headquarters>New York</headquarters>
+		<headquarters>
+			<address>1 NEW ORCHARD ROAD</address>
+		</headquarters>
 		<keyPeople>
 			<person>Ginni Rometty</person>
 		</keyPeople>
