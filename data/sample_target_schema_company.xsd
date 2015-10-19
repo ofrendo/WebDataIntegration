@@ -36,11 +36,10 @@
 							</xs:element>
 							<xs:element name="sector" type="xs:string"/>
 							<xs:element name="subSector" type="xs:string"/>
-							<xs:element name="countryOfIncorporation" type="xs:string"/>
 							<xs:element name="market" type="xs:string"/>
 							<xs:element name="marketCap" type="xs:decimal"/>
-							<xs:element name="internationalMainMarket" type="xs:string"/>
 							<xs:element name="fcaListingCategory" type="xs:string"/>
+							<xs:element name="internationalMainMarket" type="xs:string"/>
 							<xs:element name="dateListed" type="xs:string"/>
 						</xs:sequence>
 					</xs:complexType>
