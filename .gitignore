@@ -3,3 +3,5 @@
 /server/
 /tbd/
 .settings/
+
+.DS_Store
