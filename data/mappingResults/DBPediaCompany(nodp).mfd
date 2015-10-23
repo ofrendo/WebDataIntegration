@@ -6,8 +6,62 @@
 		<properties SelectedLanguage="builtin"/>
 		<structure>
 			<children>
+				<component name="sample_target_schema_company" library="xml" uid="3" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="555" rbx="841" rby="469"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="companies" expanded="1">
+										<entry name="company" inpkey="1" expanded="1">
+											<entry name="name" inpkey="2"/>
+											<entry name="country" inpkey="3"/>
+											<entry name="industries" inpkey="4"/>
+											<entry name="revenue" inpkey="5"/>
+											<entry name="operatingIncome" inpkey="6"/>
+											<entry name="netIncome" inpkey="7"/>
+											<entry name="dateFounded" inpkey="8"/>
+											<entry name="headquarters" inpkey="9"/>
+											<entry name="keyPeople" inpkey="10"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="F:\Mannheim\3Semester\web data integration\project\sample_target_schema\sample_target_schema_company.xsd" inputinstance="F:\Mannheim\3Semester\web data integration\project\sample_target_schema\sample_target_schema_company.xml" outputinstance="F:\Mannheim\3Semester\web data integration\project\sample_target_schema\sample_target_schema_company.xml" instanceroot="{}companies"/>
+						<wsdl/>
+					</data>
+				</component>
 				<component name="scientific_to_numeric" library="user" blackbox="0" uid="186" kind="19" visible="0">
-					<view ltx="402" lty="-1700" rbx="530" rby="-1683"/>
+					<view ltx="324" lty="276" rbx="452" rby="293"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="string" inpkey="11" componentid="169"/>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="Field1" outkey="12" componentid="170"/>
+						</root>
+					</data>
+				</component>
+				<component name="scientific_to_numeric" library="user" blackbox="0" uid="188" kind="19" visible="0">
+					<view ltx="324" lty="345" rbx="452" rby="362"/>
 					<data>
 						<root scrollposition="1">
 							<header>
@@ -27,8 +81,8 @@
 						</root>
 					</data>
 				</component>
-				<component name="scientific_to_numeric" library="user" blackbox="0" uid="191" kind="19" visible="0">
-					<view ltx="462" lty="-1487" rbx="590" rby="-1470"/>
+				<component name="scientific_to_numeric" library="user" blackbox="0" uid="190" kind="19" visible="0">
+					<view ltx="324" lty="406" rbx="452" rby="423"/>
 					<data>
 						<root scrollposition="1">
 							<header>
@@ -48,64 +102,9 @@
 						</root>
 					</data>
 				</component>
-				<component name="scientific_to_numeric" library="user" blackbox="0" uid="189" kind="19" visible="0">
-					<view ltx="433" lty="-1614" rbx="561" rby="-1597"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="string" inpkey="17" componentid="169"/>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="Field1" outkey="18" componentid="170"/>
-						</root>
-					</data>
-				</component>
-				<component name="sample_target_schema_company" library="xml" uid="5" kind="14">
-					<properties XSLTDefaultOutput="1"/>
-					<view ltx="620" lty="-2007" rbx="947" rby="-1620"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="companies" expanded="1">
-										<entry name="company" inpkey="19" expanded="1">
-											<entry name="name" inpkey="7"/>
-											<entry name="country" inpkey="6"/>
-											<entry name="industries" inpkey="5"/>
-											<entry name="revenue" inpkey="8"/>
-											<entry name="operatingIncome" inpkey="20"/>
-											<entry name="netIncome" inpkey="21"/>
-											<entry name="numberOfEmployees" inpkey="22"/>
-											<entry name="dateFounded" inpkey="23"/>
-											<entry name="headquarters" inpkey="24"/>
-											<entry name="keyPeople" inpkey="25" expanded="1"/>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="sample_target_schema_company.xsd" inputinstance="sample_target_schema_company.xml" outputinstance="sample_target_schema_company.xml" instanceroot="{}companies"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="DBcompanyjson" library="json" uid="7" kind="31">
-					<properties/>
-					<view ltx="-18" lty="-2032" rbx="366" rby="-1405"/>
+				<component name="DBcompany" library="json" uid="2" kind="31">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view rbx="268" rby="396"/>
 					<data>
 						<root scrollposition="1">
 							<header>
@@ -126,64 +125,58 @@
 													<entry name="bindings" type="json-property" expanded="1">
 														<entry name="array" expanded="1">
 															<entry name="item" type="json-item" expanded="1">
-																<entry name="object" outkey="26" expanded="1">
+																<entry name="object" outkey="17" expanded="1">
 																	<entry name="company" type="json-property" expanded="1">
-																		<entry name="object">
+																		<entry name="object" expanded="1">
 																			<entry name="type" type="json-property" expanded="1"/>
 																			<entry name="datatype" type="json-property" expanded="1"/>
-																			<entry name="xml:lang" type="json-property" expanded="1"/>
 																			<entry name="value" type="json-property" expanded="1">
-																				<entry name="string" outkey="27"/>
+																				<entry name="string" outkey="18"/>
 																			</entry>
 																		</entry>
 																	</entry>
 																	<entry name="locationCity" type="json-property" expanded="1">
-																		<entry name="object">
+																		<entry name="object" expanded="1">
 																			<entry name="type" type="json-property" expanded="1"/>
 																			<entry name="datatype" type="json-property" expanded="1"/>
-																			<entry name="xml:lang" type="json-property" expanded="1"/>
 																			<entry name="value" type="json-property" expanded="1">
-																				<entry name="string" outkey="28"/>
+																				<entry name="string" outkey="19"/>
 																			</entry>
 																		</entry>
 																	</entry>
 																	<entry name="locationCountry" type="json-property" expanded="1">
-																		<entry name="object">
+																		<entry name="object" expanded="1">
 																			<entry name="type" type="json-property" expanded="1"/>
 																			<entry name="datatype" type="json-property" expanded="1"/>
-																			<entry name="xml:lang" type="json-property" expanded="1"/>
 																			<entry name="value" type="json-property" expanded="1">
-																				<entry name="string" outkey="29"/>
+																				<entry name="string" outkey="20"/>
 																			</entry>
 																		</entry>
 																	</entry>
 																	<entry name="keyPeople" type="json-property" expanded="1">
-																		<entry name="object">
+																		<entry name="object" expanded="1">
 																			<entry name="type" type="json-property" expanded="1"/>
 																			<entry name="datatype" type="json-property" expanded="1"/>
-																			<entry name="xml:lang" type="json-property" expanded="1"/>
 																			<entry name="value" type="json-property" expanded="1">
-																				<entry name="string" outkey="30"/>
+																				<entry name="string" outkey="21"/>
 																			</entry>
 																		</entry>
 																	</entry>
 																	<entry name="foundingYear" type="json-property" expanded="1">
-																		<entry name="object">
+																		<entry name="object" expanded="1">
 																			<entry name="type" type="json-property" expanded="1"/>
 																			<entry name="datatype" type="json-property" expanded="1"/>
-																			<entry name="xml:lang" type="json-property" expanded="1"/>
 																			<entry name="value" type="json-property" expanded="1">
-																				<entry name="string" outkey="31"/>
+																				<entry name="string" outkey="22"/>
 																			</entry>
 																		</entry>
 																	</entry>
 																	<entry name="industry" type="json-property" expanded="1">
-																		<entry name="object">
+																		<entry name="object" expanded="1">
 																			<entry name="type" type="json-property" expanded="1"/>
 																			<entry name="datatype" type="json-property" expanded="1"/>
-																			<entry name="xml:lang" type="json-property" expanded="1"/>
 																			<entry name="value" type="json-property" expanded="1">
-																				<entry name="string" outkey="32"/>
+																				<entry name="string" outkey="23"/>
 																			</entry>
 																		</entry>
 																	</entry>
@@ -191,9 +184,8 @@
 																		<entry name="object" expanded="1">
 																			<entry name="type" type="json-property" expanded="1"/>
 																			<entry name="datatype" type="json-property" expanded="1"/>
-																			<entry name="xml:lang" type="json-property" expanded="1"/>
 																			<entry name="value" type="json-property" expanded="1">
-																				<entry name="string" outkey="33"/>
+																				<entry name="string" outkey="24"/>
 																			</entry>
 																		</entry>
 																	</entry>
@@ -201,9 +193,8 @@
 																		<entry name="object" expanded="1">
 																			<entry name="type" type="json-property" expanded="1"/>
 																			<entry name="datatype" type="json-property" expanded="1"/>
-																			<entry name="xml:lang" type="json-property" expanded="1"/>
 																			<entry name="value" type="json-property" expanded="1">
-																				<entry name="string" outkey="34"/>
+																				<entry name="string" outkey="25"/>
 																			</entry>
 																		</entry>
 																	</entry>
@@ -211,19 +202,8 @@
 																		<entry name="object" expanded="1">
 																			<entry name="type" type="json-property" expanded="1"/>
 																			<entry name="datatype" type="json-property" expanded="1"/>
-																			<entry name="xml:lang" type="json-property" expanded="1"/>
 																			<entry name="value" type="json-property" expanded="1">
-																				<entry name="string" outkey="35"/>
-																			</entry>
-																		</entry>
-																	</entry>
-																	<entry name="numberOfEmployees" type="json-property" expanded="1">
-																		<entry name="object" expanded="1">
-																			<entry name="type" type="json-property" expanded="1"/>
-																			<entry name="datatype" type="json-property" expanded="1"/>
-																			<entry name="xml:lang" type="json-property" expanded="1"/>
-																			<entry name="value" type="json-property" expanded="1">
-																				<entry name="string" outkey="36"/>
+																				<entry name="string" outkey="26"/>
 																			</entry>
 																		</entry>
 																	</entry>
@@ -240,81 +220,76 @@
 						</root>
 						<document/>
 						<wsdl/>
-						<json schema="C:\Users\li\Desktop\DBcompanyjson.schema.json" inputinstance="C:\Users\li\Desktop\DBcompany.json" outputinstance="C:\Users\li\Desktop\DBcompany.json"/>
+						<json schema="DBcompany.schema.json" inputinstance="DBcompany.json" outputinstance="DBP with max\DBcompany.json"/>
 					</data>
 				</component>
 			</children>
 			<graph directed="1">
 				<edges/>
 				<vertices>
+					<vertex vertexkey="12">
+						<edges>
+							<edge vertexkey="7" edgekey="27"/>
+						</edges>
+					</vertex>
 					<vertex vertexkey="14">
 						<edges>
-							<edge vertexkey="21" edgekey="37"/>
+							<edge vertexkey="6" edgekey="28"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="16">
 						<edges>
-							<edge vertexkey="8" edgekey="38"/>
+							<edge vertexkey="5" edgekey="29"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="17">
+						<edges>
+							<edge vertexkey="1" edgekey="30"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="18">
 						<edges>
-							<edge vertexkey="20" edgekey="39"/>
+							<edge vertexkey="2" edgekey="31"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="19">
+						<edges>
+							<edge vertexkey="9" edgekey="32"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="20">
+						<edges>
+							<edge vertexkey="3" edgekey="33"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="21">
+						<edges>
+							<edge vertexkey="10" edgekey="34"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="22">
+						<edges>
+							<edge vertexkey="8" edgekey="35"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="23">
+						<edges>
+							<edge vertexkey="4" edgekey="36"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="24">
+						<edges>
+							<edge vertexkey="11" edgekey="37"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="25">
+						<edges>
+							<edge vertexkey="13" edgekey="38"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="26">
 						<edges>
-							<edge vertexkey="19" edgekey="40"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="27">
-						<edges>
-							<edge vertexkey="7" edgekey="41"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="28">
-						<edges>
-							<edge vertexkey="24" edgekey="42"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="29">
-						<edges>
-							<edge vertexkey="6" edgekey="43"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="30">
-						<edges>
-							<edge vertexkey="25" edgekey="44"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="31">
-						<edges>
-							<edge vertexkey="23" edgekey="45"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="32">
-						<edges>
-							<edge vertexkey="5" edgekey="46"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="33">
-						<edges>
-							<edge vertexkey="13" edgekey="47"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="34">
-						<edges>
-							<edge vertexkey="17" edgekey="48"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="35">
-						<edges>
-							<edge vertexkey="15" edgekey="49"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="36">
-						<edges>
-							<edge vertexkey="22" edgekey="50"/>
+							<edge vertexkey="15" edgekey="39"/>
 						</edges>
 					</vertex>
 				</vertices>
