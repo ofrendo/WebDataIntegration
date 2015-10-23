@@ -2,7 +2,7 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "array",
   "items": {
-    "$ref": "#/definitions/object_05"
+    "$ref": "#/definitions/object_06"
   },
   "definitions": {
     "object_01": {
@@ -76,6 +76,21 @@
     "object_04": {
       "type": "object",
       "required": [
+        "industry"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "industry": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "object_05": {
+      "type": "object",
+      "required": [
         "number"
       ],
       "additionalProperties": false,
@@ -88,15 +103,15 @@
         }
       }
     },
-    "object_05": {
+    "object_06": {
       "type": "object",
       "required": [
         "/organization/organization/leadership",
         "name",
         "/organization/organization/date_founded",
-        "/business/business_operation/industry",
         "/organization/organization/headquarters",
         "/business/business_operation/revenue",
+        "/business/business_operation/industries",
         "/business/employer/number_of_employees"
       ],
       "additionalProperties": false,
@@ -120,7 +135,21 @@
             "null"
           ]
         },
-        "/business/business_operation/industry": {
+        "/organization/organization/headquarters": {
+          "type": "array",
+          "title": "/organization/organization/headquarters",
+          "items": {
+            "$ref": "#/definitions/object_02"
+          }
+        },
+        "/business/business_operation/revenue": {
+          "type": "array",
+          "title": "/business/business_operation/revenue",
+          "items": {
+            "$ref": "#/definitions/object_03"
+          }
+        },
+        "/business/business_operation/industries": {
           "oneOf": [
             {
               "$ref": "#/definitions/array_01"
@@ -130,6 +159,13 @@
             },
             {
               "$ref": "#/definitions/array_03"
+            },
+            {
+              "type": "array",
+              "title": "/business/business_operation/industries",
+              "items": {
+                "$ref": "#/definitions/object_04"
+              }
             },
             {
               "$ref": "#/definitions/array_04"
@@ -148,294 +184,267 @@
             },
             {
               "$ref": "#/definitions/array_09"
-            },
-            {
-              "$ref": "#/definitions/array_10"
             }
           ]
-        },
-        "/organization/organization/headquarters": {
-          "type": "array",
-          "title": "/organization/organization/headquarters",
-          "items": {
-            "$ref": "#/definitions/object_02"
-          }
-        },
-        "/business/business_operation/revenue": {
-          "type": "array",
-          "title": "/business/business_operation/revenue",
-          "items": {
-            "$ref": "#/definitions/object_03"
-          }
         },
         "/business/employer/number_of_employees": {
           "type": "array",
           "title": "/business/employer/number_of_employees",
           "items": {
-            "$ref": "#/definitions/object_04"
+            "$ref": "#/definitions/object_05"
           }
         }
       }
     },
     "array_01": {
       "type": "array",
-      "title": "/business/business_operation/industry",
+      "title": "/business/business_operation/industries",
       "description": "tuple type",
       "additionalItems": false,
       "minItems": 3,
       "maxItems": 3,
       "items": [
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         }
       ]
     },
     "array_02": {
       "type": "array",
-      "title": "/business/business_operation/industry",
+      "title": "/business/business_operation/industries",
       "description": "tuple type",
       "additionalItems": false,
       "minItems": 2,
       "maxItems": 2,
       "items": [
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         }
       ]
     },
     "array_03": {
       "type": "array",
-      "title": "/business/business_operation/industry",
+      "title": "/business/business_operation/industries",
       "description": "tuple type",
       "additionalItems": false,
       "minItems": 4,
       "maxItems": 4,
       "items": [
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         }
       ]
     },
     "array_04": {
       "type": "array",
-      "title": "/business/business_operation/industry",
+      "title": "/business/business_operation/industries",
       "description": "tuple type",
       "additionalItems": false,
       "minItems": 5,
       "maxItems": 5,
       "items": [
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         }
       ]
     },
     "array_05": {
       "type": "array",
-      "title": "/business/business_operation/industry",
+      "title": "/business/business_operation/industries",
       "description": "tuple type",
       "additionalItems": false,
       "minItems": 6,
       "maxItems": 6,
       "items": [
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         }
       ]
     },
     "array_06": {
       "type": "array",
-      "title": "/business/business_operation/industry",
+      "title": "/business/business_operation/industries",
       "description": "tuple type",
       "additionalItems": false,
       "minItems": 8,
       "maxItems": 8,
       "items": [
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         }
       ]
     },
     "array_07": {
       "type": "array",
-      "title": "/business/business_operation/industry",
+      "title": "/business/business_operation/industries",
       "description": "tuple type",
       "additionalItems": false,
       "minItems": 7,
       "maxItems": 7,
       "items": [
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         }
       ]
     },
     "array_08": {
       "type": "array",
-      "title": "/business/business_operation/industry",
+      "title": "/business/business_operation/industries",
       "description": "tuple type",
       "additionalItems": false,
       "minItems": 10,
       "maxItems": 10,
       "items": [
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         }
       ]
     },
     "array_09": {
       "type": "array",
-      "title": "/business/business_operation/industry",
-      "items": {
-        "type": [
-          "string",
-          "null"
-        ]
-      }
-    },
-    "array_10": {
-      "type": "array",
-      "title": "/business/business_operation/industry",
+      "title": "/business/business_operation/industries",
       "description": "tuple type",
       "additionalItems": false,
       "minItems": 9,
       "maxItems": 9,
       "items": [
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         },
         {
-          "type": "string"
+          "$ref": "#/definitions/object_04"
         }
       ]
     }
