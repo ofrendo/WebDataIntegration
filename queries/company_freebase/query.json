@@ -1,5 +1,6 @@
 [{
   "name": null,
+  "name!=": "null",
   "/business/employer/number_of_employees": [{
     "number": null
   }],
