@@ -13,7 +13,7 @@
     "optional": true
   }],
   "/organization/organization/headquarters": [{
-    "/location/mailing_address/citytown": [],
+    "/location/mailing_address/citytown": null,
 	"optional": true
   }],
   "/organization/organization/leadership": [{
