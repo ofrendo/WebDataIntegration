@@ -6,6 +6,10 @@ import static spark.SparkBase.port;
 
 import java.io.IOException;
 
+import spark.Request;
+import spark.Response;
+import spark.Route;
+
 /**
  * Hello world!
  *
@@ -23,20 +27,28 @@ public class App
         int port = 5000;
         port(port);
         
-        get("/", (request, response) -> {
-        	return "Hello world!";
+        get("/", new Route() {
+			public Object handle(Request arg0, Response arg1) throws Exception {
+				return "Hello world!";
+			}
         });
+
+        //get("/", (request, response) -> {
+        	//return "hello World!";
+    	//});
         
-        post("/", (request, response) -> {
-        	SparqlHandler handler = SparqlHandler.getInstance();
-        	if (!handler.isModelLoaded()) {
-        		return "Model not loaded yet.";
-        	}
-        	String sparql = request.body();
-        	String result = handler.doQuery(sparql);
-        	return result;
+        post("/", new Route() {
+			public Object handle(Request request, Response arg1) throws Exception {
+				SparqlHandler handler = SparqlHandler.getInstance();
+	        	if (!handler.isModelLoaded()) {
+	        		return "Model not loaded yet.";
+	        	}
+	        	String sparql = request.body();
+	        	String result = handler.doQuery(sparql);
+	        	return result;
+			}
         });
-        
+        	
         System.out.println("Loading data...");
         SparqlHandler.getInstance().loadModel(SparqlHandler.FILE_DNB, SparqlHandler.FILE_TYPE_RDFXML);
     }

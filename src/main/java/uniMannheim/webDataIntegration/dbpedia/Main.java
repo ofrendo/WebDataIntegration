@@ -1,7 +1,6 @@
 package uniMannheim.webDataIntegration.dbpedia;
 
 import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
 
 import com.google.api.client.http.GenericUrl;
 
