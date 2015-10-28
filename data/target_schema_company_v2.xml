@@ -3,25 +3,15 @@
 	<company>	
 		<name>IBM</name>
 		<country>America</country>
-		<industries>
-			<industry>Software</industry>
-			<industry>Computer Hardware</industry>
-		</industries>
+		<industries>Software;;Computer Hardware</industries>
 		<revenue>92793000000</revenue>
 		<numberOfEmployees>431212.00</numberOfEmployees>
 		<dateFounded>16.06.1911</dateFounded>
-		<headquarters>
-			<address>1 NEW ORCHARD ROAD</address>
-		</headquarters>
-		<sector>Information Technology</sector>
+		<headquarters>New York;;Secret Headquarter</headquarters>
 		<assets> 11753000000 </assets>
-		<rank>35</rank>
 		<marketValue>202.5</marketValue>
-		<ForbesWebpage> http://www.forbes.com/companies/ibm/</ForbesWebpage>
 		<profit>16.5</profit>
 		<continent>North America</continent>
-		<keyPeople>
-			<person>Ginni Rometty</person>
-		</keyPeople>
+		<keyPeople>Ginni Rometty;;Person2s</keyPeople>
 	</company>
 </companies>
