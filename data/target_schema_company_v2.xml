@@ -2,7 +2,7 @@
 <companies>
 	<company>	
 		<name>IBM</name>
-		<country>America</country>
+		<countries>America</countries>
 		<industries>Software;;Computer Hardware</industries>
 		<revenue>92793000000</revenue>
 		<numberOfEmployees>431212.00</numberOfEmployees>

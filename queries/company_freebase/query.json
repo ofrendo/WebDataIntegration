@@ -6,8 +6,7 @@
   }],
   "/business/business_operation/revenue": [{
     "/measurement_unit/dated_money_value/amount": null,
-    "/measurement_unit/dated_money_value/currency": null,
-    "/measurement_unit/dated_money_value/valid_date": null,
+	"/measurement_unit/dated_money_value/valid_date": null,
 	"limit": 1,
     "sort": "/measurement_unit/dated_money_value/valid_date",
     "optional": true
