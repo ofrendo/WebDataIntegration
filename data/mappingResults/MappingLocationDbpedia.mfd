@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2016 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="25">
+	<resources/>
+	<component name="defaultmap1" blackbox="0" uid="1" editable="1">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="sample_target_schema_location" library="xml" uid="4" kind="14">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="410" rbx="710" rby="200"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="locations" expanded="1">
+										<entry name="location" inpkey="1" expanded="1">
+											<entry name="name" inpkey="2"/>
+											<entry name="population" inpkey="3"/>
+											<entry name="area" inpkey="4"/>
+											<entry name="postalCode" inpkey="5"/>
+											<entry name="country" inpkey="6"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="sample_target_schema_location.xsd" inputinstance="sample_target_schema_location.xml" outputinstance="sample_target_schema_location.xml" instanceroot="{}locations"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="LocationDbpedia" library="json" uid="3" kind="31">
+					<properties/>
+					<view rbx="300" rby="200"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="root" expanded="1">
+										<entry name="object" expanded="1">
+											<entry name="head" type="json-property" expanded="1"/>
+											<entry name="results" type="json-property" expanded="1">
+												<entry name="object" expanded="1">
+													<entry name="distinct" type="json-property" expanded="1"/>
+													<entry name="ordered" type="json-property" expanded="1"/>
+													<entry name="bindings" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="object" outkey="7" expanded="1">
+																	<entry name="label" type="json-property" expanded="1">
+																		<entry name="object" expanded="1">
+																			<entry name="type" type="json-property" expanded="1"/>
+																			<entry name="datatype" type="json-property" expanded="1"/>
+																			<entry name="xml:lang" type="json-property" expanded="1"/>
+																			<entry name="value" type="json-property" expanded="1">
+																				<entry name="string" outkey="8"/>
+																			</entry>
+																		</entry>
+																	</entry>
+																	<entry name="pop" type="json-property" expanded="1">
+																		<entry name="object" expanded="1">
+																			<entry name="type" type="json-property" expanded="1"/>
+																			<entry name="datatype" type="json-property" expanded="1"/>
+																			<entry name="xml:lang" type="json-property" expanded="1"/>
+																			<entry name="value" type="json-property" expanded="1">
+																				<entry name="string" outkey="9"/>
+																			</entry>
+																		</entry>
+																	</entry>
+																	<entry name="areaTotal" type="json-property" expanded="1">
+																		<entry name="object" expanded="1">
+																			<entry name="type" type="json-property" expanded="1"/>
+																			<entry name="datatype" type="json-property" expanded="1"/>
+																			<entry name="xml:lang" type="json-property" expanded="1"/>
+																			<entry name="value" type="json-property" expanded="1">
+																				<entry name="string" outkey="10"/>
+																			</entry>
+																		</entry>
+																	</entry>
+																	<entry name="postalCode" type="json-property" expanded="1">
+																		<entry name="object" expanded="1">
+																			<entry name="type" type="json-property" expanded="1"/>
+																			<entry name="datatype" type="json-property" expanded="1"/>
+																			<entry name="xml:lang" type="json-property" expanded="1"/>
+																			<entry name="value" type="json-property" expanded="1">
+																				<entry name="string" outkey="11"/>
+																			</entry>
+																		</entry>
+																	</entry>
+																	<entry name="country" type="json-property" expanded="1">
+																		<entry name="object" expanded="1">
+																			<entry name="type" type="json-property" expanded="1"/>
+																			<entry name="datatype" type="json-property" expanded="1"/>
+																			<entry name="xml:lang" type="json-property" expanded="1"/>
+																			<entry name="value" type="json-property" expanded="1">
+																				<entry name="string" outkey="12"/>
+																			</entry>
+																		</entry>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document/>
+						<wsdl/>
+						<json schema="LocationDbpedia.schema.json" inputinstance="LocationDbpedia.json" outputinstance="LocationDbpedia.json"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="7">
+						<edges>
+							<edge vertexkey="1" edgekey="13"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="8">
+						<edges>
+							<edge vertexkey="2" edgekey="14"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="9">
+						<edges>
+							<edge vertexkey="3" edgekey="15"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="10">
+						<edges>
+							<edge vertexkey="4" edgekey="16"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="11">
+						<edges>
+							<edge vertexkey="5" edgekey="17"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="12">
+						<edges>
+							<edge vertexkey="6" edgekey="18"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

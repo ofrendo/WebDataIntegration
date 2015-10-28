@@ -3,7 +3,8 @@
 	<location>
 		<name>New York</name>
 		<population>8244910</population>
-		<area>1214.45</area>
-		<elevation>1628.00</elevation>
+		<area>1.23e+05</area>
+		<postalCode>100xx–104xx, 11004–05, 111xx–114xx, 116xx </postalCode>
+		<country>US</country>
 	</location>
 </locations>
