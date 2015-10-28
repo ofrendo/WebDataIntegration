@@ -7,7 +7,7 @@
 					<xs:complexType>
 						<xs:sequence>
 							<xs:element name="name" type="xs:string"/>
-							<xs:element name="country" type="xs:string"/>
+							<xs:element name="countries" type="xs:string"/>
 							<xs:element name="industries" type="xs:string"/>
 							<xs:element name="revenue" type="xs:long"/>
 							<xs:element name="numberOfEmployees" type="xs:decimal"/>
