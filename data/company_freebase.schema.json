@@ -8,26 +8,22 @@
     "object_01": {
       "type": "object",
       "required": [
-        "/measurement_unit/dated_money_value/amount",
         "/measurement_unit/dated_money_value/valid_date",
-        "/measurement_unit/dated_money_value/currency"
+        "/measurement_unit/dated_money_value/amount"
       ],
       "additionalProperties": false,
       "properties": {
-        "/measurement_unit/dated_money_value/amount": {
-          "type": [
-            "number",
-            "null"
-          ]
-        },
         "/measurement_unit/dated_money_value/valid_date": {
           "type": [
             "string",
             "null"
           ]
         },
-        "/measurement_unit/dated_money_value/currency": {
-          "type": "string"
+        "/measurement_unit/dated_money_value/amount": {
+          "type": [
+            "number",
+            "null"
+          ]
         }
       }
     },
@@ -49,30 +45,21 @@
     "object_03": {
       "type": "object",
       "required": [
-        "/organization/organization/leadership",
-        "name",
         "/organization/organization/date_founded",
-        "/business/business_operation/industry",
         "/organization/organization/headquarters",
         "/business/business_operation/revenue",
-        "/business/employer/number_of_employees"
+        "name",
+        "/business/employer/number_of_employees",
+        "/organization/organization/leadership",
+        "/business/business_operation/industry"
       ],
       "additionalProperties": false,
       "properties": {
-        "/organization/organization/leadership": {
-          "type": "string"
-        },
-        "name": {
-          "type": "string"
-        },
         "/organization/organization/date_founded": {
           "type": [
             "string",
             "null"
           ]
-        },
-        "/business/business_operation/industry": {
-          "type": "string"
         },
         "/organization/organization/headquarters": {
           "type": "string"
@@ -84,12 +71,21 @@
             "$ref": "#/definitions/object_01"
           }
         },
+        "name": {
+          "type": "string"
+        },
         "/business/employer/number_of_employees": {
           "type": "array",
           "title": "/business/employer/number_of_employees",
           "items": {
             "$ref": "#/definitions/object_02"
           }
+        },
+        "/organization/organization/leadership": {
+          "type": "string"
+        },
+        "/business/business_operation/industry": {
+          "type": "string"
         }
       }
     }
