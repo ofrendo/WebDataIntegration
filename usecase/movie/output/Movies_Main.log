@@ -1,0 +1,44 @@
+Loading 4580 elements from academy_awards.xml
+Loading 151 elements from actors.xml
+[2015-10-26T15:22:04.561+01:00] Starting Matching
+Matching 4.580 x 151 elements; 82.907 blocked pairs (reduction ratio: 8,34)
+[2015-10-26T15:22:05.731+01:00] Matching: 74.786 / 82.907 elements completed (90,20%) after 0:00:01.001
+[2015-10-26T15:22:05.820+01:00] Matching finished after 0:00:01.259; found 133 correspondences.
+academy_awards_1880,actors_126,|		0,96	[academy_awards_1880] One Flew over the Cuckoo's Nest (1975-01-01) <--> [actors_126] One Flew Over The Cuckoo's Nes (1976-01-01)
+academy_awards_2288,actors_40,|		0,95	[academy_awards_2288] Guess Who's Coming to Dinner (1967-01-01) <--> [actors_40] Guess Who�s Coming to Dinner (1968-01-01)
+academy_awards_1633,actors_54,|		0,93	[academy_awards_1633] Coal Miner's Daughter (1980-01-01) <--> [actors_54] Coal Miner�s Daughter (1981-01-01)
+academy_awards_2620,actors_112,|		0,93	[academy_awards_2620] Judgment at Nuremberg (1961-01-01) <--> [actors_112] Judgment at Nuremburg (1962-01-01)
+academy_awards_3423,actors_20,|		0,93	[academy_awards_3423] The Farmer's Daughter (1947-01-01) <--> [actors_20] The Farmer�s Daughter (1948-01-01)
+academy_awards_1943,actors_48,|		0,90	[academy_awards_1943] Alice Doesn't Live Here Anymore (1974-01-01) <--> [actors_48] Alice Doesn�t live Here Anymor (1975-01-01)
+academy_awards_2334,actors_39,|		0,90	[academy_awards_2334] Who's Afraid of Virginia Woolf? (1966-01-01) <--> [actors_39] Who�s Afraid of Virginia Woolf (1967-01-01)
+academy_awards_1541,actors_56,|		0,89	[academy_awards_1541] Sophie's Choice (1982-01-01) <--> [actors_56] Sophie�s Choice (1983-01-01)
+academy_awards_4557,actors_1,|		0,88	[academy_awards_4557] 7th Heaven (1927-01-01) <--> [actors_1] 7th Heaven (1929-01-01)
+academy_awards_4469,actors_82,|		0,88	[academy_awards_4469] A Free Soul (1930-01-01) <--> [actors_82] A Free Soul (1932-01-01)
+academy_awards_4444,actors_83,|		0,88	[academy_awards_4444] Dr. Jekyll and Mr. Hyde (1931-01-01) <--> [actors_83] Dr. Jekyll and Mr. Hyde (1933-01-01)
+academy_awards_4475,actors_4,|		0,88	[academy_awards_4475] Min and Bill (1930-01-01) <--> [actors_4] Min and Bill (1932-01-01)
+academy_awards_4399,actors_6,|		0,88	[academy_awards_4399] Morning Glory (1932-01-01) <--> [actors_6] Morning Glory (1934-01-01)
+academy_awards_4442,actors_84,|		0,88	[academy_awards_4442] The Champ (1931-01-01) <--> [actors_84] The Champ (1933-01-01)
+academy_awards_4397,actors_85,|		0,88	[academy_awards_4397] The Private Life of Henry VIII (1932-01-01) <--> [actors_85] The Private Life of Henry VIII (1934-01-01)
+academy_awards_4446,actors_5,|		0,88	[academy_awards_4446] The Sin of Madelon Claudet (1931-01-01) <--> [actors_5] The Sin of Madelon Claudet (1933-01-01)
+academy_awards_902,actors_141,|		0,86	[academy_awards_902] Forrest Gump (1994-01-01) <--> [actors_141] Forest Gump (1995-01-01)
+academy_awards_1880,actors_49,|		0,84	[academy_awards_1880] One Flew over the Cuckoo's Nest (1975-01-01) <--> [actors_49] One Flew Over The Cockoo�s Nes (1976-01-01)
+academy_awards_4270,actors_9,|		0,81	[academy_awards_4270] The Great Ziegfeld (1936-01-01) <--> [actors_9] The Great Zeigfeld (1937-01-01)
+academy_awards_3791,actors_93,|		0,69	[academy_awards_3791] Yankee Doodle Mouse (1943-01-01) <--> [actors_93] Yankee Doodle Dandy (1943-01-01)
+academy_awards_1392,actors_59,|		0,67	[academy_awards_1392] The Trip to Bountiful (1985-01-01) <--> [actors_59] Trip to Bountiful (1986-01-01)
+academy_awards_2206,actors_118,|		0,63	[academy_awards_2206] In the Year of the Pig (1969-01-01) <--> [actors_118] In the Heat of the Night (1968-01-01)
+The gold standard has 85 examples
+	48 positive examples (0,56%)
+	37 negative examples (0,44%)
+[2015-10-26T15:22:05.840+01:00] Starting GenerateFeatures
+[2015-10-26T15:22:05.862+01:00] GenerateFeatures finished after 0:00:00.022; created 85 examples.
+The gold standard has 10 examples
+	5 positive examples (0,50%)
+	5 negative examples (0,50%)
+[correct] academy_awards_3418,actors_98,1.01782
+[correct] academy_awards_2337,actors_117,1.01782
+[correct] academy_awards_4557,actors_1,0.87808
+[correct] academy_awards_4469,actors_82,0.87808
+[missing] academy_awards_728,actors_70
+Precision: 1,0000
+Recall: 0,8000
+F1: 0,8889

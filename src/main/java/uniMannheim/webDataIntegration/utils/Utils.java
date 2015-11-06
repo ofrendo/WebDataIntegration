@@ -13,6 +13,10 @@ import com.google.api.client.http.javanet.NetHttpTransport;
 
 public class Utils {
 	
+	public static void main(String args[]) {
+		System.out.println("Hello world!");
+	}
+	
 	public static String readFile(String path) {
 		String result = "";
 		try {
