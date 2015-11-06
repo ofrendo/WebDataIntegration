@@ -11,8 +11,16 @@
     "sort": "/measurement_unit/dated_money_value/valid_date",
     "optional": true
   }],
+  "/business/business_operation/net_profit": [{
+    "/measurement_unit/dated_money_value/amount": null,
+	"/measurement_unit/dated_money_value/valid_date": null,
+	"limit": 1,
+    "sort": "/measurement_unit/dated_money_value/valid_date",
+    "optional": true
+  }],
   "/organization/organization/headquarters": [{
     "/location/mailing_address/citytown": null,
+	"/location/mailing_address/country": null,
 	"optional": true
   }],
   "/organization/organization/leadership": [{

@@ -117,6 +117,20 @@ public class Main {
 		public static JSONArray convertJsonObj(String outerKey, String innerKey,
 				JSONArray allData) {
 			for (int i = 0; i < allData.size(); i++) {
+				if (outerKey.equals("/organization/organization/headquarters")) { //Need country key as well
+					String newData = "";
+					JSONObject data = (JSONObject) allData.get(i); //one company
+					JSONArray arrayInData = (JSONArray) data.get(outerKey);
+					
+					for (int j = 0; j < arrayInData.size(); j++) {
+						JSONObject temp = (JSONObject) arrayInData.get(j);
+						newData += temp.get("/location/mailing_address/country");
+						if (j != arrayInData.size() - 1)
+							newData += separater;
+					}
+					data.put("country", newData);
+				}
+				
 				String newData = "";
 				JSONObject data = (JSONObject) allData.get(i);
 				JSONArray arrayInData = (JSONArray) data.get(outerKey);
@@ -128,6 +142,7 @@ public class Main {
 				}
 				data.remove(outerKey);
 				data.put(outerKey, newData);
+				
 			}
 			return allData;
 		}
