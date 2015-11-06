@@ -4,6 +4,8 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;
 
+import org.joda.time.DateTime;
+
 import com.google.api.client.http.GenericUrl;
 import com.google.api.client.http.HttpRequest;
 import com.google.api.client.http.HttpRequestFactory;
@@ -15,6 +17,16 @@ public class Utils {
 	
 	public static void main(String args[]) {
 		System.out.println("Hello world!");
+		
+		String date = "1927";
+		DateTime dt = DateTime.parse(date);
+		System.out.println(dt);
+		
+		String test = "1.10631e+09";
+		System.out.println(Double.valueOf(test).longValue());
+		
+		test = "hello;;world";
+		System.out.println(test.replaceAll(";;", " "));
 	}
 	
 	public static String readFile(String path) {
