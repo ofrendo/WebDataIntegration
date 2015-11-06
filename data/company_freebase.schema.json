@@ -46,7 +46,9 @@
       "type": "object",
       "required": [
         "/organization/organization/date_founded",
+        "country",
         "/organization/organization/headquarters",
+        "/business/business_operation/net_profit",
         "/business/business_operation/revenue",
         "name",
         "/business/employer/number_of_employees",
@@ -61,12 +63,20 @@
             "null"
           ]
         },
+        "country": {
+          "type": "string"
+        },
         "/organization/organization/headquarters": {
           "type": "string"
         },
+        "/business/business_operation/net_profit": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/object_01"
+          }
+        },
         "/business/business_operation/revenue": {
           "type": "array",
-          "title": "/business/business_operation/revenue",
           "items": {
             "$ref": "#/definitions/object_01"
           }

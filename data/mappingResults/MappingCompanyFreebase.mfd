@@ -7,8 +7,8 @@
 		<structure>
 			<children>
 				<component name="target_schema_company_v2" library="xml" uid="3" kind="14">
-					<properties XSLTDefaultOutput="1"/>
-					<view ltx="837" lty="-161" rbx="1227" rby="307"/>
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="837" lty="-161" rbx="1295" rby="388"/>
 					<data>
 						<root>
 							<header>
@@ -22,11 +22,13 @@
 									<entry name="companies" expanded="1">
 										<entry name="company" inpkey="1" expanded="1">
 											<entry name="name" inpkey="2"/>
+											<entry name="countries" inpkey="25"/>
 											<entry name="industries" inpkey="3"/>
 											<entry name="revenue" inpkey="4"/>
 											<entry name="numberOfEmployees" inpkey="5"/>
 											<entry name="dateFounded" inpkey="6"/>
 											<entry name="headquarters" inpkey="7"/>
+											<entry name="profit" inpkey="26"/>
 											<entry name="keyPeople" inpkey="8"/>
 										</entry>
 									</entry>
@@ -37,9 +39,9 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="company_freebase" library="json" uid="4" kind="31">
+				<component name="company_freebase" library="json" uid="5" kind="31">
 					<properties/>
-					<view ltx="32" lty="-161" rbx="490" rby="307"/>
+					<view ltx="128" lty="-161" rbx="644" rby="388"/>
 					<data>
 						<root>
 							<header>
@@ -53,12 +55,27 @@
 									<entry name="root" expanded="1">
 										<entry name="array" expanded="1">
 											<entry name="item" type="json-item" expanded="1">
-												<entry name="object" outkey="9" expanded="1">
+												<entry name="object" outkey="27" expanded="1">
 													<entry name="/organization/organization/date_founded" type="json-property" expanded="1">
-														<entry name="string" outkey="10"/>
+														<entry name="string" outkey="28"/>
+													</entry>
+													<entry name="country" type="json-property" expanded="1">
+														<entry name="string" outkey="29"/>
 													</entry>
 													<entry name="/organization/organization/headquarters" type="json-property" expanded="1">
-														<entry name="string" outkey="11"/>
+														<entry name="string" outkey="30"/>
+													</entry>
+													<entry name="/business/business_operation/net_profit" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="object" expanded="1">
+																	<entry name="/measurement_unit/dated_money_value/valid_date" type="json-property" expanded="1"/>
+																	<entry name="/measurement_unit/dated_money_value/amount" type="json-property" expanded="1">
+																		<entry name="number" outkey="31"/>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
 													</entry>
 													<entry name="/business/business_operation/revenue" type="json-property" expanded="1">
 														<entry name="array" expanded="1">
@@ -66,31 +83,31 @@
 																<entry name="object" expanded="1">
 																	<entry name="/measurement_unit/dated_money_value/valid_date" type="json-property" expanded="1"/>
 																	<entry name="/measurement_unit/dated_money_value/amount" type="json-property" expanded="1">
-																		<entry name="number" outkey="12"/>
+																		<entry name="number" outkey="32"/>
 																	</entry>
 																</entry>
 															</entry>
 														</entry>
 													</entry>
 													<entry name="name" type="json-property" expanded="1">
-														<entry name="string" outkey="13"/>
+														<entry name="string" outkey="33"/>
 													</entry>
 													<entry name="/business/employer/number_of_employees" type="json-property" expanded="1">
 														<entry name="array" expanded="1">
 															<entry name="item" type="json-item" expanded="1">
 																<entry name="object" expanded="1">
 																	<entry name="number" type="json-property" expanded="1">
-																		<entry name="number" outkey="14"/>
+																		<entry name="number" outkey="34"/>
 																	</entry>
 																</entry>
 															</entry>
 														</entry>
 													</entry>
 													<entry name="/organization/organization/leadership" type="json-property" expanded="1">
-														<entry name="string" outkey="15"/>
+														<entry name="string" outkey="35"/>
 													</entry>
 													<entry name="/business/business_operation/industry" type="json-property" expanded="1">
-														<entry name="string" outkey="16"/>
+														<entry name="string" outkey="36"/>
 													</entry>
 												</entry>
 											</entry>
@@ -108,44 +125,54 @@
 			<graph directed="1">
 				<edges/>
 				<vertices>
-					<vertex vertexkey="9">
+					<vertex vertexkey="27">
 						<edges>
-							<edge vertexkey="1" edgekey="17"/>
+							<edge vertexkey="1" edgekey="37"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="10">
+					<vertex vertexkey="28">
 						<edges>
-							<edge vertexkey="6" edgekey="18"/>
+							<edge vertexkey="6" edgekey="38"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="11">
+					<vertex vertexkey="29">
 						<edges>
-							<edge vertexkey="7" edgekey="19"/>
+							<edge vertexkey="25" edgekey="39"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="12">
+					<vertex vertexkey="30">
 						<edges>
-							<edge vertexkey="4" edgekey="20"/>
+							<edge vertexkey="7" edgekey="40"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="13">
+					<vertex vertexkey="31">
 						<edges>
-							<edge vertexkey="2" edgekey="21"/>
+							<edge vertexkey="26" edgekey="41"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="14">
+					<vertex vertexkey="32">
 						<edges>
-							<edge vertexkey="5" edgekey="22"/>
+							<edge vertexkey="4" edgekey="42"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="15">
+					<vertex vertexkey="33">
 						<edges>
-							<edge vertexkey="8" edgekey="23"/>
+							<edge vertexkey="2" edgekey="43"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="16">
+					<vertex vertexkey="34">
 						<edges>
-							<edge vertexkey="3" edgekey="24"/>
+							<edge vertexkey="5" edgekey="44"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="35">
+						<edges>
+							<edge vertexkey="8" edgekey="45"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="36">
+						<edges>
+							<edge vertexkey="3" edgekey="46"/>
 						</edges>
 					</vertex>
 				</vertices>
