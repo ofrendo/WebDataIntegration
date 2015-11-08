@@ -1,4 +1,74 @@
-DBpedia,Freebase,
+http://dbpedia.org/resource/Tecnatom,Saudi Basic Industries,FALSE
+http://dbpedia.org/resource/Eidos_Interactive,Merck & Co,FALSE
+http://dbpedia.org/resource/Citi_orient_securities,China Merchants Bank,FALSE
+http://dbpedia.org/resource/American_Eagle_Outfitters,American Express,FALSE
+http://dbpedia.org/resource/Bhubaneswar,Banco do Brasil,FALSE
+http://dbpedia.org/resource/Prudential_Financial,Prudential,FALSE
+http://dbpedia.org/resource/Eidos_Interactive,CNOOC,FALSE
+http://dbpedia.org/resource/Ontario_Telemedicine_Network,Rio Tinto,FALSE
+http://dbpedia.org/resource/Quicken_Loans,Unilever,FALSE
+http://dbpedia.org/resource/Nissan_Motor_Manufacturing_UK,Nissan Motor,FALSE
+http://dbpedia.org/resource/Credit_Saison,Credit Suisse Group,FALSE
+http://dbpedia.org/resource/E.ON_Russia,E.ON,FALSE
+http://dbpedia.org/resource/General_Growth_Properties,Generali Group,FALSE
+http://dbpedia.org/resource/GlaxoSmithKline_Pharmaceuticals_Ltd,GlaxoSmithKline,FALSE
+http://dbpedia.org/resource/HiFX,Schlumberger,FALSE
+http://dbpedia.org/resource/Lugcentrokuz,BBVA-Banco Bilbao Vizcaya,FALSE
+http://dbpedia.org/resource/LEVEL_Studios,Nordea Bank,FALSE
+http://dbpedia.org/resource/BayWa,Bayer,FALSE
+http://dbpedia.org/resource/China_Minmetals,China Minsheng Banking,FALSE
+http://dbpedia.org/resource/Softstar,Caterpillar,FALSE
+http://dbpedia.org/resource/Standard_Motor_Products,Standard Chartered,FALSE
+http://dbpedia.org/resource/Virgin_Group,China Shenhua Energy,FALSE
+http://dbpedia.org/resource/Jarden,US Bancorp,FALSE
+http://dbpedia.org/resource/Mitsubishi_Electric_United_States,Mitsubishi Corp,FALSE
+http://dbpedia.org/resource/Rachel's_Organic,Dow Chemical,FALSE
+http://dbpedia.org/resource/Jack_Morton_Worldwide,Shanghai Pudong Development,FALSE
+http://dbpedia.org/resource/Community_newspapers_(Wisconsin),EADS,FALSE
+http://dbpedia.org/resource/Daegu_Metropolitan_Transit_Corporation,Swiss Re,FALSE
+http://dbpedia.org/resource/BAYADA_Home_Health_Care,Home Depot,FALSE
+http://dbpedia.org/resource/Hitachi,Hitachi,FALSE
+http://dbpedia.org/resource/FSE_Engineering_Group,Hon Hai Precision,FALSE
+http://dbpedia.org/resource/Comneon,Phillips 66,FALSE
+http://dbpedia.org/resource/Aviat_Networks,Aviva,FALSE
+http://dbpedia.org/resource/Salomon_Group,France Telecom,FALSE
+http://dbpedia.org/resource/Deutsche_Babcock_Al_Jaber,Deutsche Telekom,FALSE
+http://dbpedia.org/resource/Rosecrance,Bank of Montreal,FALSE
+http://dbpedia.org/resource/St._Vincent's_Health_System,VINCI,FALSE
+http://dbpedia.org/resource/CJ_E&amp;M_Film_Division,Suncor Energy,FALSE
+http://dbpedia.org/resource/Guylian,China Telecom,FALSE
+http://dbpedia.org/resource/Banco_de_Occidente,Occidental Petroleum,FALSE
+http://dbpedia.org/resource/Bank_of_America,State Bank of India,FALSE
+http://dbpedia.org/resource/Madhya_Gujarat_Vij,Philip Morris International,FALSE
+http://dbpedia.org/resource/FSE_Engineering_Group,Honeywell International,FALSE
+http://dbpedia.org/resource/Comneon,Express Scripts,FALSE
+http://dbpedia.org/resource/Tadano_Limited,United Parcel Service,FALSE
+http://dbpedia.org/resource/Chupa_Chups,Barclays,FALSE
+http://dbpedia.org/resource/Deutsche_Bahn,Deutsche Post,FALSE
+http://dbpedia.org/resource/Waianae_Coast_Comprehensive_Health_Center,AIA Group,FALSE
+http://dbpedia.org/resource/Smithfield_Foods,Delta Air Lines,FALSE
+http://dbpedia.org/resource/Deutsche_Bahn,Deutsche Bank,FALSE
+http://dbpedia.org/resource/National_Railways_of_Zimbabwe,National Grid,FALSE
+http://dbpedia.org/resource/Abercrombie_&amp;_Fitch,ABB,FALSE
+http://dbpedia.org/resource/Jackson_National_Life,Amgen,FALSE
+http://dbpedia.org/resource/Clean_Harbors,EI du Pont de Nemours,FALSE
+http://dbpedia.org/resource/Bradken,Manulife Financial,FALSE
+http://dbpedia.org/resource/Louisiana-Pacific,SAIC Motor,FALSE
+http://dbpedia.org/resource/Fushun_Mining_Group,Oil & Natural Gas,FALSE
+http://dbpedia.org/resource/LSI_Corporation,Walgreen,FALSE
+http://dbpedia.org/resource/Hollard_Group,KDDI,FALSE
+http://dbpedia.org/resource/Rick's_Cabaret,Valero Energy,FALSE
+http://dbpedia.org/resource/Leviton,PTT PCL,FALSE
+http://dbpedia.org/resource/Asian_Paints,Travelers Cos,FALSE
+http://dbpedia.org/resource/Novavax,Canadian Imperial Bank,FALSE
+http://dbpedia.org/resource/Astronautics_Corporation_of_America,AstraZeneca,FALSE
+http://dbpedia.org/resource/The_Attachmate_Group,Deere & Co,FALSE
+http://dbpedia.org/resource/Union_Switch_&amp;_Signal,Union Pacific,FALSE
+http://dbpedia.org/resource/McDonald's_Israel,McDonald's,FALSE
+http://dbpedia.org/resource/LifeLock,WellPoint,FALSE
+http://dbpedia.org/resource/Affinity_Credit_Union,Aflac,FALSE
+http://dbpedia.org/resource/Rick's_Cabaret,Taiwan Semiconductor,FALSE
+http://dbpedia.org/resource/Deutsche_Bahn,Legal & General Group,FALSE
 http://dbpedia.org/resource/Apple_Inc.,Apple Inc.,TRUE
 http://dbpedia.org/resource/Citigroup,Citigroup,TRUE
 http://dbpedia.org/resource/Gazprom,Gazprom,TRUE
@@ -36,86 +106,51 @@ http://dbpedia.org/resource/Richemont,Richemont,TRUE
 http://dbpedia.org/resource/Merck_KGaA,Merck KGaA,TRUE
 http://dbpedia.org/resource/Viacom_(original),Viacom,TRUE
 http://dbpedia.org/resource/Vale_(mining_company,Vale,TRUE
-http://dbpedia.org/resource/Tecnatom,Saudi Basic Industries,FALSE
-http://dbpedia.org/resource/Eidos_Interactive,Merck & Co,FALSE
 http://dbpedia.org/resource/The_Walt_Disney_Company,Walt Disney,TRUE
 http://dbpedia.org/resource/Mizuho_Trust_&amp;_Banking,Mizuho Financial,TRUE
-http://dbpedia.org/resource/Citi_orient_securities,China Merchants Bank,FALSE
-http://dbpedia.org/resource/American_Eagle_Outfitters,American Express,FALSE
-http://dbpedia.org/resource/Bhubaneswar,Banco do Brasil,FALSE
 http://dbpedia.org/resource/Morgan_Stanley_Wealth_Management,Morgan Stanley,TRUE
-http://dbpedia.org/resource/Prudential_Financial,Prudential,FALSE
-http://dbpedia.org/resource/Eidos_Interactive,CNOOC,FALSE
-http://dbpedia.org/resource/Ontario_Telemedicine_Network,Rio Tinto,FALSE
-http://dbpedia.org/resource/Quicken_Loans,Unilever,FALSE
-http://dbpedia.org/resource/Nissan_Motor_Manufacturing_UK,Nissan Motor,FALSE
 http://dbpedia.org/resource/E.ON,E.ON,TRUE
-http://dbpedia.org/resource/Credit_Saison,Credit Suisse Group,FALSE
-http://dbpedia.org/resource/E.ON_Russia,E.ON,FALSE
-http://dbpedia.org/resource/General_Growth_Properties,Generali Group,FALSE
-http://dbpedia.org/resource/GlaxoSmithKline_Pharmaceuticals_Ltd,GlaxoSmithKline,FALSE
-http://dbpedia.org/resource/HiFX,Schlumberger,FALSE
-http://dbpedia.org/resource/Lugcentrokuz,BBVA-Banco Bilbao Vizcaya,FALSE
-http://dbpedia.org/resource/LEVEL_Studios,Nordea Bank,FALSE
-http://dbpedia.org/resource/BayWa,Bayer,FALSE
-http://dbpedia.org/resource/China_Minmetals,China Minsheng Banking,FALSE
-http://dbpedia.org/resource/Softstar,Caterpillar,FALSE
-http://dbpedia.org/resource/Standard_Motor_Products,Standard Chartered,FALSE
-http://dbpedia.org/resource/Virgin_Group,China Shenhua Energy,FALSE
-http://dbpedia.org/resource/Jarden,US Bancorp,FALSE
-http://dbpedia.org/resource/Mitsubishi_Electric_United_States,Mitsubishi Corp,FALSE
-http://dbpedia.org/resource/Rachel's_Organic,Dow Chemical,FALSE
 http://dbpedia.org/resource/Ecopetrol,Ecopetrol,TRUE
 Industrial_and_Commercial_Bank_of_China,Industrial Bank,TRUE
-http://dbpedia.org/resource/Jack_Morton_Worldwide,Shanghai Pudong Development,FALSE
-http://dbpedia.org/resource/Community_newspapers_(Wisconsin),EADS,FALSE
-http://dbpedia.org/resource/Daegu_Metropolitan_Transit_Corporation,Swiss Re,FALSE
-http://dbpedia.org/resource/BAYADA_Home_Health_Care,Home Depot,FALSE
-http://dbpedia.org/resource/Hitachi,Hitachi,FALSE
-http://dbpedia.org/resource/FSE_Engineering_Group,Hon Hai Precision,FALSE
-http://dbpedia.org/resource/Comneon,Phillips 66,FALSE
-http://dbpedia.org/resource/Aviat_Networks,Aviva,FALSE
-http://dbpedia.org/resource/Salomon_Group,France Telecom,FALSE
-http://dbpedia.org/resource/Deutsche_Babcock_Al_Jaber,Deutsche Telekom,FALSE
-http://dbpedia.org/resource/Rosecrance,Bank of Montreal,FALSE
-http://dbpedia.org/resource/St._Vincent's_Health_System,VINCI,FALSE
-http://dbpedia.org/resource/CJ_E&amp;M_Film_Division,Suncor Energy,FALSE
-http://dbpedia.org/resource/Guylian,China Telecom,FALSE
-http://dbpedia.org/resource/Banco_de_Occidente,Occidental Petroleum,FALSE
 http://dbpedia.org/resource/Mitsui_&amp;_Co.,Mitsui & Co,TRUE
 http://dbpedia.org/resource/Qualcomm,Qualcomm,TRUE
-http://dbpedia.org/resource/Bank_of_America,State Bank of India,FALSE
 http://dbpedia.org/resource/Time_Warner,Time Warner,TRUE
-http://dbpedia.org/resource/Madhya_Gujarat_Vij,Philip Morris International,FALSE
-http://dbpedia.org/resource/FSE_Engineering_Group,Honeywell International,FALSE
-http://dbpedia.org/resource/Comneon,Express Scripts,FALSE
-http://dbpedia.org/resource/Tadano_Limited,United Parcel Service,FALSE
-http://dbpedia.org/resource/Chupa_Chups,Barclays,FALSE
 http://dbpedia.org/resource/PNC_Financial_Services,PNC Financial Services,TRUE
-http://dbpedia.org/resource/Deutsche_Bahn,Deutsche Post,FALSE
-http://dbpedia.org/resource/Waianae_Coast_Comprehensive_Health_Center,AIA Group,FALSE
 http://dbpedia.org/resource/Duke_Energy,Duke Energy,TRUE
-http://dbpedia.org/resource/Smithfield_Foods,Delta Air Lines,FALSE
-http://dbpedia.org/resource/Deutsche_Bahn,Deutsche Bank,FALSE
-http://dbpedia.org/resource/National_Railways_of_Zimbabwe,National Grid,FALSE
-http://dbpedia.org/resource/Abercrombie_&amp;_Fitch,ABB,FALSE
-http://dbpedia.org/resource/Jackson_National_Life,Amgen,FALSE
-http://dbpedia.org/resource/Clean_Harbors,EI du Pont de Nemours,FALSE
-http://dbpedia.org/resource/Bradken,Manulife Financial,FALSE
-http://dbpedia.org/resource/Louisiana-Pacific,SAIC Motor,FALSE
-http://dbpedia.org/resource/Fushun_Mining_Group,Oil & Natural Gas,FALSE
-http://dbpedia.org/resource/LSI_Corporation,Walgreen,FALSE
-http://dbpedia.org/resource/Hollard_Group,KDDI,FALSE
-http://dbpedia.org/resource/Rick's_Cabaret,Valero Energy,FALSE
-http://dbpedia.org/resource/Leviton,PTT PCL,FALSE
-http://dbpedia.org/resource/Asian_Paints,Travelers Cos,FALSE
-http://dbpedia.org/resource/Novavax,Canadian Imperial Bank,FALSE
-http://dbpedia.org/resource/Astronautics_Corporation_of_America,AstraZeneca,FALSE
-http://dbpedia.org/resource/The_Attachmate_Group,Deere & Co,FALSE
-http://dbpedia.org/resource/Union_Switch_&amp;_Signal,Union Pacific,FALSE
-http://dbpedia.org/resource/McDonald's_Israel,McDonald's,FALSE
-http://dbpedia.org/resource/LifeLock,WellPoint,FALSE
-http://dbpedia.org/resource/Affinity_Credit_Union,Aflac,FALSE
-,Tokio Marine Holdingshttp://dbpedia.org/resource/Arby's,FALSE
-http://dbpedia.org/resource/Rick's_Cabaret,Taiwan Semiconductor,FALSE
-http://dbpedia.org/resource/Deutsche_Bahn,Legal & General Group,FALSE
+http://dbpedia.org/resource/Apple_Inc.,Apple Inc.,TRUE
+http://dbpedia.org/resource/Citigroup,Citigroup,TRUE
+http://dbpedia.org/resource/Gazprom,Gazprom,TRUE
+http://dbpedia.org/resource/China_Mobile,China Mobile,TRUE
+http://dbpedia.org/resource/Petrobras,Petrobras,TRUE
+http://dbpedia.org/resource/Microsoft,Microsoft Corporation,TRUE
+http://dbpedia.org/resource/Rosneft,Rosneft,TRUE
+http://dbpedia.org/resource/IBM,IBM,TRUE
+http://dbpedia.org/resource/Mitsubishi_UFJ_Financial_Group,Mitsubishi UFJ Financial Group,TRUE
+http://dbpedia.org/resource/Eni,Eni,TRUE
+http://dbpedia.org/resource/Johnson_&_Johnson,Johnson &amp; Johnson,TRUE
+http://dbpedia.org/resource/BMW,BMW,TRUE
+http://dbpedia.org/resource/Enel,ENEL S.p.A.,TRUE
+http://dbpedia.org/resource/ConocoPhillips,ConocoPhillips,TRUE
+http://dbpedia.org/resource/Intel,Intel,TRUE
+http://dbpedia.org/resource/The_Coca-Cola_Company,Coca-Cola,TRUE
+http://dbpedia.org/resource/Cisco_Systems,"Cisco Systems, Inc.",TRUE
+http://dbpedia.org/resource/Lukoil,LukOil,TRUE
+"http://dbpedia.org/resource/Boeing_Defense,_Space_&_Security",Boeing,TRUE
+http://dbpedia.org/resource/Hyundai_Motor_Company,Hyundai Motor Company,TRUE
+http://dbpedia.org/resource/Carrefour,Carrefour,TRUE
+http://dbpedia.org/resource/EMC_Corporation,EMC Corporation,TRUE
+http://dbpedia.org/resource/Canon_(company),Canon Inc.,TRUE
+http://dbpedia.org/resource/East_Japan_Railway_Company,East Japan Railway Company,TRUE
+http://dbpedia.org/resource/Natixis,Natixis,TRUE
+http://dbpedia.org/resource/Groupe_SEB,Groupe SEB,TRUE
+http://dbpedia.org/resource/Renault,Renault,TRUE
+http://dbpedia.org/resource/Hyundai_Motor_Company,Hyundai Motor Company,TRUE
+http://dbpedia.org/resource/Marathon_Petroleum,Marathon Oil,TRUE
+http://dbpedia.org/resource/Bridgestone,Bridgestone,TRUE
+http://dbpedia.org/resource/Fresenius_(company),Fresenius SE,TRUE
+http://dbpedia.org/resource/Kroger,Kroger,TRUE
+http://dbpedia.org/resource/Michelin,Michelin,TRUE
+http://dbpedia.org/resource/Richemont,Richemont,TRUE
+http://dbpedia.org/resource/Merck_KGaA,Merck KGaA,TRUE
+http://dbpedia.org/resource/Viacom_(original),Viacom,TRUE
+http://dbpedia.org/resource/Vale_(mining_company,Vale,TRUE
