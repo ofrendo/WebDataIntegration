@@ -37,13 +37,18 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		String id = idPrefix + "_" + counter;
 		counter++;
 		
+		String name = getValueFromChildElement(node, "name");
+		
 		// create the object with id and provenance information
-		Company company = new Company(id, provenanceInfo);
+		Company company = new Company(name, provenanceInfo);
 		//System.out.println("Creating company " + getValueFromChildElement(node, "name"));
 		
 		// fill the attributes
-		company.setName(getValueFromChildElement(node, "name"));
+		company.setName(name);
 		company.setCountries(getValueFromChildElement(node, "countries"));
+		//Normalize country attribute
+		//TODO: US, USA, U.S., U.S.A, United States, United states of america, The United States ==> United States of America
+		
 		company.setIndustries(getValueFromChildElement(node, "industries"));
 
 		String revenue = getValueFromChildElement(node, "revenue");

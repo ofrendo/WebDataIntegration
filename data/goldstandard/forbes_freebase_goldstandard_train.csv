@@ -1,13 +1,7 @@
-Frobes,FreeBase,
-JPMorgan Chase,JPMorgan Chase,TRUE
-Berkshire Hathaway,Berkshire Hathaway,TRUE
-Exxon Mobil,Exxon Mobil,TRUE
 General Electric,General Electric,TRUE
 Wells Fargo,Wells Fargo,TRUE
 Bank of China,Industrial and Commercial Bank of China (Asia),TRUE
 PetroChina,PetroChina,TRUE
-Bank of America,Bank of America Corporation,TRUE
-HSBC Holdings,HSBC,TRUE
 Apple,Apple Inc.,TRUE
 Citigroup,Citigroup,TRUE
 BP,BP,TRUE
@@ -26,7 +20,7 @@ Microsoft,Microsoft Corporation,TRUE
 AXA Group,AXA,TRUE
 Rosneft,Rosneft,TRUE
 IBM,IBM,TRUE
-Nestle,Nestl®¶,TRUE
+Nestle,Nestl√©,TRUE
 Mitsubishi UFJ Financial,Mitsubishi UFJ Financial Group,TRUE
 Vodafone,Vodafone Group Plc,TRUE
 Eni,Eni,TRUE
@@ -34,7 +28,7 @@ Procter & Gamble,Procter &amp; Gamble,TRUE
 Johnson & Johnson,Johnson &amp; Johnson,TRUE
 American International Group,American International Group,TRUE
 Pfizer,Pfizer,TRUE
-Ita?? Unibanco Holding,Ita®≤ Unibanco,TRUE
+Ita√É¬∫ Unibanco Holding,Ita√∫ Unibanco,TRUE
 Ford Motor,Ford Motor Company,TRUE
 BMW Group,BMW,TRUE
 Commonwealth Bank,Commonwealth Bank,TRUE
@@ -58,35 +52,28 @@ ConocoPhillips,ConocoPhillips,TRUE
 Intel,Intel,TRUE
 UBS,UBS,TRUE
 Hewlett-Packard,Hewlett-Packard,TRUE
-Coca-Cola,Coca-Cola,TRUE
+Coca-Cola,The Coca-Cola Company,TRUE
 Cisco Systems,"Cisco Systems, Inc.",TRUE
-LukOil,LukOil,TRUE
 Boeing,Boeing,TRUE
 Zurich Insurance Group,Zurich Insurance Group,TRUE
 UnitedHealth Group,UnitedHealth Group,TRUE
 Hyundai Motor,Hyundai Motor Company,TRUE
 Sanofi,Sanofi,TRUE
-Credit Agricole,Credit Agricole,TRUE
-TUI,TUI,TRUE
-UNY Group Holdings,CRH G®¶taz Group,FALSE
-Equifax,Daikin,FALSE
-Synovus Financial,Synaptics,FALSE
-BMCE Bank,IBM,FALSE
-Bank of China,Bank of China(Hong Kong),FALSE
-Cameco,Ritz &amp;amp; Wolf Camera &amp;amp; Image,FALSE
+Credit Agricole,Cr√©dit Agricole,TRUE
+TUI,TUI Group,TRUE
 Shikoku Bank,Royal Bank of Canada,FALSE
 Pakistan State Oil,Pakistan Mineral Development Corporation,FALSE
 HSBC Holdings,HSBC Guyerzeller Bank,FALSE
 HSBC Holdings,HSBC Trinkaus,FALSE
 Meiji Holdings,Pepco Holdings,FALSE
-BP ,TNK-BP,FALSE
+BP,TNK-BP,FALSE
 Yunnan Yuntianhua,Hyundai Heavy Industries,FALSE
 JSW Steel,Marcegaglia,FALSE
 Prysmian,Marine Harvest,FALSE
 FMC,BKW FMB Energie,FALSE
 Oshkosh,Bosch,FALSE
 URS,Naturstrom,FALSE
-Admiral Group plc,Port Administration of Paranagu®¢ and Antonina,FALSE
+Admiral Group plc,Port Administration of Paranagu√° and Antonina,FALSE
 Fuji Electric,Fuji Electric,TRUE
 Allianz,Allianz Dresdner Bauspar,FALSE
 Teradata,iterate,FALSE
@@ -106,7 +93,7 @@ Inotera Memories,J. Craig Venter Institute,FALSE
 Caixa Economica Montepio Geral,Janus Capital Group,FALSE
 Shandong Iron and Steel,Jamba Juice,FALSE
 TPV Technology,T2O media,FALSE
-Shui On Land,S?DPACK Verpackungen,FALSE
+Shui On Land,S√úDPACK Verpackungen,FALSE
 Toyota Boshoku,Syzygy,FALSE
 New Hope Liuhe,New Angle Creative,FALSE
 Sydbank,S-Group,FALSE
@@ -116,10 +103,6 @@ Banco Santander,Banco di Sardegna,FALSE
 Shangri-La Asia,Shanghai International Port (Group),FALSE
 Stericycle,St. Andrew's Episcopal School,FALSE
 China Fortune Land Development,China Life Insurance Company,FALSE
-Chieftec,China Fortune Land Development,FALSE
-Toho Holdings,Tod's,FALSE
-Hyundai Wia,Vereinigte Wirtschaftsdienste,FALSE
-Jindal Steel &amp; Power,Lower Colorado River Authority,FALSE
 OSRAM Licht,DONG Energy,FALSE
 Makita,Makita,FALSE
 Total Access Communication,EntirelyPets,FALSE
@@ -146,13 +129,11 @@ Oita Bank,Desitin Arzneimittel GmbH,FALSE
 Amphenol,Carron Company,FALSE
 Century Tokyo Leasing,Accenture,FALSE
 Clorox,Buch.de,FALSE
-Xiamen C&amp;D,SK Telecom,FALSE
 Analog Devices,Sixt,FALSE
 Mead Johnson Nutrition,HomeAdvisor,FALSE
 Saudi Arabian Fertilizers,Saudi Aramco,FALSE
 JM Smucker,SAP SE,FALSE
 Brown-Forman,Symbian Ltd.,FALSE
-Host Hotels &amp; Resorts,Fpath Development,FALSE
 Avalonbay Communities,Guava UK,FALSE
 Ingram Micro,Fingrid,FALSE
 Adani Enterprises,BeGood Clothing,FALSE
@@ -172,14 +153,14 @@ ZTE,Jazztel,FALSE
 Zain,EntirelyPets,FALSE
 Cosmo Oil,Cosmote,FALSE
 Equity Residential,Deutsche Effecten- und Wechsel- Beteiligungsgesellschaft,FALSE
-Lennar,Deutsche B?rse,FALSE
+Lennar,Deutsche B√∂rse,FALSE
 HAL Trust,Doka Group,FALSE
 Anadolu Efes,DNV GL,FALSE
 Mondi,Mondi,TRUE
 Hindustan Petroleum,Hindustan Unilever,FALSE
 Cincinnati Financial,Kroger,FALSE
 BPI,Krka,FALSE
-Banca MPS,Sabanc? Holding,FALSE
+Banca MPS,Sabancƒ± Holding,FALSE
 Nintendo,Nintendo,TRUE
 Pegatron,Hudbay Minerals,FALSE
 Dr Pepper Snapple Group,Chinook Consulting Services,FALSE
@@ -207,7 +188,7 @@ GlaxoSmithKline,GlaxoSmithKline,TRUE
 Schlumberger,Schlumberger,TRUE
 Nordea Bank,Nordea Bank AB,TRUE
 Iberdrola,Iberdrola,TRUE
-Home Depot,Home Depot,TRUE
+Home Depot,The Home Depot,TRUE
 Hitachi,Hitachi,TRUE
 Hon Hai Precision,"Hon Hai Precision Industry Co., Ltd.",TRUE
 Aviva,Aviva,TRUE

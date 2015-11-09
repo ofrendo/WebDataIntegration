@@ -427,7 +427,7 @@
 {
 	"\/organization\/organization\/date_founded": "1927",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "A.H. Meyer Holding",
@@ -443,7 +443,7 @@
 	"\/organization\/organization\/headquarters": "Gummersbach",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "A.S. CrÈation",
+	"name": "A.S. Cr√©ation",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 787
 	}],
@@ -560,7 +560,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "Switzerland",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [{
 		"\/measurement_unit\/dated_money_value\/valid_date": "2007",
 		"\/measurement_unit\/dated_money_value\/amount": 3.757E9
@@ -848,7 +848,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 170417
 	}],
-	"\/organization\/organization\/leadership": "Denis Hennequin;;Yann CaillËre;;SÈbastien Bazin",
+	"\/organization\/organization\/leadership": "Denis Hennequin;;Yann Caill√®re;;S√©bastien Bazin",
 	"\/business\/business_operation\/industry": "Hospitality;;Tourism;;Hospitality industry"
 },
 {
@@ -867,7 +867,7 @@
 {
 	"\/organization\/organization\/date_founded": "1896",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Accu Holding",
@@ -1160,7 +1160,7 @@
 	"\/organization\/organization\/headquarters": "",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "ADEG ÷sterreich",
+	"name": "ADEG √ñsterreich",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 210000
 	}],
@@ -1260,7 +1260,7 @@
 {
 	"\/organization\/organization\/date_founded": "1924",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Kˆniz",
+	"\/organization\/organization\/headquarters": "K√∂niz",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Adval Tech",
@@ -1273,7 +1273,7 @@
 {
 	"\/organization\/organization\/date_founded": "1995",
 	"country": "Switzerland",
-	"\/organization\/organization\/headquarters": "Pregny-ChambÈsy",
+	"\/organization\/organization\/headquarters": "Pregny-Chamb√©sy",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Advanced Digital Broadcast",
@@ -1505,7 +1505,7 @@
 	"\/organization\/organization\/headquarters": "",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Agence franÁaise de sÈcuritÈ sanitaire des produits de santÈ",
+	"name": "Agence fran√ßaise de s√©curit√© sanitaire des produits de sant√©",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 3000
 	}],
@@ -1548,7 +1548,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 60000
 	}],
-	"\/organization\/organization\/leadership": "Ivica Todori?;;Ljerka Pulji?;;Damir Kuötrak;;Mislav Gali?;;Ante Todori?;;Piruöka Canjuga;;Tomislav Lu?i?;;Ivan Crnjac;;Hrvoje Balent",
+	"\/organization\/organization\/leadership": "Ivica Todoriƒá;;Ljerka Puljiƒá;;Damir Ku≈°trak;;Mislav Galiƒá;;Ante Todoriƒá;;Piru≈°ka Canjuga;;Tomislav Luƒçiƒá;;Ivan Crnjac;;Hrvoje Balent",
 	"\/business\/business_operation\/industry": "Retail;;Food and Beverage"
 },
 {
@@ -1629,7 +1629,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 42300
 	}],
-	"\/organization\/organization\/leadership": "BenoÓt Potier",
+	"\/organization\/organization\/leadership": "Beno√Æt Potier",
 	"\/business\/business_operation\/industry": "Industrial Gases;;Chemical industry"
 },
 {
@@ -1712,7 +1712,7 @@
 {
 	"\/organization\/organization\/date_founded": "1925",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Ch??",
+	"\/organization\/organization\/headquarters": "Ch≈´≈ç",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Ajinomoto",
@@ -1770,7 +1770,7 @@
 	{
 		"number": 22133
 	}],
-	"\/organization\/organization\/leadership": "ÿyvind Eriksen",
+	"\/organization\/organization\/leadership": "√òyvind Eriksen",
 	"\/business\/business_operation\/industry": "Construction;;Oil and Gas Field Exploration Services;;Engineering"
 },
 {
@@ -1805,7 +1805,7 @@
 	"\/organization\/organization\/headquarters": "Gevelsberg",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Aktiengesellschaft f¸r Versorgungsunternehmen",
+	"name": "Aktiengesellschaft f√ºr Versorgungsunternehmen",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 475
 	}],
@@ -1822,7 +1822,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 42600
 	}],
-	"\/organization\/organization\/leadership": "Ton B¸chner",
+	"\/organization\/organization\/leadership": "Ton B√ºchner",
 	"\/business\/business_operation\/industry": "Biotechnology;;Chemical industry"
 },
 {
@@ -1892,7 +1892,7 @@
 	"\/organization\/organization\/headquarters": "Baar",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Alfred M¸ller AG",
+	"name": "Alfred M√ºller AG",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 170
 	}],
@@ -1992,7 +1992,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "?Ûd?",
+	"\/organization\/organization\/headquarters": "≈Å√≥d≈∫",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Allepaznokcie",
@@ -2674,7 +2674,7 @@
 	"\/organization\/organization\/headquarters": "Curitiba",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "AmÈrica Latina LogÌstica",
+	"name": "Am√©rica Latina Log√≠stica",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 6580
 	}],
@@ -2687,7 +2687,7 @@
 	"\/organization\/organization\/headquarters": "Mexico City",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "AmÈrica MÛvil",
+	"name": "Am√©rica M√≥vil",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 41000
 	}],
@@ -3235,7 +3235,7 @@
 {
 	"\/organization\/organization\/date_founded": "1935",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "ARAG Group",
@@ -3315,7 +3315,7 @@
 {
 	"\/organization\/organization\/date_founded": "2003",
 	"country": "Switzerland",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Architonic AG",
@@ -3328,7 +3328,7 @@
 {
 	"\/organization\/organization\/date_founded": "1997",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Arcor",
@@ -3532,7 +3532,7 @@
 {
 	"\/organization\/organization\/date_founded": "1835",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "G¸tersloh",
+	"\/organization\/organization\/headquarters": "G√ºtersloh",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Arvato services",
@@ -3558,7 +3558,7 @@
 {
 	"\/organization\/organization\/date_founded": "1991",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "AS Verlag",
@@ -3597,7 +3597,7 @@
 {
 	"\/organization\/organization\/date_founded": "1996-10",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "G¸tersloh",
+	"\/organization\/organization\/headquarters": "G√ºtersloh",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Ascaron",
@@ -3713,7 +3713,7 @@
 {
 	"\/organization\/organization\/date_founded": "2005-04-01",
 	"country": "Japan",
-	"\/organization\/organization\/headquarters": "Ch??",
+	"\/organization\/organization\/headquarters": "Ch≈´≈ç",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Astellas Pharma",
@@ -3845,7 +3845,7 @@
 {
 	"\/organization\/organization\/date_founded": "1988",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Mˆhnesee",
+	"\/organization\/organization\/headquarters": "M√∂hnesee",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Atelco",
@@ -3955,7 +3955,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 800
 	}],
-	"\/organization\/organization\/leadership": "FranÁois-Henry Bennahmias",
+	"\/organization\/organization\/leadership": "Fran√ßois-Henry Bennahmias",
 	"\/business\/business_operation\/industry": "Manufacturing;;Watch"
 },
 {
@@ -4000,7 +4000,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "Gr¸nwald",
+	"\/organization\/organization\/headquarters": "Gr√ºnwald",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Aurelius AG",
@@ -4191,7 +4191,7 @@
 {
 	"\/organization\/organization\/date_founded": "1971",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸bendorf",
+	"\/organization\/organization\/headquarters": "D√ºbendorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Autronic",
@@ -4613,7 +4613,7 @@
 {
 	"\/organization\/organization\/date_founded": "1808-10-12",
 	"country": "Brazil;;null",
-	"\/organization\/organization\/headquarters": "BrasÌlia;;Brazil",
+	"\/organization\/organization\/headquarters": "Bras√≠lia;;Brazil",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Banco do Brasil",
@@ -4626,7 +4626,7 @@
 {
 	"\/organization\/organization\/date_founded": "1955",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "S„o Paulo",
+	"\/organization\/organization\/headquarters": "S√£o Paulo",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Banco Safra",
@@ -4900,7 +4900,7 @@
 	"\/organization\/organization\/headquarters": "Geneva",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Banque cantonale de GenËve",
+	"name": "Banque cantonale de Gen√®ve",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 847
 	}],
@@ -4910,10 +4910,10 @@
 {
 	"\/organization\/organization\/date_founded": "1883",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Neuch‚tel",
+	"\/organization\/organization\/headquarters": "Neuch√¢tel",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Banque Cantonale Neuch‚teloise",
+	"name": "Banque Cantonale Neuch√¢teloise",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 312
 	}],
@@ -5059,7 +5059,7 @@
 {
 	"\/organization\/organization\/date_founded": "1998",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "Osnabr¸ck",
+	"\/organization\/organization\/headquarters": "Osnabr√ºck",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "basecom GmbH &amp; Co.KG",
@@ -5149,7 +5149,7 @@
 {
 	"\/organization\/organization\/date_founded": "1886",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "R¸ti",
+	"\/organization\/organization\/headquarters": "R√ºti",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Baumann Federn",
@@ -5333,7 +5333,7 @@
 {
 	"\/organization\/organization\/date_founded": "1932",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "BDO AG",
@@ -5359,7 +5359,7 @@
 {
 	"\/organization\/organization\/date_founded": "2004",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Be2",
@@ -5636,7 +5636,7 @@
 {
 	"\/organization\/organization\/date_founded": "1995",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "K¸snacht",
+	"\/organization\/organization\/headquarters": "K√ºsnacht",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Bellevue Group",
@@ -5753,7 +5753,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 4000
 	}],
-	"\/organization\/organization\/leadership": "Wolfgang Schreiber;;Wolfgang D¸rheimer",
+	"\/organization\/organization\/leadership": "Wolfgang Schreiber;;Wolfgang D√ºrheimer",
 	"\/business\/business_operation\/industry": "Manufacturing;;Automotive industry;;Engineering"
 },
 {
@@ -5775,7 +5775,7 @@
 	"\/organization\/organization\/headquarters": "",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Beralt Tin and Wolfram C∫",
+	"name": "Beralt Tin and Wolfram C¬∫",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 10000
 	}],
@@ -5788,7 +5788,7 @@
 	"\/organization\/organization\/headquarters": "Barroca Grande",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Beralt Tin and Wolfram Portugal C∫",
+	"name": "Beralt Tin and Wolfram Portugal C¬∫",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 200
 	}],
@@ -5869,7 +5869,7 @@
 {
 	"\/organization\/organization\/date_founded": "1983",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "K¸nzelsau",
+	"\/organization\/organization\/headquarters": "K√ºnzelsau",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Berner AG",
@@ -5895,7 +5895,7 @@
 {
 	"\/organization\/organization\/date_founded": "1835-07-01",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "G¸tersloh",
+	"\/organization\/organization\/headquarters": "G√ºtersloh",
 	"\/business\/business_operation\/net_profit": [{
 		"\/measurement_unit\/dated_money_value\/valid_date": "2006",
 		"\/measurement_unit\/dated_money_value\/amount": 2.4E9
@@ -5914,7 +5914,7 @@
 {
 	"\/organization\/organization\/date_founded": "1977",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "G¸tersloh",
+	"\/organization\/organization\/headquarters": "G√ºtersloh",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Bertelsmann Foundation",
@@ -5940,7 +5940,7 @@
 {
 	"\/organization\/organization\/date_founded": "1956",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸rren‰sch",
+	"\/organization\/organization\/headquarters": "D√ºrren√§sch",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Bertschi AG",
@@ -6007,7 +6007,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "BET-AT-HOME.COM AG Common Stock",
@@ -6140,7 +6140,7 @@
 {
 	"\/organization\/organization\/date_founded": "2011-05-16",
 	"country": "Brazil",
-	"\/organization\/organization\/headquarters": "S„o Paulo",
+	"\/organization\/organization\/headquarters": "S√£o Paulo",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Bidu",
@@ -6166,7 +6166,7 @@
 {
 	"\/organization\/organization\/date_founded": "1900",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Br¸gg, Bern",
+	"\/organization\/organization\/headquarters": "Br√ºgg, Bern",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Biella-neher",
@@ -6179,7 +6179,7 @@
 {
 	"\/organization\/organization\/date_founded": "1906",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "Schl¸chtern",
+	"\/organization\/organization\/headquarters": "Schl√ºchtern",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Bien-Zenker",
@@ -6470,7 +6470,7 @@
 {
 	"\/organization\/organization\/date_founded": "1936",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "R¸egsau",
+	"\/organization\/organization\/headquarters": "R√ºegsau",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Blaser Swisslube",
@@ -6615,7 +6615,7 @@
 	{
 		"number": 162700
 	}],
-	"\/organization\/organization\/leadership": "Jean-Laurent BonnafÈ",
+	"\/organization\/organization\/leadership": "Jean-Laurent Bonnaf√©",
 	"\/business\/business_operation\/industry": "Investment banking;;Financial Services;;Commercial Banking;;National Commercial Banks"
 },
 {
@@ -6724,7 +6724,7 @@
 	"\/organization\/organization\/headquarters": "Newbridge, County Kildare",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Bord na MÛna",
+	"name": "Bord na M√≥na",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 2000
 	}],
@@ -7014,7 +7014,7 @@
 {
 	"\/organization\/organization\/date_founded": "1998",
 	"country": "Brazil",
-	"\/organization\/organization\/headquarters": "BrasÌlia",
+	"\/organization\/organization\/headquarters": "Bras√≠lia",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Brasil Telecom",
@@ -7043,7 +7043,7 @@
 	"\/organization\/organization\/headquarters": "Bremen",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Bremer Woll-K‰mmerei",
+	"name": "Bremer Woll-K√§mmerei",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 318
 	}],
@@ -7092,7 +7092,7 @@
 {
 	"\/organization\/organization\/date_founded": "1931",
 	"country": "Japan",
-	"\/organization\/organization\/headquarters": "Ch??",
+	"\/organization\/organization\/headquarters": "Ch≈´≈ç",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Bridgestone",
@@ -7172,7 +7172,7 @@
 {
 	"\/organization\/organization\/date_founded": "1972",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "S„o Domingos de Rana",
+	"\/organization\/organization\/headquarters": "S√£o Domingos de Rana",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Brisa \u2013 Auto-estradas de Portugal",
@@ -7345,7 +7345,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Brunner Erben Holding",
@@ -7439,7 +7439,7 @@
 {
 	"\/organization\/organization\/date_founded": "1998",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "M¸nster",
+	"\/organization\/organization\/headquarters": "M√ºnster",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Buch.de",
@@ -7507,11 +7507,11 @@
 	"\/organization\/organization\/headquarters": "Nuremberg",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Bundesagentur f¸r Arbeit",
+	"name": "Bundesagentur f√ºr Arbeit",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 108781
 	}],
-	"\/organization\/organization\/leadership": "Frank-J¸rgen Weise",
+	"\/organization\/organization\/leadership": "Frank-J√ºrgen Weise",
 	"\/business\/business_operation\/industry": ""
 },
 {
@@ -7610,7 +7610,7 @@
 {
 	"\/organization\/organization\/date_founded": "1959",
 	"country": "Switzerland",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Burkhalter Holding",
@@ -7704,7 +7704,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Niederˆnz",
+	"\/organization\/organization\/headquarters": "Nieder√∂nz",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Bystronic",
@@ -7720,7 +7720,7 @@
 	"\/organization\/organization\/headquarters": "Basel",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "B‚loise",
+	"name": "B√¢loise",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 9233
 	}],
@@ -7733,7 +7733,7 @@
 	"\/organization\/organization\/headquarters": "Vienna",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Bˆhler-Uddeholm",
+	"name": "B√∂hler-Uddeholm",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 14324
 	}],
@@ -7746,7 +7746,7 @@
 	"\/organization\/organization\/headquarters": "Uzwil",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "B¸hler AG",
+	"name": "B√ºhler AG",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 7480
 	}],
@@ -7858,7 +7858,7 @@
 	"\/organization\/organization\/headquarters": "Paris",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Caisse des dÈpÙts et consignations",
+	"name": "Caisse des d√©p√¥ts et consignations",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 73500
 	}],
@@ -7868,13 +7868,13 @@
 {
 	"\/organization\/organization\/date_founded": "1861-01-12",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "BrasÌlia",
+	"\/organization\/organization\/headquarters": "Bras√≠lia",
 	"\/business\/business_operation\/net_profit": [{
 		"\/measurement_unit\/dated_money_value\/valid_date": null,
 		"\/measurement_unit\/dated_money_value\/amount": 1.7E9
 	}],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Caixa EconÙmica Federal",
+	"name": "Caixa Econ√¥mica Federal",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 81500
 	}],
@@ -7887,7 +7887,7 @@
 	"\/organization\/organization\/headquarters": "Lisbon",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Caixa Geral de DepÛsitos",
+	"name": "Caixa Geral de Dep√≥sitos",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 20030
 	}],
@@ -7952,7 +7952,7 @@
 {
 	"\/organization\/organization\/date_founded": "1995",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Calltrade Carrier Services",
@@ -8081,7 +8081,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Candrian Catering",
@@ -8210,7 +8210,7 @@
 {
 	"\/organization\/organization\/date_founded": "1941",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Careal Holding",
@@ -8285,7 +8285,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 33420
 	}],
-	"\/organization\/organization\/leadership": "J¯rgen Buhl Rasmussen",
+	"\/organization\/organization\/leadership": "J√∏rgen Buhl Rasmussen",
 	"\/business\/business_operation\/industry": "Alcoholic beverage"
 },
 {
@@ -8323,7 +8323,7 @@
 	{
 		"number": 495000
 	}],
-	"\/organization\/organization\/leadership": "Georges Plassat;;Georges Plassat;;Jean-FranÁois Pagnoux",
+	"\/organization\/organization\/leadership": "Georges Plassat;;Georges Plassat;;Jean-Fran√ßois Pagnoux",
 	"\/business\/business_operation\/industry": "Retail;;Grocery store;;Department store"
 },
 {
@@ -8715,7 +8715,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "AlsvÂg",
+	"\/organization\/organization\/headquarters": "Alsv√•g",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Cerpus AS",
@@ -8844,7 +8844,7 @@
 	"\/organization\/organization\/headquarters": "Freienbach",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Charles Vˆgele Gruppe",
+	"name": "Charles V√∂gele Gruppe",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 7729
 	}],
@@ -9257,7 +9257,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Ch??",
+	"\/organization\/organization\/headquarters": "Ch≈´≈ç",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Chugai Pharmaceutical Co.",
@@ -9390,7 +9390,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 5020
 	}],
-	"\/organization\/organization\/leadership": "Guy LalibertÈ;;Daniel Lamarre",
+	"\/organization\/organization\/leadership": "Guy Lalibert√©;;Daniel Lamarre",
 	"\/business\/business_operation\/industry": "Arts, Entertainment, and Recreation"
 },
 {
@@ -9514,10 +9514,10 @@
 {
 	"\/organization\/organization\/date_founded": "2005",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Saint-…tienne",
+	"\/organization\/organization\/headquarters": "Saint-√âtienne",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "CitÈ du Design",
+	"name": "Cit√© du Design",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 80
 	}],
@@ -9660,10 +9660,10 @@
 {
 	"\/organization\/organization\/date_founded": "1834",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "K¸ttigen",
+	"\/organization\/organization\/headquarters": "K√ºttigen",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Clientis Bank K¸ttigen-Erlinsbach",
+	"name": "Clientis Bank K√ºttigen-Erlinsbach",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 13
 	}],
@@ -9686,7 +9686,7 @@
 {
 	"\/organization\/organization\/date_founded": "1994",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Sch¸pfheim",
+	"\/organization\/organization\/headquarters": "Sch√ºpfheim",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Clientis EB Entlebucher Bank",
@@ -9874,7 +9874,7 @@
 	"\/organization\/organization\/headquarters": "Seraing",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Cockerill Maintenance &amp; IngÈnierie",
+	"name": "Cockerill Maintenance &amp; Ing√©nierie",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 3281
 	}],
@@ -9884,7 +9884,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Cofely AG",
@@ -9997,10 +9997,10 @@
 {
 	"\/organization\/organization\/date_founded": "1967",
 	"country": "null;;null;;null",
-	"\/organization\/organization\/headquarters": "Canada;;QuÈbec;;null",
+	"\/organization\/organization\/headquarters": "Canada;;Qu√©bec;;null",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "CollËge FranÁois-Xavier-Garneau",
+	"name": "Coll√®ge Fran√ßois-Xavier-Garneau",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 500
 	}],
@@ -10017,7 +10017,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 1000
 	}],
-	"\/organization\/organization\/leadership": "Christoph Seeﬂelberg",
+	"\/organization\/organization\/leadership": "Christoph See√üelberg",
 	"\/business\/business_operation\/industry": ""
 },
 {
@@ -10142,7 +10142,7 @@
 {
 	"\/organization\/organization\/date_founded": "1948",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "W¸nnewil-Flamatt",
+	"\/organization\/organization\/headquarters": "W√ºnnewil-Flamatt",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Comet Holding",
@@ -10197,7 +10197,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Comit",
@@ -10258,7 +10258,7 @@
 	"\/organization\/organization\/headquarters": "Mainz",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Compagnie FranÁaise d'Assurance pour le Commerce ExtÈrieur",
+	"name": "Compagnie Fran√ßaise d'Assurance pour le Commerce Ext√©rieur",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 914
 	}],
@@ -10284,7 +10284,7 @@
 	"\/organization\/organization\/headquarters": "Barreiro, Portugal",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Companhia Uni„o Fabril",
+	"name": "Companhia Uni√£o Fabril",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 16000
 	}],
@@ -10307,7 +10307,7 @@
 {
 	"\/organization\/organization\/date_founded": "1996-05",
 	"country": "Switzerland",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Comparis",
@@ -10333,7 +10333,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "M‰genwil",
+	"\/organization\/organization\/headquarters": "M√§genwil",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Competec",
@@ -10629,7 +10629,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Conzzeta",
@@ -10938,7 +10938,7 @@
 {
 	"\/organization\/organization\/date_founded": "1996",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Crealogix",
@@ -10951,7 +10951,7 @@
 {
 	"\/organization\/organization\/date_founded": "1856",
 	"country": "Switzerland",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [{
 		"\/measurement_unit\/dated_money_value\/valid_date": "2008",
@@ -10967,10 +10967,10 @@
 {
 	"\/organization\/organization\/date_founded": "2007",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Saint-LÈgier-La ChiÈsaz",
+	"\/organization\/organization\/headquarters": "Saint-L√©gier-La Chi√©saz",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "CRH GÈtaz Group",
+	"name": "CRH G√©taz Group",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 2600
 	}],
@@ -11070,7 +11070,7 @@
 		"\/measurement_unit\/dated_money_value\/valid_date": "2008",
 		"\/measurement_unit\/dated_money_value\/amount": 1.38155E11
 	}],
-	"name": "CrÈdit Agricole",
+	"name": "Cr√©dit Agricole",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 157000
 	}],
@@ -11241,10 +11241,10 @@
 {
 	"\/organization\/organization\/date_founded": "1968-05-15",
 	"country": "Canada",
-	"\/organization\/organization\/headquarters": "Trois-RiviËres",
+	"\/organization\/organization\/headquarters": "Trois-Rivi√®res",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "CÈgep de Trois-RiviËres",
+	"name": "C√©gep de Trois-Rivi√®res",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 800
 	}],
@@ -11306,7 +11306,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "Japan",
-	"\/organization\/organization\/headquarters": "Ch??",
+	"\/organization\/organization\/headquarters": "Ch≈´≈ç",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Daiichi Sankyo",
@@ -11848,7 +11848,7 @@
 {
 	"\/organization\/organization\/date_founded": "1989",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Bad Homburg vor der Hˆhe",
+	"\/organization\/organization\/headquarters": "Bad Homburg vor der H√∂he",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Delton AG",
@@ -11874,7 +11874,7 @@
 {
 	"\/organization\/organization\/date_founded": "1910",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Demag",
@@ -11907,7 +11907,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 8632
 	}],
-	"\/organization\/organization\/leadership": "Hakan Ate?",
+	"\/organization\/organization\/leadership": "Hakan Ate≈ü",
 	"\/business\/business_operation\/industry": "Finance;;Financial Services"
 },
 {
@@ -12019,7 +12019,7 @@
 	"\/organization\/organization\/headquarters": "Frankfurt",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Deutsche Bˆrse",
+	"name": "Deutsche B√∂rse",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 3281
 	},
@@ -12071,7 +12071,7 @@
 {
 	"\/organization\/organization\/date_founded": "1962-01-10",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Bad Homburg vor der Hˆhe",
+	"\/organization\/organization\/headquarters": "Bad Homburg vor der H√∂he",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Deutsche Leasing",
@@ -12164,7 +12164,7 @@
 	{
 		"number": 251258
 	}],
-	"\/organization\/organization\/leadership": "RenÈ Obermann;;Timotheus Hˆttges",
+	"\/organization\/organization\/leadership": "Ren√© Obermann;;Timotheus H√∂ttges",
 	"\/business\/business_operation\/industry": "Fixed Network Operator;;Telecommunications"
 },
 {
@@ -12321,7 +12321,7 @@
 {
 	"\/organization\/organization\/date_founded": "1908-02-15",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Ch??",
+	"\/organization\/organization\/headquarters": "Ch≈´≈ç",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "DIC Corporation",
@@ -12366,7 +12366,7 @@
 {
 	"\/organization\/organization\/date_founded": "2004",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "‹berlingen",
+	"\/organization\/organization\/headquarters": "√úberlingen",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Diehl BGT Defence",
@@ -12476,7 +12476,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "DIS Deutscher Industrie Service",
@@ -12560,7 +12560,7 @@
 {
 	"\/organization\/organization\/date_founded": "1865",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "DKSH",
@@ -12602,7 +12602,7 @@
 {
 	"\/organization\/organization\/date_founded": "1864",
 	"country": "Norway",
-	"\/organization\/organization\/headquarters": "BÊrum",
+	"\/organization\/organization\/headquarters": "B√¶rum",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [{
 		"\/measurement_unit\/dated_money_value\/valid_date": null,
@@ -12725,7 +12725,7 @@
 {
 	"\/organization\/organization\/date_founded": "1972",
 	"country": "Denmark",
-	"\/organization\/organization\/headquarters": "SkÊrbÊk",
+	"\/organization\/organization\/headquarters": "Sk√¶rb√¶k",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "DONG Energy",
@@ -12822,10 +12822,10 @@
 {
 	"\/organization\/organization\/date_founded": "1976",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Gr‰felfing",
+	"\/organization\/organization\/headquarters": "Gr√§felfing",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Dr. Hˆnle AG",
+	"name": "Dr. H√∂nle AG",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 253
 	}],
@@ -13255,7 +13255,7 @@
 	"\/organization\/organization\/headquarters": "Altdorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "D‰twyler Holding",
+	"name": "D√§twyler Holding",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 4340
 	}],
@@ -13278,7 +13278,7 @@
 {
 	"\/organization\/organization\/date_founded": "1983",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D‰niken, Solothurn",
+	"\/organization\/organization\/headquarters": "D√§niken, Solothurn",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "E+h Services",
@@ -13349,7 +13349,7 @@
 {
 	"\/organization\/organization\/date_founded": "2000-06-16",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [{
 		"\/measurement_unit\/dated_money_value\/valid_date": "2006",
 		"\/measurement_unit\/dated_money_value\/amount": 6.082E9
@@ -13426,7 +13426,7 @@
 	"\/organization\/organization\/headquarters": "Erfurt",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "E.ON Th¸ringer Energie",
+	"name": "E.ON Th√ºringer Energie",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 1379
 	}],
@@ -13494,7 +13494,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 40900
 	}],
-	"\/organization\/organization\/leadership": "Robert L Berman;;William J Lloyd;;Mary Jane Hellyar;;Antonio M. PÈrez;;Jeff Clarke",
+	"\/organization\/organization\/leadership": "Robert L Berman;;William J Lloyd;;Mary Jane Hellyar;;Antonio M. P√©rez;;Jeff Clarke",
 	"\/business\/business_operation\/industry": "Manufacturing;;Photographic Equipment and Supplies;;Photography;;Photographic Film, Paper, Plate, and Chemical Manufacturing;;Photographic and Photocopying Equipment Manufacturing"
 },
 {
@@ -13616,7 +13616,7 @@
 	"\/organization\/organization\/headquarters": "Mariehamn",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Eckerˆ Linjen",
+	"name": "Ecker√∂ Linjen",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 1145
 	}],
@@ -13645,7 +13645,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Ecolog",
@@ -13843,7 +13843,7 @@
 	"\/organization\/organization\/headquarters": "Reykjavik",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "EimskipafÈlag Õslands",
+	"name": "Eimskipaf√©lag √çslands",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 9500
 	}],
@@ -13943,10 +13943,10 @@
 {
 	"\/organization\/organization\/date_founded": "1897",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "M¸nchenstein",
+	"\/organization\/organization\/headquarters": "M√ºnchenstein",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Elektra Birseck M¸nchenstein",
+	"name": "Elektra Birseck M√ºnchenstein",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 572
 	}],
@@ -13959,7 +13959,7 @@
 	"\/organization\/organization\/headquarters": "Laufenburg",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Elektrizit‰tsgesellschaft Laufenburg",
+	"name": "Elektrizit√§tsgesellschaft Laufenburg",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 832
 	}],
@@ -14115,7 +14115,7 @@
 {
 	"\/organization\/organization\/date_founded": "1969",
 	"country": "Brazil",
-	"\/organization\/organization\/headquarters": "S„o JosÈ dos Campos",
+	"\/organization\/organization\/headquarters": "S√£o Jos√© dos Campos",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Embraer-Empresa Brasileira de Aeronautica",
@@ -14269,7 +14269,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Pozna?",
+	"\/organization\/organization\/headquarters": "Pozna≈Ñ",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Enea S.A.",
@@ -14389,7 +14389,7 @@
 {
 	"\/organization\/organization\/date_founded": "1948",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Biebergem¸nd",
+	"\/organization\/organization\/headquarters": "Biebergem√ºnd",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "engelbert strauss",
@@ -14409,7 +14409,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 196500
 	}],
-	"\/organization\/organization\/leadership": "GÈrard Mestrallet",
+	"\/organization\/organization\/leadership": "G√©rard Mestrallet",
 	"\/business\/business_operation\/industry": ""
 },
 {
@@ -14695,10 +14695,10 @@
 {
 	"\/organization\/organization\/date_founded": "1998",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Erdgas Z¸rich",
+	"name": "Erdgas Z√ºrich",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 160
 	}],
@@ -14708,7 +14708,7 @@
 {
 	"\/organization\/organization\/date_founded": "1997",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "ERGO Insurance Group",
@@ -14838,13 +14838,13 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 16000
 	}],
-	"\/organization\/organization\/leadership": "Jose Manuel MartÌnez GutiÈrrez",
+	"\/organization\/organization\/leadership": "Jose Manuel Mart√≠nez Guti√©rrez",
 	"\/business\/business_operation\/industry": "Retail;;Clothing;;Fashion"
 },
 {
 	"\/organization\/organization\/date_founded": "1914",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Essanelle",
@@ -14864,13 +14864,13 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 26500
 	}],
-	"\/organization\/organization\/leadership": "Hubert SagniËres",
+	"\/organization\/organization\/leadership": "Hubert Sagni√®res",
 	"\/business\/business_operation\/industry": ""
 },
 {
 	"\/organization\/organization\/date_founded": "1894",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Vˆcklabruck",
+	"\/organization\/organization\/headquarters": "V√∂cklabruck",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Eternit-Werke",
@@ -14922,7 +14922,7 @@
 {
 	"\/organization\/organization\/date_founded": "1987",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "L¸beck",
+	"\/organization\/organization\/headquarters": "L√ºbeck",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Euroimmun",
@@ -14980,7 +14980,7 @@
 	"\/organization\/organization\/headquarters": "Munich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Europ‰ische Reiseversicherung AG",
+	"name": "Europ√§ische Reiseversicherung AG",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 343
 	}],
@@ -15447,7 +15447,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 62000
 	}],
-	"\/organization\/organization\/leadership": "Yann DelabriËre",
+	"\/organization\/organization\/leadership": "Yann Delabri√®re",
 	"\/business\/business_operation\/industry": "Automotive industry"
 },
 {
@@ -15560,7 +15560,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 198348
 	}],
-	"\/organization\/organization\/leadership": "Olivier FranÁois",
+	"\/organization\/organization\/leadership": "Olivier Fran√ßois",
 	"\/business\/business_operation\/industry": "Automotive industry"
 },
 {
@@ -16180,7 +16180,7 @@
 	{
 		"number": 186000
 	}],
-	"\/organization\/organization\/leadership": "StÈphane Richard;;Didier Lombard",
+	"\/organization\/organization\/leadership": "St√©phane Richard;;Didier Lombard",
 	"\/business\/business_operation\/industry": "Fixed Network Operator;;Telecommunications;;Wired Telecommunications Carriers;;Telephone Communications, Except Radiotelephone"
 },
 {
@@ -16302,7 +16302,7 @@
 {
 	"\/organization\/organization\/date_founded": "2007",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "B¸delsdorf",
+	"\/organization\/organization\/headquarters": "B√ºdelsdorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Freenet AG",
@@ -16347,7 +16347,7 @@
 {
 	"\/organization\/organization\/date_founded": "1999",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Bad Homburg vor der Hˆhe",
+	"\/organization\/organization\/headquarters": "Bad Homburg vor der H√∂he",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Fresenius Kabi",
@@ -16360,7 +16360,7 @@
 {
 	"\/organization\/organization\/date_founded": "1996",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Bad Homburg vor der Hˆhe",
+	"\/organization\/organization\/headquarters": "Bad Homburg vor der H√∂he",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [{
 		"\/measurement_unit\/dated_money_value\/valid_date": "2006-12-31",
@@ -16376,7 +16376,7 @@
 {
 	"\/organization\/organization\/date_founded": "1912",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "Bad Homburg vor der Hˆhe",
+	"\/organization\/organization\/headquarters": "Bad Homburg vor der H√∂he",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Fresenius SE",
@@ -16742,7 +16742,7 @@
 	"\/organization\/organization\/headquarters": "Flensburg",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Fˆrde Reederei Seetouristik",
+	"name": "F√∂rde Reederei Seetouristik",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 750
 	}],
@@ -16778,7 +16778,7 @@
 {
 	"\/organization\/organization\/date_founded": "1963-09-26",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "M¸nster",
+	"\/organization\/organization\/headquarters": "M√ºnster",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "GAD",
@@ -17036,13 +17036,13 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 50244
 	}],
-	"\/organization\/organization\/leadership": "Jean-FranÁois Cirelli",
+	"\/organization\/organization\/leadership": "Jean-Fran√ßois Cirelli",
 	"\/business\/business_operation\/industry": ""
 },
 {
 	"\/organization\/organization\/date_founded": "1881",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "GEA Group",
@@ -17406,7 +17406,7 @@
 {
 	"\/organization\/organization\/date_founded": "1864",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Gerresheimer",
@@ -17504,7 +17504,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 1800
 	}],
-	"\/organization\/organization\/leadership": "Charles Fr‰nkl",
+	"\/organization\/organization\/leadership": "Charles Fr√§nkl",
 	"\/business\/business_operation\/industry": "Consumer electronics"
 },
 {
@@ -17603,7 +17603,7 @@
 	"\/organization\/organization\/headquarters": "Thunstetten",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Glas Trˆsch",
+	"name": "Glas Tr√∂sch",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 3110
 	}],
@@ -17765,7 +17765,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "K¸snacht",
+	"\/organization\/organization\/headquarters": "K√ºsnacht",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Goldbach Media",
@@ -17990,7 +17990,7 @@
 	"\/organization\/organization\/headquarters": "Chur",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Graub¸ndner Kantonalbank",
+	"name": "Graub√ºndner Kantonalbank",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 1133
 	}],
@@ -18068,7 +18068,7 @@
 {
 	"\/organization\/organization\/date_founded": "2001",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Kremsm¸nster",
+	"\/organization\/organization\/headquarters": "Kremsm√ºnster",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Greiner Bio-One",
@@ -18081,7 +18081,7 @@
 {
 	"\/organization\/organization\/date_founded": "1986",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Kremsm¸nster",
+	"\/organization\/organization\/headquarters": "Kremsm√ºnster",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Greiner Holding",
@@ -18127,7 +18127,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 5880
 	}],
-	"\/organization\/organization\/leadership": "VÌctor Grifols",
+	"\/organization\/organization\/leadership": "V√≠ctor Grifols",
 	"\/business\/business_operation\/industry": "Pharmaceutical industry"
 },
 {
@@ -18159,7 +18159,7 @@
 {
 	"\/organization\/organization\/date_founded": "1857",
 	"country": "France",
-	"\/organization\/organization\/headquarters": "…cully",
+	"\/organization\/organization\/headquarters": "√âcully",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Groupe SEB",
@@ -18220,7 +18220,7 @@
 {
 	"\/organization\/organization\/date_founded": "2003",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Gda?sk",
+	"\/organization\/organization\/headquarters": "Gda≈Ñsk",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Grupa Lotos",
@@ -18340,7 +18340,7 @@
 	"\/organization\/organization\/headquarters": "Langenthal",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "G¸del",
+	"name": "G√ºdel",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 700
 	}],
@@ -18353,7 +18353,7 @@
 	"\/organization\/organization\/headquarters": "",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "G¸ndisch &amp; Friends",
+	"name": "G√ºndisch &amp; Friends",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 15
 	}],
@@ -18495,7 +18495,7 @@
 {
 	"\/organization\/organization\/date_founded": "1918",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Halter Unternehmungen",
@@ -18922,7 +18922,7 @@
 	"\/organization\/organization\/headquarters": "",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Haz?r Tur",
+	"name": "Hazƒ±r Tur",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 4
 	}],
@@ -18964,7 +18964,7 @@
 		"\/measurement_unit\/dated_money_value\/valid_date": "2008",
 		"\/measurement_unit\/dated_money_value\/amount": 1.2514E9
 	}],
-	"name": "HEAG S¸dhessische Energie",
+	"name": "HEAG S√ºdhessische Energie",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 2300
 	}],
@@ -19090,7 +19090,7 @@
 {
 	"\/organization\/organization\/date_founded": "1996",
 	"country": "Switzerland",
-	"\/organization\/organization\/headquarters": "D¸bendorf",
+	"\/organization\/organization\/headquarters": "D√ºbendorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Helsana",
@@ -19129,7 +19129,7 @@
 {
 	"\/organization\/organization\/date_founded": "1876",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Henkel",
@@ -19313,7 +19313,7 @@
 	{
 		"number": 172000
 	}],
-	"\/organization\/organization\/leadership": "Michael J. Holston;;Todd Bradley;;James T Murrin;;Shane V. Robison;;Ann M. Livermore;;Randall D. Mott;;Mark V. Hurd;;LÈo Apotheker;;Meg Whitman",
+	"\/organization\/organization\/leadership": "Michael J. Holston;;Todd Bradley;;James T Murrin;;Shane V. Robison;;Ann M. Livermore;;Randall D. Mott;;Mark V. Hurd;;L√©o Apotheker;;Meg Whitman",
 	"\/business\/business_operation\/industry": "Computer hardware;;Software;;Computer Peripheral Equipment, NEC;;Other Computer Peripheral Equipment Manufacturing;;Electronic Computer Manufacturing;;Information technology consulting;;IT service management"
 },
 {
@@ -19326,7 +19326,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 200
 	}],
-	"\/organization\/organization\/leadership": "Santiago Ceria;;Javier LÛpez de Lagar;;Fabio Gasparri;;Diego Vigliarolo",
+	"\/organization\/organization\/leadership": "Santiago Ceria;;Javier L√≥pez de Lagar;;Fabio Gasparri;;Diego Vigliarolo",
 	"\/business\/business_operation\/industry": "Software development;;Outsourcing"
 },
 {
@@ -19465,7 +19465,7 @@
 {
 	"\/organization\/organization\/date_founded": "1936-07-31",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "TÈtouan",
+	"\/organization\/organization\/headquarters": "T√©touan",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "HISMA Hispano-Marokkanische Transport-Aktiengesellschaft",
@@ -19536,7 +19536,7 @@
 {
 	"\/organization\/organization\/date_founded": "1863-01-04",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Hˆchst",
+	"\/organization\/organization\/headquarters": "H√∂chst",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Hoechst AG",
@@ -19839,7 +19839,7 @@
 {
 	"\/organization\/organization\/date_founded": "1786",
 	"country": "Switzerland",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Hottinger &amp; Cie",
@@ -19920,7 +19920,7 @@
 {
 	"\/organization\/organization\/date_founded": "1894",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "HSBC Guyerzeller Bank",
@@ -19933,7 +19933,7 @@
 {
 	"\/organization\/organization\/date_founded": "1785",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "HSBC Trinkaus",
@@ -20007,7 +20007,7 @@
 	"\/organization\/organization\/headquarters": "Espoo",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Huhtam‰ki",
+	"name": "Huhtam√§ki",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 15092
 	}],
@@ -20082,7 +20082,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 16093
 	}],
-	"\/organization\/organization\/leadership": "Hans Linnarson;;Kai W‰rn",
+	"\/organization\/organization\/leadership": "Hans Linnarson;;Kai W√§rn",
 	"\/business\/business_operation\/industry": "Power-Driven Handtool Manufacturing"
 },
 {
@@ -20175,7 +20175,7 @@
 	"\/organization\/organization\/headquarters": "St. Gallen",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "H‰lg Holding",
+	"name": "H√§lg Holding",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 635
 	}],
@@ -20185,10 +20185,10 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Schˆnefeld",
+	"\/organization\/organization\/headquarters": "Sch√∂nefeld",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Hˆffner",
+	"name": "H√∂ffner",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 6000
 	}],
@@ -20285,7 +20285,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 30000
 	}],
-	"\/organization\/organization\/leadership": "Jose Ignacio Sanchez Galan;;IÒigo de Oriol Ybarra;;Jose Ignacio Sanchez Galan",
+	"\/organization\/organization\/leadership": "Jose Ignacio Sanchez Galan;;I√±igo de Oriol Ybarra;;Jose Ignacio Sanchez Galan",
 	"\/business\/business_operation\/industry": "Electric Power Generation, Transmission and Distribution;;Renewable energy industry"
 },
 {
@@ -20323,7 +20323,7 @@
 {
 	"\/organization\/organization\/date_founded": "1982",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Hˆhr-Grenzhausen",
+	"\/organization\/organization\/headquarters": "H√∂hr-Grenzhausen",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "IBS AG",
@@ -20462,7 +20462,7 @@
 {
 	"\/organization\/organization\/date_founded": "1984",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Linkˆping",
+	"\/organization\/organization\/headquarters": "Link√∂ping",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Ida Infront AB",
@@ -20488,7 +20488,7 @@
 {
 	"\/organization\/organization\/date_founded": "1984-07-27",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "Saarbr¸cken",
+	"\/organization\/organization\/headquarters": "Saarbr√ºcken",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "IDS Scheer",
@@ -20745,7 +20745,7 @@
 {
 	"\/organization\/organization\/date_founded": "1983-04",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "L¸neburg",
+	"\/organization\/organization\/headquarters": "L√ºneburg",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Impreglon AG",
@@ -20810,7 +20810,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 33
 	}],
-	"\/organization\/organization\/leadership": "Tomislav Bili?;;Toni Ani?i?",
+	"\/organization\/organization\/leadership": "Tomislav Biliƒá;;Toni Aniƒçiƒá",
 	"\/business\/business_operation\/industry": "Software"
 },
 {
@@ -21024,7 +21024,7 @@
 {
 	"\/organization\/organization\/date_founded": "1941",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Infranor Inter",
@@ -21111,7 +21111,7 @@
 	"\/organization\/organization\/headquarters": "Hamburg",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Institut f¸r Lernsysteme",
+	"name": "Institut f√ºr Lernsysteme",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 250
 	}],
@@ -21314,7 +21314,7 @@
 {
 	"\/organization\/organization\/date_founded": "1962",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Intershop Holding",
@@ -21576,10 +21576,10 @@
 {
 	"\/organization\/organization\/date_founded": "2008",
 	"country": "Brazil",
-	"\/organization\/organization\/headquarters": "S„o Paulo",
+	"\/organization\/organization\/headquarters": "S√£o Paulo",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Ita˙ Unibanco",
+	"name": "Ita√∫ Unibanco",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 190000
 	}],
@@ -21903,7 +21903,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 507
 	}],
-	"\/organization\/organization\/leadership": "JosÈ Miguel GarcÌa Fern·ndez",
+	"\/organization\/organization\/leadership": "Jos√© Miguel Garc√≠a Fern√°ndez",
 	"\/business\/business_operation\/industry": "Telecommunications"
 },
 {
@@ -21967,7 +21967,7 @@
 {
 	"\/organization\/organization\/date_founded": "1833",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Jelmoli",
@@ -22115,7 +22115,7 @@
 {
 	"\/organization\/organization\/date_founded": "1890",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Julius Baer Group",
@@ -22193,7 +22193,7 @@
 {
 	"\/organization\/organization\/date_founded": "1862",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "R¸mlang",
+	"\/organization\/organization\/headquarters": "R√ºmlang",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Kaba Group",
@@ -22271,7 +22271,7 @@
 {
 	"\/organization\/organization\/date_founded": "1887-06",
 	"country": "Japan",
-	"\/organization\/organization\/headquarters": "Ch??",
+	"\/organization\/organization\/headquarters": "Ch≈´≈ç",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Kao Corporation",
@@ -22284,7 +22284,7 @@
 {
 	"\/organization\/organization\/date_founded": "1977",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Kardex",
@@ -22310,7 +22310,7 @@
 {
 	"\/organization\/organization\/date_founded": "1915",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Karl Steiner Holding AG",
@@ -22349,7 +22349,7 @@
 {
 	"\/organization\/organization\/date_founded": "1896-10-15",
 	"country": "Japan;;Japan",
-	"\/organization\/organization\/headquarters": "Minato;;Ch??-ku, Kobe",
+	"\/organization\/organization\/headquarters": "Minato;;Ch≈´≈ç-ku, Kobe",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Kawasaki Heavy Industries",
@@ -22466,7 +22466,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 8493
 	}],
-	"\/organization\/organization\/leadership": "Wolfgang B¸chele",
+	"\/organization\/organization\/leadership": "Wolfgang B√ºchele",
 	"\/business\/business_operation\/industry": "Chemical industry"
 },
 {
@@ -22531,7 +22531,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 93000
 	}],
-	"\/organization\/organization\/leadership": "FranÁois-Henri Pinault",
+	"\/organization\/organization\/leadership": "Fran√ßois-Henri Pinault",
 	"\/business\/business_operation\/industry": "Retail"
 },
 {
@@ -22583,7 +22583,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 25890
 	}],
-	"\/organization\/organization\/leadership": "Matti Halmesm‰ki",
+	"\/organization\/organization\/leadership": "Matti Halmesm√§ki",
 	"\/business\/business_operation\/industry": "Retail;;Grocery store"
 },
 {
@@ -22754,7 +22754,7 @@
 {
 	"\/organization\/organization\/date_founded": "1916",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Ny-≈lesund",
+	"\/organization\/organization\/headquarters": "Ny-√Ölesund",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Kings Bay",
@@ -22912,7 +22912,7 @@
 	"\/organization\/organization\/headquarters": "Duisburg",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Klˆckner-Werke",
+	"name": "Kl√∂ckner-Werke",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 6400
 	}],
@@ -22977,7 +22977,7 @@
 	"\/organization\/organization\/headquarters": "Koblenz",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Koblenzer Elektrizit‰tswerk und Verkehrs-AG",
+	"name": "Koblenzer Elektrizit√§tswerk und Verkehrs-AG",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 634
 	}],
@@ -23016,7 +23016,7 @@
 {
 	"\/organization\/organization\/date_founded": "1817",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "W¸rzburg",
+	"\/organization\/organization\/headquarters": "W√ºrzburg",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Koenig &amp; Bauer",
@@ -23042,7 +23042,7 @@
 {
 	"\/organization\/organization\/date_founded": "1885",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸bendorf",
+	"\/organization\/organization\/headquarters": "D√ºbendorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Kolping Krankenkasse",
@@ -23097,7 +23097,7 @@
 	"\/organization\/organization\/headquarters": "Katowice",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Kompania W?glowa",
+	"name": "Kompania Wƒôglowa",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 62800
 	}],
@@ -23146,7 +23146,7 @@
 {
 	"\/organization\/organization\/date_founded": "1994",
 	"country": "Finland",
-	"\/organization\/organization\/headquarters": "Hyvink‰‰",
+	"\/organization\/organization\/headquarters": "Hyvink√§√§",
 	"\/business\/business_operation\/net_profit": [{
 		"\/measurement_unit\/dated_money_value\/valid_date": null,
 		"\/measurement_unit\/dated_money_value\/amount": 1.2915E11
@@ -23207,11 +23207,11 @@
 	"\/organization\/organization\/headquarters": "Istanbul",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "KoÁ Holding",
+	"name": "Ko√ß Holding",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 85000
 	}],
-	"\/organization\/organization\/leadership": "B¸lent Bulgurlu;;Osman Turgay Durak",
+	"\/organization\/organization\/leadership": "B√ºlent Bulgurlu;;Osman Turgay Durak",
 	"\/business\/business_operation\/industry": "Conglomerate"
 },
 {
@@ -23571,7 +23571,7 @@
 	"\/organization\/organization\/headquarters": "Winnenden",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "K‰rcher",
+	"name": "K√§rcher",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 6859
 	}],
@@ -23584,7 +23584,7 @@
 	"\/organization\/organization\/headquarters": "Hamburg",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Kˆrber",
+	"name": "K√∂rber",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 9445
 	}],
@@ -23597,7 +23597,7 @@
 	"\/organization\/organization\/headquarters": "Paris",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "L'OrÈal",
+	"name": "L'Or√©al",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 63615
 	}],
@@ -23694,7 +23694,7 @@
 	"\/organization\/organization\/headquarters": "Paris",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "LagardËre Group",
+	"name": "Lagard√®re Group",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 48245
 	}],
@@ -23856,7 +23856,7 @@
 	"\/organization\/organization\/headquarters": "Riga",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Latvijas G?ze",
+	"name": "Latvijas GƒÅze",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 1296
 	}],
@@ -23927,7 +23927,7 @@
 	"\/organization\/organization\/headquarters": "Yverdon-les-Bains",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "LeclanchÈ",
+	"name": "Leclanch√©",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 80
 	}],
@@ -24369,10 +24369,10 @@
 {
 	"\/organization\/organization\/date_founded": "1845",
 	"country": "Switzerland;;Italy;;null;;null",
-	"\/organization\/organization\/headquarters": "Kilchberg, Z¸rich;;null;;Italy;;Milan",
+	"\/organization\/organization\/headquarters": "Kilchberg, Z√ºrich;;null;;Italy;;Milan",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Lindt &amp; Spr¸ngli",
+	"name": "Lindt &amp; Spr√ºngli",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 7044
 	}],
@@ -24476,7 +24476,7 @@
 {
 	"\/organization\/organization\/date_founded": "1963",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Livit",
@@ -24683,7 +24683,7 @@
 {
 	"\/organization\/organization\/date_founded": "1917",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Kˆniz",
+	"\/organization\/organization\/headquarters": "K√∂niz",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Losinger Construction",
@@ -25020,7 +25020,7 @@
 {
 	"\/organization\/organization\/date_founded": "1932",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Maerki Baumann",
@@ -25172,7 +25172,7 @@
 {
 	"\/organization\/organization\/date_founded": "1993-11-01",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "MalÈ",
+	"\/organization\/organization\/headquarters": "Mal√©",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Maldives Industrial Fisheries Company",
@@ -25507,7 +25507,7 @@
 {
 	"\/organization\/organization\/date_founded": "1960",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "N‰fels",
+	"\/organization\/organization\/headquarters": "N√§fels",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Mathis Orgelbau",
@@ -25758,7 +25758,7 @@
 {
 	"\/organization\/organization\/date_founded": "1997",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "Schl¸sselfeld",
+	"\/organization\/organization\/headquarters": "Schl√ºsselfeld",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "McFit",
@@ -25990,7 +25990,7 @@
 	"\/organization\/organization\/headquarters": "Palma, Majorca",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Meli· Hotels International",
+	"name": "Meli√° Hotels International",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 35200
 	}],
@@ -26161,7 +26161,7 @@
 {
 	"\/organization\/organization\/date_founded": "1924",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "N¸rtingen",
+	"\/organization\/organization\/headquarters": "N√ºrtingen",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Metabo",
@@ -26270,7 +26270,7 @@
 {
 	"\/organization\/organization\/date_founded": "1964",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [{
 		"\/measurement_unit\/dated_money_value\/valid_date": "2007-12-31",
 		"\/measurement_unit\/dated_money_value\/amount": 8.25E8
@@ -26292,7 +26292,7 @@
 {
 	"\/organization\/organization\/date_founded": "1964",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Metro Cash and Carry",
@@ -26312,7 +26312,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 37878
 	}],
-	"\/organization\/organization\/leadership": "Eric Richer La FlËche",
+	"\/organization\/organization\/leadership": "Eric Richer La Fl√®che",
 	"\/business\/business_operation\/industry": "Supermarkets and Other Grocery (except Convenience) Stores;;Grocery store;;Supermarket"
 },
 {
@@ -26363,7 +26363,7 @@
 	"\/organization\/organization\/headquarters": "Espoo",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Mets‰ Board",
+	"name": "Mets√§ Board",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 6546
 	}],
@@ -26376,7 +26376,7 @@
 	"\/organization\/organization\/headquarters": "Helsinki",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Mets‰ Group",
+	"name": "Mets√§ Group",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 17538
 	}],
@@ -26483,7 +26483,7 @@
 {
 	"\/organization\/organization\/date_founded": "1989",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Micronas Semiconductor",
@@ -26560,7 +26560,7 @@
 {
 	"\/organization\/organization\/date_founded": "1899-07-01",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "G¸tersloh",
+	"\/organization\/organization\/headquarters": "G√ºtersloh",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Miele",
@@ -26599,7 +26599,7 @@
 {
 	"\/organization\/organization\/date_founded": "1954",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Migrol",
@@ -26612,7 +26612,7 @@
 {
 	"\/organization\/organization\/date_founded": "1925",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Migros",
@@ -26625,7 +26625,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Migros Bank",
@@ -26875,7 +26875,7 @@
 {
 	"\/organization\/organization\/date_founded": "1673",
 	"country": "Japan",
-	"\/organization\/organization\/headquarters": "Ch??",
+	"\/organization\/organization\/headquarters": "Ch≈´≈ç",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Mitsukoshi",
@@ -26982,7 +26982,7 @@
 {
 	"\/organization\/organization\/date_founded": "1993-04-01",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Chi?in?u",
+	"\/organization\/organization\/headquarters": "Chi»ôinƒÉu",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Moldtelecom",
@@ -27002,7 +27002,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 120
 	}],
-	"\/organization\/organization\/leadership": "Dominic Audet;;Sakchin Bessette;;…ric Fournier",
+	"\/organization\/organization\/leadership": "Dominic Audet;;Sakchin Bessette;;√âric Fournier",
 	"\/business\/business_operation\/industry": "New media art;;Technology;;Projection mapping"
 },
 {
@@ -27050,7 +27050,7 @@
 {
 	"\/organization\/organization\/date_founded": "1956",
 	"country": "Spain",
-	"\/organization\/organization\/headquarters": "MondragÛn",
+	"\/organization\/organization\/headquarters": "Mondrag√≥n",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Mondragon Corporation",
@@ -27407,7 +27407,7 @@
 {
 	"\/organization\/organization\/date_founded": "1964",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Mr. Wash",
@@ -27676,7 +27676,7 @@
 {
 	"\/organization\/organization\/date_founded": "1999",
 	"country": "Switzerland",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Myriad Group",
@@ -27702,10 +27702,10 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "V‰sterÂs",
+	"\/organization\/organization\/headquarters": "V√§ster√•s",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "M‰larenergi",
+	"name": "M√§larenergi",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 540
 	}],
@@ -27715,10 +27715,10 @@
 {
 	"\/organization\/organization\/date_founded": "1859",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "Gˆppingen",
+	"\/organization\/organization\/headquarters": "G√∂ppingen",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "M‰rklin",
+	"name": "M√§rklin",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 1076
 	}],
@@ -27728,10 +27728,10 @@
 {
 	"\/organization\/organization\/date_founded": "1948",
 	"country": "Switzerland;;null",
-	"\/organization\/organization\/headquarters": "Z¸rich;;Switzerland",
+	"\/organization\/organization\/headquarters": "Z√ºrich;;Switzerland",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Mˆvenpick Hotels &amp; Resorts",
+	"name": "M√∂venpick Hotels &amp; Resorts",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 16246
 	}],
@@ -27744,7 +27744,7 @@
 	"\/organization\/organization\/headquarters": "Roding",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "M¸hlbauer Holding",
+	"name": "M√ºhlbauer Holding",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 2000
 	}],
@@ -28040,7 +28040,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Naturstrom",
@@ -28079,7 +28079,7 @@
 {
 	"\/organization\/organization\/date_founded": "1991",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Navyboot",
@@ -28214,7 +28214,7 @@
 		"\/measurement_unit\/dated_money_value\/valid_date": "2008",
 		"\/measurement_unit\/dated_money_value\/amount": 8.963E10
 	}],
-	"name": "NestlÈ",
+	"name": "Nestl√©",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 276050
 	}],
@@ -28295,7 +28295,7 @@
 {
 	"\/organization\/organization\/date_founded": "2001",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Neue Privat Bank",
@@ -28780,7 +28780,7 @@
 {
 	"\/organization\/organization\/date_founded": "1985",
 	"country": "Japan;;null",
-	"\/organization\/organization\/headquarters": "Chiyoda, Tokyo;;?temachi",
+	"\/organization\/organization\/headquarters": "Chiyoda, Tokyo;;≈åtemachi",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [{
 		"\/measurement_unit\/dated_money_value\/valid_date": "2008",
@@ -29063,7 +29063,7 @@
 {
 	"\/organization\/organization\/date_founded": "1898",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Br¸gg, Bern",
+	"\/organization\/organization\/headquarters": "Br√ºgg, Bern",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Notz Metall",
@@ -29127,7 +29127,7 @@
 	"\/organization\/organization\/headquarters": "Amsterdam",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "NRG≥",
+	"name": "NRG¬≥",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 11
 	}],
@@ -29227,7 +29227,7 @@
 {
 	"\/organization\/organization\/date_founded": "1874",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Nycomed",
@@ -29262,7 +29262,7 @@
 	"\/organization\/organization\/headquarters": "",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "N¸rtingen-Geislingen University of Applied Science",
+	"name": "N√ºrtingen-Geislingen University of Applied Science",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 201
 	}],
@@ -29301,7 +29301,7 @@
 	"\/organization\/organization\/headquarters": "Linz",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Oberˆsterreichische Versicherung",
+	"name": "Ober√∂sterreichische Versicherung",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 934
 	}],
@@ -29489,7 +29489,7 @@
 {
 	"\/organization\/organization\/date_founded": "1966",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "R‚mnicu V‚lcea",
+	"\/organization\/organization\/headquarters": "R√¢mnicu V√¢lcea",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Oltchim S.A.",
@@ -29921,10 +29921,10 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Orell F¸ssli",
+	"name": "Orell F√ºssli",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 1027
 	}],
@@ -29934,7 +29934,7 @@
 {
 	"\/organization\/organization\/date_founded": "2013-09-23",
 	"country": "Poland",
-	"\/organization\/organization\/headquarters": "KrakÛw",
+	"\/organization\/organization\/headquarters": "Krak√≥w",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Orientalem",
@@ -29960,7 +29960,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Orior",
@@ -30246,7 +30246,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 14721
 	}],
-	"\/organization\/organization\/leadership": "Enrico Bondi;;Yvon GuÈrin",
+	"\/organization\/organization\/leadership": "Enrico Bondi;;Yvon Gu√©rin",
 	"\/business\/business_operation\/industry": "Food processing;;Food Manufacturing"
 },
 {
@@ -30494,7 +30494,7 @@
 {
 	"\/organization\/organization\/date_founded": "1969",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Weiﬂenhorn",
+	"\/organization\/organization\/headquarters": "Wei√üenhorn",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "PERI",
@@ -30588,7 +30588,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 68931
 	}],
-	"\/organization\/organization\/leadership": "Maria das GraÁas Silva Foster",
+	"\/organization\/organization\/leadership": "Maria das Gra√ßas Silva Foster",
 	"\/business\/business_operation\/industry": "Crude Petroleum and Natural Gas Extraction"
 },
 {
@@ -30636,7 +30636,7 @@
 {
 	"\/organization\/organization\/date_founded": "1890",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Aﬂlar",
+	"\/organization\/organization\/headquarters": "A√ülar",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Pfeiffer Vacuum",
@@ -30778,7 +30778,7 @@
 {
 	"\/organization\/organization\/date_founded": "1918",
 	"country": "Japan",
-	"\/organization\/organization\/headquarters": "Ch??",
+	"\/organization\/organization\/headquarters": "Ch≈´≈ç",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Pilot",
@@ -30953,7 +30953,7 @@
 {
 	"\/organization\/organization\/date_founded": "2000",
 	"country": "France",
-	"\/organization\/organization\/headquarters": "AsniËres-sur-Seine",
+	"\/organization\/organization\/headquarters": "Asni√®res-sur-Seine",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Pixmania",
@@ -30966,7 +30966,7 @@
 {
 	"\/organization\/organization\/date_founded": "1999",
 	"country": "Poland",
-	"\/organization\/organization\/headquarters": "P?ock",
+	"\/organization\/organization\/headquarters": "P≈Çock",
 	"\/business\/business_operation\/net_profit": [{
 		"\/measurement_unit\/dated_money_value\/valid_date": "2006",
 		"\/measurement_unit\/dated_money_value\/amount": 6.64E8
@@ -31109,7 +31109,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 1200
 	}],
-	"\/organization\/organization\/leadership": "Sari S‰yn‰j‰kangas",
+	"\/organization\/organization\/leadership": "Sari S√§yn√§j√§kangas",
 	"\/business\/business_operation\/industry": "Manufacturing;;Health Care;;Sporting and Athletic Goods Manufacturing"
 },
 {
@@ -31170,7 +31170,7 @@
 	"\/organization\/organization\/headquarters": "",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Port Administration of Paranagu· and Antonina",
+	"name": "Port Administration of Paranagu√° and Antonina",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 700
 	}],
@@ -31456,10 +31456,10 @@
 {
 	"\/organization\/organization\/date_founded": "1949",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Privatbank IHAG Z¸rich",
+	"name": "Privatbank IHAG Z√ºrich",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 93
 	}],
@@ -31469,7 +31469,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Privatklinikgruppe Hirslanden",
@@ -31582,7 +31582,7 @@
 {
 	"\/organization\/organization\/date_founded": "1908",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Rheda-Wiedenbr¸ck",
+	"\/organization\/organization\/headquarters": "Rheda-Wiedenbr√ºck",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Prophete",
@@ -31595,7 +31595,7 @@
 {
 	"\/organization\/organization\/date_founded": "2000-10-02",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Unterfˆhring",
+	"\/organization\/organization\/headquarters": "Unterf√∂hring",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "ProSiebenSat.1 Media",
@@ -31630,7 +31630,7 @@
 		"\/measurement_unit\/dated_money_value\/valid_date": "2010-12-31",
 		"\/measurement_unit\/dated_money_value\/amount": 45300.0
 	}],
-	"name": "ProtecpÈo",
+	"name": "Protecp√©o",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 2
 	}],
@@ -31653,7 +31653,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "M¸nster",
+	"\/organization\/organization\/headquarters": "M√ºnster",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Provinzial NordWest",
@@ -31698,7 +31698,7 @@
 		"\/measurement_unit\/dated_money_value\/amount": 8.85E8
 	}],
 	"\/business\/business_operation\/revenue": [],
-	"name": "PSA Peugeot CitroÎn",
+	"name": "PSA Peugeot Citro√´n",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 207800
 	},
@@ -31804,7 +31804,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 9747
 	}],
-	"\/organization\/organization\/leadership": "Franz Koch;;Bjˆrn Gulden",
+	"\/organization\/organization\/leadership": "Franz Koch;;Bj√∂rn Gulden",
 	"\/business\/business_operation\/industry": "Sports equipment;;Manufacturing;;Design;;Men's Footwear (except Athletic) Manufacturing;;Women's Footwear (except Athletic) Manufacturing"
 },
 {
@@ -32009,7 +32009,7 @@
 	"\/organization\/organization\/headquarters": "Las Condes",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "QuiÒenco",
+	"name": "Qui√±enco",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 32780
 	}],
@@ -32352,7 +32352,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "M¸nster",
+	"\/organization\/organization\/headquarters": "M√ºnster",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [{
 		"\/measurement_unit\/dated_money_value\/valid_date": "2006",
@@ -32383,7 +32383,7 @@
 	{
 		"number": 405
 	}],
-	"\/organization\/organization\/leadership": "Martin Greiwe;;G¸nter Juhr;;Thomas Dahm;;Klemens Baumg‰rtel;;null",
+	"\/organization\/organization\/leadership": "Martin Greiwe;;G√ºnter Juhr;;Thomas Dahm;;Klemens Baumg√§rtel;;null",
 	"\/business\/business_operation\/industry": "Software development;;Information technology consulting"
 },
 {
@@ -32467,7 +32467,7 @@
 {
 	"\/organization\/organization\/date_founded": "1992",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Mˆnchengladbach",
+	"\/organization\/organization\/headquarters": "M√∂nchengladbach",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Real",
@@ -32548,7 +32548,7 @@
 	"\/organization\/organization\/headquarters": "Alcobendas",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Red ElÈctrica de EspaÒa",
+	"name": "Red El√©ctrica de Espa√±a",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 1401
 	}],
@@ -32664,10 +32664,10 @@
 {
 	"\/organization\/organization\/date_founded": "1903",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "M‰nnedorf",
+	"\/organization\/organization\/headquarters": "M√§nnedorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Regiobank M‰nnedorf",
+	"name": "Regiobank M√§nnedorf",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 7
 	}],
@@ -32820,7 +32820,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 36700
 	}],
-	"\/organization\/organization\/leadership": "Antonio Brufau NiubÛ",
+	"\/organization\/organization\/leadership": "Antonio Brufau Niub√≥",
 	"\/business\/business_operation\/industry": "Crude Petroleum and Natural Gas Extraction;;Petroleum industry"
 },
 {
@@ -32956,7 +32956,7 @@
 {
 	"\/organization\/organization\/date_founded": "1889-04-13",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸sseldorf",
+	"\/organization\/organization\/headquarters": "D√ºsseldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Rheinmetall",
@@ -33024,7 +33024,7 @@
 	"\/organization\/organization\/headquarters": "Bad Neustadt an der Saale",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Rhˆn-Klinikum",
+	"name": "Rh√∂n-Klinikum",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 36885
 	}],
@@ -33086,7 +33086,7 @@
 {
 	"\/organization\/organization\/date_founded": "1936",
 	"country": "Japan",
-	"\/organization\/organization\/headquarters": "Ch??",
+	"\/organization\/organization\/headquarters": "Ch≈´≈ç",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Ricoh",
@@ -33115,7 +33115,7 @@
 	"\/organization\/organization\/headquarters": "Darmstadt",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Riese und M¸ller",
+	"name": "Riese und M√ºller",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 35
 	}],
@@ -33138,7 +33138,7 @@
 {
 	"\/organization\/organization\/date_founded": "1833",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Ringier",
@@ -33417,7 +33417,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 900
 	}],
-	"\/organization\/organization\/leadership": "Torsten M¸ller-÷tvˆs",
+	"\/organization\/organization\/leadership": "Torsten M√ºller-√ñtv√∂s",
 	"\/business\/business_operation\/industry": "Automotive industry;;Distribution"
 },
 {
@@ -33720,7 +33720,7 @@
 {
 	"\/organization\/organization\/date_founded": "1908",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Hˆrbranz",
+	"\/organization\/organization\/headquarters": "H√∂rbranz",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Rupp AG",
@@ -33833,7 +33833,7 @@
 	"\/organization\/organization\/headquarters": "",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "RÈserveGroup",
+	"name": "R√©serveGroup",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 19
 	}],
@@ -33843,10 +33843,10 @@
 {
 	"\/organization\/organization\/date_founded": "1959",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "B¸dingen",
+	"\/organization\/organization\/headquarters": "B√ºdingen",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Rˆder Zeltsysteme und Service AG",
+	"name": "R√∂der Zeltsysteme und Service AG",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 477
 	}],
@@ -33859,7 +33859,7 @@
 	"\/organization\/organization\/headquarters": "Wiesbaden",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "R¸cker AG",
+	"name": "R√ºcker AG",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 2300
 	}],
@@ -33892,7 +33892,7 @@
 	{
 		"number": 35899
 	}],
-	"\/organization\/organization\/leadership": "Kuisma Niemel‰",
+	"\/organization\/organization\/leadership": "Kuisma Niemel√§",
 	"\/business\/business_operation\/industry": "Retail"
 },
 {
@@ -33918,13 +33918,13 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 13757
 	}],
-	"\/organization\/organization\/leadership": "HÂkan Buskhe",
+	"\/organization\/organization\/leadership": "H√•kan Buskhe",
 	"\/business\/business_operation\/industry": "Aerospace;;Arms Manufacturers"
 },
 {
 	"\/organization\/organization\/date_founded": "1947",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Trollh‰ttan",
+	"\/organization\/organization\/headquarters": "Trollh√§ttan",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Saab Automobile AB",
@@ -33937,7 +33937,7 @@
 {
 	"\/organization\/organization\/date_founded": "1989",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Vˆlklingen",
+	"\/organization\/organization\/headquarters": "V√∂lklingen",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Saarstahl",
@@ -33966,7 +33966,7 @@
 	"\/organization\/organization\/headquarters": "Istanbul",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Sabanc? Holding",
+	"name": "Sabancƒ± Holding",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 45000
 	}],
@@ -34041,7 +34041,7 @@
 {
 	"\/organization\/organization\/date_founded": "1944",
 	"country": "Brazil",
-	"\/organization\/organization\/headquarters": "S„o Paulo",
+	"\/organization\/organization\/headquarters": "S√£o Paulo",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Sadia S.A.",
@@ -34135,7 +34135,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 191500
 	}],
-	"\/organization\/organization\/leadership": "Pierre-AndrÈ de Chalendar;;Pierre-AndrÈ de Chalendar",
+	"\/organization\/organization\/leadership": "Pierre-Andr√© de Chalendar;;Pierre-Andr√© de Chalendar",
 	"\/business\/business_operation\/industry": "Manufacturing;;Retail"
 },
 {
@@ -34751,7 +34751,7 @@
 {
 	"\/organization\/organization\/date_founded": "1881",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Schˆnenwerd",
+	"\/organization\/organization\/headquarters": "Sch√∂nenwerd",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Schenker Storen",
@@ -34861,7 +34861,7 @@
 {
 	"\/organization\/organization\/date_founded": "1967",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Schroder &amp; Co Bank AG",
@@ -34874,7 +34874,7 @@
 {
 	"\/organization\/organization\/date_founded": "1839",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Gˆppingen",
+	"\/organization\/organization\/headquarters": "G√∂ppingen",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Schuler AG",
@@ -34887,7 +34887,7 @@
 {
 	"\/organization\/organization\/date_founded": "1791",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Schulthess Juristische Medien",
@@ -34955,7 +34955,7 @@
 	"\/organization\/organization\/headquarters": "Lucerne",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Sch‰tzle Holding",
+	"name": "Sch√§tzle Holding",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 82
 	}],
@@ -35126,7 +35126,7 @@
 {
 	"\/organization\/organization\/date_founded": "1934",
 	"country": "null;;Sweden",
-	"\/organization\/organization\/headquarters": "Malmˆ Municipality;;null",
+	"\/organization\/organization\/headquarters": "Malm√∂ Municipality;;null",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Securitas Direct",
@@ -35237,7 +35237,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 2132
 	}],
-	"\/organization\/organization\/leadership": "Jˆrg Sennheiser;;Andreas Sennheiser;;Daniel Sennheiser",
+	"\/organization\/organization\/leadership": "J√∂rg Sennheiser;;Andreas Sennheiser;;Daniel Sennheiser",
 	"\/business\/business_operation\/industry": ""
 },
 {
@@ -35321,7 +35321,7 @@
 {
 	"\/organization\/organization\/date_founded": "2005-01",
 	"country": "Hungary",
-	"\/organization\/organization\/headquarters": "Csom·d",
+	"\/organization\/organization\/headquarters": "Csom√°d",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "seoz.hu",
@@ -35428,7 +35428,7 @@
 {
 	"\/organization\/organization\/date_founded": "1986",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "SEZ Holding AG",
@@ -35629,7 +35629,7 @@
 	{
 		"number": 471000
 	}],
-	"\/organization\/organization\/leadership": "Peter Lˆscher;;Joe Kaeser",
+	"\/organization\/organization\/leadership": "Peter L√∂scher;;Joe Kaeser",
 	"\/business\/business_operation\/industry": "Telephone Apparatus Manufacturing;;Radio and Television Broadcasting and Wireless Communications Equipment Manufacturing;;Other Communications Equipment Manufacturing;;Telephone and Telegraph Apparatus;;Electromedical and Electrotherapeutic Apparatus;;Turbine and Turbine Generator Set Units Manufacturing;;Motor and Generator Manufacturing;;Wind turbine"
 },
 {
@@ -35966,7 +35966,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 60000
 	}],
-	"\/organization\/organization\/leadership": "Johan Karlstrˆm",
+	"\/organization\/organization\/leadership": "Johan Karlstr√∂m",
 	"\/business\/business_operation\/industry": "Construction;;Bridge, Tunnel, and Elevated Highway Construction;;Highway, Street, and Bridge Construction"
 },
 {
@@ -35998,7 +35998,7 @@
 {
 	"\/organization\/organization\/date_founded": "1991-02-28",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "Unterfˆhring",
+	"\/organization\/organization\/headquarters": "Unterf√∂hring",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Sky Deutschland",
@@ -36024,7 +36024,7 @@
 {
 	"\/organization\/organization\/date_founded": "1987",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "SMA und Partner",
@@ -36244,7 +36244,7 @@
 	"\/organization\/organization\/headquarters": "",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Sociedade Lusa de NegÛcios SA",
+	"name": "Sociedade Lusa de Neg√≥cios SA",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 4260
 	}],
@@ -36257,7 +36257,7 @@
 	"\/organization\/organization\/headquarters": "Paris",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "SociÈtÈ d'Ètudes techniques et Èconomiques",
+	"name": "Soci√©t√© d'√©tudes techniques et √©conomiques",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 1000
 	}],
@@ -36270,7 +36270,7 @@
 	"\/organization\/organization\/headquarters": "",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "SociÈtÈ des Ètablissements de plein air du QuÈbec",
+	"name": "Soci√©t√© des √©tablissements de plein air du Qu√©bec",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 3400
 	}],
@@ -36332,7 +36332,7 @@
 {
 	"\/organization\/organization\/date_founded": "1982-12",
 	"country": "Mexico",
-	"\/organization\/organization\/headquarters": "San Pedro Garza GarcÌa",
+	"\/organization\/organization\/headquarters": "San Pedro Garza Garc√≠a",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Softtek",
@@ -36624,10 +36624,10 @@
 {
 	"\/organization\/organization\/date_founded": "1870",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "M¸nsingen",
+	"\/organization\/organization\/headquarters": "M√ºnsingen",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Spar + Leihkasse M¸nsingen",
+	"name": "Spar + Leihkasse M√ºnsingen",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 44
 	}],
@@ -36637,7 +36637,7 @@
 {
 	"\/organization\/organization\/date_founded": "1850",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "L¸terswil-G‰chliwil",
+	"\/organization\/organization\/headquarters": "L√ºterswil-G√§chliwil",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Spar- und Leihkasse Bucheggberg",
@@ -36666,7 +36666,7 @@
 	"\/organization\/organization\/headquarters": "Stuttgart",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Sparda-Bank Baden-W¸rttemberg",
+	"name": "Sparda-Bank Baden-W√ºrttemberg",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 720
 	}],
@@ -36715,10 +36715,10 @@
 {
 	"\/organization\/organization\/date_founded": "1900",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "M¸nster",
+	"\/organization\/organization\/headquarters": "M√ºnster",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Sparda-Bank M¸nster",
+	"name": "Sparda-Bank M√ºnster",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 224
 	}],
@@ -36741,13 +36741,13 @@
 {
 	"\/organization\/organization\/date_founded": "1829",
 	"country": "Germany;;Germany;;Germany;;Germany",
-	"\/organization\/organization\/headquarters": "M¸nster;;Warendorf;;Oelde;;Ahlen",
+	"\/organization\/organization\/headquarters": "M√ºnster;;Warendorf;;Oelde;;Ahlen",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [{
 		"\/measurement_unit\/dated_money_value\/valid_date": "2013-04-11",
 		"\/measurement_unit\/dated_money_value\/amount": 1.91E7
 	}],
-	"name": "Sparkasse M¸nsterland Ost",
+	"name": "Sparkasse M√ºnsterland Ost",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 1500
 	}],
@@ -36828,7 +36828,7 @@
 	"\/organization\/organization\/headquarters": "Unterseen",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Spit‰ler Frutigen Meiringen Interlaken",
+	"name": "Spit√§ler Frutigen Meiringen Interlaken",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 875
 	}],
@@ -36864,7 +36864,7 @@
 {
 	"\/organization\/organization\/date_founded": "1892",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Spross-Holding",
@@ -37087,7 +37087,7 @@
 {
 	"\/organization\/organization\/date_founded": "1985",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Iracem·polis",
+	"\/organization\/organization\/headquarters": "Iracem√°polis",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Starplast",
@@ -37265,7 +37265,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 8979
 	}],
-	"\/organization\/organization\/leadership": "Hannu Penttil‰",
+	"\/organization\/organization\/leadership": "Hannu Penttil√§",
 	"\/business\/business_operation\/industry": ""
 },
 {
@@ -37445,7 +37445,7 @@
 	"\/organization\/organization\/headquarters": "Aesch",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Stˆcklin Logistik",
+	"name": "St√∂cklin Logistik",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 515
 	}],
@@ -37458,7 +37458,7 @@
 	"\/organization\/organization\/headquarters": "Rorschach, Switzerland",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "St¸rm AG",
+	"name": "St√ºrm AG",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 189
 	}],
@@ -37507,7 +37507,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 200000
 	}],
-	"\/organization\/organization\/leadership": "GÈrard Mestrallet",
+	"\/organization\/organization\/leadership": "G√©rard Mestrallet",
 	"\/business\/business_operation\/industry": "Waste management"
 },
 {
@@ -37777,7 +37777,7 @@
 {
 	"\/organization\/organization\/date_founded": "1914",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "D¸bendorf",
+	"\/organization\/organization\/headquarters": "D√ºbendorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "SV Group",
@@ -37887,7 +37887,7 @@
 {
 	"\/organization\/organization\/date_founded": "1945",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Norrkˆping",
+	"\/organization\/organization\/headquarters": "Norrk√∂ping",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Swedish Meteorological and Hydrological Institute",
@@ -37913,7 +37913,7 @@
 {
 	"\/organization\/organization\/date_founded": "1984",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Neuch‚tel",
+	"\/organization\/organization\/headquarters": "Neuch√¢tel",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Swiss Center for Electronics and Microtechnology",
@@ -37939,7 +37939,7 @@
 {
 	"\/organization\/organization\/date_founded": "1857",
 	"country": "Switzerland",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Swiss Life",
@@ -37952,14 +37952,14 @@
 {
 	"\/organization\/organization\/date_founded": "1863-12-19",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Swiss Re",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 11560
 	}],
-	"\/organization\/organization\/leadership": "Michel M. LiËs",
+	"\/organization\/organization\/leadership": "Michel M. Li√®s",
 	"\/business\/business_operation\/industry": "Life Insurance;;Direct Life Insurance Carriers;;Financial Services"
 },
 {
@@ -38210,7 +38210,7 @@
 {
 	"\/organization\/organization\/date_founded": "1995",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Bad Homburg vor der Hˆhe",
+	"\/organization\/organization\/headquarters": "Bad Homburg vor der H√∂he",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Syzygy",
@@ -38226,7 +38226,7 @@
 	"\/organization\/organization\/headquarters": "Ochsenhausen",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "S‹DPACK Verpackungen",
+	"name": "S√úDPACK Verpackungen",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 950
 	}],
@@ -38236,10 +38236,10 @@
 {
 	"\/organization\/organization\/date_founded": "2001",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "M¸hldorf",
+	"\/organization\/organization\/headquarters": "M√ºhldorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "S¸dostBayernBahn",
+	"name": "S√ºdostBayernBahn",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 579
 	}],
@@ -38252,7 +38252,7 @@
 	"\/organization\/organization\/headquarters": "null",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "S¸dwestdeutsche Salzwerke",
+	"name": "S√ºdwestdeutsche Salzwerke",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 542
 	}],
@@ -38427,7 +38427,7 @@
 {
 	"\/organization\/organization\/date_founded": "1893",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Tamedia",
@@ -38505,7 +38505,7 @@
 {
 	"\/organization\/organization\/date_founded": "1850",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Kop?ivnice",
+	"\/organization\/organization\/headquarters": "Kop≈ôivnice",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Tatra",
@@ -38525,7 +38525,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 4330
 	}],
-	"\/organization\/organization\/leadership": "Dennis Braz GonÁalves",
+	"\/organization\/organization\/leadership": "Dennis Braz Gon√ßalves",
 	"\/business\/business_operation\/industry": "Arms industry;;Arms Manufacturers"
 },
 {
@@ -38573,7 +38573,7 @@
 {
 	"\/organization\/organization\/date_founded": "1980",
 	"country": "Switzerland",
-	"\/organization\/organization\/headquarters": "M‰nnedorf",
+	"\/organization\/organization\/headquarters": "M√§nnedorf",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Tecan",
@@ -38615,7 +38615,7 @@
 	"\/organization\/organization\/headquarters": "Munich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Technischer ‹berwachungsverein",
+	"name": "Technischer √úberwachungsverein",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 14635
 	}],
@@ -38802,14 +38802,14 @@
 		"\/measurement_unit\/dated_money_value\/valid_date": "2006-12-31",
 		"\/measurement_unit\/dated_money_value\/amount": 6.98293E10
 	}],
-	"name": "TelefÛnica",
+	"name": "Telef√≥nica",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 248487
 	},
 	{
 		"number": 257000
 	}],
-	"\/organization\/organization\/leadership": "CÈsar Alierta",
+	"\/organization\/organization\/leadership": "C√©sar Alierta",
 	"\/business\/business_operation\/industry": "Telecommunications;;Provider (Operator);;Fixed Network Operator;;Wired Telecommunications Carriers;;Telephone Communications, Except Radiotelephone"
 },
 {
@@ -39028,7 +39028,7 @@
 {
 	"\/organization\/organization\/date_founded": "1868",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "K¸snacht",
+	"\/organization\/organization\/headquarters": "K√ºsnacht",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Terlinden",
@@ -39099,7 +39099,7 @@
 {
 	"\/organization\/organization\/date_founded": "2001",
 	"country": "Poland",
-	"\/organization\/organization\/headquarters": "KrakÛw",
+	"\/organization\/organization\/headquarters": "Krak√≥w",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Tesco Polska Sp. z o. o.",
@@ -39132,7 +39132,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 21640
 	}],
-	"\/organization\/organization\/leadership": "Dennis Jˆnsson",
+	"\/organization\/organization\/leadership": "Dennis J√∂nsson",
 	"\/business\/business_operation\/industry": ""
 },
 {
@@ -39436,7 +39436,7 @@
 	{
 		"number": 47731
 	}],
-	"\/organization\/organization\/leadership": "Wolfgang Reitzle;;Wolfgang B¸chele",
+	"\/organization\/organization\/leadership": "Wolfgang Reitzle;;Wolfgang B√ºchele",
 	"\/business\/business_operation\/industry": "Industrial Gas Manufacturing;;Industrial Gases;;Engineering;;Health Care;;Chemical industry;;Energy"
 },
 {
@@ -39487,7 +39487,7 @@
 {
 	"\/organization\/organization\/date_founded": "1992",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "The Nuance Group",
@@ -39845,7 +39845,7 @@
 	"\/organization\/organization\/headquarters": "Munich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Th¸ga",
+	"name": "Th√ºga",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 239
 	}],
@@ -39855,7 +39855,7 @@
 {
 	"\/organization\/organization\/date_founded": "1987",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "R¸mlang",
+	"\/organization\/organization\/headquarters": "R√ºmlang",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Ticketcorner",
@@ -39904,7 +39904,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 86000
 	}],
-	"\/organization\/organization\/leadership": "Franco BernabË;;Marco Patuano",
+	"\/organization\/organization\/leadership": "Franco Bernab√®;;Marco Patuano",
 	"\/business\/business_operation\/industry": "Fixed Network Operator;;Telecommunications;;Manufacturing;;Mass media"
 },
 {
@@ -39936,7 +39936,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 86000
 	}],
-	"\/organization\/organization\/leadership": "Jeffrey Bewkes;;Carol A. Melton;;”lafur JÛhann ”lafsson;;Paul T Cappuccio",
+	"\/organization\/organization\/leadership": "Jeffrey Bewkes;;Carol A. Melton;;√ìlafur J√≥hann √ìlafsson;;Paul T Cappuccio",
 	"\/business\/business_operation\/industry": "Broadcasting;;Publishing;;Motion Picture and Video Production;;Telecommunications;;Music industry;;Media;;Internet Publishing and Broadcasting and Web Search Portal;;Mass media"
 },
 {
@@ -41008,7 +41008,7 @@
 	"\/organization\/organization\/headquarters": "Aarau",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Tr¸b AG",
+	"name": "Tr√ºb AG",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 445
 	}],
@@ -41131,7 +41131,7 @@
 	"\/organization\/organization\/headquarters": "",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "TV P˙blica Digital",
+	"name": "TV P√∫blica Digital",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 1200
 	}],
@@ -41170,7 +41170,7 @@
 {
 	"\/organization\/organization\/date_founded": "1995",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Kˆnigswinter",
+	"\/organization\/organization\/headquarters": "K√∂nigswinter",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Twintec",
@@ -41228,7 +41228,7 @@
 	"\/organization\/organization\/headquarters": "Madrid",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "TÈcnicas Reunidas",
+	"name": "T√©cnicas Reunidas",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 5230
 	}],
@@ -41296,7 +41296,7 @@
 {
 	"\/organization\/organization\/date_founded": "1854",
 	"country": "Switzerland",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [{
 		"\/measurement_unit\/dated_money_value\/valid_date": "2007-12-31",
 		"\/measurement_unit\/dated_money_value\/amount": -4.384E9
@@ -41463,7 +41463,7 @@
 	"\/organization\/organization\/headquarters": "Geneva",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Union Bancaire PrivÈe",
+	"name": "Union Bancaire Priv√©e",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 1300
 	}],
@@ -41582,7 +41582,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 223100
 	}],
-	"\/organization\/organization\/leadership": "Ari Bousbib;;Geraud Darnis;;George David;;Thomas I Rogan;;Jeffrey P Pino;;Louis R. ChÍnevert;;Didier Michaud-daniel",
+	"\/organization\/organization\/leadership": "Ari Bousbib;;Geraud Darnis;;George David;;Thomas I Rogan;;Jeffrey P Pino;;Louis R. Ch√™nevert;;Didier Michaud-daniel",
 	"\/business\/business_operation\/industry": "Aircraft Engines and Engine Parts"
 },
 {
@@ -41649,7 +41649,7 @@
 	"\/organization\/organization\/headquarters": "",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "University of CÛrdoba",
+	"name": "University of C√≥rdoba",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 2100
 	}],
@@ -41704,7 +41704,7 @@
 	"\/organization\/organization\/headquarters": "Madrid",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "UniÛn Fenosa",
+	"name": "Uni√≥n Fenosa",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 12780
 	}],
@@ -41785,7 +41785,7 @@
 	"\/organization\/organization\/headquarters": "Heringsdorf, Mecklenburg-Vorpommern",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Usedomer B‰derbahn",
+	"name": "Usedomer B√§derbahn",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 159
 	}],
@@ -42083,7 +42083,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 32396
 	}],
-	"\/organization\/organization\/leadership": "ÿystein L¯seth",
+	"\/organization\/organization\/leadership": "√òystein L√∏seth",
 	"\/business\/business_operation\/industry": "Electric Services"
 },
 {
@@ -42128,7 +42128,7 @@
 {
 	"\/organization\/organization\/date_founded": "1975",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Korntal-M¸nchingen",
+	"\/organization\/organization\/headquarters": "Korntal-M√ºnchingen",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "VBH",
@@ -42245,7 +42245,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 312590
 	}],
-	"\/organization\/organization\/leadership": "Antoine FrÈrot;;Antoine FrÈrot",
+	"\/organization\/organization\/leadership": "Antoine Fr√©rot;;Antoine Fr√©rot",
 	"\/business\/business_operation\/industry": "Professional, Scientific, and Technical Services"
 },
 {
@@ -42493,7 +42493,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 9440
 	}],
-	"\/organization\/organization\/leadership": "Frank Gˆring",
+	"\/organization\/organization\/leadership": "Frank G√∂ring",
 	"\/business\/business_operation\/industry": "Ceramic"
 },
 {
@@ -42502,7 +42502,7 @@
 	"\/organization\/organization\/headquarters": "Pfeffikon",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Villiger Sˆhne Holding",
+	"name": "Villiger S√∂hne Holding",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 1000
 	}],
@@ -42577,7 +42577,7 @@
 {
 	"\/organization\/organization\/date_founded": "2000",
 	"country": "France",
-	"\/organization\/organization\/headquarters": "Saint-AndrÈ-lez-Lille",
+	"\/organization\/organization\/headquarters": "Saint-Andr√©-lez-Lille",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Vivacom Events",
@@ -42610,7 +42610,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 48284
 	}],
-	"\/organization\/organization\/leadership": "Jean-FranÁois Dubos",
+	"\/organization\/organization\/leadership": "Jean-Fran√ßois Dubos",
 	"\/business\/business_operation\/industry": "Motion Picture and Video Production;;Telecommunications;;Mass media"
 },
 {
@@ -42752,7 +42752,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 24384
 	}],
-	"\/organization\/organization\/leadership": "HÂkan Samuelsson",
+	"\/organization\/organization\/leadership": "H√•kan Samuelsson",
 	"\/business\/business_operation\/industry": "Automotive industry"
 },
 {
@@ -42849,7 +42849,7 @@
 {
 	"\/organization\/organization\/date_founded": "2005-09-01",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "M¸nster",
+	"\/organization\/organization\/headquarters": "M√ºnster",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "VR Netze",
@@ -42914,7 +42914,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "Austria",
-	"\/organization\/organization\/headquarters": "B¸rmoos",
+	"\/organization\/organization\/headquarters": "B√ºrmoos",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "W&amp;H",
@@ -43063,7 +43063,7 @@
 {
 	"\/organization\/organization\/date_founded": "1917",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Walo Bertschinger",
@@ -43076,7 +43076,7 @@
 {
 	"\/organization\/organization\/date_founded": "1937",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "St‰fa",
+	"\/organization\/organization\/headquarters": "St√§fa",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Walter Meier AG",
@@ -43448,7 +43448,7 @@
 {
 	"\/organization\/organization\/date_founded": "1901-12-07",
 	"country": "Germany",
-	"\/organization\/organization\/headquarters": "Rheda-Wiedenbr¸ck",
+	"\/organization\/organization\/headquarters": "Rheda-Wiedenbr√ºck",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Westag &amp; Getalit",
@@ -44115,7 +44115,7 @@
 		"\/measurement_unit\/dated_money_value\/amount": 2.64E8
 	}],
 	"\/business\/business_operation\/revenue": [],
-	"name": "W‰rtsil‰",
+	"name": "W√§rtsil√§",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 16336
 	},
@@ -44128,10 +44128,10 @@
 {
 	"\/organization\/organization\/date_founded": "1946",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "K¸nzelsau",
+	"\/organization\/organization\/headquarters": "K√ºnzelsau",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "W¸rth",
+	"name": "W√ºrth",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 62811
 	}],
@@ -44144,7 +44144,7 @@
 	"\/organization\/organization\/headquarters": "Stuttgart",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "W¸stenrot &amp; W¸rttembergische",
+	"name": "W√ºstenrot &amp; W√ºrttembergische",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 9819
 	}],
@@ -44186,7 +44186,7 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "Hungary",
-	"\/organization\/organization\/headquarters": "Csom·d",
+	"\/organization\/organization\/headquarters": "Csom√°d",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "xhu.hu",
@@ -44398,7 +44398,7 @@
 	{
 		"number": 24073
 	}],
-	"\/organization\/organization\/leadership": "Juhani Pitk‰koski",
+	"\/organization\/organization\/leadership": "Juhani Pitk√§koski",
 	"\/business\/business_operation\/industry": "Construction;;New Single-Family Housing Construction (except Operative Builders);;General Contractors-Single-Family Houses"
 },
 {
@@ -44544,7 +44544,7 @@
 	"\/business\/employer\/number_of_employees": [{
 		"number": 59771
 	}],
-	"\/organization\/organization\/leadership": "Hans-Georg H‰rter;;Stefan Sommer",
+	"\/organization\/organization\/leadership": "Hans-Georg H√§rter;;Stefan Sommer",
 	"\/business\/business_operation\/industry": "Motor Vehicle Parts and Accessories;;Automotive industry;;Manufacturing;;Aviation"
 },
 {
@@ -44563,7 +44563,7 @@
 {
 	"\/organization\/organization\/date_founded": "1910",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "K¸nzelsau",
+	"\/organization\/organization\/headquarters": "K√ºnzelsau",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Ziehl-abegg",
@@ -44589,7 +44589,7 @@
 {
 	"\/organization\/organization\/date_founded": "2003-11-03",
 	"country": "Denmark",
-	"\/organization\/organization\/headquarters": "Ish¯j",
+	"\/organization\/organization\/headquarters": "Ish√∏j",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Zleep Hotels",
@@ -44683,7 +44683,7 @@
 {
 	"\/organization\/organization\/date_founded": "1928",
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
 	"name": "Zurich Insurance Group",
@@ -44738,7 +44738,7 @@
 	"\/organization\/organization\/headquarters": "Stuttgart",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Z¸blin",
+	"name": "Z√ºblin",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 14429
 	}],
@@ -44748,10 +44748,10 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Z¸blin Immobilien Holding",
+	"name": "Z√ºblin Immobilien Holding",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 26
 	}],
@@ -44761,10 +44761,10 @@
 {
 	"\/organization\/organization\/date_founded": null,
 	"country": "null",
-	"\/organization\/organization\/headquarters": "Z¸rich",
+	"\/organization\/organization\/headquarters": "Z√ºrich",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "Z¸richsee-Schifffahrtsgesellschaft",
+	"name": "Z√ºrichsee-Schifffahrtsgesellschaft",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 88
 	}],
@@ -44777,7 +44777,7 @@
 	"\/organization\/organization\/headquarters": "Istanbul",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "«al?k Holding",
+	"name": "√áalƒ±k Holding",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 18500
 	}],
@@ -44796,7 +44796,7 @@
 		"\/measurement_unit\/dated_money_value\/valid_date": "2008",
 		"\/measurement_unit\/dated_money_value\/amount": 8.1629E10
 	}],
-	"name": "…lectricitÈ de France",
+	"name": "√âlectricit√© de France",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 158640
 	},
@@ -44812,7 +44812,7 @@
 	"\/organization\/organization\/headquarters": "Prague 4",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "?EZ Group",
+	"name": "ƒåEZ Group",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 30300
 	}],
@@ -44822,10 +44822,10 @@
 {
 	"\/organization\/organization\/date_founded": "1895",
 	"country": "Czech Republic",
-	"\/organization\/organization\/headquarters": "Mlad· Boleslav",
+	"\/organization\/organization\/headquarters": "Mlad√° Boleslav",
 	"\/business\/business_operation\/net_profit": [],
 	"\/business\/business_operation\/revenue": [],
-	"name": "äkoda Auto",
+	"name": "≈†koda Auto",
 	"\/business\/employer\/number_of_employees": [{
 		"number": 29000
 	}],

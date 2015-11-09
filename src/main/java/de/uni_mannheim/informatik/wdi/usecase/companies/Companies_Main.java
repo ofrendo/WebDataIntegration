@@ -75,7 +75,7 @@ public class Companies_Main {
 		rule.addComparator(new CompanyNumericAttributeComparator("profit", 0.5), 0.5);
 		
 		// create the matching engine
-		Blocker<Company> blocker = new CrossProductBlocker<>();
+		Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyBlockingFunction());;
 		MatchingEngine<Company> engine = new MatchingEngine<>(rule, blocker);
 		
 		// run the matching
@@ -94,7 +94,7 @@ public class Companies_Main {
 		DataSet<DefaultRecord> features = engine
 				.generateTrainingDataForLearning(dsForbes, dsFreebase, gsTraining);
 		features.writeCSV(
-				new File("resolutonResults/optimisation/companyForbes_2_companyFreebase_correspondences_features.csv"),
+				new File("resolutionResults/optimisation/companyForbes_2_companyFreebase_correspondences_features.csv"),
 				new DefaultRecordCSVFormatter());
 		
 		// load the gold standard (test set)

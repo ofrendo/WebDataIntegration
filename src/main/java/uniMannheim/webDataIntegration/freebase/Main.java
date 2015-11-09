@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.nio.charset.Charset;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -15,6 +16,8 @@ import com.google.api.client.http.HttpRequestFactory;
 import com.google.api.client.http.HttpResponse;
 import com.google.api.client.http.HttpTransport;
 import com.google.api.client.http.javanet.NetHttpTransport;
+
+import uniMannheim.webDataIntegration.utils.Utils;
 
 public class Main {
 	static String separater = ";;";
@@ -84,14 +87,7 @@ public class Main {
 	      resultString = allResults.toJSONString();
 	      //resultString = resultString.replace("\\", "");
 	      
-	      System.out.println("Writing to file...");
-	      FileWriter fw = new FileWriter("data/company_freebase.json");
-	      fw.write(resultString);
-	      fw.flush();
-	      fw.close();
-	      System.out.println("Done.");
-	      
-	      
+	      Utils.writeFile("data/company_freebase.json", resultString);
 	      
 	    } catch (Exception ex) {
 	      ex.printStackTrace();

@@ -1,8 +1,11 @@
 package uniMannheim.webDataIntegration.utils;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileOutputStream;
 import java.io.FileReader;
-import java.io.FileWriter;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
 
 import org.joda.time.DateTime;
 
@@ -48,10 +51,14 @@ public class Utils {
 	public static void writeFile(String path, String content) {
 		try {
 			System.out.println("Writing to file " + path + "...");
-		    FileWriter fw = new FileWriter(path);
-		    fw.write(content);
-		    fw.flush();
-		    fw.close();
+			Writer out = new BufferedWriter(new OutputStreamWriter(
+				    new FileOutputStream(path), "UTF-8"));
+		    //fw.write(content);
+		    //fw.flush();
+		    //fw.close();
+			out.write(content);
+			out.flush();
+			out.close();
 		    System.out.println("Done.");
 		}
 		catch (Exception e) {

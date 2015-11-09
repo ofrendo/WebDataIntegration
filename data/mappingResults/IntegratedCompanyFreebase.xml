@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<companies xsi:noNamespaceSchemaLocation="file:///C:/Users/Oliver/git/WebDataIntegration/data/target_schema_company_v2.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<companies xsi:noNamespaceSchemaLocation="file:///C:/Users/D059373/workspace%20java%20local/webDataIntegration/data/target_schema_company_v2.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<company>
 		<name>1-800-Flowers</name>
 		<countries>United States of America</countries>
@@ -281,11 +281,11 @@
 		<industries></industries>
 		<numberOfEmployees>255</numberOfEmployees>
 		<dateFounded>1927</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>A.S. Cr�ation</name>
+		<name>A.S. Création</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>787</numberOfEmployees>
@@ -370,7 +370,7 @@
 		<revenue>24412000000</revenue>
 		<numberOfEmployees>112000</numberOfEmployees>
 		<numberOfEmployees>117000</numberOfEmployees>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<profit>3757000000</profit>
 		<keyPeople>Joseph M Hogan;;Ulrich Spiesshofer</keyPeople>
 	</company>
@@ -553,7 +553,7 @@
 		<numberOfEmployees>170417</numberOfEmployees>
 		<dateFounded>1967</dateFounded>
 		<headquarters>Paris</headquarters>
-		<keyPeople>Denis Hennequin;;Yann Caill�re;;S�bastien Bazin</keyPeople>
+		<keyPeople>Denis Hennequin;;Yann Caillère;;Sébastien Bazin</keyPeople>
 	</company>
 	<company>
 		<name>AccountantsinCyprus.com</name>
@@ -570,7 +570,7 @@
 		<industries></industries>
 		<numberOfEmployees>163</numberOfEmployees>
 		<dateFounded>1896</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -751,7 +751,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>ADEG �sterreich</name>
+		<name>ADEG Österreich</name>
 		<countries></countries>
 		<industries></industries>
 		<numberOfEmployees>210000</numberOfEmployees>
@@ -820,7 +820,7 @@
 		<industries></industries>
 		<numberOfEmployees>2838</numberOfEmployees>
 		<dateFounded>1924</dateFounded>
-		<headquarters>K�niz</headquarters>
+		<headquarters>Köniz</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -829,7 +829,7 @@
 		<industries>Manufacturing;;Broadband</industries>
 		<numberOfEmployees>756</numberOfEmployees>
 		<dateFounded>1995</dateFounded>
-		<headquarters>Pregny-Chamb�sy</headquarters>
+		<headquarters>Pregny-Chambésy</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -972,7 +972,7 @@
 		<keyPeople>Garry Ball;;Martin Richenhagen</keyPeople>
 	</company>
 	<company>
-		<name>Agence fran�aise de s�curit� sanitaire des produits de sant�</name>
+		<name>Agence française de sécurité sanitaire des produits de santé</name>
 		<countries></countries>
 		<industries></industries>
 		<numberOfEmployees>3000</numberOfEmployees>
@@ -1005,7 +1005,7 @@
 		<numberOfEmployees>60000</numberOfEmployees>
 		<dateFounded>1976</dateFounded>
 		<headquarters>Zagreb</headquarters>
-		<keyPeople>Ivica Todori?;;Ljerka Pulji?;;Damir Ku�trak;;Mislav Gali?;;Ante Todori?;;Piru�ka Canjuga;;Tomislav Lu?i?;;Ivan Crnjac;;Hrvoje Balent</keyPeople>
+		<keyPeople>Ivica Todorić;;Ljerka Puljić;;Damir Kuštrak;;Mislav Galić;;Ante Todorić;;Piruška Canjuga;;Tomislav Lučić;;Ivan Crnjac;;Hrvoje Balent</keyPeople>
 	</company>
 	<company>
 		<name>Agrovet Market Animal Health</name>
@@ -1060,7 +1060,7 @@
 		<numberOfEmployees>42300</numberOfEmployees>
 		<dateFounded>1902</dateFounded>
 		<headquarters>Paris;;Quai d'Orsay</headquarters>
-		<keyPeople>Beno�t Potier</keyPeople>
+		<keyPeople>Benoît Potier</keyPeople>
 	</company>
 	<company>
 		<name>Air Products &amp;amp; Chemicals</name>
@@ -1116,7 +1116,7 @@
 		<industries>Dry, Condensed, and Evaporated Dairy Product Manufacturing;;Dry, Condensed, and Evaporated Dairy Products;;Food industry</industries>
 		<numberOfEmployees>25893</numberOfEmployees>
 		<dateFounded>1925</dateFounded>
-		<headquarters>Ch??</headquarters>
+		<headquarters>Chūō</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -1148,7 +1148,7 @@
 		<dateFounded>2004</dateFounded>
 		<headquarters>Fornebu</headquarters>
 		<profit>2401000000</profit>
-		<keyPeople>�yvind Eriksen</keyPeople>
+		<keyPeople>Øyvind Eriksen</keyPeople>
 	</company>
 	<company>
 		<name>AKN Eisenbahn</name>
@@ -1169,7 +1169,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Aktiengesellschaft f�r Versorgungsunternehmen</name>
+		<name>Aktiengesellschaft für Versorgungsunternehmen</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>475</numberOfEmployees>
@@ -1184,7 +1184,7 @@
 		<numberOfEmployees>42600</numberOfEmployees>
 		<dateFounded>1994</dateFounded>
 		<headquarters>Amsterdam</headquarters>
-		<keyPeople>Ton B�chner</keyPeople>
+		<keyPeople>Ton Büchner</keyPeople>
 	</company>
 	<company>
 		<name>Albert Ken</name>
@@ -1224,7 +1224,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Alfred M�ller AG</name>
+		<name>Alfred Müller AG</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>170</numberOfEmployees>
@@ -1292,7 +1292,7 @@
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>30</numberOfEmployees>
-		<headquarters>?�d?</headquarters>
+		<headquarters>Łódź</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -1720,7 +1720,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Am�rica Latina Log�stica</name>
+		<name>América Latina Logística</name>
 		<countries>null</countries>
 		<industries>Logistics;;Media</industries>
 		<numberOfEmployees>6580</numberOfEmployees>
@@ -1729,7 +1729,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Am�rica M�vil</name>
+		<name>América Móvil</name>
 		<countries>Mexico</countries>
 		<industries>Telecommunications</industries>
 		<numberOfEmployees>41000</numberOfEmployees>
@@ -2084,7 +2084,7 @@
 		<industries></industries>
 		<numberOfEmployees>3484</numberOfEmployees>
 		<dateFounded>1935</dateFounded>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -2134,7 +2134,7 @@
 		<industries></industries>
 		<numberOfEmployees>75</numberOfEmployees>
 		<dateFounded>2003</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -2143,7 +2143,7 @@
 		<industries>Telecommunications</industries>
 		<numberOfEmployees>3588</numberOfEmployees>
 		<dateFounded>1997</dateFounded>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -2276,7 +2276,7 @@
 		<industries>Business-to-business</industries>
 		<numberOfEmployees>60323</numberOfEmployees>
 		<dateFounded>1835</dateFounded>
-		<headquarters>G�tersloh</headquarters>
+		<headquarters>Gütersloh</headquarters>
 		<keyPeople>Rolf Buch;;Achim Berg</keyPeople>
 	</company>
 	<company>
@@ -2293,7 +2293,7 @@
 		<industries></industries>
 		<numberOfEmployees>5</numberOfEmployees>
 		<dateFounded>1991</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -2320,7 +2320,7 @@
 		<industries>Video game industry;;Video game</industries>
 		<numberOfEmployees>90</numberOfEmployees>
 		<dateFounded>1996-10</dateFounded>
-		<headquarters>G�tersloh</headquarters>
+		<headquarters>Gütersloh</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -2395,7 +2395,7 @@
 		<industries>Pharmaceutical Preparation Manufacturing;;Pharmaceutical industry;;Pharmaceutical Preparation</industries>
 		<numberOfEmployees>13666</numberOfEmployees>
 		<dateFounded>2005-04-01</dateFounded>
-		<headquarters>Ch??</headquarters>
+		<headquarters>Chūō</headquarters>
 		<keyPeople>Yoshihiko Hatanaka</keyPeople>
 	</company>
 	<company>
@@ -2479,7 +2479,7 @@
 		<industries></industries>
 		<numberOfEmployees>611</numberOfEmployees>
 		<dateFounded>1988</dateFounded>
-		<headquarters>M�hnesee</headquarters>
+		<headquarters>Möhnesee</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -2547,7 +2547,7 @@
 		<numberOfEmployees>800</numberOfEmployees>
 		<dateFounded>1875</dateFounded>
 		<headquarters>Le Chenit;;Le Brassus</headquarters>
-		<keyPeople>Fran�ois-Henry Bennahmias</keyPeople>
+		<keyPeople>François-Henry Bennahmias</keyPeople>
 	</company>
 	<company>
 		<name>Audi</name>
@@ -2580,7 +2580,7 @@
 		<countries>Germany</countries>
 		<industries></industries>
 		<numberOfEmployees>3523</numberOfEmployees>
-		<headquarters>Gr�nwald</headquarters>
+		<headquarters>Grünwald</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -2706,7 +2706,7 @@
 		<industries></industries>
 		<numberOfEmployees>30</numberOfEmployees>
 		<dateFounded>1971</dateFounded>
-		<headquarters>D�bendorf</headquarters>
+		<headquarters>Dübendorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -2979,7 +2979,7 @@
 		<industries>Financial Services</industries>
 		<numberOfEmployees>110000</numberOfEmployees>
 		<dateFounded>1808-10-12</dateFounded>
-		<headquarters>Bras�lia;;Brazil</headquarters>
+		<headquarters>Brasília;;Brazil</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -2988,7 +2988,7 @@
 		<industries>Financial Services</industries>
 		<numberOfEmployees>5605</numberOfEmployees>
 		<dateFounded>1955</dateFounded>
-		<headquarters>S�o Paulo</headquarters>
+		<headquarters>São Paulo</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -3160,7 +3160,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Banque cantonale de Gen�ve</name>
+		<name>Banque cantonale de Genève</name>
 		<countries>Switzerland</countries>
 		<industries></industries>
 		<numberOfEmployees>847</numberOfEmployees>
@@ -3169,12 +3169,12 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Banque Cantonale Neuch�teloise</name>
+		<name>Banque Cantonale Neuchâteloise</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>312</numberOfEmployees>
 		<dateFounded>1883</dateFounded>
-		<headquarters>Neuch�tel</headquarters>
+		<headquarters>Neuchâtel</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -3270,7 +3270,7 @@
 		<industries>Software development;;Information technology consulting;;Web design;;Mobile application development;;Magento  Development Company;;Information technology management;;PHP and MySQL Web Development</industries>
 		<numberOfEmployees>62</numberOfEmployees>
 		<dateFounded>1998</dateFounded>
-		<headquarters>Osnabr�ck</headquarters>
+		<headquarters>Osnabrück</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -3328,7 +3328,7 @@
 		<industries></industries>
 		<numberOfEmployees>1200</numberOfEmployees>
 		<dateFounded>1886</dateFounded>
-		<headquarters>R�ti</headquarters>
+		<headquarters>Rüti</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -3450,7 +3450,7 @@
 		<industries></industries>
 		<numberOfEmployees>807</numberOfEmployees>
 		<dateFounded>1932</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -3468,7 +3468,7 @@
 		<industries></industries>
 		<numberOfEmployees>180</numberOfEmployees>
 		<dateFounded>2004</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople>Robert Wuttke</keyPeople>
 	</company>
 	<company>
@@ -3645,7 +3645,7 @@
 		<industries></industries>
 		<numberOfEmployees>103</numberOfEmployees>
 		<dateFounded>1995</dateFounded>
-		<headquarters>K�snacht</headquarters>
+		<headquarters>Küsnacht</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -3720,7 +3720,7 @@
 		<numberOfEmployees>4000</numberOfEmployees>
 		<dateFounded>1919-01-18</dateFounded>
 		<headquarters>Crewe</headquarters>
-		<keyPeople>Wolfgang Schreiber;;Wolfgang D�rheimer</keyPeople>
+		<keyPeople>Wolfgang Schreiber;;Wolfgang Dürheimer</keyPeople>
 	</company>
 	<company>
 		<name>Benvenuto Salon</name>
@@ -3731,7 +3731,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Beralt Tin and Wolfram C�</name>
+		<name>Beralt Tin and Wolfram Cº</name>
 		<countries></countries>
 		<industries></industries>
 		<numberOfEmployees>10000</numberOfEmployees>
@@ -3740,7 +3740,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Beralt Tin and Wolfram Portugal C�</name>
+		<name>Beralt Tin and Wolfram Portugal Cº</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>200</numberOfEmployees>
@@ -3799,7 +3799,7 @@
 		<industries></industries>
 		<numberOfEmployees>7838</numberOfEmployees>
 		<dateFounded>1983</dateFounded>
-		<headquarters>K�nzelsau</headquarters>
+		<headquarters>Künzelsau</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -3817,7 +3817,7 @@
 		<revenue>19300000000</revenue>
 		<numberOfEmployees>101009</numberOfEmployees>
 		<dateFounded>1835-07-01</dateFounded>
-		<headquarters>G�tersloh</headquarters>
+		<headquarters>Gütersloh</headquarters>
 		<profit>2400000000</profit>
 		<keyPeople>Thomas Rabe</keyPeople>
 	</company>
@@ -3827,7 +3827,7 @@
 		<industries></industries>
 		<numberOfEmployees>330</numberOfEmployees>
 		<dateFounded>1977</dateFounded>
-		<headquarters>G�tersloh</headquarters>
+		<headquarters>Gütersloh</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -3845,7 +3845,7 @@
 		<industries></industries>
 		<numberOfEmployees>1650</numberOfEmployees>
 		<dateFounded>1956</dateFounded>
-		<headquarters>D�rren�sch</headquarters>
+		<headquarters>Dürrenäsch</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -3885,7 +3885,7 @@
 		<countries>null</countries>
 		<industries>Sportsbook;;Online poker</industries>
 		<numberOfEmployees>191</numberOfEmployees>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -3973,7 +3973,7 @@
 		<industries>Insurance Broker;;Insurance;;null;;null;;null;;Financial Services;;Credit card;;null;;Vehicle insurance;;null;;Loan</industries>
 		<numberOfEmployees>120</numberOfEmployees>
 		<dateFounded>2011-05-16</dateFounded>
-		<headquarters>S�o Paulo</headquarters>
+		<headquarters>São Paulo</headquarters>
 		<keyPeople>null</keyPeople>
 	</company>
 	<company>
@@ -3991,7 +3991,7 @@
 		<industries></industries>
 		<numberOfEmployees>685</numberOfEmployees>
 		<dateFounded>1900</dateFounded>
-		<headquarters>Br�gg, Bern</headquarters>
+		<headquarters>Brügg, Bern</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -4000,7 +4000,7 @@
 		<industries></industries>
 		<numberOfEmployees>586</numberOfEmployees>
 		<dateFounded>1906</dateFounded>
-		<headquarters>Schl�chtern</headquarters>
+		<headquarters>Schlüchtern</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -4189,7 +4189,7 @@
 		<industries></industries>
 		<numberOfEmployees>500</numberOfEmployees>
 		<dateFounded>1936</dateFounded>
-		<headquarters>R�egsau</headquarters>
+		<headquarters>Rüegsau</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -4278,7 +4278,7 @@
 		<dateFounded>2000-05-23</dateFounded>
 		<headquarters>Paris</headquarters>
 		<profit>7822000000</profit>
-		<keyPeople>Jean-Laurent Bonnaf�</keyPeople>
+		<keyPeople>Jean-Laurent Bonnafé</keyPeople>
 	</company>
 	<company>
 		<name>Bodycote</name>
@@ -4347,7 +4347,7 @@
 		<keyPeople>Ralph Shrader</keyPeople>
 	</company>
 	<company>
-		<name>Bord na M�na</name>
+		<name>Bord na Móna</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>2000</numberOfEmployees>
@@ -4540,7 +4540,7 @@
 		<industries>Telecommunications</industries>
 		<numberOfEmployees>20451</numberOfEmployees>
 		<dateFounded>1998</dateFounded>
-		<headquarters>Bras�lia</headquarters>
+		<headquarters>Brasília</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -4553,7 +4553,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Bremer Woll-K�mmerei</name>
+		<name>Bremer Woll-Kämmerei</name>
 		<countries>null</countries>
 		<industries>Textile industry</industries>
 		<numberOfEmployees>318</numberOfEmployees>
@@ -4594,7 +4594,7 @@
 		<numberOfEmployees>133752</numberOfEmployees>
 		<numberOfEmployees>137135</numberOfEmployees>
 		<dateFounded>1931</dateFounded>
-		<headquarters>Ch??</headquarters>
+		<headquarters>Chūō</headquarters>
 		<keyPeople>Masaaki Tsuya</keyPeople>
 	</company>
 	<company>
@@ -4642,7 +4642,7 @@
 		<industries>Highway, Street, and Bridge Construction;;Other Support Activities for Road Transportation;;Construction</industries>
 		<numberOfEmployees>2843</numberOfEmployees>
 		<dateFounded>1972</dateFounded>
-		<headquarters>S�o Domingos de Rana</headquarters>
+		<headquarters>São Domingos de Rana</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -4748,7 +4748,7 @@
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>787</numberOfEmployees>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -4811,7 +4811,7 @@
 		<industries></industries>
 		<numberOfEmployees>111</numberOfEmployees>
 		<dateFounded>1998</dateFounded>
-		<headquarters>M�nster</headquarters>
+		<headquarters>Münster</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -4851,13 +4851,13 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Bundesagentur f�r Arbeit</name>
+		<name>Bundesagentur für Arbeit</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>108781</numberOfEmployees>
 		<dateFounded>1927-07-16</dateFounded>
 		<headquarters>Nuremberg</headquarters>
-		<keyPeople>Frank-J�rgen Weise</keyPeople>
+		<keyPeople>Frank-Jürgen Weise</keyPeople>
 	</company>
 	<company>
 		<name>Bundesrechenzentrum</name>
@@ -4923,7 +4923,7 @@
 		<industries></industries>
 		<numberOfEmployees>2756</numberOfEmployees>
 		<dateFounded>1959</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -4985,11 +4985,11 @@
 		<countries>null</countries>
 		<industries>Mechanical Engineering</industries>
 		<numberOfEmployees>1627</numberOfEmployees>
-		<headquarters>Nieder�nz</headquarters>
+		<headquarters>Niederönz</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>B�loise</name>
+		<name>Bâloise</name>
 		<countries>Switzerland</countries>
 		<industries>Financial Services</industries>
 		<numberOfEmployees>9233</numberOfEmployees>
@@ -4997,7 +4997,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>B�hler-Uddeholm</name>
+		<name>Böhler-Uddeholm</name>
 		<countries>null</countries>
 		<industries>Steelmaking</industries>
 		<numberOfEmployees>14324</numberOfEmployees>
@@ -5006,7 +5006,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>B�hler AG</name>
+		<name>Bühler AG</name>
 		<countries>null</countries>
 		<industries>Process engineering</industries>
 		<numberOfEmployees>7480</numberOfEmployees>
@@ -5076,7 +5076,7 @@
 		<keyPeople>Gary Loveman;;Mark Frissora</keyPeople>
 	</company>
 	<company>
-		<name>Caisse des d�p�ts et consignations</name>
+		<name>Caisse des dépôts et consignations</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>73500</numberOfEmployees>
@@ -5085,17 +5085,17 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Caixa Econ�mica Federal</name>
+		<name>Caixa Econômica Federal</name>
 		<countries>null</countries>
 		<industries>Financial Services</industries>
 		<numberOfEmployees>81500</numberOfEmployees>
 		<dateFounded>1861-01-12</dateFounded>
-		<headquarters>Bras�lia</headquarters>
+		<headquarters>Brasília</headquarters>
 		<profit>1700000000</profit>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Caixa Geral de Dep�sitos</name>
+		<name>Caixa Geral de Depósitos</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>20030</numberOfEmployees>
@@ -5143,7 +5143,7 @@
 		<industries></industries>
 		<numberOfEmployees>23</numberOfEmployees>
 		<dateFounded>1995</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -5226,7 +5226,7 @@
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>900</numberOfEmployees>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -5308,7 +5308,7 @@
 		<industries></industries>
 		<numberOfEmployees>7278</numberOfEmployees>
 		<dateFounded>1941</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -5354,7 +5354,7 @@
 		<numberOfEmployees>33420</numberOfEmployees>
 		<dateFounded>1847</dateFounded>
 		<headquarters>Vesterbro, Copenhagen</headquarters>
-		<keyPeople>J�rgen Buhl Rasmussen</keyPeople>
+		<keyPeople>Jørgen Buhl Rasmussen</keyPeople>
 	</company>
 	<company>
 		<name>Carnival Corporation &amp;amp; plc</name>
@@ -5376,7 +5376,7 @@
 		<dateFounded>1958-01-01</dateFounded>
 		<headquarters>Boulogne-Billancourt</headquarters>
 		<profit>2299000000</profit>
-		<keyPeople>Georges Plassat;;Georges Plassat;;Jean-Fran�ois Pagnoux</keyPeople>
+		<keyPeople>Georges Plassat;;Georges Plassat;;Jean-François Pagnoux</keyPeople>
 	</company>
 	<company>
 		<name>Carron Company</name>
@@ -5628,7 +5628,7 @@
 		<countries>null</countries>
 		<industries>Professional and Management Development Training</industries>
 		<numberOfEmployees>3</numberOfEmployees>
-		<headquarters>Alsv�g</headquarters>
+		<headquarters>Alsvåg</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -5705,7 +5705,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Charles V�gele Gruppe</name>
+		<name>Charles Vögele Gruppe</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>7729</numberOfEmployees>
@@ -5980,7 +5980,7 @@
 		<countries>null</countries>
 		<industries>Pharmaceutical Preparation Manufacturing;;Pharmaceutical Preparation</industries>
 		<numberOfEmployees>6257</numberOfEmployees>
-		<headquarters>Ch??</headquarters>
+		<headquarters>Chūō</headquarters>
 		<keyPeople>Osamu Nagayama</keyPeople>
 	</company>
 	<company>
@@ -6063,7 +6063,7 @@
 		<numberOfEmployees>5020</numberOfEmployees>
 		<dateFounded>1984</dateFounded>
 		<headquarters>Montreal</headquarters>
-		<keyPeople>Guy Lalibert�;;Daniel Lamarre</keyPeople>
+		<keyPeople>Guy Laliberté;;Daniel Lamarre</keyPeople>
 	</company>
 	<company>
 		<name>Cisco Systems, Inc.</name>
@@ -6138,12 +6138,12 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Cit� du Design</name>
+		<name>Cité du Design</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>80</numberOfEmployees>
 		<dateFounded>2005</dateFounded>
-		<headquarters>Saint-�tienne</headquarters>
+		<headquarters>Saint-Étienne</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -6237,12 +6237,12 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Clientis Bank K�ttigen-Erlinsbach</name>
+		<name>Clientis Bank Küttigen-Erlinsbach</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>13</numberOfEmployees>
 		<dateFounded>1834</dateFounded>
-		<headquarters>K�ttigen</headquarters>
+		<headquarters>Küttigen</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -6260,7 +6260,7 @@
 		<industries></industries>
 		<numberOfEmployees>38</numberOfEmployees>
 		<dateFounded>1994</dateFounded>
-		<headquarters>Sch�pfheim</headquarters>
+		<headquarters>Schüpfheim</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -6377,7 +6377,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Cockerill Maintenance &amp;amp; Ing�nierie</name>
+		<name>Cockerill Maintenance &amp;amp; Ingénierie</name>
 		<countries>null</countries>
 		<industries>Engineering</industries>
 		<numberOfEmployees>3281</numberOfEmployees>
@@ -6390,7 +6390,7 @@
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>1646</numberOfEmployees>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -6457,12 +6457,12 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Coll�ge Fran�ois-Xavier-Garneau</name>
+		<name>Collège François-Xavier-Garneau</name>
 		<countries>null;;null;;null</countries>
 		<industries></industries>
 		<numberOfEmployees>500</numberOfEmployees>
 		<dateFounded>1967</dateFounded>
-		<headquarters>Canada;;Qu�bec;;null</headquarters>
+		<headquarters>Canada;;Québec;;null</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -6472,7 +6472,7 @@
 		<numberOfEmployees>1000</numberOfEmployees>
 		<dateFounded>1971-08-01</dateFounded>
 		<headquarters>Cologne</headquarters>
-		<keyPeople>Christoph See�elberg</keyPeople>
+		<keyPeople>Christoph Seeßelberg</keyPeople>
 	</company>
 	<company>
 		<name>Colonia Real Estate</name>
@@ -6555,7 +6555,7 @@
 		<industries></industries>
 		<numberOfEmployees>611</numberOfEmployees>
 		<dateFounded>1948</dateFounded>
-		<headquarters>W�nnewil-Flamatt</headquarters>
+		<headquarters>Wünnewil-Flamatt</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -6590,7 +6590,7 @@
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>640</numberOfEmployees>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -6623,7 +6623,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Compagnie Fran�aise d'Assurance pour le Commerce Ext�rieur</name>
+		<name>Compagnie Française d'Assurance pour le Commerce Extérieur</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>914</numberOfEmployees>
@@ -6640,7 +6640,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Companhia Uni�o Fabril</name>
+		<name>Companhia União Fabril</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>16000</numberOfEmployees>
@@ -6662,7 +6662,7 @@
 		<industries>Comparison shopping website</industries>
 		<numberOfEmployees>80</numberOfEmployees>
 		<dateFounded>1996-05</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -6679,7 +6679,7 @@
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>304</numberOfEmployees>
-		<headquarters>M�genwil</headquarters>
+		<headquarters>Mägenwil</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -6864,7 +6864,7 @@
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>3300</numberOfEmployees>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -7062,7 +7062,7 @@
 		<industries>Software</industries>
 		<numberOfEmployees>324</numberOfEmployees>
 		<dateFounded>1996</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -7072,16 +7072,16 @@
 		<revenue>78206000000</revenue>
 		<numberOfEmployees>47400</numberOfEmployees>
 		<dateFounded>1856</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople>Brady Dougan</keyPeople>
 	</company>
 	<company>
-		<name>CRH G�taz Group</name>
+		<name>CRH Gétaz Group</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>2600</numberOfEmployees>
 		<dateFounded>2007</dateFounded>
-		<headquarters>Saint-L�gier-La Chi�saz</headquarters>
+		<headquarters>Saint-Légier-La Chiésaz</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -7141,7 +7141,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Cr�dit Agricole</name>
+		<name>Crédit Agricole</name>
 		<countries>France</countries>
 		<industries>Financial Services;;Bank</industries>
 		<revenue>138155000000</revenue>
@@ -7255,12 +7255,12 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>C�gep de Trois-Rivi�res</name>
+		<name>Cégep de Trois-Rivières</name>
 		<countries>Canada</countries>
 		<industries></industries>
 		<numberOfEmployees>800</numberOfEmployees>
 		<dateFounded>1968-05-15</dateFounded>
-		<headquarters>Trois-Rivi�res</headquarters>
+		<headquarters>Trois-Rivières</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -7303,7 +7303,7 @@
 		<countries>Japan</countries>
 		<industries>Medicinal and Botanical Manufacturing;;Pharmaceutical industry</industries>
 		<numberOfEmployees>15349</numberOfEmployees>
-		<headquarters>Ch??</headquarters>
+		<headquarters>Chūō</headquarters>
 		<keyPeople>Joji Nakayama</keyPeople>
 	</company>
 	<company>
@@ -7653,7 +7653,7 @@
 		<industries></industries>
 		<numberOfEmployees>12000</numberOfEmployees>
 		<dateFounded>1989</dateFounded>
-		<headquarters>Bad Homburg vor der H�he</headquarters>
+		<headquarters>Bad Homburg vor der Höhe</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -7671,7 +7671,7 @@
 		<industries>Engineering</industries>
 		<numberOfEmployees>5934</numberOfEmployees>
 		<dateFounded>1910</dateFounded>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -7690,7 +7690,7 @@
 		<numberOfEmployees>8632</numberOfEmployees>
 		<dateFounded>1938</dateFounded>
 		<headquarters>Istanbul;;null</headquarters>
-		<keyPeople>Hakan Ate?</keyPeople>
+		<keyPeople>Hakan Ateş</keyPeople>
 	</company>
 	<company>
 		<name>Denso</name>
@@ -7760,7 +7760,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Deutsche B�rse</name>
+		<name>Deutsche Börse</name>
 		<countries>null</countries>
 		<industries>Securities and Commodity Exchanges;;Finance</industries>
 		<numberOfEmployees>3281</numberOfEmployees>
@@ -7802,7 +7802,7 @@
 		<industries>Leasing</industries>
 		<numberOfEmployees>2072</numberOfEmployees>
 		<dateFounded>1962-01-10</dateFounded>
-		<headquarters>Bad Homburg vor der H�he</headquarters>
+		<headquarters>Bad Homburg vor der Höhe</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -7854,7 +7854,7 @@
 		<dateFounded>1996</dateFounded>
 		<headquarters>Bonn</headquarters>
 		<profit>569000000</profit>
-		<keyPeople>Ren� Obermann;;Timotheus H�ttges</keyPeople>
+		<keyPeople>René Obermann;;Timotheus Höttges</keyPeople>
 	</company>
 	<company>
 		<name>Deutsche Wohnen</name>
@@ -7956,7 +7956,7 @@
 		<industries>Printing Ink Manufacturing</industries>
 		<numberOfEmployees>25164</numberOfEmployees>
 		<dateFounded>1908-02-15</dateFounded>
-		<headquarters>Ch??</headquarters>
+		<headquarters>Chūō</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -7985,7 +7985,7 @@
 		<industries>Arms Manufacturers</industries>
 		<numberOfEmployees>3200</numberOfEmployees>
 		<dateFounded>2004</dateFounded>
-		<headquarters>�berlingen</headquarters>
+		<headquarters>Überlingen</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -8056,7 +8056,7 @@
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>7334</numberOfEmployees>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -8112,7 +8112,7 @@
 		<industries></industries>
 		<numberOfEmployees>22000</numberOfEmployees>
 		<dateFounded>1865</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople>Joerg Wolle</keyPeople>
 	</company>
 	<company>
@@ -8141,7 +8141,7 @@
 		<revenue>912125000</revenue>
 		<numberOfEmployees>7000</numberOfEmployees>
 		<dateFounded>1864</dateFounded>
-		<headquarters>B�rum</headquarters>
+		<headquarters>Bærum</headquarters>
 		<keyPeople>Henrik O. Madsen</keyPeople>
 	</company>
 	<company>
@@ -8222,7 +8222,7 @@
 		<industries>Electricity</industries>
 		<numberOfEmployees>5347</numberOfEmployees>
 		<dateFounded>1972</dateFounded>
-		<headquarters>Sk�rb�k</headquarters>
+		<headquarters>Skærbæk</headquarters>
 		<keyPeople>Henrik Poulsen;;Fritz Schur</keyPeople>
 	</company>
 	<company>
@@ -8281,12 +8281,12 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Dr. H�nle AG</name>
+		<name>Dr. Hönle AG</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>253</numberOfEmployees>
 		<dateFounded>1976</dateFounded>
-		<headquarters>Gr�felfing</headquarters>
+		<headquarters>Gräfelfing</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -8564,7 +8564,7 @@
 		<keyPeople>Max Conze</keyPeople>
 	</company>
 	<company>
-		<name>D�twyler Holding</name>
+		<name>Dätwyler Holding</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>4340</numberOfEmployees>
@@ -8587,7 +8587,7 @@
 		<industries></industries>
 		<numberOfEmployees>163</numberOfEmployees>
 		<dateFounded>1983</dateFounded>
-		<headquarters>D�niken, Solothurn</headquarters>
+		<headquarters>Däniken, Solothurn</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -8635,7 +8635,7 @@
 		<numberOfEmployees>87815</numberOfEmployees>
 		<numberOfEmployees>80612</numberOfEmployees>
 		<dateFounded>2000-06-16</dateFounded>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<profit>6082000000</profit>
 		<keyPeople>Johannes Teyssen</keyPeople>
 	</company>
@@ -8674,7 +8674,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>E.ON Th�ringer Energie</name>
+		<name>E.ON Thüringer Energie</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>1379</numberOfEmployees>
@@ -8720,7 +8720,7 @@
 		<dateFounded>1888</dateFounded>
 		<headquarters>Rochester</headquarters>
 		<profit>69800000</profit>
-		<keyPeople>Robert L Berman;;William J Lloyd;;Mary Jane Hellyar;;Antonio M. P�rez;;Jeff Clarke</keyPeople>
+		<keyPeople>Robert L Berman;;William J Lloyd;;Mary Jane Hellyar;;Antonio M. Pérez;;Jeff Clarke</keyPeople>
 	</company>
 	<company>
 		<name>Easwari Engineering College</name>
@@ -8797,7 +8797,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Ecker� Linjen</name>
+		<name>Eckerö Linjen</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>1145</numberOfEmployees>
@@ -8821,7 +8821,7 @@
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>1500</numberOfEmployees>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -8950,7 +8950,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Eimskipaf�lag �slands</name>
+		<name>Eimskipafélag Íslands</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>9500</numberOfEmployees>
@@ -9016,16 +9016,16 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Elektra Birseck M�nchenstein</name>
+		<name>Elektra Birseck Münchenstein</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>572</numberOfEmployees>
 		<dateFounded>1897</dateFounded>
-		<headquarters>M�nchenstein</headquarters>
+		<headquarters>Münchenstein</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Elektrizit�tsgesellschaft Laufenburg</name>
+		<name>Elektrizitätsgesellschaft Laufenburg</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>832</numberOfEmployees>
@@ -9139,7 +9139,7 @@
 		<numberOfEmployees>23734</numberOfEmployees>
 		<numberOfEmployees>16853</numberOfEmployees>
 		<dateFounded>1969</dateFounded>
-		<headquarters>S�o Jos� dos Campos</headquarters>
+		<headquarters>São José dos Campos</headquarters>
 		<keyPeople>Frederico Fleury Curado</keyPeople>
 	</company>
 	<company>
@@ -9233,7 +9233,7 @@
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>10000</numberOfEmployees>
-		<headquarters>Pozna?</headquarters>
+		<headquarters>Poznań</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -9315,7 +9315,7 @@
 		<industries>Clothing;;Men's and Boys' Work Clothing</industries>
 		<numberOfEmployees>400</numberOfEmployees>
 		<dateFounded>1948</dateFounded>
-		<headquarters>Biebergem�nd</headquarters>
+		<headquarters>Biebergemünd</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -9325,7 +9325,7 @@
 		<numberOfEmployees>196500</numberOfEmployees>
 		<dateFounded>2008-07-22</dateFounded>
 		<headquarters>Paris</headquarters>
-		<keyPeople>G�rard Mestrallet</keyPeople>
+		<keyPeople>Gérard Mestrallet</keyPeople>
 	</company>
 	<company>
 		<name>English Stage Company</name>
@@ -9509,12 +9509,12 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Erdgas Z�rich</name>
+		<name>Erdgas Zürich</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>160</numberOfEmployees>
 		<dateFounded>1998</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -9523,7 +9523,7 @@
 		<industries>Direct Life Insurance Carriers;;Life Insurance;;Financial Services</industries>
 		<numberOfEmployees>55115</numberOfEmployees>
 		<dateFounded>1997</dateFounded>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -9607,7 +9607,7 @@
 		<numberOfEmployees>16000</numberOfEmployees>
 		<dateFounded>1968</dateFounded>
 		<headquarters>Ratingen;;Hong Kong</headquarters>
-		<keyPeople>Jose Manuel Mart�nez Guti�rrez</keyPeople>
+		<keyPeople>Jose Manuel Martínez Gutiérrez</keyPeople>
 	</company>
 	<company>
 		<name>Essanelle</name>
@@ -9615,7 +9615,7 @@
 		<industries></industries>
 		<numberOfEmployees>4185</numberOfEmployees>
 		<dateFounded>1914</dateFounded>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -9625,7 +9625,7 @@
 		<numberOfEmployees>26500</numberOfEmployees>
 		<dateFounded>1972</dateFounded>
 		<headquarters>Charenton-le-Pont</headquarters>
-		<keyPeople>Hubert Sagni�res</keyPeople>
+		<keyPeople>Hubert Sagnières</keyPeople>
 	</company>
 	<company>
 		<name>Eternit-Werke</name>
@@ -9633,7 +9633,7 @@
 		<industries></industries>
 		<numberOfEmployees>477</numberOfEmployees>
 		<dateFounded>1894</dateFounded>
-		<headquarters>V�cklabruck</headquarters>
+		<headquarters>Vöcklabruck</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -9669,7 +9669,7 @@
 		<industries></industries>
 		<numberOfEmployees>850</numberOfEmployees>
 		<dateFounded>1987</dateFounded>
-		<headquarters>L�beck</headquarters>
+		<headquarters>Lübeck</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -9700,7 +9700,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Europ�ische Reiseversicherung AG</name>
+		<name>Europäische Reiseversicherung AG</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>343</numberOfEmployees>
@@ -10000,7 +10000,7 @@
 		<numberOfEmployees>62000</numberOfEmployees>
 		<dateFounded>1997</dateFounded>
 		<headquarters>Nanterre</headquarters>
-		<keyPeople>Yann Delabri�re</keyPeople>
+		<keyPeople>Yann Delabrière</keyPeople>
 	</company>
 	<company>
 		<name>Fazer</name>
@@ -10073,7 +10073,7 @@
 		<numberOfEmployees>198348</numberOfEmployees>
 		<dateFounded>1899-07-11</dateFounded>
 		<headquarters>Turin</headquarters>
-		<keyPeople>Olivier Fran�ois</keyPeople>
+		<keyPeople>Olivier François</keyPeople>
 	</company>
 	<company>
 		<name>Fiat S.p.A.</name>
@@ -10466,7 +10466,7 @@
 		<dateFounded>1988</dateFounded>
 		<headquarters>Paris</headquarters>
 		<profit>6300000000</profit>
-		<keyPeople>St�phane Richard;;Didier Lombard</keyPeople>
+		<keyPeople>Stéphane Richard;;Didier Lombard</keyPeople>
 	</company>
 	<company>
 		<name>Francotyp Postalia</name>
@@ -10548,7 +10548,7 @@
 		<industries>Telecommunications</industries>
 		<numberOfEmployees>4394</numberOfEmployees>
 		<dateFounded>2007</dateFounded>
-		<headquarters>B�delsdorf</headquarters>
+		<headquarters>Büdelsdorf</headquarters>
 		<keyPeople>Christoph Vilanek</keyPeople>
 	</company>
 	<company>
@@ -10577,7 +10577,7 @@
 		<industries></industries>
 		<numberOfEmployees>21872</numberOfEmployees>
 		<dateFounded>1999</dateFounded>
-		<headquarters>Bad Homburg vor der H�he</headquarters>
+		<headquarters>Bad Homburg vor der Höhe</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -10587,7 +10587,7 @@
 		<revenue>8499000000</revenue>
 		<numberOfEmployees>67988</numberOfEmployees>
 		<dateFounded>1996</dateFounded>
-		<headquarters>Bad Homburg vor der H�he</headquarters>
+		<headquarters>Bad Homburg vor der Höhe</headquarters>
 		<keyPeople>Benjamin J Lipps</keyPeople>
 	</company>
 	<company>
@@ -10596,7 +10596,7 @@
 		<industries>Health Care</industries>
 		<numberOfEmployees>130510</numberOfEmployees>
 		<dateFounded>1912</dateFounded>
-		<headquarters>Bad Homburg vor der H�he</headquarters>
+		<headquarters>Bad Homburg vor der Höhe</headquarters>
 		<keyPeople>Ulf Mark Schneider</keyPeople>
 	</company>
 	<company>
@@ -10832,7 +10832,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>F�rde Reederei Seetouristik</name>
+		<name>Förde Reederei Seetouristik</name>
 		<countries>Germany</countries>
 		<industries>Transport</industries>
 		<numberOfEmployees>750</numberOfEmployees>
@@ -10865,7 +10865,7 @@
 		<numberOfEmployees>1500</numberOfEmployees>
 		<numberOfEmployees>1485</numberOfEmployees>
 		<dateFounded>1963-09-26</dateFounded>
-		<headquarters>M�nster</headquarters>
+		<headquarters>Münster</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -11027,7 +11027,7 @@
 		<numberOfEmployees>50244</numberOfEmployees>
 		<dateFounded>1946</dateFounded>
 		<headquarters>Paris</headquarters>
-		<keyPeople>Jean-Fran�ois Cirelli</keyPeople>
+		<keyPeople>Jean-François Cirelli</keyPeople>
 	</company>
 	<company>
 		<name>GEA Group</name>
@@ -11036,7 +11036,7 @@
 		<numberOfEmployees>19500</numberOfEmployees>
 		<numberOfEmployees>20693</numberOfEmployees>
 		<dateFounded>1881</dateFounded>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -11268,7 +11268,7 @@
 		<industries>Manufacturing</industries>
 		<numberOfEmployees>9343</numberOfEmployees>
 		<dateFounded>1864</dateFounded>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -11332,7 +11332,7 @@
 		<numberOfEmployees>1800</numberOfEmployees>
 		<dateFounded>2008-10-01</dateFounded>
 		<headquarters>Munich</headquarters>
-		<keyPeople>Charles Fr�nkl</keyPeople>
+		<keyPeople>Charles Fränkl</keyPeople>
 	</company>
 	<company>
 		<name>Gilead Sciences</name>
@@ -11393,7 +11393,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Glas Tr�sch</name>
+		<name>Glas Trösch</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>3110</numberOfEmployees>
@@ -11506,7 +11506,7 @@
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>443</numberOfEmployees>
-		<headquarters>K�snacht</headquarters>
+		<headquarters>Küsnacht</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -11640,7 +11640,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Graub�ndner Kantonalbank</name>
+		<name>Graubündner Kantonalbank</name>
 		<countries>Switzerland</countries>
 		<industries></industries>
 		<numberOfEmployees>1133</numberOfEmployees>
@@ -11698,7 +11698,7 @@
 		<industries></industries>
 		<numberOfEmployees>1472</numberOfEmployees>
 		<dateFounded>2001</dateFounded>
-		<headquarters>Kremsm�nster</headquarters>
+		<headquarters>Kremsmünster</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -11707,7 +11707,7 @@
 		<industries></industries>
 		<numberOfEmployees>7220</numberOfEmployees>
 		<dateFounded>1986</dateFounded>
-		<headquarters>Kremsm�nster</headquarters>
+		<headquarters>Kremsmünster</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -11734,7 +11734,7 @@
 		<numberOfEmployees>5880</numberOfEmployees>
 		<dateFounded>1940</dateFounded>
 		<headquarters>Barcelona</headquarters>
-		<keyPeople>V�ctor Grifols</keyPeople>
+		<keyPeople>Víctor Grifols</keyPeople>
 	</company>
 	<company>
 		<name>GrobeIdeen Business Solutions LLP</name>
@@ -11760,7 +11760,7 @@
 		<industries></industries>
 		<numberOfEmployees>18900</numberOfEmployees>
 		<dateFounded>1857</dateFounded>
-		<headquarters>�cully</headquarters>
+		<headquarters>Écully</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -11799,7 +11799,7 @@
 		<industries></industries>
 		<numberOfEmployees>5547</numberOfEmployees>
 		<dateFounded>2003</dateFounded>
-		<headquarters>Gda?sk</headquarters>
+		<headquarters>Gdańsk</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -11873,7 +11873,7 @@
 		<keyPeople>Larry Flynn</keyPeople>
 	</company>
 	<company>
-		<name>G�del</name>
+		<name>Güdel</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>700</numberOfEmployees>
@@ -11882,7 +11882,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>G�ndisch &amp;amp; Friends</name>
+		<name>Gündisch &amp;amp; Friends</name>
 		<countries></countries>
 		<industries></industries>
 		<numberOfEmployees>15</numberOfEmployees>
@@ -11979,7 +11979,7 @@
 		<industries></industries>
 		<numberOfEmployees>200</numberOfEmployees>
 		<dateFounded>1918</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -12253,7 +12253,7 @@
 		<keyPeople>Scott R Pinkham;;Jeffrey Lee Young</keyPeople>
 	</company>
 	<company>
-		<name>Haz?r Tur</name>
+		<name>Hazır Tur</name>
 		<countries></countries>
 		<industries></industries>
 		<numberOfEmployees>4</numberOfEmployees>
@@ -12279,7 +12279,7 @@
 		<keyPeople>Shiv Nadar</keyPeople>
 	</company>
 	<company>
-		<name>HEAG S�dhessische Energie</name>
+		<name>HEAG Südhessische Energie</name>
 		<countries>null</countries>
 		<industries>Energy industry</industries>
 		<revenue>1251400000</revenue>
@@ -12369,7 +12369,7 @@
 		<industries></industries>
 		<numberOfEmployees>3050</numberOfEmployees>
 		<dateFounded>1996</dateFounded>
-		<headquarters>D�bendorf</headquarters>
+		<headquarters>Dübendorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -12397,7 +12397,7 @@
 		<numberOfEmployees>55000</numberOfEmployees>
 		<numberOfEmployees>48133</numberOfEmployees>
 		<dateFounded>1876</dateFounded>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<keyPeople>Kasper Rorsted</keyPeople>
 	</company>
 	<company>
@@ -12510,7 +12510,7 @@
 		<dateFounded>1939-01-01</dateFounded>
 		<headquarters>Palo Alto</headquarters>
 		<profit>203000000</profit>
-		<keyPeople>Michael J. Holston;;Todd Bradley;;James T Murrin;;Shane V. Robison;;Ann M. Livermore;;Randall D. Mott;;Mark V. Hurd;;L�o Apotheker;;Meg Whitman</keyPeople>
+		<keyPeople>Michael J. Holston;;Todd Bradley;;James T Murrin;;Shane V. Robison;;Ann M. Livermore;;Randall D. Mott;;Mark V. Hurd;;Léo Apotheker;;Meg Whitman</keyPeople>
 	</company>
 	<company>
 		<name>Hexacta</name>
@@ -12519,7 +12519,7 @@
 		<numberOfEmployees>200</numberOfEmployees>
 		<dateFounded>1999-12</dateFounded>
 		<headquarters>Buenos Aires</headquarters>
-		<keyPeople>Santiago Ceria;;Javier L�pez de Lagar;;Fabio Gasparri;;Diego Vigliarolo</keyPeople>
+		<keyPeople>Santiago Ceria;;Javier López de Lagar;;Fabio Gasparri;;Diego Vigliarolo</keyPeople>
 	</company>
 	<company>
 		<name>Hexagon FM</name>
@@ -12617,7 +12617,7 @@
 		<industries></industries>
 		<numberOfEmployees>219</numberOfEmployees>
 		<dateFounded>1936-07-31</dateFounded>
-		<headquarters>T�touan</headquarters>
+		<headquarters>Tétouan</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -12663,7 +12663,7 @@
 		<industries></industries>
 		<numberOfEmployees>96967</numberOfEmployees>
 		<dateFounded>1863-01-04</dateFounded>
-		<headquarters>H�chst</headquarters>
+		<headquarters>Höchst</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -12858,7 +12858,7 @@
 		<industries></industries>
 		<numberOfEmployees>30</numberOfEmployees>
 		<dateFounded>1786</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -12913,7 +12913,7 @@
 		<industries></industries>
 		<numberOfEmployees>360</numberOfEmployees>
 		<dateFounded>1894</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -12922,7 +12922,7 @@
 		<industries>Financial Services</industries>
 		<numberOfEmployees>2400</numberOfEmployees>
 		<dateFounded>1785</dateFounded>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -12962,7 +12962,7 @@
 		<keyPeople>Claus-Dietrich Lahrs</keyPeople>
 	</company>
 	<company>
-		<name>Huhtam�ki</name>
+		<name>Huhtamäki</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>15092</numberOfEmployees>
@@ -13014,7 +13014,7 @@
 		<dateFounded>1689</dateFounded>
 		<headquarters>Stockholm</headquarters>
 		<profit>2029000000</profit>
-		<keyPeople>Hans Linnarson;;Kai W�rn</keyPeople>
+		<keyPeople>Hans Linnarson;;Kai Wärn</keyPeople>
 	</company>
 	<company>
 		<name>HWA Team</name>
@@ -13072,7 +13072,7 @@
 		<keyPeople>Chung Mong-koo;;Kim Eok-jo;;Choong Ho Kim;;Gap Han Yoon</keyPeople>
 	</company>
 	<company>
-		<name>H�lg Holding</name>
+		<name>Hälg Holding</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>635</numberOfEmployees>
@@ -13081,11 +13081,11 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>H�ffner</name>
+		<name>Höffner</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>6000</numberOfEmployees>
-		<headquarters>Sch�nefeld</headquarters>
+		<headquarters>Schönefeld</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -13144,7 +13144,7 @@
 		<dateFounded>1992-11-01</dateFounded>
 		<headquarters>Bilbao</headquarters>
 		<profit>2142900000</profit>
-		<keyPeople>Jose Ignacio Sanchez Galan;;I�igo de Oriol Ybarra;;Jose Ignacio Sanchez Galan</keyPeople>
+		<keyPeople>Jose Ignacio Sanchez Galan;;Iñigo de Oriol Ybarra;;Jose Ignacio Sanchez Galan</keyPeople>
 	</company>
 	<company>
 		<name>IBL International</name>
@@ -13171,7 +13171,7 @@
 		<industries></industries>
 		<numberOfEmployees>200</numberOfEmployees>
 		<dateFounded>1982</dateFounded>
-		<headquarters>H�hr-Grenzhausen</headquarters>
+		<headquarters>Höhr-Grenzhausen</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -13262,7 +13262,7 @@
 		<industries>Secure communication;;Information technology;;Software development;;Computer Systems Design and Related Services</industries>
 		<numberOfEmployees>70</numberOfEmployees>
 		<dateFounded>1984</dateFounded>
-		<headquarters>Link�ping</headquarters>
+		<headquarters>Linköping</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -13280,7 +13280,7 @@
 		<industries>Information technology</industries>
 		<numberOfEmployees>2968</numberOfEmployees>
 		<dateFounded>1984-07-27</dateFounded>
-		<headquarters>Saarbr�cken</headquarters>
+		<headquarters>Saarbrücken</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -13442,7 +13442,7 @@
 		<numberOfEmployees>473</numberOfEmployees>
 		<numberOfEmployees>577</numberOfEmployees>
 		<dateFounded>1983-04</dateFounded>
-		<headquarters>L�neburg</headquarters>
+		<headquarters>Lüneburg</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -13480,7 +13480,7 @@
 		<numberOfEmployees>33</numberOfEmployees>
 		<dateFounded>2008-05</dateFounded>
 		<headquarters>Osijek</headquarters>
-		<keyPeople>Tomislav Bili?;;Toni Ani?i?</keyPeople>
+		<keyPeople>Tomislav Bilić;;Toni Aničić</keyPeople>
 	</company>
 	<company>
 		<name>Indesit Co.</name>
@@ -13631,7 +13631,7 @@
 		<industries></industries>
 		<numberOfEmployees>299</numberOfEmployees>
 		<dateFounded>1941</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -13681,7 +13681,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Institut f�r Lernsysteme</name>
+		<name>Institut für Lernsysteme</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>250</numberOfEmployees>
@@ -13819,7 +13819,7 @@
 		<industries></industries>
 		<numberOfEmployees>61</numberOfEmployees>
 		<dateFounded>1962</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -13987,12 +13987,12 @@
 		<keyPeople>Susumu Hosoi</keyPeople>
 	</company>
 	<company>
-		<name>Ita� Unibanco</name>
+		<name>Itaú Unibanco</name>
 		<countries>Brazil</countries>
 		<industries>Financial Services</industries>
 		<numberOfEmployees>190000</numberOfEmployees>
 		<dateFounded>2008</dateFounded>
-		<headquarters>S�o Paulo</headquarters>
+		<headquarters>São Paulo</headquarters>
 		<keyPeople>Roberto Setubal</keyPeople>
 	</company>
 	<company>
@@ -14200,7 +14200,7 @@
 		<dateFounded>1998</dateFounded>
 		<headquarters>Alcobendas;;London</headquarters>
 		<profit>62000000</profit>
-		<keyPeople>Jos� Miguel Garc�a Fern�ndez</keyPeople>
+		<keyPeople>José Miguel García Fernández</keyPeople>
 	</company>
 	<company>
 		<name>JCB</name>
@@ -14246,7 +14246,7 @@
 		<industries>Retail</industries>
 		<numberOfEmployees>1300</numberOfEmployees>
 		<dateFounded>1833</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -14341,7 +14341,7 @@
 		<industries>Financial Services</industries>
 		<numberOfEmployees>3534</numberOfEmployees>
 		<dateFounded>1890</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople>Boris F. J. Collardi</keyPeople>
 	</company>
 	<company>
@@ -14394,7 +14394,7 @@
 		<industries></industries>
 		<numberOfEmployees>7660</numberOfEmployees>
 		<dateFounded>1862</dateFounded>
-		<headquarters>R�mlang</headquarters>
+		<headquarters>Rümlang</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -14446,7 +14446,7 @@
 		<industries>Feminine hygiene;;Toilet Preparation Manufacturing</industries>
 		<numberOfEmployees>32175</numberOfEmployees>
 		<dateFounded>1887-06</dateFounded>
-		<headquarters>Ch??</headquarters>
+		<headquarters>Chūō</headquarters>
 		<keyPeople>Michitaka Sawada</keyPeople>
 	</company>
 	<company>
@@ -14455,7 +14455,7 @@
 		<industries></industries>
 		<numberOfEmployees>1883</numberOfEmployees>
 		<dateFounded>1977</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -14473,7 +14473,7 @@
 		<industries>Construction;;Project management</industries>
 		<numberOfEmployees>370</numberOfEmployees>
 		<dateFounded>1915</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -14500,7 +14500,7 @@
 		<industries>Aerospace;;Construction;;Shipbuilding;;Automotive industry</industries>
 		<numberOfEmployees>30563</numberOfEmployees>
 		<dateFounded>1896-10-15</dateFounded>
-		<headquarters>Minato;;Ch??-ku, Kobe</headquarters>
+		<headquarters>Minato;;Chūō-ku, Kobe</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -14574,7 +14574,7 @@
 		<numberOfEmployees>8493</numberOfEmployees>
 		<dateFounded>1920</dateFounded>
 		<headquarters>Helsinki</headquarters>
-		<keyPeople>Wolfgang B�chele</keyPeople>
+		<keyPeople>Wolfgang Büchele</keyPeople>
 	</company>
 	<company>
 		<name>Kennisland</name>
@@ -14619,7 +14619,7 @@
 		<numberOfEmployees>93000</numberOfEmployees>
 		<dateFounded>1963</dateFounded>
 		<headquarters>Paris</headquarters>
-		<keyPeople>Fran�ois-Henri Pinault</keyPeople>
+		<keyPeople>François-Henri Pinault</keyPeople>
 	</company>
 	<company>
 		<name>Kern County Fire Department</name>
@@ -14654,7 +14654,7 @@
 		<numberOfEmployees>25890</numberOfEmployees>
 		<dateFounded>1940</dateFounded>
 		<headquarters>Helsinki</headquarters>
-		<keyPeople>Matti Halmesm�ki</keyPeople>
+		<keyPeople>Matti Halmesmäki</keyPeople>
 	</company>
 	<company>
 		<name>Ketchum Publico</name>
@@ -14770,7 +14770,7 @@
 		<industries>Mining;;Infrastructure</industries>
 		<numberOfEmployees>32</numberOfEmployees>
 		<dateFounded>1916</dateFounded>
-		<headquarters>Ny-�lesund</headquarters>
+		<headquarters>Ny-Ålesund</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -14865,7 +14865,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Kl�ckner-Werke</name>
+		<name>Klöckner-Werke</name>
 		<countries>null</countries>
 		<industries>Engineering</industries>
 		<numberOfEmployees>6400</numberOfEmployees>
@@ -14910,7 +14910,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Koblenzer Elektrizit�tswerk und Verkehrs-AG</name>
+		<name>Koblenzer Elektrizitätswerk und Verkehrs-AG</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>634</numberOfEmployees>
@@ -14943,7 +14943,7 @@
 		<industries></industries>
 		<numberOfEmployees>7327</numberOfEmployees>
 		<dateFounded>1817</dateFounded>
-		<headquarters>W�rzburg</headquarters>
+		<headquarters>Würzburg</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -14961,7 +14961,7 @@
 		<industries></industries>
 		<numberOfEmployees>38</numberOfEmployees>
 		<dateFounded>1885</dateFounded>
-		<headquarters>D�bendorf</headquarters>
+		<headquarters>Dübendorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -14992,7 +14992,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Kompania W?glowa</name>
+		<name>Kompania Węglowa</name>
 		<countries>null</countries>
 		<industries>Mining</industries>
 		<numberOfEmployees>62800</numberOfEmployees>
@@ -15033,7 +15033,7 @@
 		<industries>Overhead Traveling Crane, Hoist, and Monorail System Manufacturing;;Overhead Traveling Cranes, Hoists, and Monorail Systems;;Engineering</industries>
 		<numberOfEmployees>9782</numberOfEmployees>
 		<dateFounded>1994</dateFounded>
-		<headquarters>Hyvink��</headquarters>
+		<headquarters>Hyvinkää</headquarters>
 		<profit>129150000000</profit>
 		<keyPeople></keyPeople>
 	</company>
@@ -15065,13 +15065,13 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Ko� Holding</name>
+		<name>Koç Holding</name>
 		<countries>null</countries>
 		<industries>Conglomerate</industries>
 		<numberOfEmployees>85000</numberOfEmployees>
 		<dateFounded>1926-05-31</dateFounded>
 		<headquarters>Istanbul</headquarters>
-		<keyPeople>B�lent Bulgurlu;;Osman Turgay Durak</keyPeople>
+		<keyPeople>Bülent Bulgurlu;;Osman Turgay Durak</keyPeople>
 	</company>
 	<company>
 		<name>KPMG Alpen-Treuhand GmbH</name>
@@ -15297,7 +15297,7 @@
 		<keyPeople>Tetsuo Kuba</keyPeople>
 	</company>
 	<company>
-		<name>K�rcher</name>
+		<name>Kärcher</name>
 		<countries>null</countries>
 		<industries>Manufacturing</industries>
 		<numberOfEmployees>6859</numberOfEmployees>
@@ -15306,7 +15306,7 @@
 		<keyPeople>Hartmut Jenner</keyPeople>
 	</company>
 	<company>
-		<name>K�rber</name>
+		<name>Körber</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>9445</numberOfEmployees>
@@ -15315,7 +15315,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>L'Or�al</name>
+		<name>L'Oréal</name>
 		<countries>France</countries>
 		<industries>Perfumes, Cosmetics, and Other Toilet Preparations;;Personal care</industries>
 		<numberOfEmployees>63615</numberOfEmployees>
@@ -15379,7 +15379,7 @@
 		<keyPeople>Bruno Lafont</keyPeople>
 	</company>
 	<company>
-		<name>Lagard�re Group</name>
+		<name>Lagardère Group</name>
 		<countries>null</countries>
 		<industries>Aerospace;;Mass media</industries>
 		<numberOfEmployees>48245</numberOfEmployees>
@@ -15485,7 +15485,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Latvijas G?ze</name>
+		<name>Latvijas Gāze</name>
 		<countries>Latvia</countries>
 		<industries></industries>
 		<numberOfEmployees>1296</numberOfEmployees>
@@ -15532,7 +15532,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Leclanch�</name>
+		<name>Leclanché</name>
 		<countries>Switzerland</countries>
 		<industries>Manufacturing</industries>
 		<numberOfEmployees>80</numberOfEmployees>
@@ -15819,12 +15819,12 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Lindt &amp;amp; Spr�ngli</name>
+		<name>Lindt &amp;amp; Sprüngli</name>
 		<countries>Switzerland;;Italy;;null;;null</countries>
 		<industries></industries>
 		<numberOfEmployees>7044</numberOfEmployees>
 		<dateFounded>1845</dateFounded>
-		<headquarters>Kilchberg, Z�rich;;null;;Italy;;Milan</headquarters>
+		<headquarters>Kilchberg, Zürich;;null;;Italy;;Milan</headquarters>
 		<keyPeople>Ernst Tanner</keyPeople>
 	</company>
 	<company>
@@ -15897,7 +15897,7 @@
 		<industries></industries>
 		<numberOfEmployees>360</numberOfEmployees>
 		<dateFounded>1963</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -16034,7 +16034,7 @@
 		<industries></industries>
 		<numberOfEmployees>935</numberOfEmployees>
 		<dateFounded>1917</dateFounded>
-		<headquarters>K�niz</headquarters>
+		<headquarters>Köniz</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -16259,7 +16259,7 @@
 		<industries></industries>
 		<numberOfEmployees>155</numberOfEmployees>
 		<dateFounded>1932</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -16360,7 +16360,7 @@
 		<industries>Fishing industry</industries>
 		<numberOfEmployees>2173</numberOfEmployees>
 		<dateFounded>1993-11-01</dateFounded>
-		<headquarters>Mal�</headquarters>
+		<headquarters>Malé</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -16572,7 +16572,7 @@
 		<industries></industries>
 		<numberOfEmployees>25</numberOfEmployees>
 		<dateFounded>1960</dateFounded>
-		<headquarters>N�fels</headquarters>
+		<headquarters>Näfels</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -16733,7 +16733,7 @@
 		<industries></industries>
 		<numberOfEmployees>3000</numberOfEmployees>
 		<dateFounded>1997</dateFounded>
-		<headquarters>Schl�sselfeld</headquarters>
+		<headquarters>Schlüsselfeld</headquarters>
 		<keyPeople>Rainer Schaller</keyPeople>
 	</company>
 	<company>
@@ -16874,7 +16874,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Meli� Hotels International</name>
+		<name>Meliá Hotels International</name>
 		<countries>null</countries>
 		<industries>Tourism</industries>
 		<numberOfEmployees>35200</numberOfEmployees>
@@ -16991,7 +16991,7 @@
 		<industries></industries>
 		<numberOfEmployees>2356</numberOfEmployees>
 		<dateFounded>1924</dateFounded>
-		<headquarters>N�rtingen</headquarters>
+		<headquarters>Nürtingen</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -17062,7 +17062,7 @@
 		<numberOfEmployees>254997</numberOfEmployees>
 		<numberOfEmployees>286091</numberOfEmployees>
 		<dateFounded>1964</dateFounded>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<profit>825000000</profit>
 		<keyPeople>Olaf Koch</keyPeople>
 	</company>
@@ -17072,7 +17072,7 @@
 		<industries>Retail;;Wholesale</industries>
 		<numberOfEmployees>106876</numberOfEmployees>
 		<dateFounded>1964</dateFounded>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<keyPeople>Frans W. H. Muller;;Olaf Koch</keyPeople>
 	</company>
 	<company>
@@ -17082,7 +17082,7 @@
 		<numberOfEmployees>37878</numberOfEmployees>
 		<dateFounded>1947-12-22</dateFounded>
 		<headquarters>Montreal</headquarters>
-		<keyPeople>Eric Richer La Fl�che</keyPeople>
+		<keyPeople>Eric Richer La Flèche</keyPeople>
 	</company>
 	<company>
 		<name>Metrohm</name>
@@ -17113,7 +17113,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Mets� Board</name>
+		<name>Metsä Board</name>
 		<countries>Finland</countries>
 		<industries></industries>
 		<numberOfEmployees>6546</numberOfEmployees>
@@ -17122,7 +17122,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Mets� Group</name>
+		<name>Metsä Group</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>17538</numberOfEmployees>
@@ -17200,7 +17200,7 @@
 		<industries></industries>
 		<numberOfEmployees>900</numberOfEmployees>
 		<dateFounded>1989</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -17249,7 +17249,7 @@
 		<industries></industries>
 		<numberOfEmployees>16163</numberOfEmployees>
 		<dateFounded>1899-07-01</dateFounded>
-		<headquarters>G�tersloh</headquarters>
+		<headquarters>Gütersloh</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -17276,7 +17276,7 @@
 		<industries></industries>
 		<numberOfEmployees>288</numberOfEmployees>
 		<dateFounded>1954</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -17285,7 +17285,7 @@
 		<industries>Retail</industries>
 		<numberOfEmployees>83780</numberOfEmployees>
 		<dateFounded>1925</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -17293,7 +17293,7 @@
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>1262</numberOfEmployees>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -17460,7 +17460,7 @@
 		<industries>Retail</industries>
 		<numberOfEmployees>9405</numberOfEmployees>
 		<dateFounded>1673</dateFounded>
-		<headquarters>Ch??</headquarters>
+		<headquarters>Chūō</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -17532,7 +17532,7 @@
 		<industries>Telecommunications</industries>
 		<numberOfEmployees>5668</numberOfEmployees>
 		<dateFounded>1993-04-01</dateFounded>
-		<headquarters>Chi?in?u</headquarters>
+		<headquarters>Chișinău</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -17542,7 +17542,7 @@
 		<numberOfEmployees>120</numberOfEmployees>
 		<dateFounded>2001</dateFounded>
 		<headquarters>Montreal</headquarters>
-		<keyPeople>Dominic Audet;;Sakchin Bessette;;�ric Fournier</keyPeople>
+		<keyPeople>Dominic Audet;;Sakchin Bessette;;Éric Fournier</keyPeople>
 	</company>
 	<company>
 		<name>Momentive</name>
@@ -17578,7 +17578,7 @@
 		<industries></industries>
 		<numberOfEmployees>92773</numberOfEmployees>
 		<dateFounded>1956</dateFounded>
-		<headquarters>Mondrag�n</headquarters>
+		<headquarters>Mondragón</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -17798,7 +17798,7 @@
 		<industries></industries>
 		<numberOfEmployees>695</numberOfEmployees>
 		<dateFounded>1964</dateFounded>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -17975,7 +17975,7 @@
 		<industries></industries>
 		<numberOfEmployees>405</numberOfEmployees>
 		<dateFounded>1999</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -17988,33 +17988,33 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>M�larenergi</name>
+		<name>Mälarenergi</name>
 		<countries>null</countries>
 		<industries>Electric Services;;Electric Services (other electric power generation);;Electric Services (electric power distribution);;Electric Services (hydroelectric power generation);;Other Electric Power Generation;;Steam and Air-Conditioning Supply</industries>
 		<numberOfEmployees>540</numberOfEmployees>
-		<headquarters>V�ster�s</headquarters>
+		<headquarters>Västerås</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>M�rklin</name>
+		<name>Märklin</name>
 		<countries>Germany</countries>
 		<industries></industries>
 		<numberOfEmployees>1076</numberOfEmployees>
 		<dateFounded>1859</dateFounded>
-		<headquarters>G�ppingen</headquarters>
+		<headquarters>Göppingen</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>M�venpick Hotels &amp;amp; Resorts</name>
+		<name>Mövenpick Hotels &amp;amp; Resorts</name>
 		<countries>Switzerland;;null</countries>
 		<industries>Hospitality;;Tourism</industries>
 		<numberOfEmployees>16246</numberOfEmployees>
 		<dateFounded>1948</dateFounded>
-		<headquarters>Z�rich;;Switzerland</headquarters>
+		<headquarters>Zürich;;Switzerland</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>M�hlbauer Holding</name>
+		<name>Mühlbauer Holding</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>2000</numberOfEmployees>
@@ -18220,7 +18220,7 @@
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>50</numberOfEmployees>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -18247,7 +18247,7 @@
 		<industries></industries>
 		<numberOfEmployees>300</numberOfEmployees>
 		<dateFounded>1991</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -18326,7 +18326,7 @@
 		<keyPeople>Matti Lievonen</keyPeople>
 	</company>
 	<company>
-		<name>Nestl�</name>
+		<name>Nestlé</name>
 		<countries>Switzerland</countries>
 		<industries>Chocolate and Cocoa Products;;Soft Drink Manufacturing;;Bottled Water Manufacturing;;Bottled and Canned Soft Drinks and Carbonated Waters;;Cookies and Crackers;;Ice Cream and Frozen Dessert Manufacturing;;Food processing</industries>
 		<revenue>89630000000</revenue>
@@ -18388,7 +18388,7 @@
 		<industries></industries>
 		<numberOfEmployees>10</numberOfEmployees>
 		<dateFounded>2001</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -18708,7 +18708,7 @@
 		<numberOfEmployees>193831</numberOfEmployees>
 		<numberOfEmployees>205300</numberOfEmployees>
 		<dateFounded>1985</dateFounded>
-		<headquarters>Chiyoda, Tokyo;;?temachi</headquarters>
+		<headquarters>Chiyoda, Tokyo;;Ōtemachi</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -18887,7 +18887,7 @@
 		<industries></industries>
 		<numberOfEmployees>186</numberOfEmployees>
 		<dateFounded>1898</dateFounded>
-		<headquarters>Br�gg, Bern</headquarters>
+		<headquarters>Brügg, Bern</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -18921,7 +18921,7 @@
 		<keyPeople>Ronald Hovsepian;;John Dragoon;;Jeffrey M Jaffe;;Colleen A O'keefe;;Eric Schmidt</keyPeople>
 	</company>
 	<company>
-		<name>NRG�</name>
+		<name>NRG³</name>
 		<countries>null</countries>
 		<industries>Advertising;;Marketing;;Internet Publishing and Broadcasting and Web Search Portal</industries>
 		<numberOfEmployees>11</numberOfEmployees>
@@ -18992,7 +18992,7 @@
 		<industries>Pharmaceutical industry</industries>
 		<numberOfEmployees>12000</numberOfEmployees>
 		<dateFounded>1874</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -19007,7 +19007,7 @@
 		<keyPeople>Jean Francois Theodore;;Serge Harry;;Marques Miguel Athayde;;Bruno Colmant;;Stephane Biehler;;Andrew Brandman;;Duncan L. Niederauer;;John Thain</keyPeople>
 	</company>
 	<company>
-		<name>N�rtingen-Geislingen University of Applied Science</name>
+		<name>Nürtingen-Geislingen University of Applied Science</name>
 		<countries></countries>
 		<industries></industries>
 		<numberOfEmployees>201</numberOfEmployees>
@@ -19034,7 +19034,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Ober�sterreichische Versicherung</name>
+		<name>Oberösterreichische Versicherung</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>934</numberOfEmployees>
@@ -19168,7 +19168,7 @@
 		<industries>Alkalies and Chlorine Manufacturing</industries>
 		<numberOfEmployees>5500</numberOfEmployees>
 		<dateFounded>1966</dateFounded>
-		<headquarters>R�mnicu V�lcea</headquarters>
+		<headquarters>Râmnicu Vâlcea</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -19439,11 +19439,11 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Orell F�ssli</name>
+		<name>Orell Füssli</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>1027</numberOfEmployees>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -19452,7 +19452,7 @@
 		<industries></industries>
 		<numberOfEmployees>10</numberOfEmployees>
 		<dateFounded>2013-09-23</dateFounded>
-		<headquarters>Krak�w</headquarters>
+		<headquarters>Kraków</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -19469,7 +19469,7 @@
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>1000</numberOfEmployees>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -19654,7 +19654,7 @@
 		<numberOfEmployees>14721</numberOfEmployees>
 		<dateFounded>1961</dateFounded>
 		<headquarters>Collecchio</headquarters>
-		<keyPeople>Enrico Bondi;;Yvon Gu�rin</keyPeople>
+		<keyPeople>Enrico Bondi;;Yvon Guérin</keyPeople>
 	</company>
 	<company>
 		<name>Parship</name>
@@ -19816,7 +19816,7 @@
 		<industries>Construction</industries>
 		<numberOfEmployees>5300</numberOfEmployees>
 		<dateFounded>1969</dateFounded>
-		<headquarters>Wei�enhorn</headquarters>
+		<headquarters>Weißenhorn</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -19872,7 +19872,7 @@
 		<dateFounded>1953-10-03</dateFounded>
 		<headquarters>Rio de Janeiro</headquarters>
 		<profit>22523700000</profit>
-		<keyPeople>Maria das Gra�as Silva Foster</keyPeople>
+		<keyPeople>Maria das Graças Silva Foster</keyPeople>
 	</company>
 	<company>
 		<name>PetroChina</name>
@@ -19908,7 +19908,7 @@
 		<industries>Technology;;Manufacturing</industries>
 		<numberOfEmployees>725</numberOfEmployees>
 		<dateFounded>1890</dateFounded>
-		<headquarters>A�lar</headquarters>
+		<headquarters>Aßlar</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -20001,7 +20001,7 @@
 		<industries>Stationery</industries>
 		<numberOfEmployees>1240</numberOfEmployees>
 		<dateFounded>1918</dateFounded>
-		<headquarters>Ch??</headquarters>
+		<headquarters>Chūō</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -20118,7 +20118,7 @@
 		<industries>Retail;;Online shopping</industries>
 		<numberOfEmployees>1400</numberOfEmployees>
 		<dateFounded>2000</dateFounded>
-		<headquarters>Asni�res-sur-Seine</headquarters>
+		<headquarters>Asnières-sur-Seine</headquarters>
 		<keyPeople>Steve Rosenblum;;Fabien Sfez;;Philip Birbeck;;Luis Krug</keyPeople>
 	</company>
 	<company>
@@ -20128,7 +20128,7 @@
 		<revenue>17040000000</revenue>
 		<numberOfEmployees>24113</numberOfEmployees>
 		<dateFounded>1999</dateFounded>
-		<headquarters>P?ock</headquarters>
+		<headquarters>Płock</headquarters>
 		<profit>664000000</profit>
 		<keyPeople></keyPeople>
 	</company>
@@ -20216,7 +20216,7 @@
 		<numberOfEmployees>1200</numberOfEmployees>
 		<dateFounded>1977</dateFounded>
 		<headquarters>Kempele</headquarters>
-		<keyPeople>Sari S�yn�j�kangas</keyPeople>
+		<keyPeople>Sari Säynäjäkangas</keyPeople>
 	</company>
 	<company>
 		<name>Police Bank</name>
@@ -20254,7 +20254,7 @@
 		<keyPeople>Matt Ehrlichman</keyPeople>
 	</company>
 	<company>
-		<name>Port Administration of Paranagu� and Antonina</name>
+		<name>Port Administration of Paranaguá and Antonina</name>
 		<countries></countries>
 		<industries></industries>
 		<numberOfEmployees>700</numberOfEmployees>
@@ -20447,12 +20447,12 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Privatbank IHAG Z�rich</name>
+		<name>Privatbank IHAG Zürich</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>93</numberOfEmployees>
 		<dateFounded>1949</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -20460,7 +20460,7 @@
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>5635</numberOfEmployees>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -20533,7 +20533,7 @@
 		<industries></industries>
 		<numberOfEmployees>550</numberOfEmployees>
 		<dateFounded>1908</dateFounded>
-		<headquarters>Rheda-Wiedenbr�ck</headquarters>
+		<headquarters>Rheda-Wiedenbrück</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -20542,7 +20542,7 @@
 		<industries>Media;;Mass media</industries>
 		<numberOfEmployees>4980</numberOfEmployees>
 		<dateFounded>2000-10-02</dateFounded>
-		<headquarters>Unterf�hring</headquarters>
+		<headquarters>Unterföhring</headquarters>
 		<keyPeople>Thomas Ebeling</keyPeople>
 	</company>
 	<company>
@@ -20555,7 +20555,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Protecp�o</name>
+		<name>Protecpéo</name>
 		<countries>null</countries>
 		<industries></industries>
 		<revenue>45300</revenue>
@@ -20579,7 +20579,7 @@
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>2914</numberOfEmployees>
-		<headquarters>M�nster</headquarters>
+		<headquarters>Münster</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -20601,7 +20601,7 @@
 		<keyPeople>Tidjane Thiam</keyPeople>
 	</company>
 	<company>
-		<name>PSA Peugeot Citro�n</name>
+		<name>PSA Peugeot Citroën</name>
 		<countries>null</countries>
 		<industries>Motor Vehicles and Passenger Car Bodies;;Automotive industry</industries>
 		<numberOfEmployees>207800</numberOfEmployees>
@@ -20670,7 +20670,7 @@
 		<numberOfEmployees>9747</numberOfEmployees>
 		<dateFounded>1924</dateFounded>
 		<headquarters>Herzogenaurach</headquarters>
-		<keyPeople>Franz Koch;;Bj�rn Gulden</keyPeople>
+		<keyPeople>Franz Koch;;Björn Gulden</keyPeople>
 	</company>
 	<company>
 		<name>purehome</name>
@@ -20797,7 +20797,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Qui�enco</name>
+		<name>Quiñenco</name>
 		<countries>Chile</countries>
 		<industries>Conglomerate</industries>
 		<numberOfEmployees>32780</numberOfEmployees>
@@ -21036,8 +21036,8 @@
 		<numberOfEmployees>396</numberOfEmployees>
 		<numberOfEmployees>397</numberOfEmployees>
 		<numberOfEmployees>405</numberOfEmployees>
-		<headquarters>M�nster</headquarters>
-		<keyPeople>Martin Greiwe;;G�nter Juhr;;Thomas Dahm;;Klemens Baumg�rtel;;null</keyPeople>
+		<headquarters>Münster</headquarters>
+		<keyPeople>Martin Greiwe;;Günter Juhr;;Thomas Dahm;;Klemens Baumgärtel;;null</keyPeople>
 	</company>
 	<company>
 		<name>Rational AG</name>
@@ -21099,7 +21099,7 @@
 		<industries></industries>
 		<numberOfEmployees>58028</numberOfEmployees>
 		<dateFounded>1992</dateFounded>
-		<headquarters>M�nchengladbach</headquarters>
+		<headquarters>Mönchengladbach</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -21146,7 +21146,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Red El�ctrica de Espa�a</name>
+		<name>Red Eléctrica de España</name>
 		<countries>Spain</countries>
 		<industries>Public utility</industries>
 		<numberOfEmployees>1401</numberOfEmployees>
@@ -21222,12 +21222,12 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Regiobank M�nnedorf</name>
+		<name>Regiobank Männedorf</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>7</numberOfEmployees>
 		<dateFounded>1903</dateFounded>
-		<headquarters>M�nnedorf</headquarters>
+		<headquarters>Männedorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -21328,7 +21328,7 @@
 		<dateFounded>1986</dateFounded>
 		<headquarters>Madrid</headquarters>
 		<profit>3188000000</profit>
-		<keyPeople>Antonio Brufau Niub�</keyPeople>
+		<keyPeople>Antonio Brufau Niubó</keyPeople>
 	</company>
 	<company>
 		<name>ResellerClub</name>
@@ -21423,7 +21423,7 @@
 		<industries>Arms Manufacturers;;Automotive industry</industries>
 		<numberOfEmployees>19766</numberOfEmployees>
 		<dateFounded>1889-04-13</dateFounded>
-		<headquarters>D�sseldorf</headquarters>
+		<headquarters>Düsseldorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -21462,7 +21462,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Rh�n-Klinikum</name>
+		<name>Rhön-Klinikum</name>
 		<countries>null</countries>
 		<industries>Health Care</industries>
 		<numberOfEmployees>36885</numberOfEmployees>
@@ -21511,7 +21511,7 @@
 		<industries>Office Machines, NEC;;Office Machinery Manufacturing;;Photography;;Electronics industry</industries>
 		<numberOfEmployees>108500</numberOfEmployees>
 		<dateFounded>1936</dateFounded>
-		<headquarters>Ch??</headquarters>
+		<headquarters>Chūō</headquarters>
 		<keyPeople>Shiro Kondo;;Zenji Miura</keyPeople>
 	</company>
 	<company>
@@ -21523,7 +21523,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Riese und M�ller</name>
+		<name>Riese und Müller</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>35</numberOfEmployees>
@@ -21546,7 +21546,7 @@
 		<industries>Mass media</industries>
 		<numberOfEmployees>7448</numberOfEmployees>
 		<dateFounded>1833</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -21724,7 +21724,7 @@
 		<numberOfEmployees>900</numberOfEmployees>
 		<dateFounded>1998-03</dateFounded>
 		<headquarters>Westhampnett</headquarters>
-		<keyPeople>Torsten M�ller-�tv�s</keyPeople>
+		<keyPeople>Torsten Müller-Ötvös</keyPeople>
 	</company>
 	<company>
 		<name>Rompetrol</name>
@@ -21927,7 +21927,7 @@
 		<industries></industries>
 		<numberOfEmployees>380</numberOfEmployees>
 		<dateFounded>1908</dateFounded>
-		<headquarters>H�rbranz</headquarters>
+		<headquarters>Hörbranz</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -21995,7 +21995,7 @@
 		<keyPeople>Michael O'Leary;;Michael Cawley</keyPeople>
 	</company>
 	<company>
-		<name>R�serveGroup</name>
+		<name>RéserveGroup</name>
 		<countries></countries>
 		<industries></industries>
 		<numberOfEmployees>19</numberOfEmployees>
@@ -22003,16 +22003,16 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>R�der Zeltsysteme und Service AG</name>
+		<name>Röder Zeltsysteme und Service AG</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>477</numberOfEmployees>
 		<dateFounded>1959</dateFounded>
-		<headquarters>B�dingen</headquarters>
+		<headquarters>Büdingen</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>R�cker AG</name>
+		<name>Rücker AG</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>2300</numberOfEmployees>
@@ -22037,7 +22037,7 @@
 		<numberOfEmployees>35899</numberOfEmployees>
 		<dateFounded>1904</dateFounded>
 		<headquarters>Helsinki</headquarters>
-		<keyPeople>Kuisma Niemel�</keyPeople>
+		<keyPeople>Kuisma Niemelä</keyPeople>
 	</company>
 	<company>
 		<name>S2 Games</name>
@@ -22054,7 +22054,7 @@
 		<numberOfEmployees>13757</numberOfEmployees>
 		<dateFounded>1937</dateFounded>
 		<headquarters>Stockholm</headquarters>
-		<keyPeople>H�kan Buskhe</keyPeople>
+		<keyPeople>Håkan Buskhe</keyPeople>
 	</company>
 	<company>
 		<name>Saab Automobile AB</name>
@@ -22062,7 +22062,7 @@
 		<industries>Manufacturing;;Automotive industry</industries>
 		<numberOfEmployees>3400</numberOfEmployees>
 		<dateFounded>1947</dateFounded>
-		<headquarters>Trollh�ttan</headquarters>
+		<headquarters>Trollhättan</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -22071,7 +22071,7 @@
 		<industries></industries>
 		<numberOfEmployees>7205</numberOfEmployees>
 		<dateFounded>1989</dateFounded>
-		<headquarters>V�lklingen</headquarters>
+		<headquarters>Völklingen</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -22084,7 +22084,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Sabanc? Holding</name>
+		<name>Sabancı Holding</name>
 		<countries>Turkey</countries>
 		<industries>Conglomerate</industries>
 		<numberOfEmployees>45000</numberOfEmployees>
@@ -22142,7 +22142,7 @@
 		<industries>Meats and Meat Products</industries>
 		<numberOfEmployees>60580</numberOfEmployees>
 		<dateFounded>1944</dateFounded>
-		<headquarters>S�o Paulo</headquarters>
+		<headquarters>São Paulo</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -22199,7 +22199,7 @@
 		<numberOfEmployees>191500</numberOfEmployees>
 		<dateFounded>1665</dateFounded>
 		<headquarters>Courbevoie</headquarters>
-		<keyPeople>Pierre-Andr� de Chalendar;;Pierre-Andr� de Chalendar</keyPeople>
+		<keyPeople>Pierre-André de Chalendar;;Pierre-André de Chalendar</keyPeople>
 	</company>
 	<company>
 		<name>Saint-Gobain Oberland AG</name>
@@ -22606,7 +22606,7 @@
 		<industries></industries>
 		<numberOfEmployees>670</numberOfEmployees>
 		<dateFounded>1881</dateFounded>
-		<headquarters>Sch�nenwerd</headquarters>
+		<headquarters>Schönenwerd</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -22680,7 +22680,7 @@
 		<industries></industries>
 		<numberOfEmployees>169</numberOfEmployees>
 		<dateFounded>1967</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -22689,7 +22689,7 @@
 		<industries></industries>
 		<numberOfEmployees>5634</numberOfEmployees>
 		<dateFounded>1839</dateFounded>
-		<headquarters>G�ppingen</headquarters>
+		<headquarters>Göppingen</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -22698,7 +22698,7 @@
 		<industries></industries>
 		<numberOfEmployees>79</numberOfEmployees>
 		<dateFounded>1791</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -22737,7 +22737,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Sch�tzle Holding</name>
+		<name>Schätzle Holding</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>82</numberOfEmployees>
@@ -22854,7 +22854,7 @@
 		<industries>Alarm Services</industries>
 		<numberOfEmployees>150000</numberOfEmployees>
 		<dateFounded>1934</dateFounded>
-		<headquarters>Malm� Municipality;;null</headquarters>
+		<headquarters>Malmö Municipality;;null</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -22926,7 +22926,7 @@
 		<numberOfEmployees>2132</numberOfEmployees>
 		<dateFounded>1945-06-01</dateFounded>
 		<headquarters>Wedemark</headquarters>
-		<keyPeople>J�rg Sennheiser;;Andreas Sennheiser;;Daniel Sennheiser</keyPeople>
+		<keyPeople>Jörg Sennheiser;;Andreas Sennheiser;;Daniel Sennheiser</keyPeople>
 	</company>
 	<company>
 		<name>Sentifi AG</name>
@@ -22984,7 +22984,7 @@
 		<industries></industries>
 		<numberOfEmployees>10</numberOfEmployees>
 		<dateFounded>2005-01</dateFounded>
-		<headquarters>Csom�d</headquarters>
+		<headquarters>Csomád</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -23055,7 +23055,7 @@
 		<industries></industries>
 		<numberOfEmployees>883</numberOfEmployees>
 		<dateFounded>1986</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -23184,7 +23184,7 @@
 		<dateFounded>1847-10-12</dateFounded>
 		<headquarters>Munich</headquarters>
 		<profit>3806000000</profit>
-		<keyPeople>Peter L�scher;;Joe Kaeser</keyPeople>
+		<keyPeople>Peter Löscher;;Joe Kaeser</keyPeople>
 	</company>
 	<company>
 		<name>Sienna Corporation</name>
@@ -23397,7 +23397,7 @@
 		<dateFounded>1877</dateFounded>
 		<headquarters>Solna Municipality</headquarters>
 		<profit>4096000000</profit>
-		<keyPeople>Johan Karlstr�m</keyPeople>
+		<keyPeople>Johan Karlström</keyPeople>
 	</company>
 	<company>
 		<name>SkillPages</name>
@@ -23421,7 +23421,7 @@
 		<industries>Mass media</industries>
 		<numberOfEmployees>1244</numberOfEmployees>
 		<dateFounded>1991-02-28</dateFounded>
-		<headquarters>Unterf�hring</headquarters>
+		<headquarters>Unterföhring</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -23438,7 +23438,7 @@
 		<industries></industries>
 		<numberOfEmployees>55</numberOfEmployees>
 		<dateFounded>1987</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -23575,7 +23575,7 @@
 		<keyPeople>Eugene Lee</keyPeople>
 	</company>
 	<company>
-		<name>Sociedade Lusa de Neg�cios SA</name>
+		<name>Sociedade Lusa de Negócios SA</name>
 		<countries></countries>
 		<industries></industries>
 		<numberOfEmployees>4260</numberOfEmployees>
@@ -23584,7 +23584,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Soci�t� d'�tudes techniques et �conomiques</name>
+		<name>Société d'études techniques et économiques</name>
 		<countries>France</countries>
 		<industries>Engineering</industries>
 		<numberOfEmployees>1000</numberOfEmployees>
@@ -23592,7 +23592,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Soci�t� des �tablissements de plein air du Qu�bec</name>
+		<name>Société des établissements de plein air du Québec</name>
 		<countries></countries>
 		<industries></industries>
 		<numberOfEmployees>3400</numberOfEmployees>
@@ -23641,7 +23641,7 @@
 		<industries>Information technology</industries>
 		<numberOfEmployees>7000</numberOfEmployees>
 		<dateFounded>1982-12</dateFounded>
-		<headquarters>San Pedro Garza Garc�a</headquarters>
+		<headquarters>San Pedro Garza García</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -23831,12 +23831,12 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Spar + Leihkasse M�nsingen</name>
+		<name>Spar + Leihkasse Münsingen</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>44</numberOfEmployees>
 		<dateFounded>1870</dateFounded>
-		<headquarters>M�nsingen</headquarters>
+		<headquarters>Münsingen</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -23845,7 +23845,7 @@
 		<industries></industries>
 		<numberOfEmployees>18</numberOfEmployees>
 		<dateFounded>1850</dateFounded>
-		<headquarters>L�terswil-G�chliwil</headquarters>
+		<headquarters>Lüterswil-Gächliwil</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -23858,7 +23858,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Sparda-Bank Baden-W�rttemberg</name>
+		<name>Sparda-Bank Baden-Württemberg</name>
 		<countries>null</countries>
 		<industries>Commercial bank</industries>
 		<numberOfEmployees>720</numberOfEmployees>
@@ -23892,12 +23892,12 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Sparda-Bank M�nster</name>
+		<name>Sparda-Bank Münster</name>
 		<countries>null</countries>
 		<industries>Commercial bank</industries>
 		<numberOfEmployees>224</numberOfEmployees>
 		<dateFounded>1900</dateFounded>
-		<headquarters>M�nster</headquarters>
+		<headquarters>Münster</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -23910,13 +23910,13 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Sparkasse M�nsterland Ost</name>
+		<name>Sparkasse Münsterland Ost</name>
 		<countries>Germany;;Germany;;Germany;;Germany</countries>
 		<industries>Financial Services;;Credit;;Payment system</industries>
 		<revenue>19100000</revenue>
 		<numberOfEmployees>1500</numberOfEmployees>
 		<dateFounded>1829</dateFounded>
-		<headquarters>M�nster;;Warendorf;;Oelde;;Ahlen</headquarters>
+		<headquarters>Münster;;Warendorf;;Oelde;;Ahlen</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -23966,7 +23966,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Spit�ler Frutigen Meiringen Interlaken</name>
+		<name>Spitäler Frutigen Meiringen Interlaken</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>875</numberOfEmployees>
@@ -23996,7 +23996,7 @@
 		<industries></industries>
 		<numberOfEmployees>160</numberOfEmployees>
 		<dateFounded>1892</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -24143,7 +24143,7 @@
 		<industries>Manufacturing</industries>
 		<numberOfEmployees>500</numberOfEmployees>
 		<dateFounded>1985</dateFounded>
-		<headquarters>Iracem�polis</headquarters>
+		<headquarters>Iracemápolis</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -24253,7 +24253,7 @@
 		<numberOfEmployees>8979</numberOfEmployees>
 		<dateFounded>1862</dateFounded>
 		<headquarters>Helsinki</headquarters>
-		<keyPeople>Hannu Penttil�</keyPeople>
+		<keyPeople>Hannu Penttilä</keyPeople>
 	</company>
 	<company>
 		<name>StopFinder Ltd.</name>
@@ -24369,7 +24369,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>St�cklin Logistik</name>
+		<name>Stöcklin Logistik</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>515</numberOfEmployees>
@@ -24378,7 +24378,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>St�rm AG</name>
+		<name>Stürm AG</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>189</numberOfEmployees>
@@ -24413,7 +24413,7 @@
 		<numberOfEmployees>200000</numberOfEmployees>
 		<dateFounded>1858</dateFounded>
 		<headquarters>Paris</headquarters>
-		<keyPeople>G�rard Mestrallet</keyPeople>
+		<keyPeople>Gérard Mestrallet</keyPeople>
 	</company>
 	<company>
 		<name>Suez Environnement</name>
@@ -24586,7 +24586,7 @@
 		<industries></industries>
 		<numberOfEmployees>8026</numberOfEmployees>
 		<dateFounded>1914</dateFounded>
-		<headquarters>D�bendorf</headquarters>
+		<headquarters>Dübendorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -24658,7 +24658,7 @@
 		<industries></industries>
 		<numberOfEmployees>600</numberOfEmployees>
 		<dateFounded>1945</dateFounded>
-		<headquarters>Norrk�ping</headquarters>
+		<headquarters>Norrköping</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -24675,7 +24675,7 @@
 		<industries>Microelectronics;;Photovoltaics</industries>
 		<numberOfEmployees>390</numberOfEmployees>
 		<dateFounded>1984</dateFounded>
-		<headquarters>Neuch�tel</headquarters>
+		<headquarters>Neuchâtel</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -24693,7 +24693,7 @@
 		<industries>Financial Services</industries>
 		<numberOfEmployees>7820</numberOfEmployees>
 		<dateFounded>1857</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople>Bruno Pfister</keyPeople>
 	</company>
 	<company>
@@ -24702,8 +24702,8 @@
 		<industries>Life Insurance;;Direct Life Insurance Carriers;;Financial Services</industries>
 		<numberOfEmployees>11560</numberOfEmployees>
 		<dateFounded>1863-12-19</dateFounded>
-		<headquarters>Z�rich</headquarters>
-		<keyPeople>Michel M. Li�s</keyPeople>
+		<headquarters>Zürich</headquarters>
+		<keyPeople>Michel M. Liès</keyPeople>
 	</company>
 	<company>
 		<name>Swisscanto</name>
@@ -24871,11 +24871,11 @@
 		<industries></industries>
 		<numberOfEmployees>300</numberOfEmployees>
 		<dateFounded>1995</dateFounded>
-		<headquarters>Bad Homburg vor der H�he</headquarters>
+		<headquarters>Bad Homburg vor der Höhe</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>S�DPACK Verpackungen</name>
+		<name>SÜDPACK Verpackungen</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>950</numberOfEmployees>
@@ -24884,16 +24884,16 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>S�dostBayernBahn</name>
+		<name>SüdostBayernBahn</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>579</numberOfEmployees>
 		<dateFounded>2001</dateFounded>
-		<headquarters>M�hldorf</headquarters>
+		<headquarters>Mühldorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>S�dwestdeutsche Salzwerke</name>
+		<name>Südwestdeutsche Salzwerke</name>
 		<countries>null</countries>
 		<industries>Food and Beverage</industries>
 		<numberOfEmployees>542</numberOfEmployees>
@@ -25017,7 +25017,7 @@
 		<industries>Mass media</industries>
 		<numberOfEmployees>1616</numberOfEmployees>
 		<dateFounded>1893</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -25070,7 +25070,7 @@
 		<industries>Manufacturing;;Automotive industry</industries>
 		<numberOfEmployees>3300</numberOfEmployees>
 		<dateFounded>1850</dateFounded>
-		<headquarters>Kop?ivnice</headquarters>
+		<headquarters>Kopřivnice</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -25080,7 +25080,7 @@
 		<numberOfEmployees>4330</numberOfEmployees>
 		<dateFounded>1939</dateFounded>
 		<headquarters>Porto Alegre</headquarters>
-		<keyPeople>Dennis Braz Gon�alves</keyPeople>
+		<keyPeople>Dennis Braz Gonçalves</keyPeople>
 	</company>
 	<company>
 		<name>Taylor Wimpey</name>
@@ -25116,7 +25116,7 @@
 		<industries></industries>
 		<numberOfEmployees>1122</numberOfEmployees>
 		<dateFounded>1980</dateFounded>
-		<headquarters>M�nnedorf</headquarters>
+		<headquarters>Männedorf</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -25138,7 +25138,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Technischer �berwachungsverein</name>
+		<name>Technischer Überwachungsverein</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>14635</numberOfEmployees>
@@ -25256,7 +25256,7 @@
 		<keyPeople>Nikita Savvinykh</keyPeople>
 	</company>
 	<company>
-		<name>Telef�nica</name>
+		<name>Telefónica</name>
 		<countries>null</countries>
 		<industries>Telecommunications;;Provider (Operator);;Fixed Network Operator;;Wired Telecommunications Carriers;;Telephone Communications, Except Radiotelephone</industries>
 		<revenue>69829300000</revenue>
@@ -25265,7 +25265,7 @@
 		<dateFounded>1924</dateFounded>
 		<headquarters>Madrid</headquarters>
 		<profit>8906000000</profit>
-		<keyPeople>C�sar Alierta</keyPeople>
+		<keyPeople>César Alierta</keyPeople>
 	</company>
 	<company>
 		<name>Telegate</name>
@@ -25414,7 +25414,7 @@
 		<industries></industries>
 		<numberOfEmployees>116</numberOfEmployees>
 		<dateFounded>1868</dateFounded>
-		<headquarters>K�snacht</headquarters>
+		<headquarters>Küsnacht</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -25461,7 +25461,7 @@
 		<industries></industries>
 		<numberOfEmployees>30000</numberOfEmployees>
 		<dateFounded>2001</dateFounded>
-		<headquarters>Krak�w</headquarters>
+		<headquarters>Kraków</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -25480,7 +25480,7 @@
 		<numberOfEmployees>21640</numberOfEmployees>
 		<dateFounded>1951</dateFounded>
 		<headquarters>Pully</headquarters>
-		<keyPeople>Dennis J�nsson</keyPeople>
+		<keyPeople>Dennis Jönsson</keyPeople>
 	</company>
 	<company>
 		<name>Teva Pharmaceutical Industries</name>
@@ -25668,7 +25668,7 @@
 		<numberOfEmployees>47731</numberOfEmployees>
 		<dateFounded>1879-06-21</dateFounded>
 		<headquarters>Munich</headquarters>
-		<keyPeople>Wolfgang Reitzle;;Wolfgang B�chele</keyPeople>
+		<keyPeople>Wolfgang Reitzle;;Wolfgang Büchele</keyPeople>
 	</company>
 	<company>
 		<name>The McGraw-Hill Companies</name>
@@ -25704,7 +25704,7 @@
 		<industries>Retail</industries>
 		<numberOfEmployees>5000</numberOfEmployees>
 		<dateFounded>1992</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -25928,7 +25928,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Th�ga</name>
+		<name>Thüga</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>239</numberOfEmployees>
@@ -25942,7 +25942,7 @@
 		<industries></industries>
 		<numberOfEmployees>130</numberOfEmployees>
 		<dateFounded>1987</dateFounded>
-		<headquarters>R�mlang</headquarters>
+		<headquarters>Rümlang</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -25971,7 +25971,7 @@
 		<numberOfEmployees>86000</numberOfEmployees>
 		<dateFounded>1994</dateFounded>
 		<headquarters>Rome</headquarters>
-		<keyPeople>Franco Bernab�;;Marco Patuano</keyPeople>
+		<keyPeople>Franco Bernabè;;Marco Patuano</keyPeople>
 	</company>
 	<company>
 		<name>Time Inc. UK</name>
@@ -25991,7 +25991,7 @@
 		<dateFounded>1990</dateFounded>
 		<headquarters>New York City</headquarters>
 		<profit>29000000</profit>
-		<keyPeople>Jeffrey Bewkes;;Carol A. Melton;;�lafur J�hann �lafsson;;Paul T Cappuccio</keyPeople>
+		<keyPeople>Jeffrey Bewkes;;Carol A. Melton;;Ólafur Jóhann Ólafsson;;Paul T Cappuccio</keyPeople>
 	</company>
 	<company>
 		<name>Tipp24</name>
@@ -26680,7 +26680,7 @@
 		<keyPeople>Mike Boswood;;Roy Martin;;Jon Newpol;;Phil Buckingham;;Anita M. Brown</keyPeople>
 	</company>
 	<company>
-		<name>Tr�b AG</name>
+		<name>Trüb AG</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>445</numberOfEmployees>
@@ -26763,7 +26763,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>TV P�blica Digital</name>
+		<name>TV Pública Digital</name>
 		<countries></countries>
 		<industries></industries>
 		<numberOfEmployees>1200</numberOfEmployees>
@@ -26795,7 +26795,7 @@
 		<industries></industries>
 		<numberOfEmployees>76</numberOfEmployees>
 		<dateFounded>1995</dateFounded>
-		<headquarters>K�nigswinter</headquarters>
+		<headquarters>Königswinter</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -26827,7 +26827,7 @@
 		<keyPeople>Andrew Isidoro</keyPeople>
 	</company>
 	<company>
-		<name>T�cnicas Reunidas</name>
+		<name>Técnicas Reunidas</name>
 		<countries>null</countries>
 		<industries>Infrastructure;;Environmental Engineering;;Construction;;Engineering;;Engineering, procurement and construction</industries>
 		<numberOfEmployees>5230</numberOfEmployees>
@@ -26878,7 +26878,7 @@
 		<revenue>117206000000</revenue>
 		<numberOfEmployees>83560</numberOfEmployees>
 		<dateFounded>1854</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<profit>-4384000000</profit>
 		<keyPeople>Sergio Ermotti</keyPeople>
 	</company>
@@ -26976,7 +26976,7 @@
 		<keyPeople>Ronald D Croatti</keyPeople>
 	</company>
 	<company>
-		<name>Union Bancaire Priv�e</name>
+		<name>Union Bancaire Privée</name>
 		<countries>null</countries>
 		<industries>Financial Services</industries>
 		<numberOfEmployees>1300</numberOfEmployees>
@@ -27053,7 +27053,7 @@
 		<dateFounded>1929</dateFounded>
 		<headquarters>Hartford</headquarters>
 		<profit>26000000</profit>
-		<keyPeople>Ari Bousbib;;Geraud Darnis;;George David;;Thomas I Rogan;;Jeffrey P Pino;;Louis R. Ch�nevert;;Didier Michaud-daniel</keyPeople>
+		<keyPeople>Ari Bousbib;;Geraud Darnis;;George David;;Thomas I Rogan;;Jeffrey P Pino;;Louis R. Chênevert;;Didier Michaud-daniel</keyPeople>
 	</company>
 	<company>
 		<name>United Westminster &amp;amp; Wrexham Collieries</name>
@@ -27093,7 +27093,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>University of C�rdoba</name>
+		<name>University of Córdoba</name>
 		<countries></countries>
 		<industries></industries>
 		<numberOfEmployees>2100</numberOfEmployees>
@@ -27130,7 +27130,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Uni�n Fenosa</name>
+		<name>Unión Fenosa</name>
 		<countries>null</countries>
 		<industries>Energy</industries>
 		<numberOfEmployees>12780</numberOfEmployees>
@@ -27183,7 +27183,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Usedomer B�derbahn</name>
+		<name>Usedomer Bäderbahn</name>
 		<countries>null</countries>
 		<industries>Transport</industries>
 		<numberOfEmployees>159</numberOfEmployees>
@@ -27380,7 +27380,7 @@
 		<numberOfEmployees>32396</numberOfEmployees>
 		<dateFounded>1909</dateFounded>
 		<headquarters>Stockholm</headquarters>
-		<keyPeople>�ystein L�seth</keyPeople>
+		<keyPeople>Øystein Løseth</keyPeople>
 	</company>
 	<company>
 		<name>Vattenfall Europe</name>
@@ -27415,7 +27415,7 @@
 		<industries></industries>
 		<numberOfEmployees>2880</numberOfEmployees>
 		<dateFounded>1975</dateFounded>
-		<headquarters>Korntal-M�nchingen</headquarters>
+		<headquarters>Korntal-Münchingen</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -27490,7 +27490,7 @@
 		<numberOfEmployees>312590</numberOfEmployees>
 		<dateFounded>1853</dateFounded>
 		<headquarters>Paris</headquarters>
-		<keyPeople>Antoine Fr�rot;;Antoine Fr�rot</keyPeople>
+		<keyPeople>Antoine Frérot;;Antoine Frérot</keyPeople>
 	</company>
 	<company>
 		<name>Vereinigte Filzfabriken</name>
@@ -27648,10 +27648,10 @@
 		<industries>Ceramic</industries>
 		<numberOfEmployees>9440</numberOfEmployees>
 		<headquarters>Mettlach</headquarters>
-		<keyPeople>Frank G�ring</keyPeople>
+		<keyPeople>Frank Göring</keyPeople>
 	</company>
 	<company>
-		<name>Villiger S�hne Holding</name>
+		<name>Villiger Söhne Holding</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>1000</numberOfEmployees>
@@ -27710,7 +27710,7 @@
 		<industries></industries>
 		<numberOfEmployees>27</numberOfEmployees>
 		<dateFounded>2000</dateFounded>
-		<headquarters>Saint-Andr�-lez-Lille</headquarters>
+		<headquarters>Saint-André-lez-Lille</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -27729,7 +27729,7 @@
 		<numberOfEmployees>48284</numberOfEmployees>
 		<dateFounded>1998</dateFounded>
 		<headquarters>Paris</headquarters>
-		<keyPeople>Jean-Fran�ois Dubos</keyPeople>
+		<keyPeople>Jean-François Dubos</keyPeople>
 	</company>
 	<company>
 		<name>Vivid Entertainment</name>
@@ -27821,7 +27821,7 @@
 		<numberOfEmployees>24384</numberOfEmployees>
 		<dateFounded>1927-04-14</dateFounded>
 		<headquarters>Gothenburg</headquarters>
-		<keyPeople>H�kan Samuelsson</keyPeople>
+		<keyPeople>Håkan Samuelsson</keyPeople>
 	</company>
 	<company>
 		<name>Vom Fass</name>
@@ -27891,7 +27891,7 @@
 		<industries></industries>
 		<numberOfEmployees>168</numberOfEmployees>
 		<dateFounded>2005-09-01</dateFounded>
-		<headquarters>M�nster</headquarters>
+		<headquarters>Münster</headquarters>
 		<keyPeople>null;;null;;null</keyPeople>
 	</company>
 	<company>
@@ -27935,7 +27935,7 @@
 		<countries>Austria</countries>
 		<industries></industries>
 		<numberOfEmployees>980</numberOfEmployees>
-		<headquarters>B�rmoos</headquarters>
+		<headquarters>Bürmoos</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -28034,7 +28034,7 @@
 		<industries></industries>
 		<numberOfEmployees>2356</numberOfEmployees>
 		<dateFounded>1917</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -28043,7 +28043,7 @@
 		<industries></industries>
 		<numberOfEmployees>1575</numberOfEmployees>
 		<dateFounded>1937</dateFounded>
-		<headquarters>St�fa</headquarters>
+		<headquarters>Stäfa</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -28287,7 +28287,7 @@
 		<industries>Utilities</industries>
 		<numberOfEmployees>1210</numberOfEmployees>
 		<dateFounded>1901-12-07</dateFounded>
-		<headquarters>Rheda-Wiedenbr�ck</headquarters>
+		<headquarters>Rheda-Wiedenbrück</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -28716,7 +28716,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>W�rtsil�</name>
+		<name>Wärtsilä</name>
 		<countries>null</countries>
 		<industries>Other Heavy and Civil Engineering Construction;;Heavy Construction, NEC;;Manufacturing</industries>
 		<numberOfEmployees>16336</numberOfEmployees>
@@ -28727,16 +28727,16 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>W�rth</name>
+		<name>Würth</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>62811</numberOfEmployees>
 		<dateFounded>1946</dateFounded>
-		<headquarters>K�nzelsau</headquarters>
+		<headquarters>Künzelsau</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>W�stenrot &amp;amp; W�rttembergische</name>
+		<name>Wüstenrot &amp;amp; Württembergische</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>9819</numberOfEmployees>
@@ -28768,7 +28768,7 @@
 		<countries>Hungary</countries>
 		<industries></industries>
 		<numberOfEmployees>9</numberOfEmployees>
-		<headquarters>Csom�d</headquarters>
+		<headquarters>Csomád</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -28897,7 +28897,7 @@
 		<dateFounded>1987</dateFounded>
 		<headquarters>Helsinki</headquarters>
 		<profit>224900000</profit>
-		<keyPeople>Juhani Pitk�koski</keyPeople>
+		<keyPeople>Juhani Pitkäkoski</keyPeople>
 	</company>
 	<company>
 		<name>Yokohama Rubber Company</name>
@@ -28992,7 +28992,7 @@
 		<numberOfEmployees>59771</numberOfEmployees>
 		<dateFounded>1915-08-20</dateFounded>
 		<headquarters>Friedrichshafen</headquarters>
-		<keyPeople>Hans-Georg H�rter;;Stefan Sommer</keyPeople>
+		<keyPeople>Hans-Georg Härter;;Stefan Sommer</keyPeople>
 	</company>
 	<company>
 		<name>ZF SACHS</name>
@@ -29009,7 +29009,7 @@
 		<industries></industries>
 		<numberOfEmployees>2500</numberOfEmployees>
 		<dateFounded>1910</dateFounded>
-		<headquarters>K�nzelsau</headquarters>
+		<headquarters>Künzelsau</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -29027,7 +29027,7 @@
 		<industries></industries>
 		<numberOfEmployees>61</numberOfEmployees>
 		<dateFounded>2003-11-03</dateFounded>
-		<headquarters>Ish�j</headquarters>
+		<headquarters>Ishøj</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
@@ -29091,7 +29091,7 @@
 		<industries>Insurance Carriers, NEC;;Other Direct Insurance (except Life, Health, and Medical) Carriers;;Financial Services</industries>
 		<numberOfEmployees>57609</numberOfEmployees>
 		<dateFounded>1928</dateFounded>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople>Martin Senn</keyPeople>
 	</company>
 	<company>
@@ -29122,7 +29122,7 @@
 		<keyPeople>Dr. Shun-I Chu</keyPeople>
 	</company>
 	<company>
-		<name>Z�blin</name>
+		<name>Züblin</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>14429</numberOfEmployees>
@@ -29131,23 +29131,23 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Z�blin Immobilien Holding</name>
+		<name>Züblin Immobilien Holding</name>
 		<countries>null</countries>
 		<industries></industries>
 		<numberOfEmployees>26</numberOfEmployees>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>Z�richsee-Schifffahrtsgesellschaft</name>
+		<name>Zürichsee-Schifffahrtsgesellschaft</name>
 		<countries>null</countries>
 		<industries>Transport</industries>
 		<numberOfEmployees>88</numberOfEmployees>
-		<headquarters>Z�rich</headquarters>
+		<headquarters>Zürich</headquarters>
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>�al?k Holding</name>
+		<name>Çalık Holding</name>
 		<countries>Turkey</countries>
 		<industries></industries>
 		<numberOfEmployees>18500</numberOfEmployees>
@@ -29156,7 +29156,7 @@
 		<keyPeople></keyPeople>
 	</company>
 	<company>
-		<name>�lectricit� de France</name>
+		<name>Électricité de France</name>
 		<countries>France</countries>
 		<industries>Nuclear Electric Power Generation;;Electric and Other Services Combined</industries>
 		<revenue>81629000000</revenue>
@@ -29168,7 +29168,7 @@
 		<keyPeople>Henri Proglio</keyPeople>
 	</company>
 	<company>
-		<name>?EZ Group</name>
+		<name>ČEZ Group</name>
 		<countries>Czech Republic</countries>
 		<industries>Energy industry</industries>
 		<numberOfEmployees>30300</numberOfEmployees>
@@ -29177,12 +29177,12 @@
 		<keyPeople>Daniel Benes</keyPeople>
 	</company>
 	<company>
-		<name>�koda Auto</name>
+		<name>Škoda Auto</name>
 		<countries>Czech Republic</countries>
 		<industries>Manufacturing;;Automotive industry</industries>
 		<numberOfEmployees>29000</numberOfEmployees>
 		<dateFounded>1895</dateFounded>
-		<headquarters>Mlad� Boleslav</headquarters>
+		<headquarters>Mladá Boleslav</headquarters>
 		<keyPeople>Winfried Vahland;;Werner Eichhorn;;Karlheinz Hell;;Winfried Krause;;Michael Oeljeklaus;;Frank Welsch;;Bohdan Wojnar</keyPeople>
 	</company>
 </companies>
