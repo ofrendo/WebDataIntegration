@@ -1,5 +1,7 @@
 package de.uni_mannheim.informatik.wdi.usecase.companies;
 
+import java.util.Arrays;
+
 import org.joda.time.DateTime;
 import org.w3c.dom.Node;
 
@@ -44,12 +46,19 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		//System.out.println("Creating company " + getValueFromChildElement(node, "name"));
 		
 		// fill the attributes
+		//name = name.replaceAll("'", "");
 		company.setName(name);
-		company.setCountries(getValueFromChildElement(node, "countries"));
-		//Normalize country attribute
-		//TODO: US, USA, U.S., U.S.A, United States, United states of america, The United States ==> United States of America
 		
-		company.setIndustries(getValueFromChildElement(node, "industries"));
+		//Normalize country attribute
+		String countries = getValueFromChildElement(node, "countries");
+		String resultCountries = normalizeCountries(countries);
+		//if (name.equals("BP") || name.equals("BP")) System.out.println(countries + " normalized to " + resultCountries);
+		company.setCountries(resultCountries);
+		
+		String industries = getValueFromChildElement(node, "industries");
+		if (name.equals("Chevron") || name.equals("Chevron Corporation")) 
+			System.out.println(name + ": " + industries);
+		company.setIndustries(industries);
 
 		String revenue = getValueFromChildElement(node, "revenue");
 		company.setRevenue(getProfitOrRevenue(revenue));
@@ -86,6 +95,41 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		}
 		
 		return value.longValue();
+	}
+	
+	/**
+	 * @param String like England;;United Kingdom;;null
+	 * @return Normalized version of String (in this case United Kingdom)
+	 */
+	private String normalizeCountries(String countries) {
+		if (countries == null || countries.length() == 0) 
+			return null;
+		
+		String[][] mapping = {
+				{"United Kingdom", "UK", "England", "Britain"},
+				{"United States of America", "US","USA","U.S","U.S.A","United States","America","Contiguous United States"}
+		};
+		
+		//HashMap<String,String> mapping = new HashMap<>();
+		String result = "";
+		for (String c : countries.split(";;")) { //for each country part in England;;United Kingdom;;null
+			String temp = c;
+			for (String[] countryMapping : mapping) { //for each country defined in mapping
+				if (Arrays.asList(countryMapping).contains(c)) {
+					temp = countryMapping[0];
+				}
+			}
+			if (result.indexOf(temp) == -1 && !temp.equals("null")) {
+				result += temp + ";;";
+			}
+		}
+		
+		if (result.length() == 0) //for strings like null or null;;null
+			return null;
+		
+		//System.out.println(result);
+		result = result.substring(0, result.length()-2); //get rid of last two ;;
+		return result;
 	}
 
 }

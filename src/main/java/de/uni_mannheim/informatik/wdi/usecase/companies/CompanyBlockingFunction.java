@@ -6,7 +6,6 @@ public class CompanyBlockingFunction extends BlockingFunction<Company> {
 
 	@Override
 	public String getBlockingKey(Company instance) {
-		// TODO Auto-generated method stub
 		return instance.getCountries();
 	}
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<process version="6.5.001">
+<process version="6.5.002">
   <context>
     <input/>
     <output/>
     <macros/>
   </context>
-  <operator activated="true" class="process" compatibility="6.5.001" expanded="true" name="Process">
+  <operator activated="true" class="process" compatibility="6.5.002" expanded="true" name="Process">
     <parameter key="logverbosity" value="init"/>
     <parameter key="random_seed" value="2001"/>
     <parameter key="send_mail" value="never"/>
@@ -13,8 +13,8 @@
     <parameter key="process_duration_for_mail" value="30"/>
     <parameter key="encoding" value="SYSTEM"/>
     <process expanded="true">
-      <operator activated="true" class="read_csv" compatibility="6.5.001" expanded="true" height="60" name="Read CSV" width="90" x="45" y="30">
-        <parameter key="csv_file" value="C:\Users\D059373\workspace java local\webDataIntegration\data\resolutionResults\companyForbes_2_companyFreebase_correspondences_features.csv"/>
+      <operator activated="true" class="read_csv" compatibility="6.5.002" expanded="true" height="60" name="Read CSV" width="90" x="45" y="30">
+        <parameter key="csv_file" value="C:\Users\Oliver\git\WebDataIntegration\data\resolutionResults\companyForbes_2_companyFreebase_correspondences_features.csv"/>
         <parameter key="column_separators" value=","/>
         <parameter key="trim_lines" value="false"/>
         <parameter key="use_quotes" value="true"/>
@@ -36,7 +36,7 @@
         <parameter key="read_not_matching_values_as_missings" value="true"/>
         <parameter key="datamanagement" value="double_array"/>
       </operator>
-      <operator activated="true" class="store" compatibility="6.5.001" expanded="true" height="60" name="Store" width="90" x="179" y="30">
+      <operator activated="true" class="store" compatibility="6.5.002" expanded="true" height="60" name="Store" width="90" x="179" y="30">
         <parameter key="repository_entry" value="forbes_2_freebase_correspondance_features"/>
       </operator>
       <connect from_op="Read CSV" from_port="output" to_op="Store" to_port="input"/>

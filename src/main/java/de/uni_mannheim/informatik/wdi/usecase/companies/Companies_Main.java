@@ -13,7 +13,6 @@ import org.xml.sax.SAXException;
 
 import de.uni_mannheim.informatik.wdi.DataSet;
 import de.uni_mannheim.informatik.wdi.identityresolution.blocking.Blocker;
-import de.uni_mannheim.informatik.wdi.identityresolution.blocking.CrossProductBlocker;
 import de.uni_mannheim.informatik.wdi.identityresolution.blocking.PartitioningBlocker;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.GoldStandard;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.MatchingEvaluator;
@@ -23,10 +22,10 @@ import de.uni_mannheim.informatik.wdi.identityresolution.matching.LinearCombinat
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.MatchingEngine;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecord;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecordCSVFormatter;
+import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyCountriesComparator;
+import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyIndustriesComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyNumericAttributeComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyStringAttributeComparatorJaccard;
-import de.uni_mannheim.informatik.wdi.usecase.movies.Movie;
-import de.uni_mannheim.informatik.wdi.usecase.movies.MovieBlockingFunction;
 
 /**
  * 
@@ -60,24 +59,34 @@ public class Companies_Main {
 				new File("data/mappingResults/IntegratedCompanyForbes.xml"),
 				new CompanyFactory("forbes"),   "/companies/company");
 		
+		//Results from rapidminer
+		double threshold = 0; //only part not in rapidminer
+		double nameWeight = 0.946;
+		double countriesWeight = 0.0;
+		double industriesWeight = 0.0;
+		double revenueWeight = 0.206;
+		double profitWeight = 0;
+		double intercept = 0.053;
+		
 		LinearCombinationMatchingRule<Company> rule = new LinearCombinationMatchingRule<>(
-				0.035, 0.8);
+				intercept, threshold);
 		//Need to be careful: SAP and SAP SE, China Citic Bank, China Merchants Bank
 		
-		rule.addComparator(new CompanyStringAttributeComparatorJaccard("name"), 0.74);
-		rule.addComparator(new CompanyStringAttributeComparatorJaccard("countries"), 0.357);
-		rule.addComparator(new CompanyStringAttributeComparatorJaccard("industries"), 0.267);
+		rule.addComparator(new CompanyStringAttributeComparatorJaccard("name"), nameWeight);
+		rule.addComparator(new CompanyCountriesComparator(), countriesWeight);
+		rule.addComparator(new CompanyIndustriesComparator(), industriesWeight);
 		//rule.addComparator(new CompanyStringAttributeComparatorJaccard("headquarters"), 1); // not in forbes
 		//rule.addComparator(new CompanyStringAttributeComparatorJaccard("keyPeople"), 1); //not in forbes
 		
 		//Comparison of numeric values relies on max percentage difference. i.e. revenue of 100 and 120 leads to
 		// 1 - ((120-100)/120)/0.5 = 0.66667
-		rule.addComparator(new CompanyNumericAttributeComparator("revenue", 0.5), 0); //seems this is not usable to compare!
+		rule.addComparator(new CompanyNumericAttributeComparator("revenue", 0.5), revenueWeight); //seems this is not usable to compare!
 		//rule.addComparator(new CompanyNumericAttributeComparator("numberOfEmployees", max_percentage), 1); //not in forbes
-		rule.addComparator(new CompanyNumericAttributeComparator("profit", 0.5), 0);  //seems this is not usable to compare!
+		rule.addComparator(new CompanyNumericAttributeComparator("profit", 0.5), profitWeight);  //seems this is not usable to compare!
 		
 		// create the matching engine
 		Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyBlockingFunction());;
+		//Blocker<Company> blocker = new CrossProductBlocker<>();
 		MatchingEngine<Company> engine = new MatchingEngine<>(rule, blocker);
 		
 		// run the matching
@@ -114,7 +123,7 @@ public class Companies_Main {
 				perfTest.getRecall(), perfTest.getF1()));
 	}
 	
-	private static void printCorrespondences(List<Correspondence<Company>> correspondences) {
+	public static void printCorrespondences(List<Correspondence<Company>> correspondences) {
 		// sort the correspondences
 		Collections.sort(correspondences, new Comparator<Correspondence<Company>>() {
 
