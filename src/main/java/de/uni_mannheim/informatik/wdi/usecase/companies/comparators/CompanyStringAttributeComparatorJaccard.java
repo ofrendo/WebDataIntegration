@@ -45,7 +45,35 @@ public class CompanyStringAttributeComparatorJaccard extends Comparator<Company>
 			value1 = company1.getCountries();
 			value2 = company2.getCountries();
 			//TODO: Transform US, USA, U.S., United States, etc
-			String transformed;
+			String[] shouldReplaced = {"US","USA","U.S","U.S.A","United States","America","Contiguous United States"};
+			String[] arr1 = value1.split(";;");
+			String[] arr2 = value2.split(";;");
+			String result1 = "";
+			String result2 = "";
+			//value1
+			for(int i = 0;i < arr1.length;i++){
+				for(String s : shouldReplaced){
+					if(arr1[i].equals(s)){
+						arr1[i] = "United States of America";
+					}
+				}
+				result1 += arr1[i];
+				if(i != arr1.length-1)
+					result1 += ";;";
+			}
+			//value2
+			for(int i = 0;i < arr2.length;i++){
+				for(String s : shouldReplaced){
+					if(arr2[i].equals(s)){
+						arr2[i] = "United States of America";
+					}
+				}
+				result2 += arr2[i];
+				if(i != arr2.length-1)
+					result2 += ";;";
+			}
+			value1 = result1;
+			value2 = result2;
 			break;
 		case "industries":
 			value1 = company1.getIndustries();
