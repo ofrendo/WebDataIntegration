@@ -61,18 +61,20 @@ public class Companies_Main {
 				new CompanyFactory("forbes"),   "/companies/company");
 		
 		LinearCombinationMatchingRule<Company> rule = new LinearCombinationMatchingRule<>(
-				0, 1.5);
-		rule.addComparator(new CompanyStringAttributeComparatorJaccard("name"), 1);
-		rule.addComparator(new CompanyStringAttributeComparatorJaccard("countries"), 1);
-		rule.addComparator(new CompanyStringAttributeComparatorJaccard("industries"), 1);
+				0.035, 0.8);
+		//Need to be careful: SAP and SAP SE, China Citic Bank, China Merchants Bank
+		
+		rule.addComparator(new CompanyStringAttributeComparatorJaccard("name"), 0.74);
+		rule.addComparator(new CompanyStringAttributeComparatorJaccard("countries"), 0.357);
+		rule.addComparator(new CompanyStringAttributeComparatorJaccard("industries"), 0.267);
 		//rule.addComparator(new CompanyStringAttributeComparatorJaccard("headquarters"), 1); // not in forbes
 		//rule.addComparator(new CompanyStringAttributeComparatorJaccard("keyPeople"), 1); //not in forbes
 		
 		//Comparison of numeric values relies on max percentage difference. i.e. revenue of 100 and 120 leads to
 		// 1 - ((120-100)/120)/0.5 = 0.66667
-		rule.addComparator(new CompanyNumericAttributeComparator("revenue", 0.5), 0.5);
+		rule.addComparator(new CompanyNumericAttributeComparator("revenue", 0.5), 0); //seems this is not usable to compare!
 		//rule.addComparator(new CompanyNumericAttributeComparator("numberOfEmployees", max_percentage), 1); //not in forbes
-		rule.addComparator(new CompanyNumericAttributeComparator("profit", 0.5), 0.5);
+		rule.addComparator(new CompanyNumericAttributeComparator("profit", 0.5), 0);  //seems this is not usable to compare!
 		
 		// create the matching engine
 		Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyBlockingFunction());;
@@ -94,7 +96,7 @@ public class Companies_Main {
 		DataSet<DefaultRecord> features = engine
 				.generateTrainingDataForLearning(dsForbes, dsFreebase, gsTraining);
 		features.writeCSV(
-				new File("resolutionResults/optimisation/companyForbes_2_companyFreebase_correspondences_features.csv"),
+				new File("data/resolutionResults/companyForbes_2_companyFreebase_correspondences_features.csv"),
 				new DefaultRecordCSVFormatter());
 		
 		// load the gold standard (test set)
