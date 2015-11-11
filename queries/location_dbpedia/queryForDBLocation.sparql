@@ -1,9 +1,8 @@
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbp: <http://dbpedia.org/property/>
 
-SELECT ?label ?pop ?areaTotal
-Max(?elevation)
-?country 
+SELECT distinct ?label Max(?pop)as ?population  Max(?areaTotal)as ?areaTotal
+Max(?elevation)as ?elevation ?country 
 WHERE {
 ?location rdf:type dbo:Location .
 ?location rdfs:label ?label .
@@ -11,5 +10,5 @@ WHERE {
 ?location dbo:elevation ?elevation .
 ?location dbo:country ?country .
 ?location dbo:populationTotal ?pop .
-FILTER(?pop >= 100000 && (lang(?label) = 'en'))
+FILTER(?pop >= 10000 && (lang(?label) = 'en'))
 }

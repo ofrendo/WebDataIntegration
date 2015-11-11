@@ -9,7 +9,7 @@
 							<xs:element name="name" type="xs:string"/>
 							<xs:element name="population" type="xs:int"/>
 							<xs:element name="area" type="xs:string"/>
-							<xs:element name="postalCode" type="xs:string"/>
+							<xs:element name="elevation" type="xs:decimal"/>
 							<xs:element name="country" type="xs:string"/>
 						</xs:sequence>
 					</xs:complexType>

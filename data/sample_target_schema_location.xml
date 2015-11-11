@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <locations>
 	<location>
 		<name>New York</name>
 		<population>8244910</population>
 		<area>1.23e+05</area>
-		<postalCode>100xx–104xx, 11004–05, 111xx–114xx, 116xx </postalCode>
+		<elevation>230.124</elevation>
 		<country>US</country>
 	</location>
 </locations>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Edited with Altova MapForce 2016 -->
-<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="25">
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<resources/>
 	<component name="defaultmap1" blackbox="0" uid="1" editable="1">
-		<properties SelectedLanguage="builtin"/>
+		<properties SelectedLanguage="cs"/>
 		<structure>
 			<children>
-				<component name="sample_target_schema_location" library="xml" uid="4" kind="14">
+				<component name="sample_target_schema_location" library="xml" uid="5" kind="14">
 					<properties XSLTDefaultOutput="1"/>
 					<view ltx="410" rbx="710" rby="200"/>
 					<data>
@@ -24,105 +24,49 @@
 											<entry name="name" inpkey="2"/>
 											<entry name="population" inpkey="3"/>
 											<entry name="area" inpkey="4"/>
-											<entry name="postalCode" inpkey="5"/>
+											<entry name="elevation" inpkey="5"/>
 											<entry name="country" inpkey="6"/>
 										</entry>
 									</entry>
 								</entry>
 							</entry>
 						</root>
-						<document schema="sample_target_schema_location.xsd" inputinstance="sample_target_schema_location.xml" outputinstance="sample_target_schema_location.xml" instanceroot="{}locations"/>
+						<document schema="..\sample_target_schema_location.xsd" inputinstance="..\sample_target_schema_location.xml" outputinstance="..\sample_target_schema_location.xml" instanceroot="{}locations"/>
 						<wsdl/>
 					</data>
 				</component>
-				<component name="LocationDbpedia" library="json" uid="3" kind="31">
+				<component name="location_dbpedia" library="text" uid="2" kind="16">
 					<properties/>
 					<view rbx="300" rby="200"/>
 					<data>
-						<root scrollposition="1">
+						<root>
 							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
+								<namespaces/>
 							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="root" expanded="1">
-										<entry name="object" expanded="1">
-											<entry name="head" type="json-property" expanded="1"/>
-											<entry name="results" type="json-property" expanded="1">
-												<entry name="object" expanded="1">
-													<entry name="distinct" type="json-property" expanded="1"/>
-													<entry name="ordered" type="json-property" expanded="1"/>
-													<entry name="bindings" type="json-property" expanded="1">
-														<entry name="array" expanded="1">
-															<entry name="item" type="json-item" expanded="1">
-																<entry name="object" outkey="7" expanded="1">
-																	<entry name="label" type="json-property" expanded="1">
-																		<entry name="object" expanded="1">
-																			<entry name="type" type="json-property" expanded="1"/>
-																			<entry name="datatype" type="json-property" expanded="1"/>
-																			<entry name="xml:lang" type="json-property" expanded="1"/>
-																			<entry name="value" type="json-property" expanded="1">
-																				<entry name="string" outkey="8"/>
-																			</entry>
-																		</entry>
-																	</entry>
-																	<entry name="pop" type="json-property" expanded="1">
-																		<entry name="object" expanded="1">
-																			<entry name="type" type="json-property" expanded="1"/>
-																			<entry name="datatype" type="json-property" expanded="1"/>
-																			<entry name="xml:lang" type="json-property" expanded="1"/>
-																			<entry name="value" type="json-property" expanded="1">
-																				<entry name="string" outkey="9"/>
-																			</entry>
-																		</entry>
-																	</entry>
-																	<entry name="areaTotal" type="json-property" expanded="1">
-																		<entry name="object" expanded="1">
-																			<entry name="type" type="json-property" expanded="1"/>
-																			<entry name="datatype" type="json-property" expanded="1"/>
-																			<entry name="xml:lang" type="json-property" expanded="1"/>
-																			<entry name="value" type="json-property" expanded="1">
-																				<entry name="string" outkey="10"/>
-																			</entry>
-																		</entry>
-																	</entry>
-																	<entry name="postalCode" type="json-property" expanded="1">
-																		<entry name="object" expanded="1">
-																			<entry name="type" type="json-property" expanded="1"/>
-																			<entry name="datatype" type="json-property" expanded="1"/>
-																			<entry name="xml:lang" type="json-property" expanded="1"/>
-																			<entry name="value" type="json-property" expanded="1">
-																				<entry name="string" outkey="11"/>
-																			</entry>
-																		</entry>
-																	</entry>
-																	<entry name="country" type="json-property" expanded="1">
-																		<entry name="object" expanded="1">
-																			<entry name="type" type="json-property" expanded="1"/>
-																			<entry name="datatype" type="json-property" expanded="1"/>
-																			<entry name="xml:lang" type="json-property" expanded="1"/>
-																			<entry name="value" type="json-property" expanded="1">
-																				<entry name="string" outkey="12"/>
-																			</entry>
-																		</entry>
-																	</entry>
-																</entry>
-															</entry>
-														</entry>
-													</entry>
-												</entry>
-											</entry>
-										</entry>
+							<entry name="FileInstance" expanded="1">
+								<entry name="document" expanded="1">
+									<entry name="Rows" outkey="7" expanded="1">
+										<entry name="label" outkey="8"/>
+										<entry name="population" outkey="9"/>
+										<entry name="areaTotal" outkey="10"/>
+										<entry name="elevation" outkey="11"/>
+										<entry name="country" outkey="12"/>
 									</entry>
 								</entry>
 							</entry>
 						</root>
-						<document/>
 						<wsdl/>
-						<json schema="LocationDbpedia.schema.json" inputinstance="LocationDbpedia.json" outputinstance="LocationDbpedia.json"/>
+						<text type="csv" inputinstance="C:\Users\li\WebDataIntegration\data\location_dbpedia.csv" encoding="1000" byteorder="1" byteordermark="0">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="location_dbpedia" block="Rows">
+									<field0 name="label" type="string"/>
+									<field1 name="population" type="decimal"/>
+									<field2 name="areaTotal" type="string"/>
+									<field3 name="elevation" type="string"/>
+									<field4 name="country" type="string"/>
+								</names>
+							</settings>
+						</text>
 					</data>
 				</component>
 			</children>
