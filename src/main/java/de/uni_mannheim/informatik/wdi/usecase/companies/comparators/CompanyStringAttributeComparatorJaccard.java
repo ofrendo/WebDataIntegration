@@ -1,5 +1,7 @@
 package de.uni_mannheim.informatik.wdi.usecase.companies.comparators;
 
+import org.apache.commons.lang3.StringUtils;
+
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.Comparator;
 import de.uni_mannheim.informatik.wdi.identityresolution.similarity.string.TokenizingJaccardSimilarity;
 import de.uni_mannheim.informatik.wdi.usecase.companies.Company;
@@ -55,11 +57,26 @@ public class CompanyStringAttributeComparatorJaccard extends Comparator<Company>
 		}
 		
 		// preprocessing
-		value1 = value1.toLowerCase().replaceAll(";;", " ");
-		value2 = value2.toLowerCase().replaceAll(";;", " ");
+//		value1 = value1.toLowerCase().replaceAll(";;", " ");
+//		value2 = value2.toLowerCase().replaceAll(";;", " ");
+//		System.out.println("value1: "+value1);
+//		System.out.println("value2: "+value2);
+		String[] arr1 = value1.toLowerCase().split(";;");
+		String[] arr2 = value2.toLowerCase().split(";;");
+		double intersectionNum = 0.0;
+		for(String s1 : arr1){
+			for(String s2 : arr2){
+				if(compareByLevenshtein(s1,s2) >= 0.7)
+					intersectionNum++;
+			}
+		}
 		
 		// calculate similarity
-		double similarity = sim.calculate(value1, value2);
+//		double similarity = sim.calculate(value1, value2);
+//		System.out.println("arr1.length: "+ arr1.length);
+//		System.out.println("arr2.length: "+ arr2.length);
+//		System.out.println("Intersection: "+ intersectionNum);
+		double similarity = intersectionNum / ((arr1.length+arr2.length)-intersectionNum);
 		
 		// postprocessing
 		/*if(similarity<=0.3) {
@@ -70,4 +87,9 @@ public class CompanyStringAttributeComparatorJaccard extends Comparator<Company>
 		return similarity;
 	}
 
+	public double compareByLevenshtein(String first, String second){
+		double maxLength = first.length() > second.length()? first.length() : second.length();
+		double result = 1 - StringUtils.getLevenshteinDistance(first, second) / maxLength;
+		return result;
+	}
 }
