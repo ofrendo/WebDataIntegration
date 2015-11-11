@@ -142,9 +142,12 @@ public class MatchingEngine<RecordType extends Matchable> {
 				record1 = dataset2.getRecord(correspondence.getFirst());
 				record2 = dataset1.getRecord(correspondence.getSecond());
 			}
-
+			
 			DefaultRecord features = rule.generateFeatures(record1, record2);
+			
 			features.setValue("label", "1");
+			//features.setValue("id1", record1.getIdentifier());
+			//features.setValue("id2", record2.getIdentifier());
 			result.addRecord(features);
 
 			// increment and report status

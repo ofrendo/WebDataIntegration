@@ -89,7 +89,8 @@ public class LinearCombinationMatchingRule<RecordType extends Matchable> extends
 		
 		model.setValue("finalValue", Double.toString(sum));
 		model.setValue("isMatch", Boolean.toString(sum >= getFinalThreshold()));
-		
+		model.setValue("id1", record1.getIdentifier());
+		model.setValue("id2", record2.getIdentifier()); 
 		return model;
 	}
 }

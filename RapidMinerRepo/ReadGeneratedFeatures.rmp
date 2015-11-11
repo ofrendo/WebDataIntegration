@@ -14,7 +14,7 @@
     <parameter key="encoding" value="SYSTEM"/>
     <process expanded="true">
       <operator activated="true" class="read_csv" compatibility="6.5.002" expanded="true" height="60" name="Read CSV" width="90" x="45" y="30">
-        <parameter key="csv_file" value="C:\Users\Oliver\git\WebDataIntegration\data\resolutionResults\companyForbes_2_companyFreebase_correspondences_features.csv"/>
+        <parameter key="csv_file" value="C:\Users\D059373\workspace java local\webDataIntegration\data\resolutionResults\companyForbes_2_companyFreebase_correspondences_features.csv"/>
         <parameter key="column_separators" value=","/>
         <parameter key="trim_lines" value="false"/>
         <parameter key="use_quotes" value="true"/>

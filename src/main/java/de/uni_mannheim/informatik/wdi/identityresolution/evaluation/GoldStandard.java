@@ -3,6 +3,7 @@ package de.uni_mannheim.informatik.wdi.identityresolution.evaluation;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.List;
@@ -159,7 +160,7 @@ public class GoldStandard {
 				}
 
 			} else {
-				System.err.println(String.format("Skipping malformed line: %s", values.toString()));
+				System.err.println(String.format("Skipping malformed line: %s", Arrays.toString(values)));
 			}
 		}
 

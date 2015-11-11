@@ -43,11 +43,14 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		
 		// create the object with id and provenance information
 		Company company = new Company(name, provenanceInfo);
-		//System.out.println("Creating company " + getValueFromChildElement(node, "name"));
 		
 		// fill the attributes
 		//name = name.replaceAll("'", "");
-		company.setName(name);
+		String resultName = normalizeName(name);
+		if (name.equals("HSBC") || name.equals("HSBC Holdings")) {
+			System.out.println(name + " normalized to " + resultName);
+		}
+		company.setName(resultName);
 		
 		//Normalize country attribute
 		String countries = getValueFromChildElement(node, "countries");
@@ -57,7 +60,7 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		
 		String industries = getValueFromChildElement(node, "industries");
 		if (name.equals("Chevron") || name.equals("Chevron Corporation")) 
-			System.out.println(name + ": " + industries);
+			//System.out.println(name + ": " + industries);
 		company.setIndustries(industries);
 
 		String revenue = getValueFromChildElement(node, "revenue");
@@ -132,4 +135,23 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		return result;
 	}
 
+	private String normalizeName(String name) {
+		String[] replacements = {
+				"'", "\\.", ",",
+				"Group", "Corporation", "Company", 
+				"Holdings", "Holding", "Inc", "The", 
+				"Industries"
+		};
+		for (String r : replacements) {
+			name = name.replaceAll(r, "");
+		}
+		//special case _ and double spaces
+		name = name.replaceAll("_", "");
+		name = name.replaceAll("  ", " ");
+		
+		//lastly trim
+		name = name.trim();
+		return name;
+	}
+	
 }

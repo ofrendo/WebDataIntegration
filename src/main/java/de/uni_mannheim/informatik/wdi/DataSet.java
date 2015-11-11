@@ -169,7 +169,7 @@ public class DataSet<RecordType extends Matchable> {
 
 		for (RecordType record : records.values()) {
 			String[] values = formatter.format(record);
-
+			
 			writer.writeNext(values);
 		}
 

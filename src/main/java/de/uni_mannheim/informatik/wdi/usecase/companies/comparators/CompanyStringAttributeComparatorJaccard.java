@@ -3,7 +3,6 @@ package de.uni_mannheim.informatik.wdi.usecase.companies.comparators;
 import org.apache.commons.lang3.StringUtils;
 
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.Comparator;
-import de.uni_mannheim.informatik.wdi.identityresolution.similarity.string.TokenizingJaccardSimilarity;
 import de.uni_mannheim.informatik.wdi.usecase.companies.Company;
 
 /**
@@ -27,7 +26,7 @@ public class CompanyStringAttributeComparatorJaccard extends Comparator<Company>
 	</company>
 */
 	
-	private TokenizingJaccardSimilarity sim = new TokenizingJaccardSimilarity();
+	//private TokenizingJaccardSimilarity sim = new TokenizingJaccardSimilarity();
 	private String comparisonAttribute;
 
 	public CompanyStringAttributeComparatorJaccard(String comparisonAttribute) {
@@ -51,6 +50,8 @@ public class CompanyStringAttributeComparatorJaccard extends Comparator<Company>
 			value1 = company1.getKeyPeople();
 			value2 = company2.getKeyPeople();
 			break;
+		default: 
+			throw new RuntimeException("Used Comparator for wrong attributes");
 		}
 		if (value1 == null || value2 == null) {
 			return 0;
@@ -66,8 +67,9 @@ public class CompanyStringAttributeComparatorJaccard extends Comparator<Company>
 		double intersectionNum = 0.0;
 		for(String s1 : arr1){
 			for(String s2 : arr2){
-				if(compareByLevenshtein(s1,s2) >= 0.7)
-					intersectionNum++;
+				//if(compareByLevenshtein(s1,s2) >= 0.7)
+					//intersectionNum++;
+				intersectionNum += compareByLevenshtein(s1, s2);
 			}
 		}
 		
@@ -87,7 +89,7 @@ public class CompanyStringAttributeComparatorJaccard extends Comparator<Company>
 		return similarity;
 	}
 
-	public double compareByLevenshtein(String first, String second){
+	private double compareByLevenshtein(String first, String second){
 		double maxLength = first.length() > second.length()? first.length() : second.length();
 		double result = 1 - StringUtils.getLevenshteinDistance(first, second) / maxLength;
 		return result;
