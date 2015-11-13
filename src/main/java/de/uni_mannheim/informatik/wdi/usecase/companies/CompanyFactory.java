@@ -36,6 +36,7 @@ public class CompanyFactory extends MatchableFactory<Company> {
 	
 	@Override
 	public Company createModelFromElement(Node node, String provenanceInfo) {
+		//provenanceInfo is a file, like IntegratedCompanyFreebase.xml or IntegratedCompanyForbes.xml
 		String id = idPrefix + "_" + counter;
 		counter++;
 		
@@ -159,7 +160,7 @@ public class CompanyFactory extends MatchableFactory<Company> {
 			name = name.replaceAll(r, "");
 		}
 		//special case _ and double spaces
-		name = name.replaceAll("_", "");
+		name = name.replaceAll("_", " ");
 		name = name.replaceAll("  ", " ");
 		
 		//lastly trim
