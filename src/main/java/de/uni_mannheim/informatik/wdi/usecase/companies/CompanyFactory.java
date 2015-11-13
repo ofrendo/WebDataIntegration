@@ -40,12 +40,18 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		counter++;
 		
 		String name = getValueFromChildElement(node, "name");
-		
+
 		// create the object with id and provenance information
 		Company company = new Company(name, provenanceInfo);
 		
 		// fill the attributes
 		//name = name.replaceAll("'", "");
+		
+//		Retrieve format from DBpedia
+		if(provenanceInfo.contains("dbpedia")){
+			String[] temp = name.split("/"); 
+			name = temp[temp.length-1];
+		}
 		String resultName = normalizeName(name);
 		if (name.equals("HSBC") || name.equals("HSBC Holdings")) {
 			System.out.println(name + " normalized to " + resultName);
@@ -72,8 +78,15 @@ public class CompanyFactory extends MatchableFactory<Company> {
 
 		try { // convert dateFounded string
 			String date = getValueFromChildElement(node, "dateFounded");
-			if(date != null) {
-				DateTime dt = DateTime.parse(date);
+			if(date != null && !date.equals("")) {
+				String[] dateArr = date.split(";;");
+				String finalDate = date;
+				if(dateArr.length > 1){
+					for(int i = 0;i < dateArr.length-1;i++){
+						finalDate = Integer.parseInt(dateArr[i]) < Integer.parseInt(dateArr[i+1])? dateArr[i+1] : dateArr[i];
+					}
+				}
+				DateTime dt = DateTime.parse(finalDate);
 				company.setDateFounded(dt);
 			}
 		} catch(Exception e) {

@@ -66,8 +66,8 @@ public class LinearCombinationMatchingRule<RecordType extends Matchable> extends
 
 	@Override
 	public DefaultRecord generateFeatures(RecordType record1, RecordType record2) {
-		//System.out.println("r1: " + record1 + ": " + record1.getIdentifier());
-		//System.out.println("r2: " + record2 + ": " + record2.getIdentifier());
+//		System.out.println("r1: " + record1 + ": " + record1.getIdentifier());
+//		System.out.println("r2: " + record2 + ": " + record2.getIdentifier());
 		
 		DefaultRecord model = new DefaultRecord(String.format("%s-%s", record1.getIdentifier(), record2.getIdentifier()), this.getClass().getSimpleName());
 		

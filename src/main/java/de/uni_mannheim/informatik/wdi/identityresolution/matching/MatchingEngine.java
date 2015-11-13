@@ -130,8 +130,8 @@ public class MatchingEngine<RecordType extends Matchable> {
 		// create positive examples
 		for (Pair<String, String> correspondence : goldStandard
 				.getPositiveExamples()) {
-			//System.out.println("C1: " + correspondence.getFirst());
-			//System.out.println("C2: " + correspondence.getSecond());
+//			System.out.println("C1: " + correspondence.getFirst());
+//			System.out.println("C2: " + correspondence.getSecond());
 			
 			RecordType record1 = dataset1.getRecord(correspondence.getFirst());
 			RecordType record2 = dataset2.getRecord(correspondence.getSecond());
