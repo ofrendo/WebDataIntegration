@@ -91,6 +91,8 @@ public class CompanyStringAttributeComparatorJaccard extends Comparator<Company>
 
 	private double compareByLevenshtein(String first, String second){
 		double maxLength = first.length() > second.length()? first.length() : second.length();
+		if(maxLength == 0.0)
+			return 0.0;
 		double result = 1 - StringUtils.getLevenshteinDistance(first, second) / maxLength;
 		return result;
 	}

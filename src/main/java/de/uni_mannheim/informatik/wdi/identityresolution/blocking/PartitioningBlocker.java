@@ -30,7 +30,7 @@ public class PartitioningBlocker<RecordType extends Matchable> extends Blocker<R
 			String key1 = blockingFunction.getBlockingKey(r1);
 			for(RecordType r2 : dataset2.getRecords()) {
 				String key2 = blockingFunction.getBlockingKey(r2);
-				if(r1!=r2 && key1.equals(key2)) {
+				if(r1!=r2 && key1 != null && key1.equals(key2)) {
 					result.add(new Pair<RecordType, RecordType>(r1, r2));
 				}
 			}

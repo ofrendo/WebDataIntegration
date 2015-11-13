@@ -41,16 +41,16 @@ public class Companies_MainForFreebase_DBpedia {
 				new CompanyFactory("dbpedia"),   "/companies/company");
 		
 		//Results from rapidminer
-		double threshold = 0.5; //only part not in rapidminer
-		double nameWeight = 0.946;
-		double countriesWeight = 0.0;
-		double industriesWeight = 0.0;
-		double revenueWeight = 0.206;
+		double threshold = 1; //only part not in rapidminer
+		double nameWeight = 1;
+		double countriesWeight = 1;
+		double industriesWeight = 1;
+		double revenueWeight = 1;
 //		double profitWeight = 0;
-		double headquartersWeight = 0.0;
-		double keyPeopleWeight = 0.0;
-		double numberOfEmployeesWeight = 0.0;
-		double intercept = 0.053;
+		double headquartersWeight = 1;
+		double keyPeopleWeight = 1;
+		double numberOfEmployeesWeight = 1;
+		double intercept = 1;
 		
 		LinearCombinationMatchingRule<Company> rule = new LinearCombinationMatchingRule<>(
 				intercept, threshold);
@@ -68,12 +68,12 @@ public class Companies_MainForFreebase_DBpedia {
 //		rule.addComparator(new CompanyNumericAttributeComparator("profit", 0.5), profitWeight);
 		
 		// create the matching engine
-		Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyBlockingFunction());;
+		Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyBlockingFunction());
 		//Blocker<Company> blocker = new CrossProductBlocker<>();
 		MatchingEngine<Company> engine = new MatchingEngine<>(rule, blocker);
 		
 		// run the matching
-		List<Correspondence<Company>> correspondences = engine.runMatching(dsDBpedia, dsFreebase);
+		List<Correspondence<Company>> correspondences = engine.runMatching(dsFreebase, dsDBpedia);
 		
 		// write the correspondences to the output file
 		engine.writeCorrespondences(correspondences, new File("data/resolutionResults/companyFreebase_2_companyDBpedia_correspondences.csv"));
@@ -86,7 +86,7 @@ public class Companies_MainForFreebase_DBpedia {
 
 		// create the data set for learning a matching rule (use this file in RapidMiner)
 		DataSet<DefaultRecord> features = engine
-				.generateTrainingDataForLearning(dsDBpedia, dsFreebase, gsTraining);
+				.generateTrainingDataForLearning(dsFreebase, dsDBpedia, gsTraining);
 		features.writeCSV(
 				new File("data/resolutionResults/companyFreebase_2_companyDBpedia_correspondences_features.csv"),
 				new DefaultRecordCSVFormatter());
