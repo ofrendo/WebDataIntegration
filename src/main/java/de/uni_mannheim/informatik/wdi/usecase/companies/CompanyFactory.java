@@ -36,49 +36,42 @@ public class CompanyFactory extends MatchableFactory<Company> {
 	
 	@Override
 	public Company createModelFromElement(Node node, String provenanceInfo) {
-		//provenanceInfo is a file, like IntegratedCompanyFreebase.xml or IntegratedCompanyForbes.xml
 		String id = idPrefix + "_" + counter;
 		counter++;
 		
 		String name = getValueFromChildElement(node, "name");
+		String countries = getValueFromChildElement(node, "countries");
+		String industries = getValueFromChildElement(node, "industries");
+		String revenue = getValueFromChildElement(node, "revenue");
+		String numberOfEmployees = getValueFromChildElement(node, "numberOfEmployees");
+		String date = getValueFromChildElement(node, "dateFounded");
+		String headquarters = getValueFromChildElement(node, "headquarters");
+		String profit = getValueFromChildElement(node, "profit");
+		String keyPeople = getValueFromChildElement(node, "keyPeople");
 
 		// create the object with id and provenance information
 		Company company = new Company(name, provenanceInfo);
 		
-		// fill the attributes
-		//name = name.replaceAll("'", "");
-		
-//		Retrieve format from DBpedia
+		//Retrieve format from DBpedia
 		if(provenanceInfo.contains("dbpedia")){
-			String[] temp = name.split("/"); 
-			name = temp[temp.length-1];
+			name = normalizeValueInDBpedia(name);
+			countries = normalizeValueInDBpedia(countries);
+			industries = normalizeValueInDBpedia(industries);
+			headquarters = normalizeValueInDBpedia(headquarters);
+			keyPeople = normalizeValueInDBpedia(keyPeople);
 		}
-		String resultName = normalizeName(name);
-		if (name.equals("HSBC") || name.equals("HSBC Holdings")) {
-			System.out.println(name + " normalized to " + resultName);
-		}
-		company.setName(resultName);
-		
-		//Normalize country attribute
-		String countries = getValueFromChildElement(node, "countries");
-		String resultCountries = normalizeCountries(countries);
-		//if (name.equals("BP") || name.equals("BP")) System.out.println(countries + " normalized to " + resultCountries);
-		company.setCountries(resultCountries);
-		
-		String industries = getValueFromChildElement(node, "industries");
-		if (name.equals("Chevron") || name.equals("Chevron Corporation")) 
-			//System.out.println(name + ": " + industries);
-		company.setIndustries(industries);
 
-		String revenue = getValueFromChildElement(node, "revenue");
+		//set value
+		company.setName(normalizeName(name));
+		company.setCountries(normalizeCountries(countries));
+		company.setIndustries(industries);
 		company.setRevenue(getProfitOrRevenue(revenue));
-		
-		String numberOfEmployees = getValueFromChildElement(node, "numberOfEmployees");
-		if (numberOfEmployees != null) 
-			company.setNumberOfEmployees(Integer.parseInt(numberOfEmployees));
+		company.setNumberOfEmployees( numberOfEmployees != null? Integer.parseInt(numberOfEmployees) : 0);
+		company.setHeadquarters(headquarters);
+		company.setProfit(getProfitOrRevenue(profit));
+		company.setKeyPeople(keyPeople);
 
 		try { // convert dateFounded string
-			String date = getValueFromChildElement(node, "dateFounded");
 			if(date != null && !date.equals("")) {
 				String[] dateArr = date.split(";;");
 				String finalDate = date;
@@ -93,12 +86,7 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
-		
-		company.setHeadquarters(getValueFromChildElement(node, "headquarters"));
-		String profit = getValueFromChildElement(node, "profit");
-		company.setProfit(getProfitOrRevenue(profit));
-		company.setKeyPeople(getValueFromChildElement(node, "keyPeople"));
-		
+//		System.out.println("get countries: "+company.getCountries());
 		return company;
 	}
 	
@@ -166,6 +154,25 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		//lastly trim
 		name = name.trim();
 		return name;
+	}
+	
+	private String normalizeValueInDBpedia(String value) {
+		String[] arr1 = value.split(";;");
+		String result = "";
+		if(arr1.length > 1){
+			for(int i = 0; i < arr1.length; i++){
+				String[] temp = arr1[i].split("/");
+				result += temp[temp.length-1];
+				if(i != arr1.length-1)
+					result += ";;";
+			}
+		}else{
+			String[] temp = arr1[0].split("/");
+			result = temp[temp.length-1];
+		}
+		//lastly trim
+		result = result.trim();
+		return result;
 	}
 	
 }
