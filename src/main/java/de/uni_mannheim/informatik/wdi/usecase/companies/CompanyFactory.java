@@ -154,7 +154,7 @@ public class CompanyFactory extends MatchableFactory<Company> {
 				"'", "\\.", ",",
 				"Group", "Corporation", "Company", 
 				"Holdings", "Holding", "Inc", "The", 
-				"Industries"
+				"Industries", "International"
 		};
 		for (String r : replacements) {
 			name = name.replaceAll(r, "");

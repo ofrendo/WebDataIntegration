@@ -13,7 +13,7 @@ import org.xml.sax.SAXException;
 
 import de.uni_mannheim.informatik.wdi.DataSet;
 import de.uni_mannheim.informatik.wdi.identityresolution.blocking.Blocker;
-import de.uni_mannheim.informatik.wdi.identityresolution.blocking.PartitioningBlocker;
+import de.uni_mannheim.informatik.wdi.identityresolution.blocking.CrossProductBlocker;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.GoldStandard;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.MatchingEvaluator;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.Performance;
@@ -85,8 +85,8 @@ public class Companies_Main {
 		rule.addComparator(new CompanyNumericAttributeComparator("profit", 0.5), profitWeight);  //seems this is not usable to compare!
 		
 		// create the matching engine
-		Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyBlockingFunction());;
-		//Blocker<Company> blocker = new CrossProductBlocker<>();
+		//Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyBlockingFunction());;
+		Blocker<Company> blocker = new CrossProductBlocker<>();
 		MatchingEngine<Company> engine = new MatchingEngine<>(rule, blocker);
 		
 		// run the matching
