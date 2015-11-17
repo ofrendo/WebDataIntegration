@@ -39,13 +39,22 @@ public class MatchingEvaluator<RecordType extends Matchable> {
 		// keep a list of all unmatched positives for later output
 		List<Pair<String, String>> positives = new ArrayList<>(goldStandard.getPositiveExamples());
 		
+		double lowestCorrect = Integer.MAX_VALUE;
+		double highestWrong = -1;
+		
 		for(Correspondence<RecordType> correspondence : correspondences) {
 			if(goldStandard.containsPositive(correspondence.getFirstRecord(), correspondence.getSecondRecord())) {
 				correct++;
 				matched++;
+				lowestCorrect = (correspondence.getSimilarityScore() < lowestCorrect) ? 
+							correspondence.getSimilarityScore() :
+							lowestCorrect;
 				
 				if(verbose) {
-					System.out.println(String.format("[correct] %s,%s,%s", correspondence.getFirstRecord().getIdentifier(), correspondence.getSecondRecord().getIdentifier(), Double.toString(correspondence.getSimilarityScore())));
+					System.out.println(String.format("[correct] %s,%s,%s", 
+							correspondence.getFirstRecord().getIdentifier(), 
+							correspondence.getSecondRecord().getIdentifier(), 
+							Double.toString(correspondence.getSimilarityScore())));
 					
 					// remove pair from positives
 					Iterator<Pair<String, String>> it = positives.iterator();
@@ -62,6 +71,9 @@ public class MatchingEvaluator<RecordType extends Matchable> {
 				}
 			} else if(goldStandard.containsNegative(correspondence.getFirstRecord(), correspondence.getSecondRecord())) {
 				matched++;
+				highestWrong = (correspondence.getSimilarityScore() > highestWrong) ? 
+						correspondence.getSimilarityScore() :
+						highestWrong;
 				
 				if(verbose) {
 					System.out.println(String.format("[wrong] %s,%s,%s", correspondence.getFirstRecord().getIdentifier(), correspondence.getSecondRecord().getIdentifier(), Double.toString(correspondence.getSimilarityScore())));
@@ -74,6 +86,8 @@ public class MatchingEvaluator<RecordType extends Matchable> {
 			for(Pair<String, String> p : positives) {
 				System.out.println(String.format("[missing] %s,%s", p.getFirst(), p.getSecond()));
 			}
+			System.out.println("lowestCorrect: " + lowestCorrect);
+			System.out.println("highestWrong: " + highestWrong);
 		}
 		
 		return new Performance(correct, matched, correct_max);

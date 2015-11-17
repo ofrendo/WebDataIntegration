@@ -59,7 +59,7 @@
         <parameter key="local_random_seed" value="1992"/>
         <process expanded="true">
           <operator activated="true" class="linear_regression" compatibility="6.5.002" expanded="true" height="94" name="Linear Regression" width="90" x="246" y="30">
-            <parameter key="feature_selection" value="T-Test"/>
+            <parameter key="feature_selection" value="M5 prime"/>
             <parameter key="alpha" value="0.05"/>
             <parameter key="max_iterations" value="10"/>
             <parameter key="forward_alpha" value="0.05"/>

@@ -13,7 +13,7 @@ import org.xml.sax.SAXException;
 
 import de.uni_mannheim.informatik.wdi.DataSet;
 import de.uni_mannheim.informatik.wdi.identityresolution.blocking.Blocker;
-import de.uni_mannheim.informatik.wdi.identityresolution.blocking.CrossProductBlocker;
+import de.uni_mannheim.informatik.wdi.identityresolution.blocking.PartitioningBlocker;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.GoldStandard;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.MatchingEvaluator;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.Performance;
@@ -60,10 +60,10 @@ public class Companies_Main {
 				new CompanyFactory("forbes"),   "/companies/company");
 		
 		//Results from rapidminer
-		double threshold = 0.75; //only part not in rapidminer
-		double nameWeight = 0.771;
-		double countriesWeight = 0.286;
-		double industriesWeight = 0.136;
+		double threshold = 0.8; //only part not in rapidminer
+		double nameWeight = 0.785;
+		double countriesWeight = 0.226;
+		double industriesWeight = 0.346;
 		double revenueWeight = 0.0;
 		double profitWeight = 0.0;
 		double intercept = -0.055;
@@ -85,8 +85,8 @@ public class Companies_Main {
 		rule.addComparator(new CompanyNumericAttributeComparator("profit", 0.5), profitWeight);  //seems this is not usable to compare!
 		
 		// create the matching engine
-		//Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyBlockingFunction());;
-		Blocker<Company> blocker = new CrossProductBlocker<>();
+		Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyBlockingFunction());;
+		//Blocker<Company> blocker = new CrossProductBlocker<>();
 		MatchingEngine<Company> engine = new MatchingEngine<>(rule, blocker);
 		
 		// run the matching
