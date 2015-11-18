@@ -16,7 +16,6 @@ http://dbpedia.org/resource/Mitsubishi_Electric_United_States,Mitsubishi Electri
 http://dbpedia.org/resource/Rachel's_Organic,Dow Chemical Company,FALSE
 http://dbpedia.org/resource/Daegu_Metropolitan_Transit_Corporation,Swiss Re,FALSE
 http://dbpedia.org/resource/BAYADA_Home_Health_Care,The Home Depot,FALSE
-http://dbpedia.org/resource/Hitachi,Hitachi,FALSE
 http://dbpedia.org/resource/Aviat_Networks,Aviva,FALSE
 http://dbpedia.org/resource/Salomon_Group,France Telecom,FALSE
 http://dbpedia.org/resource/Deutsche_Babcock_Al_Jaber,Deutsche Telekom,FALSE
@@ -41,6 +40,125 @@ http://dbpedia.org/resource/Clean_Harbors,Corcentric,FALSE
 http://dbpedia.org/resource/Louisiana-Pacific,Cathay Pacific,FALSE
 http://dbpedia.org/resource/KWorld,SolarWorld,FALSE
 http://dbpedia.org/resource/Pegatron,Pentair,FALSE
+http://dbpedia.org/resource/HTC,HCL Enterprise,FALSE
+http://dbpedia.org/resource/Inventec,Inchoo,FALSE
+http://dbpedia.org/resource/Dimerco,Diageo,FALSE
+http://dbpedia.org/resource/Avaya,Avery Dennison,FALSE
+http://dbpedia.org/resource/Foxconn,Fortum,FALSE
+http://dbpedia.org/resource/HannStar_Display_Corporation,Hansgrohe,FALSE
+http://dbpedia.org/resource/D-Link,Dell,FALSE
+http://dbpedia.org/resource/Avision,Aviva,FALSE
+http://dbpedia.org/resource/CyberLink,Cypress Semiconductor,FALSE
+http://dbpedia.org/resource/ADLINK,Adaptec,FALSE
+http://dbpedia.org/resource/Biostar,Biovail,FALSE
+http://dbpedia.org/resource/Imperial_Tobacco,Japan Tobacco,FALSE
+http://dbpedia.org/resource/Kyocera_Unimerco,Kyocera,FALSE
+http://dbpedia.org/resource/Okinawa_Electric_Power_Company,Oki Electric Industry,FALSE
+http://dbpedia.org/resource/Saputo_Inc.,SAP SE,FALSE
+http://dbpedia.org/resource/Beckett_Media,Beck's Brewery,FALSE
+http://dbpedia.org/resource/Biocon,Biotest,FALSE
+http://dbpedia.org/resource/Continental_Hotels,Continental AG,FALSE
+http://dbpedia.org/resource/Daimler_Trucks_North_America,Daimler AG,FALSE
+http://dbpedia.org/resource/IDS_NEXT_Software,IDS Scheer,FALSE
+http://dbpedia.org/resource/Koch_Industries,Koch Media,FALSE
+http://dbpedia.org/resource/Lufthansa_Systems,Lufthansa,FALSE
+http://dbpedia.org/resource/Sky_plc,Sky Deutschland,FALSE
+http://dbpedia.org/resource/Sky-mobi_Limited,SK Telecom,FALSE
+http://dbpedia.org/resource/AB_Bostaden,AB Volvo,FALSE
+http://dbpedia.org/resource/Atlas_Iron,Atlas Copco,FALSE
+http://dbpedia.org/resource/Securitas_Services_d.o.o.,Securitas Direct,FALSE
+http://dbpedia.org/resource/Agrokor,Ahlstrom,FALSE
+http://dbpedia.org/resource/Tvsdesign,TVG Network,FALSE
+http://dbpedia.org/resource/Genband,Genzyme,FALSE
+http://dbpedia.org/resource/HiFX,Hilti,FALSE
+http://dbpedia.org/resource/WWE,WSP Global,FALSE
+http://dbpedia.org/resource/Carfax_(company),Carron Company,FALSE
+http://dbpedia.org/resource/PFSweb,Pfizer,FALSE
+http://dbpedia.org/resource/Tangerine_Confectionery,Tandberg,FALSE
+http://dbpedia.org/resource/Presbyterian_Healthcare_Services,NewYork–Presbyterian Hospital,FALSE
+http://dbpedia.org/resource/Conad,ConocoPhillips,FALSE
+http://dbpedia.org/resource/TV3_(Ireland),ITV,FALSE
+http://dbpedia.org/resource/Safelite,Safenet,FALSE
+http://dbpedia.org/resource/Acme_Bread_Company,ACME Communications,FALSE
+http://dbpedia.org/resource/Triumph_Group,Triumph-Adler,FALSE
+http://dbpedia.org/resource/Varrow,Varengold,FALSE
+http://dbpedia.org/resource/Elomatic,Elmos Semiconductor,FALSE
+http://dbpedia.org/resource/Virtusa,Vitra,FALSE
+http://dbpedia.org/resource/An_Post,Anheuser-Busch,FALSE
+http://dbpedia.org/resource/Mobileye,Mitsukoshi,FALSE
+http://dbpedia.org/resource/Entrust,Eniro,FALSE
+http://dbpedia.org/resource/Ferring_Pharmaceuticals,Fiat Automobiles,FALSE
+http://dbpedia.org/resource/Russell_Brands,Russell Investments,FALSE
+http://dbpedia.org/resource/Vocalocity,Genuine Parts Company,FALSE
+http://dbpedia.org/resource/MedicAlert,Medtronic,FALSE
+http://dbpedia.org/resource/Myrtha_Pools,Myriad Group,FALSE
+http://dbpedia.org/resource/Dover_Corporation,Dow Chemical Company,FALSE
+http://dbpedia.org/resource/Hurix_Systems,Husky Energy,FALSE
+http://dbpedia.org/resource/Enbridge,Petro-Canada,FALSE
+http://dbpedia.org/resource/Copart,Cypress Semiconductor,FALSE
+http://dbpedia.org/resource/Israel_Chemicals,Intel,FALSE
+http://dbpedia.org/resource/PerceptIS,Sanofi,FALSE
+http://dbpedia.org/resource/Quest_Diagnostics,UnitedHealth Group,FALSE
+http://dbpedia.org/resource/Texas_Energy_Engineers,Triumph Engineering Co Ltd,FALSE
+http://dbpedia.org/resource/Repsol,Repsol YPF S.A.,TRUE
+http://dbpedia.org/resource/Mondragon_Corporation,Mondragon Corporation,TRUE
+http://dbpedia.org/resource/Chupa_Chups,Chupa Chups,TRUE
+http://dbpedia.org/resource/BP,BP,TRUE
+http://dbpedia.org/resource/BAE_Systems,BAE Systems,TRUE
+http://dbpedia.org/resource/Husqvarna_Group,Husqvarna Group,TRUE
+http://dbpedia.org/resource/Schlumberger,Schlumberger,TRUE
+http://dbpedia.org/resource/STADA_Arzneimittel,STADA Arzneimittel,TRUE
+http://dbpedia.org/resource/Sixt,Sixt,TRUE
+http://dbpedia.org/resource/Schiesser,Schiesser,TRUE
+http://dbpedia.org/resource/Schaltbau_Group,Schaltbau Group,TRUE
+http://dbpedia.org/resource/REWE_Group,REWE Group,TRUE
+http://dbpedia.org/resource/RESOL,RESOL,TRUE
+http://dbpedia.org/resource/Miele,Miele,TRUE
+http://dbpedia.org/resource/Metro_Inc.,Metro Inc.,TRUE
+http://dbpedia.org/resource/Metro_AG,Metro AG,TRUE
+http://dbpedia.org/resource/McFit,McFit,TRUE
+http://dbpedia.org/resource/KWS_Saat,KWS SAAT,TRUE
+http://dbpedia.org/resource/Krombacher_Brauerei,Krombacher Brauerei,TRUE
+http://dbpedia.org/resource/Kontron,Kontron,TRUE
+http://dbpedia.org/resource/KION_Group,KION Group,TRUE
+http://dbpedia.org/resource/Karl_E._Brinkmann_GmbH,Karl E. Brinkmann GmbH,TRUE
+http://dbpedia.org/resource/Intershop_Communications,Intershop Communications,TRUE
+http://dbpedia.org/resource/InnoGames,InnoGames,TRUE
+http://dbpedia.org/resource/Infineon_Technologies,Infineon Technologies,TRUE
+http://dbpedia.org/resource/Hugo_Boss,Hugo Boss,TRUE
+http://dbpedia.org/resource/Hubert_Burda_Media,Hubert Burda Media,TRUE
+http://dbpedia.org/resource/Gruner_+_Jahr,Gruner + Jahr,TRUE
+http://dbpedia.org/resource/Freenet_AG,Freenet AG,TRUE
+http://dbpedia.org/resource/ERNI_Electronics,ERNI Electronics,TRUE
+http://dbpedia.org/resource/Enercon,Enercon,TRUE
+http://dbpedia.org/resource/Edeka,Edeka,TRUE
+http://dbpedia.org/resource/Edding,edding,TRUE
+http://dbpedia.org/resource/EDAG,EDAG,TRUE
+http://dbpedia.org/resource/Douglas_Holding,Douglas Holding,TRUE
+http://dbpedia.org/resource/DB_Schenker,DB Schenker Rail,TRUE
+http://dbpedia.org/resource/Centrotherm_Photovoltaics,Centrotherm Photovoltaics,TRUE
+http://dbpedia.org/resource/Bosch_Rexroth,Bosch Rexroth,TRUE
+http://dbpedia.org/resource/Boehringer_Ingelheim,Boehringer Ingelheim,TRUE
+http://dbpedia.org/resource/Aurubis,Aurubis,TRUE
+http://dbpedia.org/resource/Audi,Audi,TRUE
+http://dbpedia.org/resource/Altana,Altana,TRUE
+http://dbpedia.org/resource/Abellio_Deutschland,Abellio Deutschland,TRUE
+http://dbpedia.org/resource/Aareal_Bank,Aareal Bank,TRUE
+http://dbpedia.org/resource/Yamaha_Motor_Company,Yamaha Motor Company,TRUE
+http://dbpedia.org/resource/Yamaha_Corporation,Yamaha Corporation,TRUE
+http://dbpedia.org/resource/Wacom_(company),Wacom,TRUE
+http://dbpedia.org/resource/Takeda_Pharmaceutical_Company,Takeda Pharmaceutical Company,TRUE
+http://dbpedia.org/resource/Taito_Corporation,Taito Corporation,TRUE
+http://dbpedia.org/resource/Suzuki,Suzuki Motor Corporation,TRUE
+http://dbpedia.org/resource/Seiko_Epson,Epson,TRUE
+http://dbpedia.org/resource/Renesas_Electronics,Renesas Electronics,TRUE
+http://dbpedia.org/resource/Mabuchi_Motor,Mabuchi Motor,TRUE
+http://dbpedia.org/resource/Lawson_(store),Lawson,TRUE
+http://dbpedia.org/resource/Konami,Konami,TRUE
+http://dbpedia.org/resource/Hitachi,Hitachi,TRUE
+http://dbpedia.org/resource/Fujitsu,Fujitsu,TRUE
+http://dbpedia.org/resource/CAVE_(company),CAVE,TRUE
+http://dbpedia.org/resource/Bandai_Namco_Holdings,Bandai Namco Holdings,TRUE
 http://dbpedia.org/resource/Gigabyte_Technology,Gigabyte Technology,TRUE
 http://dbpedia.org/resource/Apple_Inc.,Apple Inc.,TRUE
 http://dbpedia.org/resource/Citigroup,Citigroup,TRUE

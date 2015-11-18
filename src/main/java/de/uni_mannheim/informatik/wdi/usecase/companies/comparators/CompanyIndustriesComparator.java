@@ -20,7 +20,7 @@ public class CompanyIndustriesComparator extends Comparator<Company> {
 		if (c1.getIndustries() == null || c2.getIndustries() == null)
 			return 0;
 		String[] i1s = c1.getIndustries().split(";;");
-		String[] i2s = c2.getIndustries().split(";;");
+		String[] i2s = c2.getIndustries().replaceAll("_", " ").split(";;");
 		
 		double intersectionNum = 0.0;
 		for(String s1 : i1s){

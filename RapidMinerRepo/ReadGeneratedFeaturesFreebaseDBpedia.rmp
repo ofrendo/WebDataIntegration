@@ -13,6 +13,10 @@
     <parameter key="process_duration_for_mail" value="30"/>
     <parameter key="encoding" value="SYSTEM"/>
     <process expanded="true">
+<<<<<<< HEAD
+      <operator activated="true" class="retrieve" compatibility="6.5.002" expanded="true" height="60" name="Retrieve freebase_dbpedia_correspondences_features" width="90" x="112" y="120">
+        <parameter key="repository_entry" value="//Local Repository/freebase_dbpedia_correspondences_features"/>
+=======
       <operator activated="true" class="read_csv" compatibility="6.5.002" expanded="true" height="60" name="Read CSV" width="90" x="112" y="120">
         <parameter key="csv_file" value="C:\Users\Oliver\git\WebDataIntegration\data\resolutionResults\companyFreebase_2_companyDBpedia_correspondences_features.csv"/>
         <parameter key="column_separators" value=","/>
@@ -50,11 +54,16 @@
         </list>
         <parameter key="read_not_matching_values_as_missings" value="true"/>
         <parameter key="datamanagement" value="double_array"/>
+>>>>>>> refs/remotes/origin/master
       </operator>
       <operator activated="true" class="store" compatibility="6.5.002" expanded="true" height="60" name="Store" width="90" x="313" y="120">
         <parameter key="repository_entry" value="//Local Repository/freebase_dbpedia_correspondences_features"/>
       </operator>
+<<<<<<< HEAD
+      <connect from_op="Retrieve freebase_dbpedia_correspondences_features" from_port="output" to_op="Store" to_port="input"/>
+=======
       <connect from_op="Read CSV" from_port="output" to_op="Store" to_port="input"/>
+>>>>>>> refs/remotes/origin/master
       <portSpacing port="source_input 1" spacing="0"/>
       <portSpacing port="sink_result 1" spacing="0"/>
     </process>

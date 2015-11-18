@@ -12,21 +12,21 @@ public class CompanyComparisonTest extends TestCase {
 	public void testCalculateCompanySimilarity() {
 //		String n1 = "Chevron";
 		//String n1 = "Apple  Inc.";
-		String n1 = "NIKE";
+		String n1 = "http://dbpedia.org/resource/The_Coca-Cola_Company";
 		//String i1 = "National Commercial Banks;;Investment banking;;Financial Services;;Offices of Bank Holding Companies";
-		String i1 = "Petroleum Refineries;;Mining;;Crude Petroleum and Natural Gas Extraction;;Petroleum industry";
-		String kp1 = "Robert C. Weber;;Jon C. Iwata;;Ginni Rometty;;Mark Loughridge;;Linda S. Sanford;;Timothy S Shaughnessy;;Michael E. Daniels;;J. Randall MacDonald;;James J Kavanaugh;;Samuel J. Palmisano;;Ginni Rometty;;Thomas J. Watson;;Thomas Watson Jr.;;T. Vincent Learson;;Frank T. Cary;;John R. Opel;;John F. Akers;;Lou Gerstner";
+		String i1 = "http://dbpedia.org/resource/Drink";
+		String kp1 = "Ahmet Bozer;;http://dbpedia.org/resource/Muhtar_Kent";
 		Company c1 = new Company(n1, null); //Forbes
 		c1.setName(n1);
 		c1.setIndustries(i1);
 		c1.setKeyPeople(kp1);
 		
 		//String n2 = "Apple Inc.";
-		String n2 = "Nike";
+		String n2 = "The Coca-Cola Company";
 //		String n2 = "Chevron Corporation";		
 		//String i2 = "Major Banks";
-		String i2 = "Oil & Gas Operations";
-		String kp2 = "Ginni Rometty";
+		String i2 = "Beverages";
+		String kp2 = "Gary Fayard;;Cynthia Mccague;;Joe Tripodi;;Alexander B Cummings Jr;;E. Neville Isdell;;Muhtar Kent";
 		Company c2 = new Company(n2, null); //Freebase
 		c2.setName(n2);
 		c2.setIndustries(i2);

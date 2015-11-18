@@ -41,16 +41,16 @@ public class Companies_MainForFreebase_DBpedia {
 				new CompanyFactory("dbpedia"),   "/companies/company");
 		
 		//Results from rapidminer
-		double threshold = 1; //only part not in rapidminer
-		double nameWeight = 1;
-		double countriesWeight = 1;
-		double industriesWeight = 1;
-		double revenueWeight = 1;
+		double threshold = 0.5; //only part not in rapidminer
+		double nameWeight = 0.899;
+		double countriesWeight = 0.195;
+		double industriesWeight = 0.067;
+		double revenueWeight = 0.54;
 //		double profitWeight = 0;
-		double headquartersWeight = 1;
-		double keyPeopleWeight = 1;
-		double numberOfEmployeesWeight = 1;
-		double intercept = 1;
+		double headquartersWeight = 0.899;
+		double keyPeopleWeight = 0.899;
+		double numberOfEmployeesWeight = 0.5;
+		double intercept = -1.117;
 		
 		LinearCombinationMatchingRule<Company> rule = new LinearCombinationMatchingRule<>(
 				intercept, threshold);
@@ -86,7 +86,7 @@ public class Companies_MainForFreebase_DBpedia {
 
 		// create the data set for learning a matching rule (use this file in RapidMiner)
 		DataSet<DefaultRecord> features = engine
-				.generateTrainingDataForLearning(dsFreebase, dsDBpedia, gsTraining);
+				.generateTrainingDataForLearning(dsDBpedia, dsFreebase, gsTraining);
 		features.writeCSV(
 				new File("data/resolutionResults/companyFreebase_2_companyDBpedia_correspondences_features.csv"),
 				new DefaultRecordCSVFormatter());

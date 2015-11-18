@@ -13,8 +13,13 @@
     <parameter key="process_duration_for_mail" value="30"/>
     <parameter key="encoding" value="SYSTEM"/>
     <process expanded="true">
+<<<<<<< HEAD
+      <operator activated="true" class="retrieve" compatibility="6.5.002" expanded="true" height="60" name="Retrieve freebase_dbpedia_correspondences_features" width="90" x="112" y="75">
+        <parameter key="repository_entry" value="freebase_dbpedia_correspondences_features"/>
+=======
       <operator activated="true" class="retrieve" compatibility="6.5.002" expanded="true" height="60" name="Retrieve freebase_2_dbpedia_correspondance_features" width="90" x="112" y="75">
         <parameter key="repository_entry" value="freebase_2_dbpedia_correspondance_features"/>
+>>>>>>> refs/remotes/origin/master
       </operator>
       <operator activated="true" class="numerical_to_polynominal" compatibility="6.5.002" expanded="true" height="76" name="Numerical to Polynominal" width="90" x="246" y="75">
         <parameter key="attribute_filter_type" value="single"/>
@@ -118,7 +123,11 @@
           <portSpacing port="sink_averagable 2" spacing="0"/>
         </process>
       </operator>
+<<<<<<< HEAD
+      <connect from_op="Retrieve freebase_dbpedia_correspondences_features" from_port="output" to_op="Numerical to Polynominal" to_port="example set input"/>
+=======
       <connect from_op="Retrieve freebase_2_dbpedia_correspondance_features" from_port="output" to_op="Numerical to Polynominal" to_port="example set input"/>
+>>>>>>> refs/remotes/origin/master
       <connect from_op="Numerical to Polynominal" from_port="example set output" to_op="Set Role" to_port="example set input"/>
       <connect from_op="Set Role" from_port="example set output" to_op="Select Attributes" to_port="example set input"/>
       <connect from_op="Select Attributes" from_port="example set output" to_op="Validation" to_port="training"/>
