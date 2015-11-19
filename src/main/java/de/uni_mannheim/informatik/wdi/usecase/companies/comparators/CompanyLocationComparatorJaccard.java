@@ -12,6 +12,12 @@ public class CompanyLocationComparatorJaccard extends Comparator<Company> {
 	public double compare(Company c1, Company c2) {
 		List l1 = c1.getLocations();
 		List l2 = c2.getLocations();
+
+		//Only compare name and country of location
+		if (l1 == null || l2 == null) {
+			return 0;
+		}
+		System.out.println("Here");
 		
 		return 0;
 	}

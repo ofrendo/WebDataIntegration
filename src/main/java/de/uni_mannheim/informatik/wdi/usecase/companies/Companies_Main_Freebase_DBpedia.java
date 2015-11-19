@@ -48,7 +48,7 @@ public class Companies_Main_Freebase_DBpedia {
 		double industriesWeight = 0.067;
 		double revenueWeight = 0.54;
 //		double profitWeight = 0;
-		double headquartersWeight = 0.899;
+		double locationsWeight = 0.899; //only comparing names of headquarters at this point
 		double keyPeopleWeight = 0.899;
 		double numberOfEmployeesWeight = 0.5;
 		double intercept = -1.117;
@@ -59,7 +59,7 @@ public class Companies_Main_Freebase_DBpedia {
 		rule.addComparator(new CompanyStringAttributeComparatorJaccard("name"), nameWeight);
 		rule.addComparator(new CompanyCountriesComparator(), countriesWeight);
 		rule.addComparator(new CompanyIndustriesComparator(), industriesWeight);
-		rule.addComparator(new CompanyLocationComparatorJaccard(), headquartersWeight);
+		rule.addComparator(new CompanyLocationComparatorJaccard(), locationsWeight);
 		rule.addComparator(new CompanyStringAttributeComparatorJaccard("keyPeople"), keyPeopleWeight);
 		
 		//Comparison of numeric values relies on max percentage difference. i.e. revenue of 100 and 120 leads to
