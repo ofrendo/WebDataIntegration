@@ -43,18 +43,21 @@ public class Companies_Main_Freebase_DBpedia {
 		
 		//Results from rapidminer
 		double threshold = 0.5; //should be 0.5 always
-		double nameWeight = 0.899;
-		double countriesWeight = 0.195;
-		double industriesWeight = 0.067;
-		double revenueWeight = 0.54;
-//		double profitWeight = 0;
-		double locationsWeight = 0.899; //only comparing names of headquarters at this point
-		double keyPeopleWeight = 0.899;
-		double numberOfEmployeesWeight = 0.5;
-		double intercept = -1.117;
+		double nameWeight = 0.376;
+		double countriesWeight = 0.231;
+		double industriesWeight = 0.156;
+		
+		double revenueWeight = 0.0;
+		double numberOfEmployeesWeight = 0.0;
+		
+		double keyPeopleWeight = 0.127;
+		double locationsWeight = 0.121; //only comparing names of headquarters at this point
+		
+		double intercept = -0.089;
 		
 		LinearCombinationMatchingRule<Company> rule = new LinearCombinationMatchingRule<>(
-				intercept, threshold);
+				intercept, threshold,
+				"http://dbpedia.org/resource/Qualcomm", "Qualcomm");
 		//Need to be careful: 
 		// SAP and SAP SE
 		// China Citic Bank, China Merchants Bank
@@ -66,7 +69,8 @@ public class Companies_Main_Freebase_DBpedia {
 				// 1 - ((120-100)/120)/0.5 = 0.66667
 		rule.addComparator(new CompanyNumericAttributeComparator("revenue", 0.5), revenueWeight); //seems this is not usable to compare!
 		rule.addComparator(new CompanyNumericAttributeComparator("numberOfEmployees", 0.5), numberOfEmployeesWeight);
-
+		//TODO: Compare by date founded as well		
+		
 		rule.addComparator(new CompanyStringAttributeComparatorJaccard("keyPeople"), keyPeopleWeight);
 		rule.addComparator(new CompanyLocationComparatorJaccard(), locationsWeight);
 		

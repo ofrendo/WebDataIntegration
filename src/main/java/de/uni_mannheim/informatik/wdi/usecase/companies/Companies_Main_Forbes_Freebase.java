@@ -60,13 +60,13 @@ public class Companies_Main_Forbes_Freebase {
 				new CompanyFactory("forbes"),   "/companies/company");
 		
 		//Results from rapidminer
-		double threshold = 0.8; //should be 0.5 always
-		double nameWeight = 0.785;
-		double countriesWeight = 0.226;
-		double industriesWeight = 0.346;
+		double threshold = 0.5; //should be 0.5 always
+		double nameWeight = 0.656;
+		double countriesWeight = 0.225;
+		double industriesWeight = 0.116;
 		double revenueWeight = 0.0;
 		double profitWeight = 0.0;
-		double intercept = -0.055;
+		double intercept = -0.085;
 		
 		LinearCombinationMatchingRule<Company> rule = new LinearCombinationMatchingRule<>(
 				intercept, threshold);

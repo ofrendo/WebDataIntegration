@@ -6,6 +6,7 @@ import java.util.List;
 import de.uni_mannheim.informatik.wdi.Matchable;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecord;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.Pair;
+import de.uni_mannheim.informatik.wdi.usecase.companies.Company;
 
 /**
  * A matching rule that is defined by a linear combination of attribute similarities.
@@ -37,6 +38,21 @@ public class LinearCombinationMatchingRule<RecordType extends Matchable> extends
 		this.offset = offset;
 	}
 	
+	private String id1 = null;
+	private String id2 = null;
+	/**
+	 * Use this for printing out values for all comparisons for a given ID pair
+	 * @param offset
+	 * @param finalThreshold
+	 * @param id1
+	 * @param id2
+	 */
+	public LinearCombinationMatchingRule(double offset, double finalThreshold, String id1, String id2) {
+		this(offset, finalThreshold);
+		this.id1 = id1;
+		this.id2 = id2;
+	}
+	
 	/**
 	 * Adds a comparator with the specified weight to this rule. 
 	 * @param comparator
@@ -50,6 +66,16 @@ public class LinearCombinationMatchingRule<RecordType extends Matchable> extends
 	public double compare(RecordType record1, RecordType record2) {
 		double sum = offset;
 		
+		boolean printThis = (id1.equals(record1.getIdentifier()) && id2.equals(record2.getIdentifier())) ||
+				 (id2.equals(record1.getIdentifier()) && id1.equals(record2.getIdentifier()));
+		
+		if (printThis) {
+			System.out.println("Comparing " + record1.getIdentifier() + " AND " + record2.getIdentifier());
+			Company c1 = (Company) record1;
+			Company c2 = (Company) record2;
+			System.out.println("Name1=" + c1.getName() + " Name2=" + c2.getName());
+		}
+
 		for(int i = 0; i < comparators.size(); i++) {
 			Pair<Comparator<RecordType>, Double> pair = comparators.get(i);
 			
@@ -58,8 +84,16 @@ public class LinearCombinationMatchingRule<RecordType extends Matchable> extends
 			double similarity = comp.compare(record1, record2);
 			double weight = pair.getSecond();
 			
+			if (printThis) 
+				System.out.println(weight + " * " + similarity);
+			
 			sum += (similarity * weight);
 		}
+		 
+		if (printThis) {
+			System.out.println("= " + sum);
+		}
+			
 		
 		return sum;
 	}

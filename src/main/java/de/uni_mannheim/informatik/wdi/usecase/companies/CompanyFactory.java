@@ -53,7 +53,7 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		Company company = new Company(name, provenanceInfo);
 		
 		//Retrieve format from DBpedia
-		if(provenanceInfo.contains("dbpedia")){
+		if(provenanceInfo.contains("DBpedia")){
 			name = Normalization.normalizeValueInDBpedia(name);
 			countries = Normalization.normalizeValueInDBpedia(countries);
 			industries = Normalization.normalizeValueInDBpedia(industries);

@@ -13,12 +13,8 @@
     <parameter key="process_duration_for_mail" value="30"/>
     <parameter key="encoding" value="SYSTEM"/>
     <process expanded="true">
-<<<<<<< HEAD
-      <operator activated="true" class="retrieve" compatibility="6.5.002" expanded="true" height="60" name="Retrieve freebase_dbpedia_correspondences_features" width="90" x="112" y="120">
-        <parameter key="repository_entry" value="//Local Repository/freebase_dbpedia_correspondences_features"/>
-=======
       <operator activated="true" class="read_csv" compatibility="6.5.002" expanded="true" height="60" name="Read CSV" width="90" x="112" y="120">
-        <parameter key="csv_file" value="C:\Users\Oliver\git\WebDataIntegration\data\resolutionResults\companyFreebase_2_companyDBpedia_correspondences_features.csv"/>
+        <parameter key="csv_file" value="C:\Users\D059373\workspace java local\webDataIntegration\data\resolutionResults\companyFreebase_2_companyDBpedia_correspondences_features.csv"/>
         <parameter key="column_separators" value=","/>
         <parameter key="trim_lines" value="false"/>
         <parameter key="use_quotes" value="true"/>
@@ -42,28 +38,23 @@
           <parameter key="0" value="[0] CompanyStringAttributeComparatorJaccard.true.real.attribute"/>
           <parameter key="1" value="[1] CompanyCountriesComparator.true.real.attribute"/>
           <parameter key="2" value="[2] CompanyIndustriesComparator.true.real.attribute"/>
-          <parameter key="3" value="[3] CompanyStringAttributeComparatorJaccard.true.real.attribute"/>
-          <parameter key="4" value="[4] CompanyStringAttributeComparatorJaccard.true.real.attribute"/>
-          <parameter key="5" value="[5] CompanyNumericAttributeComparator.true.real.attribute"/>
-          <parameter key="6" value="[6] CompanyNumericAttributeComparator.true.real.attribute"/>
+          <parameter key="3" value="[3] CompanyNumericAttributeComparator.true.real.attribute"/>
+          <parameter key="4" value="[4] CompanyNumericAttributeComparator.true.real.attribute"/>
+          <parameter key="5" value="[5] CompanyStringAttributeComparatorJaccard.true.real.attribute"/>
+          <parameter key="6" value="[6] CompanyLocationComparatorJaccard.true.real.attribute"/>
           <parameter key="7" value="finalValue.true.real.attribute"/>
           <parameter key="8" value="id1.true.polynominal.attribute"/>
           <parameter key="9" value="id2.true.polynominal.attribute"/>
           <parameter key="10" value="isMatch.true.polynominal.attribute"/>
-          <parameter key="11" value="label.true.integer.attribute"/>
+          <parameter key="11" value="label.true.polynominal.label"/>
         </list>
         <parameter key="read_not_matching_values_as_missings" value="true"/>
         <parameter key="datamanagement" value="double_array"/>
->>>>>>> refs/remotes/origin/master
       </operator>
       <operator activated="true" class="store" compatibility="6.5.002" expanded="true" height="60" name="Store" width="90" x="313" y="120">
-        <parameter key="repository_entry" value="//Local Repository/freebase_dbpedia_correspondences_features"/>
+        <parameter key="repository_entry" value="freebase_dbpedia_correspondences_features"/>
       </operator>
-<<<<<<< HEAD
-      <connect from_op="Retrieve freebase_dbpedia_correspondences_features" from_port="output" to_op="Store" to_port="input"/>
-=======
       <connect from_op="Read CSV" from_port="output" to_op="Store" to_port="input"/>
->>>>>>> refs/remotes/origin/master
       <portSpacing port="source_input 1" spacing="0"/>
       <portSpacing port="sink_result 1" spacing="0"/>
     </process>
