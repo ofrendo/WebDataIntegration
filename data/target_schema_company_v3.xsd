@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="companies">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="company">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="name" type="xs:string"/>
+							<xs:element name="industries" type="xs:string"/>
+							<xs:element name="revenue" type="xs:long"/>
+							<xs:element name="numberOfEmployees" type="xs:decimal"/>
+							<xs:element name="dateFounded" type="xs:string"/>
+							<xs:element name="assets" type="xs:long"/>
+							<xs:element name="marketValue" type="xs:decimal"/>
+							<xs:element name="profit" type="xs:decimal"/>
+							<xs:element name="continent" type="xs:string"/>
+							<xs:element name="keyPeople" type="xs:string"/>
+							<xs:element name="countries" type="xs:string"/>
+							<xs:element name="locations">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="location">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="name" type="xs:string"/>
+													<xs:element name="population" type="xs:int"/>
+													<xs:element name="area" type="xs:string"/>
+													<xs:element name="elevation" type="xs:decimal"/>
+													<xs:element name="country" type="xs:anyURI"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

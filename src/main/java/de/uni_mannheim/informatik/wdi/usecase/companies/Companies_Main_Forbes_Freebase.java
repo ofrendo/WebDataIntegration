@@ -60,7 +60,7 @@ public class Companies_Main_Forbes_Freebase {
 				new CompanyFactory("forbes"),   "/companies/company");
 		
 		//Results from rapidminer
-		double threshold = 0.8; //only part not in rapidminer
+		double threshold = 0.8; //should be 0.5 always
 		double nameWeight = 0.785;
 		double countriesWeight = 0.226;
 		double industriesWeight = 0.346;

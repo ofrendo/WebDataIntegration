@@ -3,14 +3,25 @@
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="25">
 	<resources/>
 	<component name="defaultmap1" blackbox="0" uid="1" editable="1">
-		<properties SelectedLanguage="builtin"/>
+		<properties ShowLibraryNameInHeader="1" SelectedLanguage="builtin"/>
 		<structure>
 			<children>
-				<component name="target_schema_company_v2" library="xml" uid="3" kind="14">
-					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="837" lty="-161" rbx="1295" rby="388"/>
+				<component name="constant" library="core" uid="13" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="47"/>
+					</targets>
+					<view ltx="529" lty="105" rbx="652" rby="123"/>
 					<data>
-						<root>
+						<constant value=";;" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="target_schema_company_v3" library="xml" uid="6" kind="14">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="811" lty="-194" rbx="1341" rby="206"/>
+					<data>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -20,28 +31,32 @@
 							<entry name="FileInstance" ns="1" expanded="1">
 								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
 									<entry name="companies" expanded="1">
-										<entry name="company" inpkey="1" expanded="1">
-											<entry name="name" inpkey="2"/>
-											<entry name="countries" inpkey="25"/>
-											<entry name="industries" inpkey="3"/>
-											<entry name="revenue" inpkey="4"/>
-											<entry name="numberOfEmployees" inpkey="5"/>
-											<entry name="dateFounded" inpkey="6"/>
-											<entry name="headquarters" inpkey="7"/>
-											<entry name="profit" inpkey="26"/>
-											<entry name="keyPeople" inpkey="8"/>
+										<entry name="company" inpkey="48" expanded="1">
+											<entry name="name" inpkey="49"/>
+											<entry name="industries" inpkey="50"/>
+											<entry name="revenue" inpkey="51"/>
+											<entry name="numberOfEmployees" inpkey="52"/>
+											<entry name="dateFounded" inpkey="53"/>
+											<entry name="profit" inpkey="54"/>
+											<entry name="keyPeople" inpkey="55"/>
+											<entry name="countries" inpkey="56"/>
+											<entry name="locations" expanded="1">
+												<entry name="location" inpkey="57" expanded="1">
+													<entry name="name" inpkey="58"/>
+												</entry>
+											</entry>
 										</entry>
 									</entry>
 								</entry>
 							</entry>
 						</root>
-						<document schema="..\target_schema_company_v2.xsd" inputinstance="..\target_schema_company_v2.xml" outputinstance="..\target_schema_company_v2.xml" instanceroot="{}companies"/>
+						<document schema="..\target_schema_company_v3.xsd" inputinstance="..\target_schema_company_v3.xml" outputinstance="..\target_schema_company_v3.xml" instanceroot="{}companies"/>
 						<wsdl/>
 					</data>
 				</component>
 				<component name="company_freebase" library="json" uid="5" kind="31">
-					<properties/>
-					<view ltx="128" lty="-161" rbx="644" rby="388"/>
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="-12" lty="-181" rbx="504" rby="368"/>
 					<data>
 						<root>
 							<header>
@@ -116,10 +131,20 @@
 								</entry>
 							</entry>
 						</root>
-						<document/>
 						<wsdl/>
 						<json schema="..\company_freebase.schema.json" inputinstance="..\company_freebase.json" outputinstance="..\company_freebase.json"/>
 					</data>
+				</component>
+				<component name="tokenize" library="core" uid="8" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="59"/>
+						<datapoint pos="1" key="60"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="61"/>
+					</targets>
+					<view ltx="653" lty="49" rbx="753" rby="105"/>
 				</component>
 			</children>
 			<graph directed="1">
@@ -127,52 +152,63 @@
 				<vertices>
 					<vertex vertexkey="27">
 						<edges>
-							<edge vertexkey="1" edgekey="37"/>
+							<edge vertexkey="48" edgekey="62"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="28">
 						<edges>
-							<edge vertexkey="6" edgekey="38"/>
+							<edge vertexkey="53" edgekey="63"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="29">
 						<edges>
-							<edge vertexkey="25" edgekey="39"/>
+							<edge vertexkey="56" edgekey="64"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="30">
 						<edges>
-							<edge vertexkey="7" edgekey="40"/>
+							<edge vertexkey="59" edgekey="65"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="31">
 						<edges>
-							<edge vertexkey="26" edgekey="41"/>
+							<edge vertexkey="54" edgekey="66"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="32">
 						<edges>
-							<edge vertexkey="4" edgekey="42"/>
+							<edge vertexkey="51" edgekey="67"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="33">
 						<edges>
-							<edge vertexkey="2" edgekey="43"/>
+							<edge vertexkey="49" edgekey="68"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="34">
 						<edges>
-							<edge vertexkey="5" edgekey="44"/>
+							<edge vertexkey="52" edgekey="69"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="35">
 						<edges>
-							<edge vertexkey="8" edgekey="45"/>
+							<edge vertexkey="55" edgekey="70"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="36">
 						<edges>
-							<edge vertexkey="3" edgekey="46"/>
+							<edge vertexkey="50" edgekey="71"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="47">
+						<edges>
+							<edge vertexkey="60" edgekey="72"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="61">
+						<edges>
+							<edge vertexkey="58" edgekey="73"/>
+							<edge vertexkey="57" edgekey="74"/>
 						</edges>
 					</vertex>
 				</vertices>

@@ -30,7 +30,7 @@ import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyStrin
 public class Companies_Main_Freebase_DBpedia {
 
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException {
-
+		
 		DataSet<Company> dsFreebase = new DataSet<>();
 		DataSet<Company> dsDBpedia = new DataSet<>();
 		dsFreebase.loadFromXML(
@@ -41,7 +41,7 @@ public class Companies_Main_Freebase_DBpedia {
 				new CompanyFactory("dbpedia"),   "/companies/company");
 		
 		//Results from rapidminer
-		double threshold = 0.5; //only part not in rapidminer
+		double threshold = 0.5; //should be 0.5 always
 		double nameWeight = 0.899;
 		double countriesWeight = 0.195;
 		double industriesWeight = 0.067;

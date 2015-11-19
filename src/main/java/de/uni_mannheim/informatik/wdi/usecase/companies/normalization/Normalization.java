@@ -29,7 +29,7 @@ public class Normalization {
 	}
 
 	
-	public static String normalizeName(String name) {
+	public static String normalizeCompanyName(String name) {
 		String[] replacements = {
 				"'", "\\.", ",",
 				"Group", "Corporation", "Company", 
@@ -48,6 +48,9 @@ public class Normalization {
 		return name;
 	}
 	
+	public static String normalizeLocationName(String location) {
+		return location;
+	}
 	
 	/**
 	 * @param String like England;;United Kingdom;;null

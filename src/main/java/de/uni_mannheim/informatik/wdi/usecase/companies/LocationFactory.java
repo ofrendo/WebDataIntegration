@@ -3,6 +3,7 @@ package de.uni_mannheim.informatik.wdi.usecase.companies;
 import org.w3c.dom.Node;
 
 import de.uni_mannheim.informatik.wdi.MatchableFactory;
+import de.uni_mannheim.informatik.wdi.usecase.companies.normalization.Normalization;
 
 /**
  * Creation of location classes
@@ -30,12 +31,22 @@ public class LocationFactory extends MatchableFactory<Location> {
 		// create the object with id and provenance information
 		Location location = new Location(id, provenanceInfo);
 		
+		String name = getValueFromChildElement(node, "name");
+		int population = Integer.parseInt(getValueFromChildElement(node, "population"));
+		long area = Double.valueOf(getValueFromChildElement(node, "area")).longValue();
+		String postalCode = getValueFromChildElement(node, "postalCode");
+		String country = getValueFromChildElement(node, "country");
+		
+		name = Normalization.normalizeLocationName(name);
+		country = Normalization.normalizeValueInDBpedia(country);
+		country = Normalization.normalizeCountries(country);
+		
 		// fill the attributes
-		location.setName(getValueFromChildElement(node, "name"));
-		location.setPopulation(Integer.parseInt(getValueFromChildElement(node, "population")));
-		location.setArea(Double.valueOf(getValueFromChildElement(node, "area")).longValue());
-		location.setPostalCode(getValueFromChildElement(node, "postalCode"));
-		location.setCountry(getValueFromChildElement(node, "country"));
+		location.setName(name);
+		location.setPopulation(population);
+		location.setArea(area);
+		location.setPostalCode(postalCode);
+		location.setCountry(country);
 
 		return location;
 	}
