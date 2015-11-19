@@ -90,8 +90,8 @@ public class CompanyFactory extends MatchableFactory<Company> {
 				new LocationFactory(), provenanceInfo);
 		
 		if (name.contains("Eleven") || name.contains("Kyushu")) {
-			System.out.println(name);
-			System.out.println(locations);
+			//System.out.println(name);
+			//System.out.println(locations);
 		}
 		
 		company.setLocations(locations);

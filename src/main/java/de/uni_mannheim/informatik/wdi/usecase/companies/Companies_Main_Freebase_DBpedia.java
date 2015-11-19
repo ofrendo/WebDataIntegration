@@ -55,18 +55,22 @@ public class Companies_Main_Freebase_DBpedia {
 		
 		LinearCombinationMatchingRule<Company> rule = new LinearCombinationMatchingRule<>(
 				intercept, threshold);
-		//Need to be careful: SAP and SAP SE, China Citic Bank, China Merchants Bank
+		//Need to be careful: 
+		// SAP and SAP SE
+		// China Citic Bank, China Merchants Bank
 		rule.addComparator(new CompanyStringAttributeComparatorJaccard("name"), nameWeight);
 		rule.addComparator(new CompanyCountriesComparator(), countriesWeight);
 		rule.addComparator(new CompanyIndustriesComparator(), industriesWeight);
-		rule.addComparator(new CompanyLocationComparatorJaccard(), locationsWeight);
-		rule.addComparator(new CompanyStringAttributeComparatorJaccard("keyPeople"), keyPeopleWeight);
 		
 		//Comparison of numeric values relies on max percentage difference. i.e. revenue of 100 and 120 leads to
-		// 1 - ((120-100)/120)/0.5 = 0.66667
+				// 1 - ((120-100)/120)/0.5 = 0.66667
 		rule.addComparator(new CompanyNumericAttributeComparator("revenue", 0.5), revenueWeight); //seems this is not usable to compare!
 		rule.addComparator(new CompanyNumericAttributeComparator("numberOfEmployees", 0.5), numberOfEmployeesWeight);
-//		rule.addComparator(new CompanyNumericAttributeComparator("profit", 0.5), profitWeight);
+
+		rule.addComparator(new CompanyStringAttributeComparatorJaccard("keyPeople"), keyPeopleWeight);
+		rule.addComparator(new CompanyLocationComparatorJaccard(), locationsWeight);
+		
+		
 		
 		// create the matching engine
 		Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyBlockingFunction());
