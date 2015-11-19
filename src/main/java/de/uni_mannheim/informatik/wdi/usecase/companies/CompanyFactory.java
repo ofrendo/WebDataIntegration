@@ -1,6 +1,6 @@
 package de.uni_mannheim.informatik.wdi.usecase.companies;
 
-import java.util.Arrays;
+import java.util.List;
 
 import org.joda.time.DateTime;
 import org.w3c.dom.Node;
@@ -46,7 +46,7 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		String revenue = getValueFromChildElement(node, "revenue");
 		String numberOfEmployees = getValueFromChildElement(node, "numberOfEmployees");
 		String date = getValueFromChildElement(node, "dateFounded");
-		String headquarters = getValueFromChildElement(node, "headquarters");
+		//String headquarters = getValueFromChildElement(node, "headquarters");
 		String profit = getValueFromChildElement(node, "profit");
 		String keyPeople = getValueFromChildElement(node, "keyPeople");
 
@@ -58,7 +58,7 @@ public class CompanyFactory extends MatchableFactory<Company> {
 			name = Normalization.normalizeValueInDBpedia(name);
 			countries = Normalization.normalizeValueInDBpedia(countries);
 			industries = Normalization.normalizeValueInDBpedia(industries);
-			headquarters = Normalization.normalizeValueInDBpedia(headquarters);
+			//headquarters = Normalization.normalizeValueInDBpedia(headquarters);
 			keyPeople = Normalization.normalizeValueInDBpedia(keyPeople);
 		}
 
@@ -68,7 +68,7 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		company.setIndustries(industries);
 		company.setRevenue(Normalization.normalizeProfitOrRevenue(revenue));
 		company.setNumberOfEmployees( numberOfEmployees != null ? Integer.parseInt(numberOfEmployees) : 0);
-		company.setHeadquarters(headquarters);
+		//company.setHeadquarters(headquarters);
 		company.setProfit(Normalization.normalizeProfitOrRevenue(profit));
 		company.setKeyPeople(keyPeople);
 
@@ -87,6 +87,12 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
+		
+		List<Location> locations = getObjectListFromChildElement(node, "locations", "location", 
+				new LocationFactory(), provenanceInfo);
+		company.setLocations(locations);
+		
+		
 //		System.out.println("get countries: "+company.getCountries());
 		return company;
 	}

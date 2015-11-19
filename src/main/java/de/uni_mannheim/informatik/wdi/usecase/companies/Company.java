@@ -1,8 +1,11 @@
 package de.uni_mannheim.informatik.wdi.usecase.companies;
 
+import java.util.List;
+
 import org.joda.time.DateTime;
 
 import de.uni_mannheim.informatik.wdi.Record;
+import de.uni_mannheim.informatik.wdi.usecase.movies.Actor;
 
 /**
  * Main company class
@@ -31,9 +34,9 @@ public class Company extends Record {
 	private long revenue = -1;
 	private int numberOfEmployees = -1;
 	private DateTime dateFounded;
-	private String headquarters;
 	private long profit = -1;
 	private String keyPeople;
+	private List<Location> locations;
 	
 	public Company(String identifier, String provenance) {
 		super(identifier, provenance);
@@ -79,14 +82,6 @@ public class Company extends Record {
 		this.dateFounded = dateFounded;
 	}
 
-	public String getHeadquarters() {
-		return headquarters;
-	}
-
-	public void setHeadquarters(String headquarters) {
-		this.headquarters = headquarters;
-	}
-
 	public long getProfit() {
 		return profit;
 	}
@@ -109,6 +104,14 @@ public class Company extends Record {
 
 	public void setIndustries(String industries) {
 		this.industries = industries;
+	}
+
+	public List<Location> getLocations() {
+		return locations;
+	}
+
+	public void setLocations(List<Location> locations) {
+		this.locations = locations;
 	}
 
 }

@@ -42,10 +42,6 @@ public class CompanyStringAttributeComparatorJaccard extends Comparator<Company>
 			value1 = company1.getName();
 			value2 = company2.getName();
 			break;
-		case "headquarters":
-			value1 = company1.getHeadquarters();
-			value2 = company2.getHeadquarters();
-			break;
 		case "keyPeople":
 			value1 = company1.getKeyPeople();
 			value2 = company2.getKeyPeople();

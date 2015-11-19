@@ -23,6 +23,7 @@ import de.uni_mannheim.informatik.wdi.identityresolution.matching.MatchingEngine
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecord;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecordCSVFormatter;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyCountriesComparator;
+import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyLocationComparatorJaccard;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyIndustriesComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyNumericAttributeComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyStringAttributeComparatorJaccard;
@@ -58,7 +59,7 @@ public class Companies_Main_Freebase_DBpedia {
 		rule.addComparator(new CompanyStringAttributeComparatorJaccard("name"), nameWeight);
 		rule.addComparator(new CompanyCountriesComparator(), countriesWeight);
 		rule.addComparator(new CompanyIndustriesComparator(), industriesWeight);
-		rule.addComparator(new CompanyStringAttributeComparatorJaccard("headquarters"), headquartersWeight);
+		rule.addComparator(new CompanyLocationComparatorJaccard(), headquartersWeight);
 		rule.addComparator(new CompanyStringAttributeComparatorJaccard("keyPeople"), keyPeopleWeight);
 		
 		//Comparison of numeric values relies on max percentage difference. i.e. revenue of 100 and 120 leads to
