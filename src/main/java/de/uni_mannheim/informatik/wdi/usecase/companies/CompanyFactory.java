@@ -89,7 +89,7 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		List<Location> locations = getObjectListFromChildElement(node, "locations", "location", 
 				new LocationFactory(), provenanceInfo);
 		
-		if (name.contains("Eleven")) {
+		if (name.contains("Eleven") || name.contains("Kyushu")) {
 			System.out.println(name);
 			System.out.println(locations);
 		}

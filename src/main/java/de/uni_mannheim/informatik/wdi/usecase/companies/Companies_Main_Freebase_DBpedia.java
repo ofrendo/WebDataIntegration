@@ -38,7 +38,7 @@ public class Companies_Main_Freebase_DBpedia {
 				new File("data/mappingResults/IntegratedCompanyFreebase.xml"),
 				new CompanyFactory("freebase"), "/companies/company");
 		dsDBpedia.loadFromXML(
-				new File("data/mappingResults/Integratedcompany_dbpedia.xml"),
+				new File("data/mappingResults/IntegratedCompanyDBpedia.xml"),
 				new CompanyFactory("dbpedia"),   "/companies/company");
 		
 		//Results from rapidminer
