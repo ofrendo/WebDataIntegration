@@ -1,0 +1,19 @@
+Good blocking function?
+	- Tried CrossProduct and Partitioning with countries as blocking key
+	- Blocking key of attributes with null values?
+	A: Use alternative as fallback
+	A: Could try industries (eg banking/private banking), maybe possible to reduce it? Lots of preprocessing
+	
+Using RapidMiner
+	- Negative coefficients?
+	- Nonexistent coefficients (not much meaning?)
+	- Feature selection on Linear Regression?
+	A: Linear regression: Threshold is always 0.5!!
+	A: F1 shouldnt be 1
+Identity resolution on two classes (Company and Location)
+	- With a company_id/location_id gold standard?
+	A: Assign IDs to all datasets, like company_forbes_1, company_freebase_1, company_dbpedia_1, location_dbpedia_1
+	A: Choose ID however we want, has to be unique for all datasets
+	
+	
+	Conclusion: More data from Freebase, need at least 1k correspondances

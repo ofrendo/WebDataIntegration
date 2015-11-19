@@ -27,7 +27,7 @@ import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyIndus
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyNumericAttributeComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyStringAttributeComparatorJaccard;
 
-public class Companies_MainForFreebase_DBpedia {
+public class Companies_Main_Freebase_DBpedia {
 
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException {
 

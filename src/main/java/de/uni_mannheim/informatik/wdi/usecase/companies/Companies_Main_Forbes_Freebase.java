@@ -32,7 +32,7 @@ import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyStrin
  * @author Oliver
  *
  */
-public class Companies_Main {
+public class Companies_Main_Forbes_Freebase {
 
 /* example entry
 	<company>
