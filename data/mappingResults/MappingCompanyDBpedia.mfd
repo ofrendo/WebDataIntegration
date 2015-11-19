@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2016 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="25">
+	<resources/>
+	<component name="defaultmap1" blackbox="0" uid="1" editable="1">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="constant" library="core" uid="5" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="3"/>
+					</targets>
+					<view ltx="587" lty="92" rbx="633" rby="110"/>
+					<data>
+						<constant value=";;" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="tokenize" library="core" uid="4" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="4"/>
+						<datapoint pos="1" key="5"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="6"/>
+					</targets>
+					<view ltx="674" lty="35" rbx="757" rby="91"/>
+				</component>
+				<component name="scientific_to_numeric" library="user" blackbox="0" uid="186" kind="19" visible="0">
+					<view ltx="635" lty="312" rbx="744" rby="329"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="string" inpkey="28" componentid="169"/>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="Field1" outkey="29" componentid="170"/>
+						</root>
+					</data>
+				</component>
+				<component name="target_schema_company_v3" library="xml" uid="2" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="833" lty="-173" rbx="1285" rby="199"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="companies" expanded="1">
+										<entry name="company" inpkey="17" expanded="1">
+											<entry name="name" inpkey="18"/>
+											<entry name="industries" inpkey="19"/>
+											<entry name="revenue" inpkey="20"/>
+											<entry name="numberOfEmployees" inpkey="21"/>
+											<entry name="dateFounded" inpkey="22"/>
+											<entry name="assets" inpkey="23"/>
+											<entry name="keyPeople" inpkey="24"/>
+											<entry name="countries" inpkey="25"/>
+											<entry name="locations" expanded="1">
+												<entry name="location" inpkey="26" expanded="1">
+													<entry name="name" inpkey="27"/>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\target_schema_company_v3.xsd" outputinstance="..\target_schema_company_v3.xml" instanceroot="{}companies"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="company_dbpedia" library="json" uid="6" kind="31">
+					<properties XSLTTargetEncoding="UTF-8"/>
+					<view ltx="166" lty="-157" rbx="477" rby="370"/>
+					<data>
+						<root scrollposition="154">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="root" expanded="1">
+										<entry name="object" expanded="1">
+											<entry name="head" type="json-property" expanded="1">
+												<entry name="object" expanded="1">
+													<entry name="link" type="json-property" expanded="1"/>
+													<entry name="vars" type="json-property" expanded="1"/>
+												</entry>
+											</entry>
+											<entry name="results" type="json-property" expanded="1">
+												<entry name="object" expanded="1">
+													<entry name="distinct" type="json-property" expanded="1"/>
+													<entry name="ordered" type="json-property" expanded="1"/>
+													<entry name="bindings" type="json-property" expanded="1">
+														<entry name="array" expanded="1">
+															<entry name="item" type="json-item" expanded="1">
+																<entry name="object" outkey="7" expanded="1">
+																	<entry name="company" type="json-property" expanded="1">
+																		<entry name="object" expanded="1">
+																			<entry name="type" type="json-property" expanded="1"/>
+																			<entry name="datatype" type="json-property" expanded="1"/>
+																			<entry name="value" type="json-property" expanded="1">
+																				<entry name="string" outkey="8"/>
+																			</entry>
+																		</entry>
+																	</entry>
+																	<entry name="locationCity" type="json-property" expanded="1">
+																		<entry name="object" expanded="1">
+																			<entry name="type" type="json-property" expanded="1"/>
+																			<entry name="datatype" type="json-property" expanded="1"/>
+																			<entry name="value" type="json-property" expanded="1">
+																				<entry name="string" outkey="9"/>
+																			</entry>
+																		</entry>
+																	</entry>
+																	<entry name="locationCountry" type="json-property" expanded="1">
+																		<entry name="object" expanded="1">
+																			<entry name="type" type="json-property" expanded="1"/>
+																			<entry name="datatype" type="json-property" expanded="1"/>
+																			<entry name="value" type="json-property" expanded="1">
+																				<entry name="string" outkey="10"/>
+																			</entry>
+																		</entry>
+																	</entry>
+																	<entry name="keyPeople" type="json-property" expanded="1">
+																		<entry name="object" expanded="1">
+																			<entry name="type" type="json-property" expanded="1"/>
+																			<entry name="datatype" type="json-property" expanded="1"/>
+																			<entry name="value" type="json-property" expanded="1">
+																				<entry name="string" outkey="11"/>
+																			</entry>
+																		</entry>
+																	</entry>
+																	<entry name="foundingYear" type="json-property" expanded="1">
+																		<entry name="object" expanded="1">
+																			<entry name="type" type="json-property" expanded="1"/>
+																			<entry name="datatype" type="json-property" expanded="1"/>
+																			<entry name="value" type="json-property" expanded="1">
+																				<entry name="string" outkey="12"/>
+																			</entry>
+																		</entry>
+																	</entry>
+																	<entry name="industry" type="json-property" expanded="1">
+																		<entry name="object">
+																			<entry name="type" type="json-property" expanded="1"/>
+																			<entry name="datatype" type="json-property" expanded="1"/>
+																			<entry name="value" type="json-property" expanded="1">
+																				<entry name="string" outkey="13"/>
+																			</entry>
+																		</entry>
+																	</entry>
+																	<entry name="revenue" type="json-property" expanded="1">
+																		<entry name="object" expanded="1">
+																			<entry name="type" type="json-property" expanded="1"/>
+																			<entry name="datatype" type="json-property" expanded="1"/>
+																			<entry name="value" type="json-property" expanded="1">
+																				<entry name="string" outkey="14"/>
+																			</entry>
+																		</entry>
+																	</entry>
+																	<entry name="numberOfEmployees" type="json-property" expanded="1">
+																		<entry name="object">
+																			<entry name="type" type="json-property" expanded="1"/>
+																			<entry name="datatype" type="json-property" expanded="1"/>
+																			<entry name="value" type="json-property" expanded="1">
+																				<entry name="string" outkey="15"/>
+																			</entry>
+																		</entry>
+																	</entry>
+																	<entry name="asset" type="json-property" expanded="1">
+																		<entry name="object" expanded="1">
+																			<entry name="type" type="json-property" expanded="1"/>
+																			<entry name="datatype" type="json-property" expanded="1"/>
+																			<entry name="value" type="json-property" expanded="1">
+																				<entry name="string" outkey="16"/>
+																			</entry>
+																		</entry>
+																	</entry>
+																</entry>
+															</entry>
+														</entry>
+													</entry>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<wsdl/>
+						<json schema="..\company_dbpedia.schema.json" inputinstance="..\company_dbpedia.json" outputinstance="..\company_dbpedia.json"/>
+					</data>
+				</component>
+				<component name="scientific_to_numeric" library="user" blackbox="0" uid="188" kind="19" visible="0">
+					<view ltx="635" lty="354" rbx="744" rby="371"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="string" inpkey="45" componentid="169"/>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="Field1" outkey="44" componentid="170"/>
+						</root>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="3">
+						<edges>
+							<edge vertexkey="5" edgekey="30"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="6">
+						<edges>
+							<edge vertexkey="26" edgekey="31"/>
+							<edge vertexkey="27" edgekey="32"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="7">
+						<edges>
+							<edge vertexkey="17" edgekey="33"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="8">
+						<edges>
+							<edge vertexkey="18" edgekey="34"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="9">
+						<edges>
+							<edge vertexkey="4" edgekey="35"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="10">
+						<edges>
+							<edge vertexkey="25" edgekey="36"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="11">
+						<edges>
+							<edge vertexkey="24" edgekey="37"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="12">
+						<edges>
+							<edge vertexkey="22" edgekey="38"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="13">
+						<edges>
+							<edge vertexkey="19" edgekey="39"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="14">
+						<edges>
+							<edge vertexkey="28" edgekey="40"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="15">
+						<edges>
+							<edge vertexkey="21" edgekey="41"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="16">
+						<edges>
+							<edge vertexkey="45" edgekey="46"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="29">
+						<edges>
+							<edge vertexkey="20" edgekey="43"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="44">
+						<edges>
+							<edge vertexkey="23" edgekey="47"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>

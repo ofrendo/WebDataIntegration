@@ -46,7 +46,6 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		String revenue = getValueFromChildElement(node, "revenue");
 		String numberOfEmployees = getValueFromChildElement(node, "numberOfEmployees");
 		String date = getValueFromChildElement(node, "dateFounded");
-		//String headquarters = getValueFromChildElement(node, "headquarters");
 		String profit = getValueFromChildElement(node, "profit");
 		String keyPeople = getValueFromChildElement(node, "keyPeople");
 
@@ -68,7 +67,6 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		company.setIndustries(industries);
 		company.setRevenue(Normalization.normalizeProfitOrRevenue(revenue));
 		company.setNumberOfEmployees( numberOfEmployees != null ? Integer.parseInt(numberOfEmployees) : 0);
-		//company.setHeadquarters(headquarters);
 		company.setProfit(Normalization.normalizeProfitOrRevenue(profit));
 		company.setKeyPeople(keyPeople);
 
@@ -90,6 +88,12 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		
 		List<Location> locations = getObjectListFromChildElement(node, "locations", "location", 
 				new LocationFactory(), provenanceInfo);
+		
+		if (name.contains("Eleven")) {
+			System.out.println(name);
+			System.out.println(locations);
+		}
+		
 		company.setLocations(locations);
 		
 		
