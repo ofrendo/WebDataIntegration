@@ -32,8 +32,9 @@ public class LocationFactory extends MatchableFactory<Location> {
 		Location location = new Location(id, provenanceInfo);
 		
 		String name = getValueFromChildElement(node, "name");
-		int population = Integer.parseInt(getValueFromChildElement(node, "population"));
-		long area = Double.valueOf(getValueFromChildElement(node, "area")).longValue();
+		String population = getValueFromChildElement(node, "population");
+		String areaString = getValueFromChildElement(node, "area");
+		long area = areaString != null ?  Double.valueOf(areaString).longValue() : 0;
 		String postalCode = getValueFromChildElement(node, "postalCode");
 		String country = getValueFromChildElement(node, "country");
 		
@@ -43,7 +44,7 @@ public class LocationFactory extends MatchableFactory<Location> {
 		
 		// fill the attributes
 		location.setName(name);
-		location.setPopulation(population);
+		location.setPopulation(population != null ? Integer.parseInt(population) : 0);
 		location.setArea(area);
 		location.setPostalCode(postalCode);
 		location.setCountry(country);

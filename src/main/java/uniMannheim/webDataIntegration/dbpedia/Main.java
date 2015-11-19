@@ -15,20 +15,27 @@ public class Main {
 		String format = "json"; //could be "json" or "xml"
 
 		String queryCompany = Utils.readFile(pathQueryCompany);
-		GenericUrl urlCompany = new GenericUrl("http://dbpedia.org/sparql");
-		urlCompany.put("format", format);
-		//urlCompany.put("default-graph-uri", URLEncoder.encode("http://dbpedia.org", "UTF-8"));
-		urlCompany.put("query", queryCompany);
-		
-		String httpResult = Utils.doHTTPRequest(urlCompany);
-		System.out.println("Result length: " + httpResult.length());
-		Utils.writeFile("data/company_dbpedia." + format, httpResult);
-		
 		if (false) {
+			GenericUrl urlCompany = new GenericUrl("http://dbpedia.org/sparql");
+			urlCompany.put("format", format);
+			//urlCompany.put("default-graph-uri", URLEncoder.encode("http://dbpedia.org", "UTF-8"));
+			urlCompany.put("query", queryCompany);
+			String httpResult = Utils.doHTTPRequest(urlCompany);
+			System.out.println("Result length: " + httpResult.length());
+			Utils.writeFile("data/company_dbpedia." + format, httpResult);
+		}
+		
+		
+		format = "csv";
+		
+		if (true) {
 			String queryLocation = Utils.readFile(pathQueryLocation);
 			GenericUrl urlLocation = new GenericUrl("http://dbpedia.org/sparql");
-			urlCompany.put("format", format);
-			urlCompany.put("query", queryLocation);
+			urlLocation.put("format", format);
+			urlLocation.put("query", queryLocation);
+			String httpResult = Utils.doHTTPRequest(urlLocation);
+			System.out.println("Result length: " + httpResult.length());
+			Utils.writeFile("data/location_dbpedia." + format, httpResult);
 		}
 		
 	}

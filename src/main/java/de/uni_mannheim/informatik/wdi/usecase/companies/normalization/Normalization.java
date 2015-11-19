@@ -10,6 +10,9 @@ import java.util.Arrays;
 public class Normalization {
 
 	public static String normalizeValueInDBpedia(String value) {
+		if (value == null)
+			return null;
+		
 		String[] arr1 = value.split(";;");
 		String result = "";
 		if(arr1.length > 1){

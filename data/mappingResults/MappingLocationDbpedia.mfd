@@ -6,11 +6,11 @@
 		<properties SelectedLanguage="cs"/>
 		<structure>
 			<children>
-				<component name="sample_target_schema_location" library="xml" uid="5" kind="14">
+				<component name="target_schema_company_v3" library="xml" uid="6" kind="14">
 					<properties XSLTDefaultOutput="1"/>
-					<view ltx="410" rbx="710" rby="200"/>
+					<view ltx="410" rbx="1031" rby="388"/>
 					<data>
-						<root>
+						<root scrollposition="1">
 							<header>
 								<namespaces>
 									<namespace/>
@@ -19,25 +19,29 @@
 							</header>
 							<entry name="FileInstance" ns="1" expanded="1">
 								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="locations" expanded="1">
-										<entry name="location" inpkey="1" expanded="1">
-											<entry name="name" inpkey="2"/>
-											<entry name="population" inpkey="3"/>
-											<entry name="area" inpkey="4"/>
-											<entry name="elevation" inpkey="5"/>
-											<entry name="country" inpkey="6"/>
+									<entry name="companies" expanded="1">
+										<entry name="company" inpkey="19" expanded="1">
+											<entry name="locations" expanded="1">
+												<entry name="location" inpkey="20" expanded="1">
+													<entry name="name" inpkey="21"/>
+													<entry name="population" inpkey="22"/>
+													<entry name="area" inpkey="23"/>
+													<entry name="elevation" inpkey="24"/>
+													<entry name="country" inpkey="25"/>
+												</entry>
+											</entry>
 										</entry>
 									</entry>
 								</entry>
 							</entry>
 						</root>
-						<document schema="..\sample_target_schema_location.xsd" inputinstance="..\sample_target_schema_location.xml" outputinstance="..\sample_target_schema_location.xml" instanceroot="{}locations"/>
+						<document schema="..\target_schema_company_v3.xsd" inputinstance="..\target_schema_company_v3.xml" outputinstance="..\target_schema_company_v3.xml" instanceroot="{}companies"/>
 						<wsdl/>
 					</data>
 				</component>
 				<component name="location_dbpedia" library="text" uid="2" kind="16">
 					<properties/>
-					<view rbx="300" rby="200"/>
+					<view rbx="319" rby="306"/>
 					<data>
 						<root>
 							<header>
@@ -56,7 +60,7 @@
 							</entry>
 						</root>
 						<wsdl/>
-						<text type="csv" inputinstance="C:\Users\li\WebDataIntegration\data\location_dbpedia.csv" encoding="1000" byteorder="1" byteordermark="0">
+						<text type="csv" inputinstance="..\location_dbpedia.csv" encoding="1000" byteorder="1" byteordermark="0">
 							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
 								<names root="location_dbpedia" block="Rows">
 									<field0 name="label" type="string"/>
@@ -75,32 +79,33 @@
 				<vertices>
 					<vertex vertexkey="7">
 						<edges>
-							<edge vertexkey="1" edgekey="13"/>
+							<edge vertexkey="19" edgekey="26"/>
+							<edge vertexkey="20" edgekey="27"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="8">
 						<edges>
-							<edge vertexkey="2" edgekey="14"/>
+							<edge vertexkey="21" edgekey="28"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="9">
 						<edges>
-							<edge vertexkey="3" edgekey="15"/>
+							<edge vertexkey="22" edgekey="29"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="10">
 						<edges>
-							<edge vertexkey="4" edgekey="16"/>
+							<edge vertexkey="23" edgekey="30"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="11">
 						<edges>
-							<edge vertexkey="5" edgekey="17"/>
+							<edge vertexkey="24" edgekey="31"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="12">
 						<edges>
-							<edge vertexkey="6" edgekey="18"/>
+							<edge vertexkey="25" edgekey="32"/>
 						</edges>
 					</vertex>
 				</vertices>
