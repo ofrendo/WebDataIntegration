@@ -21,7 +21,7 @@ public class CompanyCountriesComparator extends Comparator<Company> {
 		String[] c1s = c1.getCountries().split(";;");
 		String[] c2s = c2.getCountries().split(";;");
 		
-		double result = -1;
+		double result = 0;
 		for (String country1 : c1s) {
 			for (String country2 : c2s) {
 				double calc = sim.calculate(country1, country2);

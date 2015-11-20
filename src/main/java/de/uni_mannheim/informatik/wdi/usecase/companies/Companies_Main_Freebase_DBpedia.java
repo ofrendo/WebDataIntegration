@@ -13,7 +13,7 @@ import org.xml.sax.SAXException;
 
 import de.uni_mannheim.informatik.wdi.DataSet;
 import de.uni_mannheim.informatik.wdi.identityresolution.blocking.Blocker;
-import de.uni_mannheim.informatik.wdi.identityresolution.blocking.PartitioningBlocker;
+import de.uni_mannheim.informatik.wdi.identityresolution.blocking.CrossProductBlocker;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.GoldStandard;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.MatchingEvaluator;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.Performance;
@@ -22,10 +22,10 @@ import de.uni_mannheim.informatik.wdi.identityresolution.matching.LinearCombinat
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.MatchingEngine;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecord;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecordCSVFormatter;
-import de.uni_mannheim.informatik.wdi.usecase.companies.blocking.CompanyBlockingFunction;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyCountriesComparator;
-import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyLocationComparatorJaccard;
+import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyDateFoundedComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyIndustriesComparator;
+import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyLocationComparatorJaccard;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyNumericAttributeComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyStringAttributeComparatorJaccard;
 
@@ -50,24 +50,30 @@ public class Companies_Main_Freebase_DBpedia {
 		System.out.println("freebaseFactory attributeCount=" + freebaseFactory.attributeCounter);
 		System.out.println("dbpediaFactory attributeCount=" + dbpediaFactory.attributeCounter);
 		
+		//Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyCountryBlockingFunction());
+		Blocker<Company> blocker = new CrossProductBlocker<>();
+		//Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyDateFoundedBlockingFunction());
+		
 		//Results from rapidminer
 		double threshold = 0.5; //should be 0.5 always
-		double nameWeight = 0.376;
-		double countriesWeight = 0.231;
-		double industriesWeight = 0.156;
+		double nameWeight = 0.689;
+		double countriesWeight = 0.088;
+		double industriesWeight = 0.025;
 		
 		double revenueWeight = 0.0;
 		double numberOfEmployeesWeight = 0.0;
+		double dateFoundedWeight = 0.170;
 		
-		double keyPeopleWeight = 0.127;
-		double locationsWeight = 0.121; //only comparing names of headquarters at this point
+		double keyPeopleWeight = 0.377;
+		double locationsWeight = 0.218; //only comparing names of headquarters at this point
 		
-		double intercept = -0.089;
+		double intercept = -0.135;
 		
 		LinearCombinationMatchingRule<Company> rule = new LinearCombinationMatchingRule<>(
 				intercept, threshold
 				//);
-				, "4INFO", "http://dbpedia.org/resource/Jive_Software");
+				, "ING Group", "http://dbpedia.org/resource/AFC_Ajax_N.V.");
+				//, "4INFO", "http://dbpedia.org/resource/Jive_Software");
 				//, "http://dbpedia.org/resource/The_Coca-Cola_Company", "The Coca-Cola Company");
 				
 		//Need to be careful: 
@@ -81,7 +87,7 @@ public class Companies_Main_Freebase_DBpedia {
 				// 1 - ((120-100)/120)/0.5 = 0.66667
 		rule.addComparator(new CompanyNumericAttributeComparator("revenue", 0.5), revenueWeight); //seems this is not usable to compare!
 		rule.addComparator(new CompanyNumericAttributeComparator("numberOfEmployees", 0.5), numberOfEmployeesWeight);
-		//TODO: Compare by date founded as well		
+		rule.addComparator(new CompanyDateFoundedComparator(), dateFoundedWeight);
 		
 		rule.addComparator(new CompanyStringAttributeComparatorJaccard("keyPeople"), keyPeopleWeight);
 		rule.addComparator(new CompanyLocationComparatorJaccard(), locationsWeight);
@@ -89,8 +95,6 @@ public class Companies_Main_Freebase_DBpedia {
 		
 		
 		// create the matching engine
-		Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyBlockingFunction());
-		//Blocker<Company> blocker = new CrossProductBlocker<>();
 		MatchingEngine<Company> engine = new MatchingEngine<>(rule, blocker);
 		
 		// run the matching

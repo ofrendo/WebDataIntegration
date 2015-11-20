@@ -10,9 +10,16 @@ public class FuzzyLevenshteinSimilarity extends SimilarityMeasure<String> {
 	public double calculate(String value1, String value2) {
 		String[] arr1 = value1.toLowerCase().split(";;");
 		String[] arr2 = value2.toLowerCase().split(";;");
-		double intersectionNum = 0.0;
+		
+		if (arr1.length > arr2.length) { //arr1 needs to be the shorter array
+			String[] temp = arr2;
+			arr2 = arr1;
+			arr1 = temp;
+		}
+		
+		double intersectionNum = 0;
 		for(String s1 : arr1){
-			double highestSim = -1;
+			double highestSim = 0;
 			for(String s2 : arr2){
 				double current = compareByLevenshtein(s1, s2);
 				highestSim = (highestSim < current) ? current : highestSim;

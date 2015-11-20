@@ -3,7 +3,7 @@ package de.uni_mannheim.informatik.wdi.usecase.companies.blocking;
 import de.uni_mannheim.informatik.wdi.identityresolution.blocking.BlockingFunction;
 import de.uni_mannheim.informatik.wdi.usecase.companies.Company;
 
-public class CompanyBlockingFunction extends BlockingFunction<Company> {
+public class CompanyCountryBlockingFunction extends BlockingFunction<Company> {
 
 	@Override
 	public String getBlockingKey(Company instance) {

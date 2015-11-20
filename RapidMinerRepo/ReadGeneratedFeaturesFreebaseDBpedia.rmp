@@ -14,7 +14,7 @@
     <parameter key="encoding" value="SYSTEM"/>
     <process expanded="true">
       <operator activated="true" class="read_csv" compatibility="6.5.002" expanded="true" height="60" name="Read CSV" width="90" x="112" y="120">
-        <parameter key="csv_file" value="C:\Users\D059373\workspace java local\webDataIntegration\data\resolutionResults\companyFreebase_2_companyDBpedia_correspondences_features.csv"/>
+        <parameter key="csv_file" value="C:\Users\Oliver\git\WebDataIntegration\data\resolutionResults\companyFreebase_2_companyDBpedia_correspondences_features.csv"/>
         <parameter key="column_separators" value=","/>
         <parameter key="trim_lines" value="false"/>
         <parameter key="use_quotes" value="true"/>
@@ -40,13 +40,14 @@
           <parameter key="2" value="[2] CompanyIndustriesComparator.true.real.attribute"/>
           <parameter key="3" value="[3] CompanyNumericAttributeComparator.true.real.attribute"/>
           <parameter key="4" value="[4] CompanyNumericAttributeComparator.true.real.attribute"/>
-          <parameter key="5" value="[5] CompanyStringAttributeComparatorJaccard.true.real.attribute"/>
-          <parameter key="6" value="[6] CompanyLocationComparatorJaccard.true.real.attribute"/>
-          <parameter key="7" value="finalValue.true.real.attribute"/>
-          <parameter key="8" value="id1.true.polynominal.attribute"/>
-          <parameter key="9" value="id2.true.polynominal.attribute"/>
-          <parameter key="10" value="isMatch.true.polynominal.attribute"/>
-          <parameter key="11" value="label.true.polynominal.label"/>
+          <parameter key="5" value="[5] CompanyDateFoundedComparator.true.real.attribute"/>
+          <parameter key="6" value="[6] CompanyStringAttributeComparatorJaccard.true.real.attribute"/>
+          <parameter key="7" value="[7] CompanyLocationComparatorJaccard.true.real.attribute"/>
+          <parameter key="8" value="finalValue.true.real.attribute"/>
+          <parameter key="9" value="id1.true.polynominal.attribute"/>
+          <parameter key="10" value="id2.true.polynominal.attribute"/>
+          <parameter key="11" value="isMatch.true.polynominal.attribute"/>
+          <parameter key="12" value="label.true.polynominal.label"/>
         </list>
         <parameter key="read_not_matching_values_as_missings" value="true"/>
         <parameter key="datamanagement" value="double_array"/>

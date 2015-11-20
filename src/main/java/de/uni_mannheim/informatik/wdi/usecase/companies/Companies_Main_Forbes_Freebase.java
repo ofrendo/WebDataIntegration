@@ -22,7 +22,7 @@ import de.uni_mannheim.informatik.wdi.identityresolution.matching.LinearCombinat
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.MatchingEngine;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecord;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecordCSVFormatter;
-import de.uni_mannheim.informatik.wdi.usecase.companies.blocking.CompanyBlockingFunction;
+import de.uni_mannheim.informatik.wdi.usecase.companies.blocking.CompanyCountryBlockingFunction;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyCountriesComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyIndustriesComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyNumericAttributeComparator;
@@ -86,7 +86,7 @@ public class Companies_Main_Forbes_Freebase {
 		rule.addComparator(new CompanyNumericAttributeComparator("profit", 0.5), profitWeight);  //seems this is not usable to compare!
 		
 		// create the matching engine
-		Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyBlockingFunction());;
+		Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyCountryBlockingFunction());;
 		//Blocker<Company> blocker = new CrossProductBlocker<>();
 		MatchingEngine<Company> engine = new MatchingEngine<>(rule, blocker);
 		

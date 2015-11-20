@@ -85,7 +85,7 @@ public class LinearCombinationMatchingRule<RecordType extends Matchable> extends
 			double weight = pair.getSecond();
 			
 			if (printThis) 
-				System.out.println(weight + " * " + similarity);
+				System.out.println(comp.getClass().getSimpleName() + "=" + weight + " * " + similarity);
 			
 			sum += (similarity * weight);
 		}
