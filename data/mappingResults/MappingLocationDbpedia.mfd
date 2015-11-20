@@ -3,54 +3,12 @@
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<resources/>
 	<component name="defaultmap1" blackbox="0" uid="1" editable="1">
-		<properties SelectedLanguage="cs"/>
+		<properties SelectedLanguage="builtin" MakePathsAbsoluteOnGeneration="1"/>
 		<structure>
 			<children>
-				<component name="scientific_to_numeric" library="user" blackbox="0" uid="186" kind="19" visible="0">
-					<view ltx="445" lty="203" rbx="554" rby="220"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="string" inpkey="35" componentid="169"/>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="Field1" outkey="36" componentid="170"/>
-						</root>
-					</data>
-				</component>
-				<component name="scientific_to_numeric" library="user" blackbox="0" uid="188" kind="19" visible="0">
-					<view ltx="445" lty="261" rbx="554" rby="278"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="string" inpkey="39" componentid="169"/>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="Field1" outkey="40" componentid="170"/>
-						</root>
-					</data>
-				</component>
-				<component name="location_dbpedia" library="text" uid="2" kind="16">
+				<component name="location_dbpedia" library="text" uid="23" kind="16">
 					<properties/>
-					<view rbx="319" rby="306"/>
+					<view ltx="5" lty="-24" rbx="261" rby="269"/>
 					<data>
 						<root>
 							<header>
@@ -58,12 +16,13 @@
 							</header>
 							<entry name="FileInstance" expanded="1">
 								<entry name="document" expanded="1">
-									<entry name="Rows" outkey="7" expanded="1">
-										<entry name="label" outkey="8"/>
-										<entry name="population" outkey="9"/>
-										<entry name="areaTotal" outkey="10"/>
-										<entry name="elevation" outkey="11"/>
-										<entry name="country" outkey="12"/>
+									<entry name="Rows" outkey="109" expanded="1">
+										<entry name="Location_ID" outkey="110"/>
+										<entry name="city" outkey="111"/>
+										<entry name="population" outkey="112"/>
+										<entry name="areaTotal" outkey="113"/>
+										<entry name="elevation" outkey="114"/>
+										<entry name="country" outkey="115"/>
 									</entry>
 								</entry>
 							</entry>
@@ -72,40 +31,20 @@
 						<text type="csv" inputinstance="..\location_dbpedia.csv" encoding="1000" byteorder="1" byteordermark="0">
 							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
 								<names root="location_dbpedia" block="Rows">
-									<field0 name="label" type="string"/>
-									<field1 name="population" type="decimal"/>
-									<field2 name="areaTotal" type="string"/>
-									<field3 name="elevation" type="string"/>
-									<field4 name="country" type="string"/>
+									<field0 name="Location_ID" type="string"/>
+									<field1 name="city" type="string"/>
+									<field2 name="population" type="string"/>
+									<field3 name="areaTotal" type="string"/>
+									<field4 name="elevation" type="string"/>
+									<field5 name="country" type="string"/>
 								</names>
 							</settings>
 						</text>
 					</data>
 				</component>
-				<component name="scientific_to_numeric" library="user" blackbox="0" uid="190" kind="19" visible="0">
-					<view ltx="445" lty="327" rbx="554" rby="344"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="string" inpkey="37" componentid="169"/>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="Field1" outkey="38" componentid="170"/>
-						</root>
-					</data>
-				</component>
-				<component name="target_schema_company_v3" library="xml" uid="6" kind="14">
+				<component name="target_schema_company_v3" library="xml" uid="20" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="868" lty="37" rbx="1489" rby="425"/>
+					<view ltx="704" lty="-98" rbx="1028" rby="428"/>
 					<data>
 						<root scrollposition="1">
 							<header>
@@ -117,14 +56,15 @@
 							<entry name="FileInstance" ns="1" expanded="1">
 								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
 									<entry name="companies" expanded="1">
-										<entry name="company" inpkey="19" expanded="1">
+										<entry name="company" inpkey="53" expanded="1">
 											<entry name="locations" expanded="1">
-												<entry name="location" inpkey="20" expanded="1">
-													<entry name="name" inpkey="21"/>
-													<entry name="population" inpkey="22"/>
-													<entry name="area" inpkey="23"/>
-													<entry name="elevation" inpkey="24"/>
-													<entry name="country" inpkey="25"/>
+												<entry name="location" expanded="1">
+													<entry name="Location_ID" inpkey="116"/>
+													<entry name="name" inpkey="63"/>
+													<entry name="population" inpkey="117"/>
+													<entry name="area" inpkey="118"/>
+													<entry name="elevation" inpkey="119"/>
+													<entry name="country" inpkey="120"/>
 												</entry>
 											</entry>
 										</entry>
@@ -136,54 +76,69 @@
 						<wsdl/>
 					</data>
 				</component>
+				<component name="scientific_to_numeric" library="user" blackbox="0" uid="186" kind="19" visible="0">
+					<view ltx="475" lty="33" rbx="603" rby="50"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="string" inpkey="121" componentid="169"/>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="Field1" outkey="122" componentid="170"/>
+						</root>
+					</data>
+				</component>
 			</children>
 			<graph directed="1">
 				<edges/>
 				<vertices>
-					<vertex vertexkey="7">
+					<vertex vertexkey="109">
 						<edges>
-							<edge vertexkey="19" edgekey="26"/>
-							<edge vertexkey="20" edgekey="27"/>
+							<edge vertexkey="53" edgekey="123"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="8">
+					<vertex vertexkey="110">
 						<edges>
-							<edge vertexkey="21" edgekey="28"/>
+							<edge vertexkey="116" edgekey="124"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="9">
+					<vertex vertexkey="111">
 						<edges>
-							<edge vertexkey="35" edgekey="47"/>
+							<edge vertexkey="63" edgekey="125"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="10">
+					<vertex vertexkey="112">
 						<edges>
-							<edge vertexkey="39" edgekey="42"/>
+							<edge vertexkey="121" edgekey="126"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="11">
+					<vertex vertexkey="113">
 						<edges>
-							<edge vertexkey="37" edgekey="43"/>
+							<edge vertexkey="118" edgekey="127"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="12">
+					<vertex vertexkey="114">
 						<edges>
-							<edge vertexkey="25" edgekey="32"/>
+							<edge vertexkey="119" edgekey="128"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="36">
+					<vertex vertexkey="115">
 						<edges>
-							<edge vertexkey="22" edgekey="44"/>
+							<edge vertexkey="120" edgekey="129"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="38">
+					<vertex vertexkey="122">
 						<edges>
-							<edge vertexkey="24" edgekey="45"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="40">
-						<edges>
-							<edge vertexkey="23" edgekey="46"/>
+							<edge vertexkey="117" edgekey="130"/>
 						</edges>
 					</vertex>
 				</vertices>

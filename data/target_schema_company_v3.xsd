@@ -6,7 +6,7 @@
 				<xs:element name="company">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="ID" type="xs:string"/>
+							<xs:element name="Company_ID" type="xs:string"/>
 							<xs:element name="name" type="xs:string"/>
 							<xs:element name="industries" type="xs:string"/>
 							<xs:element name="revenue" type="xs:string"/>
@@ -24,6 +24,7 @@
 										<xs:element name="location">
 											<xs:complexType>
 												<xs:sequence>
+													<xs:element name="Location_ID" type="xs:string"/>
 													<xs:element name="name" type="xs:string"/>
 													<xs:element name="population" type="xs:int"/>
 													<xs:element name="area" type="xs:string"/>

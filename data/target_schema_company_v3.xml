@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <companies>
 	<company>
-		<ID>company_dbpedia_1</ID>	
+		<Company_ID>company_dbpedia_1</Company_ID>	
 		<name>IBM</name>
 		<industries>Software;;Computer Hardware</industries>
 		<revenue>5.14E+08</revenue>
@@ -15,6 +15,7 @@
 		<countries>America</countries>
 		<locations>
 			<location>
+				<Location_ID>location_dbpedia_1</Location_ID>
 				<name>New York City</name>
 				<population>8405837</population>
 				<area>1.21445e+09</area>

@@ -3,12 +3,12 @@
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<resources/>
 	<component name="defaultmap1" blackbox="0" uid="1" editable="1">
-		<properties SelectedLanguage="builtin"/>
+		<properties SelectedLanguage="builtin" MakePathsAbsoluteOnGeneration="1"/>
 		<structure>
 			<children>
-				<component name="target_schema_company_v2" library="xml" uid="2" kind="14">
-					<properties XSLTDefaultOutput="1"/>
-					<view ltx="825" rbx="1226" rby="528"/>
+				<component name="target_schema_company_v3" library="xml" uid="20" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="433" lty="-24" rbx="757" rby="502"/>
 					<data>
 						<root scrollposition="1">
 							<header>
@@ -20,60 +20,31 @@
 							<entry name="FileInstance" ns="1" expanded="1">
 								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
 									<entry name="companies" expanded="1">
-										<entry name="company" inpkey="1" expanded="1">
-											<entry name="name" inpkey="2"/>
-											<entry name="countries" inpkey="3"/>
-											<entry name="industries" inpkey="4"/>
-											<entry name="revenue" inpkey="5"/>
-											<entry name="assets" inpkey="6"/>
-											<entry name="marketValue" inpkey="7"/>
-											<entry name="profit" inpkey="8"/>
-											<entry name="continent" inpkey="9"/>
+										<entry name="company" inpkey="53" expanded="1">
+											<entry name="Company_ID" inpkey="54"/>
+											<entry name="name" inpkey="55"/>
+											<entry name="industries" inpkey="56"/>
+											<entry name="revenue" inpkey="57"/>
+											<entry name="assets" inpkey="60"/>
+											<entry name="marketValue" inpkey="86"/>
+											<entry name="profit" inpkey="87"/>
+											<entry name="continent" inpkey="88"/>
+											<entry name="countries" inpkey="62"/>
+											<entry name="locations" expanded="1">
+												<entry name="location" expanded="1"/>
+											</entry>
 										</entry>
 									</entry>
 								</entry>
 							</entry>
 						</root>
-						<document schema="..\target_schema_company_v2.xsd" outputinstance="..\target_schema_company_v2.xml" instanceroot="{}companies"/>
+						<document schema="..\target_schema_company_v3.xsd" inputinstance="..\target_schema_company_v3.xml" outputinstance="..\target_schema_company_v3.xml" instanceroot="{}companies"/>
 						<wsdl/>
 					</data>
 				</component>
-				<component name="multiply" library="core" uid="9" kind="5" growable="1" growablebasename="value">
+				<component name="Forbes Global 2000 - 2014" library="xlsx" uid="22" kind="26">
 					<properties/>
-					<sources>
-						<datapoint pos="0" key="10"/>
-						<datapoint pos="1" key="11"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="12"/>
-					</targets>
-					<view ltx="539" lty="171" rbx="614" rby="229"/>
-				</component>
-				<component name="multiply" library="core" uid="12" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="13"/>
-						<datapoint pos="1" key="14"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="15"/>
-					</targets>
-					<view ltx="539" lty="243" rbx="614" rby="301"/>
-				</component>
-				<component name="multiply" library="core" uid="14" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="16"/>
-						<datapoint pos="1" key="17"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="18"/>
-					</targets>
-					<view ltx="539" lty="321" rbx="614" rby="379"/>
-				</component>
-				<component name="Forbes Global 2000 - 2014" library="xlsx" uid="7" kind="26">
-					<properties/>
-					<view ltx="53" rbx="353" rby="404"/>
+					<view ltx="25" lty="-24" rbx="299" rby="326"/>
 					<data>
 						<root scrollposition="1">
 							<header>
@@ -105,12 +76,12 @@
 												</expression>
 											</condition>
 											<ranges>
-												<range id="1" start="3" count="2002"/>
+												<range id="1" start="2"/>
 											</ranges>
 											<entry name="Row" expanded="1" displayselectionmode="selection">
 												<entry name="Cell" datatype="string"/>
 											</entry>
-											<entry name="Row" outkey="19" expanded="1">
+											<entry name="Row" expanded="1">
 												<condition>
 													<expression>
 														<function name="is-range-id">
@@ -120,8 +91,9 @@
 														</function>
 													</expression>
 												</condition>
-												<entry name="Cell" expanded="1" displayselectionmode="selection" datatype="string"/>
-												<entry name="Cell" outkey="20" expanded="1" annotation="Company" datatype="string">
+												<entry name="r" type="attribute" outkey="89"/>
+												<entry name="Cell" displayselectionmode="selection" datatype="string"/>
+												<entry name="Cell" outkey="90" annotation="Forbes_Company_ID" datatype="string">
 													<condition>
 														<expression>
 															<function name="logical-and" library="core">
@@ -149,7 +121,7 @@
 														</expression>
 													</condition>
 												</entry>
-												<entry name="Cell" expanded="1" annotation="Sector" datatype="string">
+												<entry name="Cell" outkey="91" annotation="Company" datatype="string">
 													<condition>
 														<expression>
 															<function name="logical-and" library="core">
@@ -177,7 +149,7 @@
 														</expression>
 													</condition>
 												</entry>
-												<entry name="Cell" outkey="21" expanded="1" annotation="Industry" datatype="string">
+												<entry name="Cell" annotation="Sector" datatype="string">
 													<condition>
 														<expression>
 															<function name="logical-and" library="core">
@@ -205,7 +177,7 @@
 														</expression>
 													</condition>
 												</entry>
-												<entry name="Cell" outkey="22" expanded="1" annotation="Continent" datatype="string">
+												<entry name="Cell" outkey="92" annotation="Industry" datatype="string">
 													<condition>
 														<expression>
 															<function name="logical-and" library="core">
@@ -233,7 +205,7 @@
 														</expression>
 													</condition>
 												</entry>
-												<entry name="Cell" outkey="23" expanded="1" annotation="Country" datatype="string">
+												<entry name="Cell" outkey="93" annotation="Continent" datatype="string">
 													<condition>
 														<expression>
 															<function name="logical-and" library="core">
@@ -261,7 +233,7 @@
 														</expression>
 													</condition>
 												</entry>
-												<entry name="Cell" outkey="24" expanded="1" annotation="Market Value" datatype="double">
+												<entry name="Cell" outkey="94" annotation="Country" datatype="string">
 													<condition>
 														<expression>
 															<function name="logical-and" library="core">
@@ -281,7 +253,7 @@
 																			<attribute name="t"/>
 																		</expression>
 																		<expression>
-																			<constant value="n"/>
+																			<constant value="s"/>
 																		</expression>
 																	</function>
 																</expression>
@@ -289,7 +261,7 @@
 														</expression>
 													</condition>
 												</entry>
-												<entry name="Cell" outkey="25" expanded="1" annotation="Sales" datatype="double">
+												<entry name="Cell" outkey="95" annotation="Market Value" datatype="string">
 													<condition>
 														<expression>
 															<function name="logical-and" library="core">
@@ -309,7 +281,7 @@
 																			<attribute name="t"/>
 																		</expression>
 																		<expression>
-																			<constant value="n"/>
+																			<constant value="s"/>
 																		</expression>
 																	</function>
 																</expression>
@@ -317,7 +289,7 @@
 														</expression>
 													</condition>
 												</entry>
-												<entry name="Cell" outkey="26" expanded="1" annotation="Profit" datatype="double">
+												<entry name="Cell" outkey="96" annotation="Sales" datatype="string">
 													<condition>
 														<expression>
 															<function name="logical-and" library="core">
@@ -337,7 +309,7 @@
 																			<attribute name="t"/>
 																		</expression>
 																		<expression>
-																			<constant value="n"/>
+																			<constant value="s"/>
 																		</expression>
 																	</function>
 																</expression>
@@ -345,7 +317,7 @@
 														</expression>
 													</condition>
 												</entry>
-												<entry name="Cell" outkey="27" expanded="1" annotation="Assets" datatype="double">
+												<entry name="Cell" outkey="97" annotation="Profits" datatype="string">
 													<condition>
 														<expression>
 															<function name="logical-and" library="core">
@@ -365,7 +337,7 @@
 																			<attribute name="t"/>
 																		</expression>
 																		<expression>
-																			<constant value="n"/>
+																			<constant value="s"/>
 																		</expression>
 																	</function>
 																</expression>
@@ -373,7 +345,7 @@
 														</expression>
 													</condition>
 												</entry>
-												<entry name="Cell" expanded="1" annotation="Rank" datatype="double">
+												<entry name="Cell" outkey="98" annotation="Assets" datatype="string">
 													<condition>
 														<expression>
 															<function name="logical-and" library="core">
@@ -384,34 +356,6 @@
 																		</expression>
 																		<expression>
 																			<constant value="10" datatype="long"/>
-																		</expression>
-																	</function>
-																</expression>
-																<expression>
-																	<function name="equal" library="core">
-																		<expression>
-																			<attribute name="t"/>
-																		</expression>
-																		<expression>
-																			<constant value="n"/>
-																		</expression>
-																	</function>
-																</expression>
-															</function>
-														</expression>
-													</condition>
-												</entry>
-												<entry name="Cell" expanded="1" annotation="Forbes Webpage" datatype="string">
-													<condition>
-														<expression>
-															<function name="logical-and" library="core">
-																<expression>
-																	<function name="equal" library="core">
-																		<expression>
-																			<attribute name="n"/>
-																		</expression>
-																		<expression>
-																			<constant value="11" datatype="long"/>
 																		</expression>
 																	</function>
 																</expression>
@@ -436,106 +380,61 @@
 							</entry>
 						</root>
 						<wsdl/>
-						<excel inputinstance="..\ForbesPlan\Forbes Global 2000 - 2014.xlsx" outputinstance="..\ForbesPlan\Forbes Global 2000 - 2014.xlsx"/>
+						<excel inputinstance="..\Forbes Global 2000 - 2014.xlsx" outputinstance="..\Forbes Global 2000 - 2014.xlsx"/>
 					</data>
-				</component>
-				<component name="constant" library="core" uid="10" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="28"/>
-					</targets>
-					<view ltx="363" lty="371" rbx="455" rby="389"/>
-					<data>
-						<constant value="1000000000" datatype="decimal"/>
-						<wsdl/>
-					</data>
-				</component>
-				<component name="multiply" library="core" uid="16" kind="5" growable="1" growablebasename="value">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="29"/>
-						<datapoint pos="1" key="30"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="31"/>
-					</targets>
-					<view ltx="539" lty="399" rbx="614" rby="457"/>
 				</component>
 			</children>
 			<graph directed="1">
 				<edges/>
 				<vertices>
-					<vertex vertexkey="12">
+					<vertex vertexkey="89">
 						<edges>
-							<edge vertexkey="7" edgekey="32"/>
+							<edge vertexkey="53" edgekey="99"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="15">
+					<vertex vertexkey="90">
 						<edges>
-							<edge vertexkey="5" edgekey="33"/>
+							<edge vertexkey="54" edgekey="100"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="18">
+					<vertex vertexkey="91">
 						<edges>
-							<edge vertexkey="8" edgekey="34"/>
+							<edge vertexkey="55" edgekey="101"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="19">
+					<vertex vertexkey="92">
 						<edges>
-							<edge vertexkey="1" edgekey="35"/>
+							<edge vertexkey="56" edgekey="102"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="20">
+					<vertex vertexkey="93">
 						<edges>
-							<edge vertexkey="2" edgekey="36"/>
+							<edge vertexkey="88" edgekey="103"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="21">
+					<vertex vertexkey="94">
 						<edges>
-							<edge vertexkey="4" edgekey="37"/>
+							<edge vertexkey="62" edgekey="104"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="22">
+					<vertex vertexkey="95">
 						<edges>
-							<edge vertexkey="9" edgekey="38"/>
+							<edge vertexkey="86" edgekey="105"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="23">
+					<vertex vertexkey="96">
 						<edges>
-							<edge vertexkey="3" edgekey="39"/>
+							<edge vertexkey="57" edgekey="106"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="24">
+					<vertex vertexkey="97">
 						<edges>
-							<edge vertexkey="10" edgekey="40"/>
+							<edge vertexkey="87" edgekey="107"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="25">
+					<vertex vertexkey="98">
 						<edges>
-							<edge vertexkey="13" edgekey="41"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="26">
-						<edges>
-							<edge vertexkey="16" edgekey="42"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="27">
-						<edges>
-							<edge vertexkey="29" edgekey="43"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="28">
-						<edges>
-							<edge vertexkey="11" edgekey="44"/>
-							<edge vertexkey="14" edgekey="45"/>
-							<edge vertexkey="17" edgekey="46"/>
-							<edge vertexkey="30" edgekey="47"/>
-						</edges>
-					</vertex>
-					<vertex vertexkey="31">
-						<edges>
-							<edge vertexkey="6" edgekey="48"/>
+							<edge vertexkey="60" edgekey="108"/>
 						</edges>
 					</vertex>
 				</vertices>

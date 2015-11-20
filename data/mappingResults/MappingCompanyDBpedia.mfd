@@ -3,12 +3,12 @@
 <mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
 	<resources/>
 	<component name="defaultmap1" blackbox="0" uid="1" editable="1">
-		<properties SelectedLanguage="java"/>
+		<properties SelectedLanguage="builtin" MakePathsAbsoluteOnGeneration="1"/>
 		<structure>
 			<children>
-				<component name="target_schema_company_v3" library="xml" uid="39" kind="14">
+				<component name="target_schema_company_v3" library="xml" uid="20" kind="14">
 					<properties XSLTDefaultOutput="1"/>
-					<view ltx="509" lty="-23" rbx="781" rby="451"/>
+					<view ltx="433" lty="-24" rbx="757" rby="502"/>
 					<data>
 						<root scrollposition="1">
 							<header>
@@ -20,19 +20,19 @@
 							<entry name="FileInstance" ns="1" expanded="1">
 								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
 									<entry name="companies" expanded="1">
-										<entry name="company" inpkey="4" expanded="1">
-											<entry name="ID" inpkey="5"/>
-											<entry name="name" inpkey="6"/>
-											<entry name="industries" inpkey="7"/>
-											<entry name="revenue" inpkey="8"/>
-											<entry name="numberOfEmployees" inpkey="9"/>
-											<entry name="dateFounded" inpkey="10"/>
-											<entry name="assets" inpkey="11"/>
-											<entry name="keyPeople" inpkey="12"/>
-											<entry name="countries" inpkey="13"/>
+										<entry name="company" inpkey="53" expanded="1">
+											<entry name="Company_ID" inpkey="54"/>
+											<entry name="name" inpkey="55"/>
+											<entry name="industries" inpkey="56"/>
+											<entry name="revenue" inpkey="57"/>
+											<entry name="numberOfEmployees" inpkey="58"/>
+											<entry name="dateFounded" inpkey="59"/>
+											<entry name="assets" inpkey="60"/>
+											<entry name="keyPeople" inpkey="61"/>
+											<entry name="countries" inpkey="62"/>
 											<entry name="locations" expanded="1">
 												<entry name="location" expanded="1">
-													<entry name="name" inpkey="14"/>
+													<entry name="name" inpkey="63"/>
 												</entry>
 											</entry>
 										</entry>
@@ -44,9 +44,9 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="company_dbpedia" library="text" uid="40" kind="16">
+				<component name="company_dbpedia" library="text" uid="21" kind="16">
 					<properties/>
-					<view ltx="-35" lty="-23" rbx="232" rby="451"/>
+					<view ltx="-30" rbx="265" rby="204"/>
 					<data>
 						<root>
 							<header>
@@ -54,23 +54,23 @@
 							</header>
 							<entry name="FileInstance" expanded="1">
 								<entry name="document" expanded="1">
-									<entry name="Rows" outkey="15" expanded="1">
-										<entry name="DBpedia_Company_ID" outkey="16"/>
-										<entry name="company" outkey="17"/>
-										<entry name="locationCity" outkey="18"/>
-										<entry name="locationCountry" outkey="19"/>
-										<entry name="keyPeople" outkey="20"/>
-										<entry name="foundingYear" outkey="21"/>
-										<entry name="industry" outkey="22"/>
-										<entry name="revenue" outkey="23"/>
-										<entry name="numberOfEmployees" outkey="24"/>
-										<entry name="asset" outkey="25"/>
+									<entry name="Rows" outkey="64" expanded="1">
+										<entry name="DBpedia_Company_ID" outkey="65"/>
+										<entry name="company" outkey="66"/>
+										<entry name="locationCity" outkey="67"/>
+										<entry name="locationCountry" outkey="68"/>
+										<entry name="keyPeople" outkey="69"/>
+										<entry name="foundingYear" outkey="70"/>
+										<entry name="industry" outkey="71"/>
+										<entry name="revenue" outkey="72"/>
+										<entry name="numberOfEmployees" outkey="73"/>
+										<entry name="asset" outkey="74"/>
 									</entry>
 								</entry>
 							</entry>
 						</root>
 						<wsdl/>
-						<text type="csv" inputinstance="C:\Users\li\WebDataIntegration\data\company_dbpedia.csv" encoding="1000" byteorder="1" byteordermark="0">
+						<text type="csv" inputinstance="..\company_dbpedia.csv" encoding="1000" byteorder="1" byteordermark="0">
 							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
 								<names root="company_dbpedia" block="Rows">
 									<field0 name="DBpedia_Company_ID" type="string"/>
@@ -92,59 +92,59 @@
 			<graph directed="1">
 				<edges/>
 				<vertices>
-					<vertex vertexkey="15">
+					<vertex vertexkey="64">
 						<edges>
-							<edge vertexkey="4" edgekey="26"/>
+							<edge vertexkey="53" edgekey="75"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="16">
+					<vertex vertexkey="65">
 						<edges>
-							<edge vertexkey="5" edgekey="27"/>
+							<edge vertexkey="54" edgekey="76"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="17">
+					<vertex vertexkey="66">
 						<edges>
-							<edge vertexkey="6" edgekey="28"/>
+							<edge vertexkey="55" edgekey="77"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="18">
+					<vertex vertexkey="67">
 						<edges>
-							<edge vertexkey="14" edgekey="29"/>
+							<edge vertexkey="63" edgekey="78"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="19">
+					<vertex vertexkey="68">
 						<edges>
-							<edge vertexkey="13" edgekey="30"/>
+							<edge vertexkey="62" edgekey="79"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="20">
+					<vertex vertexkey="69">
 						<edges>
-							<edge vertexkey="12" edgekey="31"/>
+							<edge vertexkey="61" edgekey="80"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="21">
+					<vertex vertexkey="70">
 						<edges>
-							<edge vertexkey="10" edgekey="32"/>
+							<edge vertexkey="59" edgekey="81"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="22">
+					<vertex vertexkey="71">
 						<edges>
-							<edge vertexkey="7" edgekey="33"/>
+							<edge vertexkey="56" edgekey="82"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="23">
+					<vertex vertexkey="72">
 						<edges>
-							<edge vertexkey="8" edgekey="34"/>
+							<edge vertexkey="57" edgekey="83"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="24">
+					<vertex vertexkey="73">
 						<edges>
-							<edge vertexkey="9" edgekey="35"/>
+							<edge vertexkey="58" edgekey="84"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="25">
+					<vertex vertexkey="74">
 						<edges>
-							<edge vertexkey="11" edgekey="36"/>
+							<edge vertexkey="60" edgekey="85"/>
 						</edges>
 					</vertex>
 				</vertices>
