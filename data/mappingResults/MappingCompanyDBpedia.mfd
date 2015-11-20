@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2016 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap1" blackbox="0" uid="1" editable="1">
+		<properties SelectedLanguage="java"/>
+		<structure>
+			<children>
+				<component name="target_schema_company_v3" library="xml" uid="39" kind="14">
+					<properties XSLTDefaultOutput="1"/>
+					<view ltx="509" lty="-23" rbx="781" rby="451"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="companies" expanded="1">
+										<entry name="company" inpkey="4" expanded="1">
+											<entry name="ID" inpkey="5"/>
+											<entry name="name" inpkey="6"/>
+											<entry name="industries" inpkey="7"/>
+											<entry name="revenue" inpkey="8"/>
+											<entry name="numberOfEmployees" inpkey="9"/>
+											<entry name="dateFounded" inpkey="10"/>
+											<entry name="assets" inpkey="11"/>
+											<entry name="keyPeople" inpkey="12"/>
+											<entry name="countries" inpkey="13"/>
+											<entry name="locations" expanded="1">
+												<entry name="location" expanded="1">
+													<entry name="name" inpkey="14"/>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\target_schema_company_v3.xsd" inputinstance="..\target_schema_company_v3.xml" outputinstance="..\target_schema_company_v3.xml" instanceroot="{}companies"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="company_dbpedia" library="text" uid="40" kind="16">
+					<properties/>
+					<view ltx="-35" lty="-23" rbx="232" rby="451"/>
+					<data>
+						<root>
+							<header>
+								<namespaces/>
+							</header>
+							<entry name="FileInstance" expanded="1">
+								<entry name="document" expanded="1">
+									<entry name="Rows" outkey="15" expanded="1">
+										<entry name="DBpedia_Company_ID" outkey="16"/>
+										<entry name="company" outkey="17"/>
+										<entry name="locationCity" outkey="18"/>
+										<entry name="locationCountry" outkey="19"/>
+										<entry name="keyPeople" outkey="20"/>
+										<entry name="foundingYear" outkey="21"/>
+										<entry name="industry" outkey="22"/>
+										<entry name="revenue" outkey="23"/>
+										<entry name="numberOfEmployees" outkey="24"/>
+										<entry name="asset" outkey="25"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<wsdl/>
+						<text type="csv" inputinstance="C:\Users\li\WebDataIntegration\data\company_dbpedia.csv" encoding="1000" byteorder="1" byteordermark="0">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="company_dbpedia" block="Rows">
+									<field0 name="DBpedia_Company_ID" type="string"/>
+									<field1 name="company" type="string"/>
+									<field2 name="locationCity" type="string"/>
+									<field3 name="locationCountry" type="string"/>
+									<field4 name="keyPeople" type="string"/>
+									<field5 name="foundingYear" type="string"/>
+									<field6 name="industry" type="string"/>
+									<field7 name="revenue" type="string"/>
+									<field8 name="numberOfEmployees" type="string"/>
+									<field9 name="asset" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="15">
+						<edges>
+							<edge vertexkey="4" edgekey="26"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="16">
+						<edges>
+							<edge vertexkey="5" edgekey="27"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="17">
+						<edges>
+							<edge vertexkey="6" edgekey="28"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="18">
+						<edges>
+							<edge vertexkey="14" edgekey="29"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="19">
+						<edges>
+							<edge vertexkey="13" edgekey="30"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="20">
+						<edges>
+							<edge vertexkey="12" edgekey="31"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="21">
+						<edges>
+							<edge vertexkey="10" edgekey="32"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="22">
+						<edges>
+							<edge vertexkey="7" edgekey="33"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="23">
+						<edges>
+							<edge vertexkey="8" edgekey="34"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="24">
+						<edges>
+							<edge vertexkey="9" edgekey="35"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="25">
+						<edges>
+							<edge vertexkey="11" edgekey="36"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>
