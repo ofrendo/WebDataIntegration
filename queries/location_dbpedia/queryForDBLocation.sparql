@@ -4,7 +4,9 @@ PREFIX dbp: <http://dbpedia.org/property/>
 SELECT distinct ?label Max(?pop)as ?population  Max(?areaTotal)as ?areaTotal
 Max(?elevation)as ?elevation ?country 
 WHERE {
-?location rdf:type dbo:Location .
+{?location rdf:type dbo:City  .}
+union
+{?location rdf:type dbo:AdministrativeRegion  .}
 ?location rdfs:label ?label .
 ?location dbo:areaTotal ?areaTotal .
 ?location dbo:elevation ?elevation .
