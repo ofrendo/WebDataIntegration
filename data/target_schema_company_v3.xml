@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <companies>
-	<company>	
+	<company>
+		<ID>company_dbpedia_1</ID>	
 		<name>IBM</name>
 		<industries>Software;;Computer Hardware</industries>
-		<revenue>92793000000</revenue>
-		<numberOfEmployees>431212.00</numberOfEmployees>
+		<revenue>5.14E+08</revenue>
+		<numberOfEmployees>5.36E+07</numberOfEmployees>
 		<dateFounded>16.06.1911</dateFounded>
-		<assets> 11753000000 </assets>
+		<assets>6.72E+07</assets>
 		<marketValue>202.5</marketValue>
 		<profit>16.5</profit>
 		<continent>North America</continent>

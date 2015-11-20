@@ -3,6 +3,34 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX dbo: <http://dbpedia.org/ontology/>
 PREFIX dbp: <http://dbpedia.org/property/>
 
+SELECT distinct ?company 
+group_concat(distinct str(?locationCity);separator=";;") as ?locationCity 
+group_concat(distinct str(?locationCountry);separator=";;") as ?locationCountry
+group_concat(distinct str(?keyPeople);separator=";;") as ?keyPeople 
+group_concat(distinct str(?foundingYear);separator=";;") as ?foundingYear
+group_concat(distinct str(?industry);separator=";;") as ?industry
+max(?revenue) as ?revenue
+?numberOfEmployees
+?asset
+
+
+WHERE {
+
+?company  dbo:type dbr:Public_company .
+optional{?company dbo:numberOfEmployees ?numberOfEmployees .}
+optional{?company dbp:locationCity ?locationCity.}
+optional{?company dbp:locationCountry ?locationCountry.}
+optional{?company dbp:keyPeople ?keyPeople .}
+optional{?company dbo:foundingYear ?foundingYear .}
+optional{?company dbo:industry ?industry .}
+optional{?company dbo:revenue ?revenue .}
+optional{?company dbo:assets ?asset .}
+
+
+}
+
+
+
 SELECT distinct ?company
 group_concat(distinct str(?locationCity);separator=";;") as ?locationCity 
 group_concat(distinct str(?locationCountry);separator=";;") as ?locationCountry
@@ -17,15 +45,13 @@ max(?revenue) as ?revenue
 WHERE {
 
 ?company rdf:type dbo:Company .
-?company dbo:numberOfEmployees ?numberOfEmployees .
-?company dbp:locationCity ?locationCity.
-?company dbp:locationCountry ?locationCountry.
+optional{?company dbo:numberOfEmployees ?numberOfEmployees .}
+optional{?company dbp:locationCity ?locationCity.}
+optional{?company dbp:locationCountry ?locationCountry.}
 optional{?company dbp:keyPeople ?keyPeople .}
 optional{?company dbo:foundingYear ?foundingYear .}
 optional{?company dbo:industry ?industry .}
 optional{?company dbo:revenue ?revenue .}
 optional{?company dbo:assets ?asset .}
 
-
-FILTER(?numberOfEmployees>100)
 } 

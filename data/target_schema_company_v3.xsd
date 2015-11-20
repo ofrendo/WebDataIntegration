@@ -6,12 +6,13 @@
 				<xs:element name="company">
 					<xs:complexType>
 						<xs:sequence>
+							<xs:element name="ID" type="xs:string"/>
 							<xs:element name="name" type="xs:string"/>
 							<xs:element name="industries" type="xs:string"/>
-							<xs:element name="revenue" type="xs:long"/>
-							<xs:element name="numberOfEmployees" type="xs:decimal"/>
+							<xs:element name="revenue" type="xs:string"/>
+							<xs:element name="numberOfEmployees" type="xs:string"/>
 							<xs:element name="dateFounded" type="xs:string"/>
-							<xs:element name="assets" type="xs:long"/>
+							<xs:element name="assets" type="xs:string"/>
 							<xs:element name="marketValue" type="xs:decimal"/>
 							<xs:element name="profit" type="xs:decimal"/>
 							<xs:element name="continent" type="xs:string"/>
