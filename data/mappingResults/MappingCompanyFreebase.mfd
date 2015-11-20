@@ -17,9 +17,31 @@
 						<wsdl/>
 					</data>
 				</component>
+				<component name="tokenize" library="core" uid="8" kind="5">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="59"/>
+						<datapoint pos="1" key="60"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="61"/>
+					</targets>
+					<view ltx="653" lty="49" rbx="753" rby="105"/>
+				</component>
+				<component name="concat" library="core" uid="18" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="75"/>
+						<datapoint pos="1" key="76"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="77"/>
+					</targets>
+					<view ltx="756" lty="-313" rbx="849" rby="-255"/>
+				</component>
 				<component name="target_schema_company_v3" library="xml" uid="6" kind="14">
-					<properties XSLTDefaultOutput="1"/>
-					<view ltx="811" lty="-194" rbx="1341" rby="206"/>
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="896" lty="-181" rbx="1426" rby="219"/>
 					<data>
 						<root scrollposition="1">
 							<header>
@@ -32,6 +54,7 @@
 								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
 									<entry name="companies" expanded="1">
 										<entry name="company" inpkey="48" expanded="1">
+											<entry name="Company_ID" inpkey="78"/>
 											<entry name="name" inpkey="49"/>
 											<entry name="industries" inpkey="50"/>
 											<entry name="revenue" inpkey="51"/>
@@ -51,6 +74,30 @@
 							</entry>
 						</root>
 						<document schema="..\target_schema_company_v3.xsd" inputinstance="..\target_schema_company_v3.xml" outputinstance="..\target_schema_company_v3.xml" instanceroot="{}companies"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="auto-number" library="core" uid="15" kind="5">
+					<properties/>
+					<sources>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="79"/>
+					</targets>
+					<view ltx="554" lty="-365" rbx="685" rby="-275"/>
+				</component>
+				<component name="constant" library="core" uid="19" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="80"/>
+					</targets>
+					<view ltx="709" lty="-365" rbx="929" rby="-347"/>
+					<data>
+						<constant value="Freebase_Company_" datatype="string"/>
 						<wsdl/>
 					</data>
 				</component>
@@ -135,17 +182,6 @@
 						<json schema="..\company_freebase.schema.json" inputinstance="..\company_freebase.json" outputinstance="..\company_freebase.json"/>
 					</data>
 				</component>
-				<component name="tokenize" library="core" uid="8" kind="5">
-					<properties/>
-					<sources>
-						<datapoint pos="0" key="59"/>
-						<datapoint pos="1" key="60"/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="61"/>
-					</targets>
-					<view ltx="653" lty="49" rbx="753" rby="105"/>
-				</component>
 			</children>
 			<graph directed="1">
 				<edges/>
@@ -209,6 +245,21 @@
 						<edges>
 							<edge vertexkey="58" edgekey="73"/>
 							<edge vertexkey="57" edgekey="74"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="77">
+						<edges>
+							<edge vertexkey="78" edgekey="81"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="79">
+						<edges>
+							<edge vertexkey="76" edgekey="82"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="80">
+						<edges>
+							<edge vertexkey="75" edgekey="83"/>
 						</edges>
 					</vertex>
 				</vertices>
