@@ -1,0 +1,12 @@
+Notes on blocking function:
+
+Freebase vs Forbes: 
+- Country is always available in Forbes, sparse in Freebase (EXACT NUMBER)
+
+Freebase vs DBPedia:
+- Country is somewhat sparse in both datasets (EXACT NUMBER)
+- DateFounded somewhat sparse in both (EXACT NUMBER)
+
+Own idea: Implement own partitioning blocker, but more fuzzy logic
+- I.E. Country first, then date, then location or so as alternative (EXACT NUMBER)
+- Generate more pairs, matching rule will take care if its same company or not- more conservative approach

@@ -12,8 +12,6 @@ import javax.xml.xpath.XPathExpressionException;
 import org.xml.sax.SAXException;
 
 import de.uni_mannheim.informatik.wdi.DataSet;
-import de.uni_mannheim.informatik.wdi.identityresolution.blocking.Blocker;
-import de.uni_mannheim.informatik.wdi.identityresolution.blocking.CrossProductBlocker;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.GoldStandard;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.MatchingEvaluator;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.Performance;
@@ -22,6 +20,7 @@ import de.uni_mannheim.informatik.wdi.identityresolution.matching.LinearCombinat
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.MatchingEngine;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecord;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecordCSVFormatter;
+import de.uni_mannheim.informatik.wdi.usecase.companies.blocking.CompanyBlocker;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyCountriesComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyDateFoundedComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyIndustriesComparator;
@@ -35,11 +34,11 @@ public class Companies_Main_Freebase_DBpedia {
 		String attributeToCount = "dateFounded";
 		DataSet<Company> dsFreebase = new DataSet<>();
 		CompanyFactory freebaseFactory = new CompanyFactory("freebase", attributeToCount, 
-				null);
-				//"Industrial and Commercial Bank of China (Asia)");
+				//null);
+				"Genzyme");
 		CompanyFactory dbpediaFactory = new CompanyFactory("dbpedia", attributeToCount, 
-				null);
-				//"http://dbpedia.org/resource/Industrial_and_Commercial_Bank_of_China");
+				//null);
+				"http://dbpedia.org/resource/Genzyme");
 		DataSet<Company> dsDBpedia = new DataSet<>();
 		dsFreebase.loadFromXML(
 				new File("data/mappingResults/IntegratedCompanyFreebase.xml"), freebaseFactory, "/companies/company");
@@ -50,12 +49,13 @@ public class Companies_Main_Freebase_DBpedia {
 		System.out.println("freebaseFactory attributeCount=" + freebaseFactory.attributeCounter);
 		System.out.println("dbpediaFactory attributeCount=" + dbpediaFactory.attributeCounter);
 		
+		//Blocker<Company> blocker = new CrossProductBlocker<>();
 		//Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyCountryBlockingFunction());
-		Blocker<Company> blocker = new CrossProductBlocker<>();
 		//Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyDateFoundedBlockingFunction());
+		CompanyBlocker blocker = new CompanyBlocker();
 		
 		//Results from rapidminer
-		double threshold = 0.5; //should be 0.5 always
+		double threshold = 0.55; //should be 0.5 always
 		double nameWeight = 0.689;
 		double countriesWeight = 0.088;
 		double industriesWeight = 0.025;
@@ -72,7 +72,7 @@ public class Companies_Main_Freebase_DBpedia {
 		LinearCombinationMatchingRule<Company> rule = new LinearCombinationMatchingRule<>(
 				intercept, threshold
 				//);
-				, "ING Group", "http://dbpedia.org/resource/AFC_Ajax_N.V.");
+				, "Genzyme", "http://dbpedia.org/resource/Genzyme");
 				//, "4INFO", "http://dbpedia.org/resource/Jive_Software");
 				//, "http://dbpedia.org/resource/The_Coca-Cola_Company", "The Coca-Cola Company");
 				

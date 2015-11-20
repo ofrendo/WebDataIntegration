@@ -7,7 +7,9 @@ public class CompanyCountryBlockingFunction extends BlockingFunction<Company> {
 
 	@Override
 	public String getBlockingKey(Company instance) {
-		return instance.getCountries();
+		return instance.getCountries() == null ?
+				"" : 
+				instance.getCountries();
 	}
 
 }

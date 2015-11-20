@@ -12,7 +12,7 @@ public class CompanyDateFoundedBlockingFunction extends BlockingFunction<Company
 		DateTime dateFounded = c.getDateFounded();
 		
 		return dateFounded == null ?
-				null :
+				"" :
 				Integer.toString(c.getDateFounded().getYear() / 20);
 	}
 
