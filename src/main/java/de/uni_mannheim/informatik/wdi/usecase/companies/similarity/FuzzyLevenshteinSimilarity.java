@@ -12,11 +12,15 @@ public class FuzzyLevenshteinSimilarity extends SimilarityMeasure<String> {
 		String[] arr2 = value2.toLowerCase().split(";;");
 		double intersectionNum = 0.0;
 		for(String s1 : arr1){
+			double highestSim = -1;
 			for(String s2 : arr2){
+				double current = compareByLevenshtein(s1, s2);
+				highestSim = (highestSim < current) ? current : highestSim;
+				
 				//if(compareByLevenshtein(s1,s2) >= 0.7)
 					//intersectionNum++;
-				intersectionNum += compareByLevenshtein(s1, s2);
 			}
+			intersectionNum += highestSim;
 		}
 		
 		double similarity = intersectionNum / ((arr1.length+arr2.length)-intersectionNum);

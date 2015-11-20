@@ -66,8 +66,8 @@ public class LinearCombinationMatchingRule<RecordType extends Matchable> extends
 	public double compare(RecordType record1, RecordType record2) {
 		double sum = offset;
 		
-		boolean printThis = (id1.equals(record1.getIdentifier()) && id2.equals(record2.getIdentifier())) ||
-				 (id2.equals(record1.getIdentifier()) && id1.equals(record2.getIdentifier()));
+		boolean printThis = (record1.getIdentifier().equals(id1) && record2.getIdentifier().equals(id2)) ||
+				 (record1.getIdentifier().equals(id2) && record2.getIdentifier().equals(id1));
 		
 		if (printThis) {
 			System.out.println("Comparing " + record1.getIdentifier() + " AND " + record2.getIdentifier());

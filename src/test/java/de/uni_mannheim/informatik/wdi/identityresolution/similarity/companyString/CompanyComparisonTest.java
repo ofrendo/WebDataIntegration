@@ -15,7 +15,7 @@ public class CompanyComparisonTest extends TestCase {
 		String n1 = "http://dbpedia.org/resource/The_Coca-Cola_Company";
 		//String i1 = "National Commercial Banks;;Investment banking;;Financial Services;;Offices of Bank Holding Companies";
 		String i1 = "http://dbpedia.org/resource/Drink";
-		String kp1 = "Ahmet Bozer;;http://dbpedia.org/resource/Muhtar_Kent";
+		String kp1 = "Durinda Biesman, Senior Vice President, Global Service Delivery;;Gregory Ayers, Chief Financial Officer;;Mariann McDonagh, Chief Marketing Officer;;Paul Jarman, Chief Executive Officer;;Scott Welch, Chief Operating Officer;;Sunny Gosain, Executive Vice President &amp; Chief Product Officer;;Theodore Stern, Executive Chairman";
 		Company c1 = new Company(n1, null); //Forbes
 		c1.setName(n1);
 		c1.setIndustries(i1);
@@ -26,7 +26,7 @@ public class CompanyComparisonTest extends TestCase {
 //		String n2 = "Chevron Corporation";		
 		//String i2 = "Major Banks";
 		String i2 = "Beverages";
-		String kp2 = "Gary Fayard;;Cynthia Mccague;;Joe Tripodi;;Alexander B Cummings Jr;;E. Neville Isdell;;Muhtar Kent";
+		String kp2 = "Mark Miller;;Tim Jenkins;;Mari Tangredi;;Brian Slitt;;Arash Saffarnia;;Kirsten McMullen;;Ed Koenig;;Michelle Estabrook;;Chuck Moxley;;Arthur Coleman;;Julie Shumaker;;Prakash Chandra;;Yonggang Xu;;Prashant Chaudhary;;Richard Qiu;;Zaw Thet;;Ray Colwell;;Ted C. Burns;;Patricia Clark;;Rajiv Parikh;;Markus A. Nordvik;;Dennis Yang;;Markus A. Nordvik;;Rajiv Parikh;;Chris Record;;Dave Matthews;;JB Sugar";
 		Company c2 = new Company(n2, null); //Freebase
 		c2.setName(n2);
 		c2.setIndustries(i2);
@@ -38,6 +38,8 @@ public class CompanyComparisonTest extends TestCase {
 		System.out.println("Industries comparison: " +  
 							new CompanyIndustriesComparator().compare(c1,  c2));
 		System.out.println("KeyPeople comparison: " + peopleCompare.compare(c1, c2));
+		
+		//FuzzyLevenshteinSimilarity
 	}
 
 }

@@ -27,6 +27,7 @@ public class Normalization {
 			result = temp[temp.length-1];
 		}
 		//lastly trim
+		result = result.replaceAll("_", " ");
 		result = result.trim();
 		return result;
 	}
@@ -52,7 +53,9 @@ public class Normalization {
 	}
 	
 	public static String normalizeLocationName(String location) {
-		return location;
+		String[] parts = location.split("/");
+		String result = parts[parts.length-1];
+		return result;
 	}
 	
 	/**

@@ -113,5 +113,45 @@ public class Company extends Record {
 	public void setLocations(List<Location> locations) {
 		this.locations = locations;
 	}
-
+	
+	@Override
+	public String toString() {
+		return 	"======================" +
+				"\nProvenance: " + getProvenance() +
+				"\nID: " + getIdentifier() + 
+				"\nName: " + getName() + 
+				"\ncountries: " + getCountries() + 
+				"\nRevenue: " + getRevenue() +
+				"\nNumberOfEmployees: " + getNumberOfEmployees() + 
+				"\nDateFounded: " + getDateFounded() + 
+				"\nProfit: " + getProfit() +
+				"\nKeyPeople: " + getKeyPeople() + 
+				"\nLocations: " + getLocationsString() +
+				"\n======================";
+	}
+	private String getLocationsString() {
+		String result = "";
+		for (Location l : getLocations()) {
+			result += l.getName();
+		}
+		return result;
+	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

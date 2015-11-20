@@ -22,6 +22,7 @@ import de.uni_mannheim.informatik.wdi.identityresolution.matching.LinearCombinat
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.MatchingEngine;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecord;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecordCSVFormatter;
+import de.uni_mannheim.informatik.wdi.usecase.companies.blocking.CompanyBlockingFunction;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyCountriesComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyIndustriesComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyNumericAttributeComparator;
@@ -54,10 +55,10 @@ public class Companies_Main_Forbes_Freebase {
 		DataSet<Company> dsForbes = new DataSet<>();
 		dsFreebase.loadFromXML(
 				new File("data/mappingResults/IntegratedCompanyFreebase.xml"),
-				new CompanyFactory("freebase"), "/companies/company");
+				new CompanyFactory("freebase", null, null), "/companies/company");
 		dsForbes.loadFromXML(
 				new File("data/mappingResults/IntegratedCompanyForbes.xml"),
-				new CompanyFactory("forbes"),   "/companies/company");
+				new CompanyFactory("forbes", null, null),   "/companies/company");
 		
 		//Results from rapidminer
 		double threshold = 0.5; //should be 0.5 always

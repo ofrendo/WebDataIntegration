@@ -22,6 +22,7 @@ import de.uni_mannheim.informatik.wdi.identityresolution.matching.LinearCombinat
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.MatchingEngine;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecord;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecordCSVFormatter;
+import de.uni_mannheim.informatik.wdi.usecase.companies.blocking.CompanyBlockingFunction;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyCountriesComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyLocationComparatorJaccard;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyIndustriesComparator;
@@ -31,15 +32,23 @@ import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyStrin
 public class Companies_Main_Freebase_DBpedia {
 
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException {
-		
+		String attributeToCount = "dateFounded";
 		DataSet<Company> dsFreebase = new DataSet<>();
+		CompanyFactory freebaseFactory = new CompanyFactory("freebase", attributeToCount, 
+				null);
+				//"Industrial and Commercial Bank of China (Asia)");
+		CompanyFactory dbpediaFactory = new CompanyFactory("dbpedia", attributeToCount, 
+				null);
+				//"http://dbpedia.org/resource/Industrial_and_Commercial_Bank_of_China");
 		DataSet<Company> dsDBpedia = new DataSet<>();
 		dsFreebase.loadFromXML(
-				new File("data/mappingResults/IntegratedCompanyFreebase.xml"),
-				new CompanyFactory("freebase"), "/companies/company");
+				new File("data/mappingResults/IntegratedCompanyFreebase.xml"), freebaseFactory, "/companies/company");
 		dsDBpedia.loadFromXML(
-				new File("data/mappingResults/IntegratedCompanyDBpedia.xml"),
-				new CompanyFactory("dbpedia"),   "/companies/company");
+				new File("data/mappingResults/IntegratedCompanyDBpedia.xml"), dbpediaFactory, "/companies/company");
+		
+		System.out.println("Attribute count for " + attributeToCount);
+		System.out.println("freebaseFactory attributeCount=" + freebaseFactory.attributeCounter);
+		System.out.println("dbpediaFactory attributeCount=" + dbpediaFactory.attributeCounter);
 		
 		//Results from rapidminer
 		double threshold = 0.5; //should be 0.5 always
@@ -56,8 +65,11 @@ public class Companies_Main_Freebase_DBpedia {
 		double intercept = -0.089;
 		
 		LinearCombinationMatchingRule<Company> rule = new LinearCombinationMatchingRule<>(
-				intercept, threshold,
-				"http://dbpedia.org/resource/Qualcomm", "Qualcomm");
+				intercept, threshold
+				//);
+				, "4INFO", "http://dbpedia.org/resource/Jive_Software");
+				//, "http://dbpedia.org/resource/The_Coca-Cola_Company", "The Coca-Cola Company");
+				
 		//Need to be careful: 
 		// SAP and SAP SE
 		// China Citic Bank, China Merchants Bank

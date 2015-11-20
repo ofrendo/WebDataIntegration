@@ -30,9 +30,14 @@ public class CompanyFactory extends MatchableFactory<Company> {
 */
 	private int counter = 1;
 	private String idPrefix;
+	private String printCompanyID = null;
+	private String attributeToCount = null;
+	public int attributeCounter = 0;
 	
-	public CompanyFactory(String idPrefix) {
+	public CompanyFactory(String idPrefix, String attributeToCount, String printCompanyID) {
 		this.idPrefix = idPrefix;
+		this.attributeToCount = attributeToCount;
+		this.printCompanyID = printCompanyID;
 	}
 	
 	@Override
@@ -48,7 +53,12 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		String date = getValueFromChildElement(node, "dateFounded");
 		String profit = getValueFromChildElement(node, "profit");
 		String keyPeople = getValueFromChildElement(node, "keyPeople");
-
+		
+		String attribute = getValueFromChildElement(node, attributeToCount);
+		if (attribute != null && !attribute.equals("")) {
+			attributeCounter++;
+		}
+		
 		// create the object with id and provenance information
 		Company company = new Company(name, provenanceInfo);
 		
@@ -96,7 +106,9 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		
 		company.setLocations(locations);
 		
-		
+		if (company.getIdentifier().equals(this.printCompanyID)) {
+			System.out.println(company);
+		}
 //		System.out.println("get countries: "+company.getCountries());
 		return company;
 	}
