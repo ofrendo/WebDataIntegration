@@ -31,7 +31,7 @@ import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyStrin
 public class Companies_Main_Freebase_DBpedia {
 
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException {
-		String attributeToCount = "dateFounded";
+		String attributeToCount = "countries";
 		DataSet<Company> dsFreebase = new DataSet<>();
 		CompanyFactory freebaseFactory = new CompanyFactory("freebase", attributeToCount, 
 				//null);

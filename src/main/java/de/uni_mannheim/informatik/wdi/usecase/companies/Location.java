@@ -22,7 +22,7 @@ public class Location extends Record {
 	private String name;
 	private int population;
 	private long area;
-	private String postalCode;
+	private int elevation;
 	private String country;
 	
 	public Location(String identifier, String provenance) {
@@ -53,13 +53,6 @@ public class Location extends Record {
 		this.area = area;
 	}
 
-	public String getPostalCode() {
-		return postalCode;
-	}
-
-	public void setPostalCode(String postalCode) {
-		this.postalCode = postalCode;
-	}
 
 	public String getCountry() {
 		return country;
@@ -67,6 +60,28 @@ public class Location extends Record {
 
 	public void setCountry(String country) {
 		this.country = country;
+	}
+	
+	public int getElevation() {
+		return elevation;
+	}
+
+	public void setElevation(int elevation) {
+		this.elevation = elevation;
+	}
+	
+	@Override
+	public String toString() {
+		if (country == null) {
+			return "\t name=" + getName();
+		}
+		else {
+			return "\t name=" + getName() +
+				   "\n\t population=" + getPopulation() + 
+				   "\n\t area=" + getArea() +
+				   "\n\t elevation=" + getElevation() + 
+				   "\n\t country=" + getCountry();
+		}
 	}
 
 }

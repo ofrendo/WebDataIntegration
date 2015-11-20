@@ -59,8 +59,10 @@ public class CompanyFactory extends MatchableFactory<Company> {
 			attributeCounter++;
 		}
 		
+		id = (name != null) ? name : id;
+		
 		// create the object with id and provenance information
-		Company company = new Company(name, provenanceInfo);
+		Company company = new Company(id, provenanceInfo);
 		
 		//Retrieve format from DBpedia
 		if(provenanceInfo.contains("DBpedia")){
@@ -99,7 +101,7 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		List<Location> locations = getObjectListFromChildElement(node, "locations", "location", 
 				new LocationFactory(), provenanceInfo);
 		
-		if (name.contains("Eleven") || name.contains("Kyushu")) {
+		if (company.getIdentifier().contains("Eleven") || company.getIdentifier().contains("Kyushu")) {
 			//System.out.println(name);
 			//System.out.println(locations);
 		}

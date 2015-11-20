@@ -36,18 +36,18 @@ public class LocationFactory extends MatchableFactory<Location> {
 		int population = populationString != null ? Integer.parseInt(populationString) : 0;
 		String areaString = getValueFromChildElement(node, "area");
 		long area = areaString != null ?  Double.valueOf(areaString).longValue() : 0;
-		String postalCode = getValueFromChildElement(node, "postalCode");
+		String elevationString = getValueFromChildElement(node, "elevation");
+		int elevation = elevationString != null ? Double.valueOf(elevationString).intValue() : 0;
 		String country = getValueFromChildElement(node, "country");
 		
 		name = Normalization.normalizeLocationName(name);
 		country = Normalization.normalizeValueInDBpedia(country);
 		country = Normalization.normalizeCountries(country);
-		
 		// fill the attributes
 		location.setName(name);
 		location.setPopulation(population);
 		location.setArea(area);
-		location.setPostalCode(postalCode);
+		location.setElevation(elevation);
 		location.setCountry(country);
 
 		return location;

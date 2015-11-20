@@ -126,13 +126,13 @@ public class Company extends Record {
 				"\nDateFounded: " + getDateFounded() + 
 				"\nProfit: " + getProfit() +
 				"\nKeyPeople: " + getKeyPeople() + 
-				"\nLocations: " + getLocationsString() +
-				"\n======================";
+				"\nLocations: \n" + getLocationsString() +
+				"======================";
 	}
 	private String getLocationsString() {
 		String result = "";
 		for (Location l : getLocations()) {
-			result += l.getName();
+			result += l.toString() + "\n";
 		}
 		return result;
 	}

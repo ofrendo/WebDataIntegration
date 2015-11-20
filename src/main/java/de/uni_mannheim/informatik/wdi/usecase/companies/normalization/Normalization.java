@@ -34,6 +34,9 @@ public class Normalization {
 
 	
 	public static String normalizeCompanyName(String name) {
+		if (name == null) 
+			return null;
+		
 		String[] replacements = {
 				"'", "\\.", ",",
 				"Group", "Corporation", "Company", 
