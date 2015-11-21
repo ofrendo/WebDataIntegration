@@ -28,7 +28,6 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		<keyPeople>James F. Mccann;;Christopher G. Mccann;;William E Shea;;Stephen J Bozzo;;David Taiclet;;Gerard M Gallagher</keyPeople>
 	</company>
 */
-	private int counter = 1;
 	private String idPrefix;
 	private String printCompanyID = null;
 	private String attributeToCount = null;
@@ -42,9 +41,14 @@ public class CompanyFactory extends MatchableFactory<Company> {
 	
 	@Override
 	public Company createModelFromElement(Node node, String provenanceInfo) {
-		String id = idPrefix + "_" + counter;
-		counter++;
-		
+		String id = getValueFromChildElement(node, "Company_ID");
+		// create the object with id and provenance information
+		Company company = new Company(id, provenanceInfo);
+		company = this.createCompany(company, node, provenanceInfo);
+		return company;
+	}
+	
+	public Company createCompany(Company company, Node node, String provenanceInfo) {
 		String name = getValueFromChildElement(node, "name");
 		String countries = getValueFromChildElement(node, "countries");
 		String continent = getValueFromChildElement(node, "continent");
@@ -62,10 +66,7 @@ public class CompanyFactory extends MatchableFactory<Company> {
 			attributeCounter++;
 		}
 		
-		id = (name != null) ? name : id;
 		
-		// create the object with id and provenance information
-		Company company = new Company(id, provenanceInfo);
 		
 		//Retrieve format from DBpedia
 		if(provenanceInfo.contains("DBpedia")){
@@ -120,12 +121,6 @@ public class CompanyFactory extends MatchableFactory<Company> {
 //		System.out.println("get countries: "+company.getCountries());
 		return company;
 	}
-	
-	
-	
-	
-
-	
 	
 	
 	

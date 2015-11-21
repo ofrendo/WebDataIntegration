@@ -31,42 +31,49 @@ import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.fusers.TitleFuse
 public class Companies_Main {
 
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException, TransformerException {
+		String printCompanyID = null;
+		
 		// load the data sets
-		FusableDataSet<FusableMovie> ds1 = new FusableDataSet<>();
-		FusableDataSet<FusableMovie> ds2 = new FusableDataSet<>();
-		FusableDataSet<FusableMovie> ds3 = new FusableDataSet<>();
-		ds1.loadFromXML(
-				new File("usecase/movie/input/academy_awards.xml"),
-				new FusableMovieFactory(), "/movies/movie");
-		ds2.loadFromXML(
-				new File("usecase/movie/input/actors.xml"),
-				new FusableMovieFactory(), "/movies/movie");
-		ds3.loadFromXML(
-				new File("usecase/movie/input/golden_globes.xml"), 
-				new FusableMovieFactory(), 
-				"/movies/movie");
+		FusableDataSet<FusableCompany> dsForbes = new FusableDataSet<>();
+		FusableDataSet<FusableCompany> dsFreebase = new FusableDataSet<>();
+		FusableDataSet<FusableCompany> dsDBpedia = new FusableDataSet<>();
+		FusableDataSet<FusableCompany> dsLocation = new FusableDataSet<>();
+		dsForbes.loadFromXML(
+				new File("data/mappingResults/IntegratedCompanyForbes.xml"),
+				new FusableCompanyFactory(printCompanyID), "/companies/company");
+		dsFreebase.loadFromXML(
+				new File("data/mappingResults/IntegratedCompanyFreebase.xml"),
+				new FusableCompanyFactory(printCompanyID), "/companies/company");
+		//dsDBpedia.loadFromXML(
+		//		new File("data/mappingResults/IntegratedCompanyDBpedia.xml"), 
+	//			new FusableCompanyFactory(printCompanyID), "/companies/company");
+		dsLocation.loadFromXML(
+				new File("data/mappingResults/IntegratedLocationDBpedia.xml"), 
+				new FusableCompanyFactory(printCompanyID), "/companies/company");
 		
 		// set dataset metadata
-		ds1.setScore(1.0);
-		ds2.setScore(2.0);
-		ds3.setScore(3.0);
-		ds1.setDate(DateTime.parse("2012-01-01"));
-		ds2.setDate(DateTime.parse("2010-01-01"));
-		ds3.setDate(DateTime.parse("2008-01-01"));
-		
+		dsForbes.setScore(2.0);
+		dsFreebase.setScore(1.0);
+		dsDBpedia.setScore(1.0);
+		dsLocation.setScore(4.0);
+		dsForbes.setDate(DateTime.parse("2014-01-01"));
+		dsFreebase.setDate(DateTime.parse("2015-11-21"));
+		dsDBpedia.setDate(DateTime.parse("2015-11-21"));
+		dsLocation.setDate(DateTime.parse("2015-11-21"));
 		// print dataset density
-		System.out.println("academy_awards.xml");
-		ds1.printDataSetDensityReport();
-		System.out.println("actors.xml");
-		ds2.printDataSetDensityReport();
-		System.out.println("golden_globes.xml");
-		ds3.printDataSetDensityReport();
+		System.out.println("IntegratedCompanyForbes.xml");
+		dsForbes.printDataSetDensityReport();
+		System.out.println("IntegratedCompanyFreebase.xml");
+		dsFreebase.printDataSetDensityReport();
+		System.out.println("IntegratedCompanyDBpedia.xml");
+		dsDBpedia.printDataSetDensityReport();
 		
 		// load the correspondences
-		CorrespondenceSet<FusableMovie> correspondences = new CorrespondenceSet<>();
-		correspondences.loadCorrespondences(new File("usecase/movie/correspondences/academy_awards_2_actors_correspondences.csv"), ds1, ds2);
-		correspondences.loadCorrespondences(new File("usecase/movie/correspondences/actors_2_golden_globes_correspondences.csv"), ds2, ds3);
+		CorrespondenceSet<FusableCompany> correspondences = new CorrespondenceSet<>();
+		correspondences.loadCorrespondences(new File("data/resolutionResults/companyForbes_2_companyFreebase_correspondences.csv"), dsForbes, dsFreebase);
+		//correspondences.loadCorrespondences(new File("data/resolutionResults/companyFreebase_2_companyDBpedia_correspondences.csv"), dsFreebase, dsDBpedia);
 		
+		/*
 		// write group size distribution
 		correspondences.writeGroupSizeDistribution(new File("usecase/movie/output/group_size_distribution.csv"));
 		
@@ -102,7 +109,7 @@ public class Companies_Main {
 		evaluator.setVerbose(true);
 		double accuracy = evaluator.evaluate(fusedDataSet, gs);
 		
-		System.out.println(String.format("Accuracy: %.2f", accuracy));
+		System.out.println(String.format("Accuracy: %.2f", accuracy));*/
 		
 	}
 	
