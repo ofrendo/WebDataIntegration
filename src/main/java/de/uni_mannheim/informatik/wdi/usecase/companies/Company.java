@@ -5,7 +5,6 @@ import java.util.List;
 import org.joda.time.DateTime;
 
 import de.uni_mannheim.informatik.wdi.Record;
-import de.uni_mannheim.informatik.wdi.usecase.movies.Actor;
 
 /**
  * Main company class
@@ -30,11 +29,14 @@ public class Company extends Record {
 	
 	private String name;
 	private String countries;
+	private String continent;
 	private String industries;
 	private long revenue = -1;
 	private int numberOfEmployees = -1;
 	private DateTime dateFounded;
 	private long profit = -1;
+	private long assets = -1;
+	private long marketValue = -1;
 	private String keyPeople;
 	private List<Location> locations;
 	
@@ -135,6 +137,30 @@ public class Company extends Record {
 			result += l.toString() + "\n";
 		}
 		return result;
+	}
+
+	public long getAssets() {
+		return assets;
+	}
+
+	public void setAssets(long assets) {
+		this.assets = assets;
+	}
+
+	public String getContinent() {
+		return continent;
+	}
+
+	public void setContinent(String continent) {
+		this.continent = continent;
+	}
+
+	public long getMarketValue() {
+		return marketValue;
+	}
+
+	public void setMarketValue(long marketValue) {
+		this.marketValue = marketValue;
 	}
 }
 

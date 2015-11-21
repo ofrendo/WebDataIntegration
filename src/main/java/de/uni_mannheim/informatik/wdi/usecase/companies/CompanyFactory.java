@@ -47,11 +47,14 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		
 		String name = getValueFromChildElement(node, "name");
 		String countries = getValueFromChildElement(node, "countries");
+		String continent = getValueFromChildElement(node, "continent");
 		String industries = getValueFromChildElement(node, "industries");
 		String revenue = getValueFromChildElement(node, "revenue");
 		String numberOfEmployees = getValueFromChildElement(node, "numberOfEmployees");
 		String date = getValueFromChildElement(node, "dateFounded");
 		String profit = getValueFromChildElement(node, "profit");
+		String assets = getValueFromChildElement(node, "assets");
+		String marketValue = getValueFromChildElement(node, "marketValue");
 		String keyPeople = getValueFromChildElement(node, "keyPeople");
 		
 		String attribute = getValueFromChildElement(node, attributeToCount);
@@ -76,10 +79,13 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		//set value
 		company.setName(Normalization.normalizeCompanyName(name));
 		company.setCountries(Normalization.normalizeCountries(countries));
+		company.setContinent(continent);
 		company.setIndustries(industries);
 		company.setRevenue(Normalization.normalizeProfitOrRevenue(revenue));
 		company.setNumberOfEmployees( numberOfEmployees != null ? Integer.parseInt(numberOfEmployees) : 0);
 		company.setProfit(Normalization.normalizeProfitOrRevenue(profit));
+		company.setAssets(Normalization.normalizeProfitOrRevenue(assets));
+		company.setMarketValue(Normalization.normalizeProfitOrRevenue(marketValue));
 		company.setKeyPeople(keyPeople);
 
 		try { // convert dateFounded string
