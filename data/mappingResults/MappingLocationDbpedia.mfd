@@ -6,45 +6,9 @@
 		<properties SelectedLanguage="builtin" MakePathsAbsoluteOnGeneration="1"/>
 		<structure>
 			<children>
-				<component name="location_dbpedia" library="text" uid="23" kind="16">
-					<properties/>
-					<view ltx="5" lty="-24" rbx="261" rby="269"/>
-					<data>
-						<root>
-							<header>
-								<namespaces/>
-							</header>
-							<entry name="FileInstance" expanded="1">
-								<entry name="document" expanded="1">
-									<entry name="Rows" outkey="109" expanded="1">
-										<entry name="Location_ID" outkey="110"/>
-										<entry name="city" outkey="111"/>
-										<entry name="population" outkey="112"/>
-										<entry name="areaTotal" outkey="113"/>
-										<entry name="elevation" outkey="114"/>
-										<entry name="country" outkey="115"/>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<wsdl/>
-						<text type="csv" inputinstance="..\location_dbpedia.csv" encoding="1000" byteorder="1" byteordermark="0">
-							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
-								<names root="location_dbpedia" block="Rows">
-									<field0 name="Location_ID" type="string"/>
-									<field1 name="city" type="string"/>
-									<field2 name="population" type="string"/>
-									<field3 name="areaTotal" type="string"/>
-									<field4 name="elevation" type="string"/>
-									<field5 name="country" type="string"/>
-								</names>
-							</settings>
-						</text>
-					</data>
-				</component>
 				<component name="target_schema_company_v3" library="xml" uid="20" kind="14">
 					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="704" lty="-98" rbx="1028" rby="428"/>
+					<view ltx="433" lty="-24" rbx="757" rby="502"/>
 					<data>
 						<root scrollposition="1">
 							<header>
@@ -57,14 +21,18 @@
 								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
 									<entry name="companies" expanded="1">
 										<entry name="company" inpkey="53" expanded="1">
+											<entry name="Company_ID" inpkey="54"/>
+											<entry name="name" inpkey="55"/>
+											<entry name="industries" inpkey="56"/>
+											<entry name="revenue" inpkey="57"/>
+											<entry name="numberOfEmployees" inpkey="58"/>
+											<entry name="dateFounded" inpkey="59"/>
+											<entry name="assets" inpkey="60"/>
+											<entry name="keyPeople" inpkey="61"/>
+											<entry name="countries" inpkey="62"/>
 											<entry name="locations" expanded="1">
 												<entry name="location" expanded="1">
-													<entry name="Location_ID" inpkey="116"/>
 													<entry name="name" inpkey="63"/>
-													<entry name="population" inpkey="117"/>
-													<entry name="area" inpkey="118"/>
-													<entry name="elevation" inpkey="119"/>
-													<entry name="country" inpkey="120"/>
 												</entry>
 											</entry>
 										</entry>
@@ -76,69 +44,107 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="scientific_to_numeric" library="user" blackbox="0" uid="186" kind="19" visible="0">
-					<view ltx="475" lty="33" rbx="603" rby="50"/>
+				<component name="company_dbpedia" library="text" uid="21" kind="16">
+					<properties/>
+					<view ltx="-30" rbx="249" rby="294"/>
 					<data>
 						<root scrollposition="1">
 							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
+								<namespaces/>
 							</header>
-							<entry name="string" inpkey="121" componentid="169"/>
+							<entry name="FileInstance" expanded="1">
+								<entry name="document" expanded="1">
+									<entry name="Rows" outkey="64" expanded="1">
+										<entry name="DBPedia_Company_ID" outkey="86"/>
+										<entry name="company" outkey="66"/>
+										<entry name="locationCity" outkey="67"/>
+										<entry name="locationCountry" outkey="68"/>
+										<entry name="keyPeople" outkey="69"/>
+										<entry name="foundingYear" outkey="70"/>
+										<entry name="industry" outkey="71"/>
+										<entry name="revenue" outkey="72"/>
+										<entry name="numberOfEmployees" outkey="73"/>
+										<entry name="asset" outkey="74"/>
+									</entry>
+								</entry>
+							</entry>
 						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="Field1" outkey="122" componentid="170"/>
-						</root>
+						<wsdl/>
+						<text type="csv" inputinstance="..\company_dbpedia.csv" encoding="1000" byteorder="1" byteordermark="0">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="company_dbpedia" block="Rows">
+									<field0 name="DBPedia_Company_ID" type="string"/>
+									<field1 name="company" type="string"/>
+									<field2 name="locationCity" type="string"/>
+									<field3 name="locationCountry" type="string"/>
+									<field4 name="keyPeople" type="string"/>
+									<field5 name="foundingYear" type="string"/>
+									<field6 name="industry" type="string"/>
+									<field7 name="revenue" type="string"/>
+									<field8 name="numberOfEmployees" type="string"/>
+									<field9 name="asset" type="string"/>
+								</names>
+							</settings>
+						</text>
 					</data>
 				</component>
 			</children>
 			<graph directed="1">
 				<edges/>
 				<vertices>
-					<vertex vertexkey="109">
+					<vertex vertexkey="64">
 						<edges>
-							<edge vertexkey="53" edgekey="123"/>
+							<edge vertexkey="53" edgekey="75"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="110">
+					<vertex vertexkey="66">
 						<edges>
-							<edge vertexkey="116" edgekey="124"/>
+							<edge vertexkey="55" edgekey="77"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="111">
+					<vertex vertexkey="67">
 						<edges>
-							<edge vertexkey="63" edgekey="125"/>
+							<edge vertexkey="63" edgekey="78"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="112">
+					<vertex vertexkey="68">
 						<edges>
-							<edge vertexkey="121" edgekey="126"/>
+							<edge vertexkey="62" edgekey="79"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="113">
+					<vertex vertexkey="69">
 						<edges>
-							<edge vertexkey="118" edgekey="127"/>
+							<edge vertexkey="61" edgekey="80"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="114">
+					<vertex vertexkey="70">
 						<edges>
-							<edge vertexkey="119" edgekey="128"/>
+							<edge vertexkey="59" edgekey="81"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="115">
+					<vertex vertexkey="71">
 						<edges>
-							<edge vertexkey="120" edgekey="129"/>
+							<edge vertexkey="56" edgekey="82"/>
 						</edges>
 					</vertex>
-					<vertex vertexkey="122">
+					<vertex vertexkey="72">
 						<edges>
-							<edge vertexkey="117" edgekey="130"/>
+							<edge vertexkey="57" edgekey="83"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="73">
+						<edges>
+							<edge vertexkey="58" edgekey="84"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="74">
+						<edges>
+							<edge vertexkey="60" edgekey="85"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="86">
+						<edges>
+							<edge vertexkey="54" edgekey="87"/>
 						</edges>
 					</vertex>
 				</vertices>

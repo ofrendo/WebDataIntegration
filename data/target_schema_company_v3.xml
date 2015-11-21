@@ -15,7 +15,6 @@
 		<countries>America</countries>
 		<locations>
 			<location>
-				<Location_ID>location_dbpedia_1</Location_ID>
 				<name>New York City</name>
 				<population>8405837</population>
 				<area>1.21445e+09</area>
