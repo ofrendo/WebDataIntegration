@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies xsi:noNamespaceSchemaLocation="C:/Users/Oliver/Documents/Lehre/WEBDAT~1/USECAS~1/movies/target.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<movie>
+     <id>actors_16</id>
+     <title>The Song of Bernadette</title>
+     <director>Henry King</director>
+     <date>1943-01-01T00:00:00.000+01:00</date>
+     <actors>
+       <actor>
+         <title>Anne Revere</title>
+       </actor>
+       <actor>
+         <title>Gladys Cooper</title>
+       </actor>
+       <actor>
+         <title>Charles Bickford</title>
+       </actor>
+       <actor>
+         <title>Jennifer Jones</title>
+       </actor>
+     </actors>
+   </movie>
+   <movie>
+     <id>actors_82</id>
+     <title>A Free Soul</title>
+     <director>Clarence Brown</director>
+     <date>1931-01-01T00:00:00.000+01:00</date>
+     <actors>
+       <actor>
+         <title>Norma Shearer</title>
+       </actor>
+       <actor>
+         <title>Lionel Barrymore</title>
+       </actor>
+     </actors>
+   </movie>
+   <movie>
+<id>actors_116</id>
+     <title>Cat Ballou</title>
+     <director/>
+     <date>1965-01-01T00:00:00.000+01:00</date>
+     <actors>
+       <actor>
+         <title>Lee Marvin</title>
+       </actor>
+       <actor>
+         <title>Marvin, Lee</title>
+       </actor>
+       <actor>
+         <title>Jane Fonda</title>
+       </actor>
+     </actors>
+   </movie>
+   <movie>
+<id>actors_103</id>
+     <title>High Noon</title>
+     <director>Fred Zinnemann</director>
+     <date>1952-01-01T00:00:00.000+01:00</date>
+     <actors>
+       <actor>
+         <title>Cooper, Gary</title>
+       </actor>
+       <actor>
+         <title>Gary Cooper</title>
+       </actor>
+       <actor>
+         <title>Jurado, Katy</title>
+       </actor>
+     </actors>
+   </movie>
+   <movie>
+<id>actors_75</id>
+     <title>Monster's Ball</title>
+     <director/>
+     <date>2002-01-01T00:00:00.000+01:00</date>
+     <actors>
+       <actor>
+         <title>Berry, Halle</title>
+       </actor>
+       <actor>
+         <title>Halle Berry</title>
+       </actor>
+     </actors>
+   </movie>
+   <movie>
+     <id>actors_130</id>
+     <title>Ghandi</title>
+     <director>Attenborough,
+Richard</director>
+     <date>1983-01-01T00:00:00.000+01:00</date>
+     <actors>
+       <actor>
+         <title>Kingsley, Ben</title>
+       </actor>
+       <actor>
+         <title>Ben Kingsley</title>
+       </actor>
+     </actors>
+   </movie>
+   <movie>
+     <id>actors_11</id>
+     <title>Jezebel</title>
+     <director/>
+     <date>1938-01-01T00:00:00.000+01:00</date>
+     <actors>
+       <actor>
+         <title>Fay Bainter</title>
+       </actor>
+       <actor>
+         <title>Bette Davis</title>
+       </actor>
+     </actors>
+   </movie>
+   <movie>
+<id>actors_24</id>
+     <title>Streetcar Named Desire, a</title>
+     <director>Elia Kazan</director>
+     <date>1952-01-01T00:00:00.000+01:00</date>
+     <actors>
+       <actor>
+         <title>Kim Hunter</title>
+       </actor>
+       <actor>
+         <title>Leigh, Vivien</title>
+       </actor>
+       <actor>
+         <title>Vivien Leigh</title>
+       </actor>
+       <actor>
+         <title>Marlon Brando</title>
+       </actor>
+       <actor>
+         <title>Hunter, Kim</title>
+       </actor>
+       <actor>
+         <title>Karl Malden</title>
+       </actor>
+     </actors>
+   </movie>
+
+</movies>
