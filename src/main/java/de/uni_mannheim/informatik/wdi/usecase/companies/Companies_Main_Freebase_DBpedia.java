@@ -33,10 +33,10 @@ public class Companies_Main_Freebase_DBpedia {
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException {
 		String attributeToCount = "countries";
 		DataSet<Company> dsFreebase = new DataSet<>();
-		CompanyFactory freebaseFactory = new CompanyFactory("freebase", attributeToCount, 
+		CompanyFactory freebaseFactory = new CompanyFactory(attributeToCount, 
 				//null);
 				"Genzyme");
-		CompanyFactory dbpediaFactory = new CompanyFactory("dbpedia", attributeToCount, 
+		CompanyFactory dbpediaFactory = new CompanyFactory(attributeToCount, 
 				//null);
 				"http://dbpedia.org/resource/Genzyme");
 		DataSet<Company> dsDBpedia = new DataSet<>();

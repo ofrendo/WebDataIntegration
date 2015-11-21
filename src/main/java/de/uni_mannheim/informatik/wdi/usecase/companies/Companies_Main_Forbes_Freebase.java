@@ -53,13 +53,13 @@ public class Companies_Main_Forbes_Freebase {
 		DataSet<Company> dsForbes = new DataSet<>();
 		dsFreebase.loadFromXML(
 				new File("data/mappingResults/IntegratedCompanyFreebase.xml"),
-				new CompanyFactory("freebase", null, null), "/companies/company"); //"Freebase_Company_237"
+				new CompanyFactory(null, null), "/companies/company"); //"Freebase_Company_237"
 		dsForbes.loadFromXML(
 				new File("data/mappingResults/IntegratedCompanyForbes.xml"),
-				new CompanyFactory("forbes", null, null),   "/companies/company");
+				new CompanyFactory(null, null),   "/companies/company");
 		
 		//Results from rapidminer
-		double threshold = 0.5; //should be 0.5 always
+		double threshold = 0.55; //should be 0.5 always
 		double nameWeight = 0.656;
 		double countriesWeight = 0.225;
 		double industriesWeight = 0.116;

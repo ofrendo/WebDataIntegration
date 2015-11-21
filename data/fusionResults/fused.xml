@@ -1,0 +1,2767 @@
+<?xml version="1.0" encoding="UTF-8"?><companies>
+  <company>
+    <id>Forbes_Company_300+Freebase_Company_871</id>
+    <name provenance="Freebase_Company_871">DIRECTV</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_174+Freebase_Company_506</id>
+    <name provenance="Forbes_Company_174">British American Tobacco</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_151+Freebase_Company_2069</id>
+    <name provenance="Forbes_Company_151">Occidental Petroleum</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_781+Freebase_Company_2545</id>
+    <name provenance="Forbes_Company_781">Skanska</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_452+Freebase_Company_165</id>
+    <name provenance="Forbes_Company_452">Amazoncom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_811+Freebase_Company_1636</id>
+    <name provenance="Forbes_Company_811">KPN</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2862+Freebase_Company_969</id>
+    <name provenance="Freebase_Company_969">Eighting Co Ltd</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1902+Freebase_Company_629</id>
+    <name provenance="DBPedia_Company_1902">China Pacific Insurance</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_384+Freebase_Company_1224</id>
+    <name provenance="Freebase_Company_1224">Gigabyte Technology</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_221+Freebase_Company_568</id>
+    <name provenance="Forbes_Company_221">Canon</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1892+DBPedia_Company_1903+DBPedia_Company_1905+Forbes_Company_10+Freebase_Company_2160+Freebase_Company_633</id>
+    <name provenance="DBPedia_Company_1903">China Petrochemical</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2729+Forbes_Company_1020+Freebase_Company_895+Freebase_Company_915</id>
+    <name provenance="Freebase_Company_915">Dubai World</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1395+Freebase_Company_1193</id>
+    <name provenance="Forbes_Company_1395">GEA</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_930+Freebase_Company_297</id>
+    <name provenance="Freebase_Company_297">Avaya</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1454+Freebase_Company_1608</id>
+    <name provenance="Freebase_Company_1608">KLA-Tencor</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7661+Freebase_Company_2439</id>
+    <name provenance="DBPedia_Company_7661">SAP SE</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_6+Freebase_Company_1072</id>
+    <name provenance="Forbes_Company_6">Exxon Mobil</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8578+Freebase_Company_2731</id>
+    <name provenance="DBPedia_Company_8578">Taurus (manufacturer)</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1351+Freebase_Company_974</id>
+    <name provenance="Forbes_Company_1351">Electrolux</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_676+Freebase_Company_272</id>
+    <name provenance="Freebase_Company_272">Atlantia</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_587+Freebase_Company_117</id>
+    <name provenance="Freebase_Company_117">Air Products &amp;amp; Chemicals</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_368+Freebase_Company_590</id>
+    <name provenance="Freebase_Company_590">CBS</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_146+Freebase_Company_339</id>
+    <name provenance="Freebase_Company_339">Bank of Montreal</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4530+Freebase_Company_1497</id>
+    <name provenance="Freebase_Company_1497">Intracom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6672+Forbes_Company_1837+Freebase_Company_352</id>
+    <name provenance="Forbes_Company_1837">Vertex Pharmaceuticals</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1031+Freebase_Company_319</id>
+    <name provenance="DBPedia_Company_1031">Banca Monte dei Paschi di Siena</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9370+DBPedia_Company_9372+Forbes_Company_380+Freebase_Company_3006+Freebase_Company_3007</id>
+    <name provenance="Freebase_Company_3006">Viacom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5586+Freebase_Company_1814</id>
+    <name provenance="DBPedia_Company_5586">McCormick Tractors</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_250+Freebase_Company_948</id>
+    <name provenance="Forbes_Company_250">eBay</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1170+Freebase_Company_393</id>
+    <name provenance="DBPedia_Company_1170">BELIMO AG</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_100+Freebase_Company_2804</id>
+    <name provenance="Forbes_Company_100">Walt Disney</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8342+Freebase_Company_2648</id>
+    <name provenance="DBPedia_Company_8342">Straumann</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_851+Freebase_Company_1662</id>
+    <name provenance="Freebase_Company_1662">L Brands</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9490+Freebase_Company_3037</id>
+    <name provenance="Freebase_Company_3037">Vossloh</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_35+Freebase_Company_1425</id>
+    <name provenance="Forbes_Company_35">IBM</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4310+Freebase_Company_1429</id>
+    <name provenance="DBPedia_Company_4310">ICA AB</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_661+Freebase_Company_331</id>
+    <name provenance="Forbes_Company_661">Bank Central Asia</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6279+Freebase_Company_2035</id>
+    <name provenance="DBPedia_Company_6279">Nobel Biocare</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_294+Freebase_Company_2775</id>
+    <name provenance="Forbes_Company_294">Teva Pharmaceutical Inds</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3489+Forbes_Company_728+Freebase_Company_1164</id>
+    <name provenance="Freebase_Company_1164">Fujitsu</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7345+Freebase_Company_2890</id>
+    <name provenance="Freebase_Company_2890">Transearch</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1577+Freebase_Company_1855</id>
+    <name provenance="Forbes_Company_1577">Metso</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1095+Freebase_Company_1571</id>
+    <name provenance="Freebase_Company_1571">Kawasaki Heavy</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_895+Freebase_Company_389</id>
+    <name provenance="Freebase_Company_389">Beiersdorf</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1327+DBPedia_Company_154+DBPedia_Company_1604+DBPedia_Company_4347+DBPedia_Company_4443+DBPedia_Company_449+DBPedia_Company_4524+DBPedia_Company_5107+DBPedia_Company_5560+DBPedia_Company_8219+DBPedia_Company_863+DBPedia_Company_9044+Forbes_Company_1429+Freebase_Company_1796+Freebase_Company_2304+Freebase_Company_2584+Freebase_Company_3022+Freebase_Company_456+Freebase_Company_5+Freebase_Company_549+Freebase_Company_769</id>
+    <name provenance="DBPedia_Company_4524">Interplay Entertainment</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7652+Freebase_Company_2436</id>
+    <name provenance="DBPedia_Company_7652">Sanmina</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7933+Freebase_Company_2530</id>
+    <name provenance="Freebase_Company_2530">Silicon Image</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1199+Forbes_Company_5+Freebase_Company_409</id>
+    <name provenance="Freebase_Company_409">Berkshire Hathaway</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_596+Freebase_Company_195</id>
+    <name provenance="Freebase_Company_195">Andritz AG</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5096+Freebase_Company_1680</id>
+    <name provenance="DBPedia_Company_5096">Latvijas Balzams</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_360+Freebase_Company_189</id>
+    <name provenance="Freebase_Company_189">Anadarko Petroleum</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1162+Freebase_Company_2261</id>
+    <name provenance="Forbes_Company_1162">Quinenco</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1304+Freebase_Company_452</id>
+    <name provenance="Freebase_Company_452">BlackBerry Limited</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_195+Freebase_Company_149</id>
+    <name provenance="Forbes_Company_195">Allstate</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_544+Freebase_Company_2760</id>
+    <name provenance="Freebase_Company_2760">Telus</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9744+Freebase_Company_3113</id>
+    <name provenance="DBPedia_Company_9744">Wixcom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1474+Freebase_Company_2061</id>
+    <name provenance="Forbes_Company_1474">NXP Semiconductors</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5183+Freebase_Company_1703</id>
+    <name provenance="Freebase_Company_1703">Liberty Videocon General Insurance</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2562+Freebase_Company_788</id>
+    <name provenance="DBPedia_Company_2562">DHB Bank</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8232+Freebase_Company_2617</id>
+    <name provenance="DBPedia_Company_8232">SSH Communications Security</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3682+Freebase_Company_1221</id>
+    <name provenance="DBPedia_Company_3682">Getrag</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2004+Forbes_Company_1981+Freebase_Company_666</id>
+    <name provenance="Forbes_Company_1981">Clariant</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3275+Freebase_Company_1092</id>
+    <name provenance="DBPedia_Company_3275">Fidelity Investments</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2656+Freebase_Company_886</id>
+    <name provenance="Freebase_Company_886">Dolce &amp;amp; Gabbana</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5665+Freebase_Company_1837</id>
+    <name provenance="DBPedia_Company_5665">Merck KGaA</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5136+Freebase_Company_1689</id>
+    <name provenance="Freebase_Company_1689">Leibish &amp;amp; Co</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4967+Freebase_Company_1632</id>
+    <name provenance="Freebase_Company_1632">Kontron</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_322+Freebase_Company_2025</id>
+    <name provenance="Freebase_Company_2025">Nike</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_405+Freebase_Company_1192</id>
+    <name provenance="Forbes_Company_405">GDF SUEZ</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_104+Freebase_Company_174</id>
+    <name provenance="Freebase_Company_174">American Express</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_244+Freebase_Company_1818</id>
+    <name provenance="Freebase_Company_1818">McKesson</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4914+Freebase_Company_1606</id>
+    <name provenance="DBPedia_Company_4914">Kistler</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_964+Freebase_Company_510</id>
+    <name provenance="Forbes_Company_964">Broadcom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_88+Freebase_Company_2437</id>
+    <name provenance="Freebase_Company_2437">Sanofi</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1559+Freebase_Company_159</id>
+    <name provenance="Forbes_Company_1559">Altera</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2254+Freebase_Company_757</id>
+    <name provenance="DBPedia_Company_2254">COSCO</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1765+Freebase_Company_1803</id>
+    <name provenance="Forbes_Company_1765">Maxim Integrated Products</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7219+Freebase_Company_2277</id>
+    <name provenance="Freebase_Company_2277">Ramboll</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_492+Freebase_Company_229</id>
+    <name provenance="Forbes_Company_492">ArcelorMittal</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4890+Freebase_Company_1598</id>
+    <name provenance="DBPedia_Company_4890">Kinetic Concepts</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_510+Freebase_Company_1077</id>
+    <name provenance="Freebase_Company_1077">Facebook</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9481+Forbes_Company_19+Freebase_Company_3025</id>
+    <name provenance="Forbes_Company_19">Volkswagen</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2177+Freebase_Company_729</id>
+    <name provenance="DBPedia_Company_2177">Conad</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7192+Freebase_Company_2269</id>
+    <name provenance="Freebase_Company_2269">RadioShack</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5232+Freebase_Company_1721</id>
+    <name provenance="DBPedia_Company_5232">Liqui Moly</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_227+Forbes_Company_474+Forbes_Company_66+Freebase_Company_625</id>
+    <name provenance="Forbes_Company_474">New China Life Insurance</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_885+Freebase_Company_2627</id>
+    <name provenance="Forbes_Company_885">Staples</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2960+Forbes_Company_1190+Freebase_Company_998</id>
+    <name provenance="DBPedia_Company_2960">Encana</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6811+Forbes_Company_897+Freebase_Company_2165</id>
+    <name provenance="Freebase_Company_2165">PGNiG</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_183+Freebase_Company_261</id>
+    <name provenance="Forbes_Company_183">AstraZeneca</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_27+Freebase_Company_146</id>
+    <name provenance="Freebase_Company_146">Allianz</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1754+Freebase_Company_1182</id>
+    <name provenance="Forbes_Company_1754">Gannett</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6880+Freebase_Company_2181</id>
+    <name provenance="DBPedia_Company_6880">Pitney Bowes</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7193+Forbes_Company_1417+Forbes_Company_654+Freebase_Company_312+Freebase_Company_89</id>
+    <name provenance="Freebase_Company_89">Adobe Systems</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_45+Freebase_Company_2164</id>
+    <name provenance="Freebase_Company_2164">Pfizer</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_807+Freebase_Company_541</id>
+    <name provenance="Forbes_Company_807">BÃ¢loise</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1385+DBPedia_Company_5851+Freebase_Company_1899</id>
+    <name provenance="DBPedia_Company_1385">Bolder Media</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_629+Freebase_Company_599</id>
+    <name provenance="Forbes_Company_629">Celgene</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_756+Freebase_Company_241</id>
+    <name provenance="Freebase_Company_241">Arnoldo Mondadori Editore</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_40+Freebase_Company_2227</id>
+    <name provenance="Freebase_Company_2227">Procter &amp;amp; Gamble</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_482+Freebase_Company_753</id>
+    <name provenance="Forbes_Company_482">Corning</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7114+Freebase_Company_2248</id>
+    <name provenance="DBPedia_Company_7114">Purehome</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_115+Freebase_Company_188</id>
+    <name provenance="Forbes_Company_115">AmÃ©rica MÃ³vil</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5244+Freebase_Company_1722</id>
+    <name provenance="DBPedia_Company_5244">Lithuanian Railways</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1918+Freebase_Company_167</id>
+    <name provenance="Freebase_Company_167">Amdocs</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_53+Freebase_Company_2523</id>
+    <name provenance="Freebase_Company_2523">Siemens</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_246+Freebase_Company_2130</id>
+    <name provenance="Freebase_Company_2130">Panasonic</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2982+Forbes_Company_350+Freebase_Company_1003</id>
+    <name provenance="Forbes_Company_350">EDP-Energias de Portugal</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4958+Freebase_Company_1627</id>
+    <name provenance="DBPedia_Company_4958">Konami</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8123+Freebase_Company_2586</id>
+    <name provenance="DBPedia_Company_8123">Sonatrach</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8680+Freebase_Company_2770</id>
+    <name provenance="Freebase_Company_2770">TerraTec</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1068+Freebase_Company_630</id>
+    <name provenance="Freebase_Company_630">China Resources Enterprise</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2820+Freebase_Company_811</id>
+    <name provenance="DBPedia_Company_2820">Edel AG</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_957+Freebase_Company_1362</id>
+    <name provenance="Freebase_Company_1362">Hindalco</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1416+Freebase_Company_2748</id>
+    <name provenance="Forbes_Company_1416">Tele2</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_513+Freebase_Company_1124</id>
+    <name provenance="Freebase_Company_1124">Fortum</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_649+Freebase_Company_2432</id>
+    <name provenance="Freebase_Company_2432">Sandvik</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6876+Freebase_Company_2177</id>
+    <name provenance="Freebase_Company_2177">Piranha Bytes</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1653+Freebase_Company_37</id>
+    <name provenance="Forbes_Company_1653">Aareal Bank</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_159+Freebase_Company_1071</id>
+    <name provenance="Forbes_Company_159">Express Scripts</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9172+Freebase_Company_2936</id>
+    <name provenance="Freebase_Company_2936">Ukrtelecom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4262+Freebase_Company_1406</id>
+    <name provenance="DBPedia_Company_4262">Hupac</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2917+Freebase_Company_987</id>
+    <name provenance="DBPedia_Company_2917">Elmos Semiconductor</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4051+Freebase_Company_1320</id>
+    <name provenance="DBPedia_Company_4051">Hatz</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8421+Freebase_Company_2670</id>
+    <name provenance="Freebase_Company_2670">SuperMedia</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_149+Freebase_Company_2663</id>
+    <name provenance="Freebase_Company_2663">Suncor Energy</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_508+Freebase_Company_1578</id>
+    <name provenance="Freebase_Company_1578">Kelloggs</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_179+Freebase_Company_2976</id>
+    <name provenance="Freebase_Company_2976">Valero Energy</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1767+Freebase_Company_2673</id>
+    <name provenance="Freebase_Company_2673">SuperValu</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_500+Freebase_Company_1677</id>
+    <name provenance="Freebase_Company_1677">Larsen &amp;amp; Toubro</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_97+Freebase_Company_1477</id>
+    <name provenance="Freebase_Company_1477">ING</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5625+Freebase_Company_1827</id>
+    <name provenance="Freebase_Company_1827">Mediterranean Shipping</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_228+Freebase_Company_858</id>
+    <name provenance="Forbes_Company_228">Diageo</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8853+Forbes_Company_624+Freebase_Company_2819</id>
+    <name provenance="Freebase_Company_2819">ThyssenKrupp</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_791+Freebase_Company_253</id>
+    <name provenance="Freebase_Company_253">ASFiNAG</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3459+Freebase_Company_1145</id>
+    <name provenance="DBPedia_Company_3459">Fresenius (company)</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6005+Freebase_Company_1945</id>
+    <name provenance="DBPedia_Company_6005">MVM</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4350+Freebase_Company_1441</id>
+    <name provenance="DBPedia_Company_4350">Igus</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_209+Freebase_Company_1536</id>
+    <name provenance="Forbes_Company_209">Japan Tobacco</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1685+Freebase_Company_579</id>
+    <name provenance="DBPedia_Company_1685">Carl Zeiss Meditec</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2452+Freebase_Company_804</id>
+    <name provenance="Freebase_Company_804">Day Software</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2368+Freebase_Company_783</id>
+    <name provenance="Freebase_Company_783">Cypress Semiconductor</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5126+Freebase_Company_1686</id>
+    <name provenance="Freebase_Company_1686">LED Eco Lights</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_179+Freebase_Company_71</id>
+    <name provenance="DBPedia_Company_179">ACN</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_356+Freebase_Company_126</id>
+    <name provenance="DBPedia_Company_356">AKN Eisenbahn</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8736+Forbes_Company_81+Freebase_Company_2784</id>
+    <name provenance="Freebase_Company_2784">Coca-Cola</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8045+Freebase_Company_2556</id>
+    <name provenance="DBPedia_Company_8045">Smithfield Foods</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7330+Forbes_Company_1448+Freebase_Company_2313</id>
+    <name provenance="DBPedia_Company_7330">Renesas Electronics</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6536+Freebase_Company_2108</id>
+    <name provenance="DBPedia_Company_6536">Orange Polska</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1194+Freebase_Company_408</id>
+    <name provenance="DBPedia_Company_1194">Beretta</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1440+Forbes_Company_17+Freebase_Company_485</id>
+    <name provenance="Freebase_Company_485">BP</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8652+Freebase_Company_2756</id>
+    <name provenance="DBPedia_Company_8652">Teleste</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7829+DBPedia_Company_7830+DBPedia_Company_7831+DBPedia_Company_7832+Forbes_Company_929+Freebase_Company_2514</id>
+    <name provenance="DBPedia_Company_7830">Shanghai Forte Land</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5585+Freebase_Company_1813</id>
+    <name provenance="Freebase_Company_1813">McCormick &amp;amp; Schmicks</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8464+Freebase_Company_2688</id>
+    <name provenance="DBPedia_Company_8464">Swiss Federal Railways</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8769+DBPedia_Company_8900+Freebase_Company_2864</id>
+    <name provenance="Freebase_Company_2864">TJX Companies</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_878+Freebase_Company_1794</id>
+    <name provenance="Freebase_Company_1794">Marriott</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_18+Freebase_Company_623</id>
+    <name provenance="Forbes_Company_18">Chevron</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3455+Freebase_Company_1141</id>
+    <name provenance="Freebase_Company_1141">Freeport-McMoRan</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6053+Freebase_Company_3065</id>
+    <name provenance="Freebase_Company_3065">WatchGuard Technologies</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_8+Freebase_Company_3077</id>
+    <name provenance="Freebase_Company_3077">Wells Fargo</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_499+Freebase_Company_954</id>
+    <name provenance="Freebase_Company_954">Ecolab</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6388+Freebase_Company_2063</id>
+    <name provenance="DBPedia_Company_6388">NYSE Euronext</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2255+Freebase_Company_688</id>
+    <name provenance="DBPedia_Company_2255">COSCO (Hong Kong)</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_526+Freebase_Company_574</id>
+    <name provenance="Freebase_Company_574">Cardinal Health</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_90+Freebase_Company_2947</id>
+    <name provenance="Forbes_Company_90">United Technologies</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_118+Freebase_Company_48</id>
+    <name provenance="Freebase_Company_48">Abhibuscom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_554+Freebase_Company_723</id>
+    <name provenance="Freebase_Company_723">Compass</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1144+Freebase_Company_380</id>
+    <name provenance="DBPedia_Company_1144">Beate Uhse AG</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2939+Forbes_Company_216+Freebase_Company_991</id>
+    <name provenance="Freebase_Company_991">EMC</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7417+DBPedia_Company_7921+Freebase_Company_1223+Freebase_Company_3005</id>
+    <name provenance="DBPedia_Company_7921">SIGA Technologies</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_462+Freebase_Company_2540</id>
+    <name provenance="Forbes_Company_462">SK Telecom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7452+Freebase_Company_2353</id>
+    <name provenance="DBPedia_Company_7452">Roche Diagnostics</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5527+Freebase_Company_1797</id>
+    <name provenance="Freebase_Company_1797">Maserati</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_79+Freebase_Company_2929</id>
+    <name provenance="Freebase_Company_2929">UBS</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_119+Freebase_Company_2040</id>
+    <name provenance="Freebase_Company_2040">Nordea Bank AB</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_937+Freebase_Company_299</id>
+    <name provenance="Freebase_Company_299">Avery Dennison</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1176+Freebase_Company_292</id>
+    <name provenance="Forbes_Company_1176">Autoliv</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1186+Freebase_Company_1093</id>
+    <name provenance="Forbes_Company_1186">Fidelity National Financial</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9497+Freebase_Company_3038</id>
+    <name provenance="Freebase_Company_3038">VR</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_29+Freebase_Company_9</id>
+    <name provenance="Freebase_Company_9">1800Mattresscom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1038+Forbes_Company_105+Freebase_Company_323</id>
+    <name provenance="Forbes_Company_105">Banco do Brasil</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_52+Freebase_Company_1249</id>
+    <name provenance="Forbes_Company_52">Google</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7777+Freebase_Company_2492</id>
+    <name provenance="DBPedia_Company_7777">Seminis</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_377+Freebase_Company_1138</id>
+    <name provenance="Freebase_Company_1138">Freddie Mac</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1260+Freebase_Company_436</id>
+    <name provenance="DBPedia_Company_1260">Bigelow Aerospace</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7373+Freebase_Company_2326</id>
+    <name provenance="DBPedia_Company_7373">REWE</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5241+Freebase_Company_1846</id>
+    <name provenance="DBPedia_Company_5241">Lithium Technologies</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_194+Freebase_Company_76</id>
+    <name provenance="Freebase_Company_76">Activision</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1071+Freebase_Company_596</id>
+    <name provenance="Freebase_Company_596">Celanese</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7751+Forbes_Company_1146+Freebase_Company_2483</id>
+    <name provenance="Freebase_Company_2483">Sears</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_422+Freebase_Company_2776</id>
+    <name provenance="Freebase_Company_2776">Texas Instruments</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4351+Freebase_Company_1442</id>
+    <name provenance="DBPedia_Company_4351">IHeartMedia</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_905+Freebase_Company_392</id>
+    <name provenance="Forbes_Company_905">Belgacom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1102+Freebase_Company_1993</id>
+    <name provenance="Forbes_Company_1102">NetApp</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6241+Freebase_Company_2022</id>
+    <name provenance="Freebase_Company_2022">NicOx</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9011+Forbes_Company_549+Freebase_Company_2892</id>
+    <name provenance="Freebase_Company_2892">Transocean</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7664+Freebase_Company_2441</id>
+    <name provenance="Freebase_Company_2441">Saras SpA</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3030+Freebase_Company_1028</id>
+    <name provenance="DBPedia_Company_3030">Equinix</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1577+Freebase_Company_539</id>
+    <name provenance="Freebase_Company_539">BWT AG</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_358+Freebase_Company_363</id>
+    <name provenance="Freebase_Company_363">Baxter</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_57+Freebase_Company_707</id>
+    <name provenance="Freebase_Company_707">Comcast</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9066+Freebase_Company_2903</id>
+    <name provenance="DBPedia_Company_9066">Triumph</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6258+Forbes_Company_1207+Freebase_Company_2028</id>
+    <name provenance="DBPedia_Company_6258">Nintendo</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9407+DBPedia_Company_9408+Freebase_Company_3012</id>
+    <name provenance="Freebase_Company_3012">Villeroy &amp;amp; Boch</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7083+Freebase_Company_2237</id>
+    <name provenance="Freebase_Company_2237">Providence Equity Partners</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1695+Freebase_Company_369</id>
+    <name provenance="Forbes_Company_1695">BayWa</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_699+Freebase_Company_2021</id>
+    <name provenance="Freebase_Company_2021">Nicor</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1139+Freebase_Company_703</id>
+    <name provenance="Freebase_Company_703">Colruyt</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_122+Freebase_Company_587</id>
+    <name provenance="Forbes_Company_122">Caterpillar</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4196+Freebase_Company_1385</id>
+    <name provenance="Freebase_Company_1385">Hormel</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_170+Freebase_Company_179</id>
+    <name provenance="Freebase_Company_179">Amgen</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_93+Freebase_Company_2150</id>
+    <name provenance="Forbes_Company_93">PepsiCo</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2399+Freebase_Company_794</id>
+    <name provenance="Freebase_Company_794">DaKine</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4172+Freebase_Company_1378</id>
+    <name provenance="DBPedia_Company_4172">Holsten Brewery</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7381+Freebase_Company_2329</id>
+    <name provenance="Freebase_Company_2329">Rheinmetall</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5345+Freebase_Company_1747</id>
+    <name provenance="DBPedia_Company_5345">Lufa Farms</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9995+Freebase_Company_3174</id>
+    <name provenance="DBPedia_Company_9995">Zyliss</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7932+Freebase_Company_2529</id>
+    <name provenance="DBPedia_Company_7932">Silicon Graphics</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5877+Freebase_Company_1907</id>
+    <name provenance="Freebase_Company_1907">Mondragon</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9223+Forbes_Company_448+Freebase_Company_2944</id>
+    <name provenance="DBPedia_Company_9223">United Continental</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2688+Freebase_Company_892</id>
+    <name provenance="Freebase_Company_892">Douglas</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_532+Freebase_Company_1658</id>
+    <name provenance="Forbes_Company_532">Kyocera</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1924+Freebase_Company_1588</id>
+    <name provenance="Freebase_Company_1588">Kesko</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_880+Freebase_Company_1207</id>
+    <name provenance="Forbes_Company_880">Genuine Parts</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_175+Freebase_Company_70</id>
+    <name provenance="DBPedia_Company_175">ACME Communications</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1044+Freebase_Company_325</id>
+    <name provenance="DBPedia_Company_1044">Bandai Namco</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_616+Freebase_Company_260</id>
+    <name provenance="Freebase_Company_260">Astellas Pharma</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2507+Freebase_Company_828</id>
+    <name provenance="DBPedia_Company_2507">Delticom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_285+Freebase_Company_498</id>
+    <name provenance="Forbes_Company_285">Bridgestone</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_235+Freebase_Company_1032</id>
+    <name provenance="Freebase_Company_1032">Ericsson</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_261+Freebase_Company_1086</id>
+    <name provenance="Freebase_Company_1086">FedEx</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1211+Forbes_Company_748+Freebase_Company_420</id>
+    <name provenance="Freebase_Company_420">Best Buy</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_51+Freebase_Company_2634</id>
+    <name provenance="Forbes_Company_51">Statoil</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6303+Freebase_Company_2042</id>
+    <name provenance="Freebase_Company_2042">Nordkalk</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3229+Freebase_Company_28</id>
+    <name provenance="Freebase_Company_28">A&amp;amp;E Networks</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_620+Freebase_Company_1414</id>
+    <name provenance="Freebase_Company_1414">Hyundai Heavy</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7493+Freebase_Company_2366</id>
+    <name provenance="DBPedia_Company_7493">Rosetta Stone (company)</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1059+Freebase_Company_820</id>
+    <name provenance="Forbes_Company_1059">Delhaize</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1892+Freebase_Company_2115</id>
+    <name provenance="Forbes_Company_1892">Orkla</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_14+Freebase_Company_1397</id>
+    <name provenance="Freebase_Company_1397">HSBC</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_143+Freebase_Company_301</id>
+    <name provenance="Forbes_Company_143">Aviva</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8478+Forbes_Company_848+Freebase_Company_2697</id>
+    <name provenance="Forbes_Company_848">Symantec</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2192+Forbes_Company_77+Freebase_Company_735</id>
+    <name provenance="DBPedia_Company_2192">ConocoPhillips</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1364+Freebase_Company_2207</id>
+    <name provenance="Forbes_Company_1364">Portugal Telecom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4737+Freebase_Company_1546</id>
+    <name provenance="Freebase_Company_1546">John Paul Mitchell Systems</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_479+Freebase_Company_2358</id>
+    <name provenance="Freebase_Company_2358">Rogers Communications</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_471+Freebase_Company_2318</id>
+    <name provenance="Freebase_Company_2318">Repsol YPF SA</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7286+Freebase_Company_2300</id>
+    <name provenance="DBPedia_Company_7286">Redcort Software</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_112+Freebase_Company_766</id>
+    <name provenance="Freebase_Company_766">Credit Suisse</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2211+Freebase_Company_742</id>
+    <name provenance="DBPedia_Company_2211">Convergys</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4415+Freebase_Company_1465+Freebase_Company_1692</id>
+    <name provenance="Freebase_Company_1465">Industrial and Commercial Bank of China (Asia)</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1884+Freebase_Company_1136</id>
+    <name provenance="Forbes_Company_1884">Fraport</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4347+DBPedia_Company_4524+DBPedia_Company_5107+DBPedia_Company_8219+DBPedia_Company_863+DBPedia_Company_9044+Freebase_Company_3022+Freebase_Company_5</id>
+    <name provenance="DBPedia_Company_4524">Interplay Entertainment</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1899+Freebase_Company_1489</id>
+    <name provenance="Freebase_Company_1489">InterContinental Hotels</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_481+Freebase_Company_2053</id>
+    <name provenance="Freebase_Company_2053">Novatek</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7577+Freebase_Company_2405</id>
+    <name provenance="DBPedia_Company_7577">Sabre</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_109+Freebase_Company_2344</id>
+    <name provenance="Freebase_Company_2344">Rio Tinto</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1989+Forbes_Company_1795+Freebase_Company_662</id>
+    <name provenance="DBPedia_Company_1989">Citrix Systems</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_154+DBPedia_Company_1604+DBPedia_Company_4347+DBPedia_Company_4443+DBPedia_Company_449+DBPedia_Company_4524+DBPedia_Company_5107+DBPedia_Company_8219+DBPedia_Company_863+DBPedia_Company_9044+Forbes_Company_1429+Freebase_Company_2304+Freebase_Company_2584+Freebase_Company_3022+Freebase_Company_5+Freebase_Company_549+Freebase_Company_769</id>
+    <name provenance="DBPedia_Company_4524">Interplay Entertainment</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_237+Forbes_Company_308+Forbes_Company_749+Freebase_Company_603+Freebase_Company_943</id>
+    <name provenance="Forbes_Company_308">Central Japan Railway</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_517+Freebase_Company_2884</id>
+    <name provenance="Forbes_Company_517">Toyota Tsusho</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1056+Freebase_Company_2644</id>
+    <name provenance="Forbes_Company_1056">Storebrand</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_896+Freebase_Company_726</id>
+    <name provenance="Freebase_Company_726">Computer Sciences</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1110+Freebase_Company_560</id>
+    <name provenance="Freebase_Company_560">Campbell Soup</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4284+DBPedia_Company_4287+Forbes_Company_267+Forbes_Company_87+Freebase_Company_1415</id>
+    <name provenance="DBPedia_Company_4284">Hyundai Glovis</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1024+Forbes_Company_1075+Forbes_Company_1266+Forbes_Company_460+Forbes_Company_779+Freebase_Company_646</id>
+    <name provenance="Forbes_Company_1266">Chugoku Electric Power</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_255+Freebase_Company_1828</id>
+    <name provenance="Freebase_Company_1828">Medtronic</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_707+Freebase_Company_791</id>
+    <name provenance="Forbes_Company_707">Daiichi Sankyo</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2734+Freebase_Company_917</id>
+    <name provenance="Freebase_Company_917">Ducati</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4486+Freebase_Company_1485</id>
+    <name provenance="Freebase_Company_1485">Integrated Device Technology</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1742+Freebase_Company_1337</id>
+    <name provenance="Forbes_Company_1742">Hellenic Petroleum</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5939+Freebase_Company_1918</id>
+    <name provenance="DBPedia_Company_5939">Motorola Mobility</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_985+Freebase_Company_1103</id>
+    <name provenance="Freebase_Company_1103">Finmeccanica</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_621+Freebase_Company_1699</id>
+    <name provenance="Freebase_Company_1699">Liberty Global</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6152+Freebase_Company_1990</id>
+    <name provenance="DBPedia_Company_6152">Neste Oil</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1364+Forbes_Company_48+Freebase_Company_463</id>
+    <name provenance="Freebase_Company_463">BMW</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7426+Freebase_Company_2531</id>
+    <name provenance="Freebase_Company_2531">SilverDoor</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_258+Freebase_Company_100</id>
+    <name provenance="Freebase_Company_100">Aerojet</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1236+Freebase_Company_429</id>
+    <name provenance="Freebase_Company_429">Bharat Sanchar Nigam Limited</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5926+Freebase_Company_1914</id>
+    <name provenance="DBPedia_Company_5926">Mosenergo</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_879+Freebase_Company_276</id>
+    <name provenance="Freebase_Company_276">Audemars Piguet</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8651+Freebase_Company_2754</id>
+    <name provenance="DBPedia_Company_8651">Telerik</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_998+Freebase_Company_546</id>
+    <name provenance="Forbes_Company_998">CA</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_445+Freebase_Company_2882</id>
+    <name provenance="Freebase_Company_2882">Toyota</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5725+Forbes_Company_359+Freebase_Company_1863</id>
+    <name provenance="Freebase_Company_1863">Michelin</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5737+Forbes_Company_32+Freebase_Company_1866</id>
+    <name provenance="Freebase_Company_1866">Microsoft</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1153+Freebase_Company_386</id>
+    <name provenance="Freebase_Company_386">Becton Dickinson</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3614+Forbes_Company_253+Freebase_Company_1200</id>
+    <name provenance="Forbes_Company_253">General Dynamics</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1907+Forbes_Company_833+Freebase_Company_1698</id>
+    <name provenance="Forbes_Company_1907">LS Corp</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_477+Freebase_Company_129</id>
+    <name provenance="Forbes_Company_477">Akzo Nobel</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9724+Freebase_Company_3105</id>
+    <name provenance="Freebase_Company_3105">Wingas</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1428+Forbes_Company_144+Freebase_Company_1131</id>
+    <name provenance="DBPedia_Company_1428">Bouygues Telecom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_192+Freebase_Company_643</id>
+    <name provenance="Freebase_Company_643">Christian Dior SA</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_387+Forbes_Company_750+Freebase_Company_563</id>
+    <name provenance="Freebase_Company_563">Canadian National Railway</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_674+Freebase_Company_2339</id>
+    <name provenance="Freebase_Company_2339">Ricoh</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1796+Freebase_Company_282</id>
+    <name provenance="Forbes_Company_1796">Aurubis</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_126+Forbes_Company_636+Freebase_Company_1892</id>
+    <name provenance="Freebase_Company_1892">Mitsubishi Motors</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7708+Forbes_Company_117+Freebase_Company_2464</id>
+    <name provenance="DBPedia_Company_7708">Schlumberger</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9843+Freebase_Company_3145</id>
+    <name provenance="Freebase_Company_3145">Yamana Gold</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6444+Freebase_Company_2075</id>
+    <name provenance="Freebase_Company_2075">Oil Refineries</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4985+Forbes_Company_309+Freebase_Company_1643</id>
+    <name provenance="Forbes_Company_309">Kroger</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1677+Freebase_Company_569</id>
+    <name provenance="DBPedia_Company_1677">Carbon Clear</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1919+Freebase_Company_996</id>
+    <name provenance="Forbes_Company_1919">EMS-Chemie</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_962+Freebase_Company_1859</id>
+    <name provenance="Forbes_Company_962">MGM Resorts</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3675+Freebase_Company_1217</id>
+    <name provenance="DBPedia_Company_3675">Germanischer Lloyd</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6843+Freebase_Company_2169</id>
+    <name provenance="Freebase_Company_2169">Pierre &amp;amp; Vacances</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1187+Freebase_Company_400</id>
+    <name provenance="Freebase_Company_400">Benetton Spa</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3277+Freebase_Company_1094</id>
+    <name provenance="DBPedia_Company_3277">Fidelity Worldwide Investment</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2670+Freebase_Company_890</id>
+    <name provenance="DBPedia_Company_2670">DONG Energy</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_106+Freebase_Company_1912</id>
+    <name provenance="Forbes_Company_106">Morgan Stanley</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1443+DBPedia_Company_8994+Freebase_Company_2158</id>
+    <name provenance="Freebase_Company_2158">Petro-Canada</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_196+Freebase_Company_2466</id>
+    <name provenance="Forbes_Company_196">Schneider Electric</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_672+Forbes_Company_15+Freebase_Company_217</id>
+    <name provenance="DBPedia_Company_672">Apple</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1659+Freebase_Company_2773</id>
+    <name provenance="Freebase_Company_2773">Tesla Motors</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7494+DBPedia_Company_9009+Forbes_Company_34+Freebase_Company_2367</id>
+    <name provenance="DBPedia_Company_9009">Transneft</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9456+Forbes_Company_548+Freebase_Company_3021</id>
+    <name provenance="DBPedia_Company_9456">Vivendi</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9239+Forbes_Company_494+Forbes_Company_55+Freebase_Company_2374</id>
+    <name provenance="Forbes_Company_494">National Bank of Canada</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_476+Freebase_Company_157</id>
+    <name provenance="Freebase_Company_157">Altana</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4983+Freebase_Company_1641</id>
+    <name provenance="Freebase_Company_1641">Krispy Kreme</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_869+Freebase_Company_3092</id>
+    <name provenance="Forbes_Company_869">Whole Foods Market</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_884+Freebase_Company_2777</id>
+    <name provenance="Freebase_Company_2777">Textron</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_102+Freebase_Company_626</id>
+    <name provenance="Freebase_Company_626">China Merchants Bank</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4203+Freebase_Company_1389</id>
+    <name provenance="Freebase_Company_1389">Host Analytics</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7323+Forbes_Company_262+Freebase_Company_2312</id>
+    <name provenance="Forbes_Company_262">Renault</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4785+Freebase_Company_2922</id>
+    <name provenance="Freebase_Company_2922">TXU Energy</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3644+Freebase_Company_1208</id>
+    <name provenance="DBPedia_Company_3644">Genzyme</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1152+Freebase_Company_383</id>
+    <name provenance="DBPedia_Company_1152">Becks Brewery</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6532+Forbes_Company_94+Freebase_Company_2104</id>
+    <name provenance="Forbes_Company_94">Oracle</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2767+Forbes_Company_113+Freebase_Company_935</id>
+    <name provenance="Freebase_Company_935">EON</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5063+Freebase_Company_1671</id>
+    <name provenance="Freebase_Company_1671">Landal Greenparks</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_910+Freebase_Company_291</id>
+    <name provenance="Freebase_Company_291">Autogrill</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_805+Freebase_Company_2975</id>
+    <name provenance="Forbes_Company_805">Valeo</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2896+Forbes_Company_1060+Forbes_Company_30+Freebase_Company_2159+Freebase_Company_980</id>
+    <name provenance="Forbes_Company_1060">EletrobrÃ¡s</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_334+Freebase_Company_1908</id>
+    <name provenance="Freebase_Company_1908">Monsanto</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_150+Freebase_Company_632</id>
+    <name provenance="Forbes_Company_150">China Telecom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_734+Freebase_Company_238</id>
+    <name provenance="Freebase_Company_238">Arianespace</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8880+Forbes_Company_156+Freebase_Company_2828</id>
+    <name provenance="DBPedia_Company_8880">Time Warner Cable</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_784+Freebase_Company_250</id>
+    <name provenance="DBPedia_Company_784">Asahi Breweries</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_409+Freebase_Company_1767</id>
+    <name provenance="Forbes_Company_409">Magna</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_563+Freebase_Company_2403</id>
+    <name provenance="Freebase_Company_2403">Sabancı</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3833+Freebase_Company_1259</id>
+    <name provenance="DBPedia_Company_3833">Graub%C3%BCndner Kantonalbank</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5967+DBPedia_Company_9956+Freebase_Company_1936+Freebase_Company_3161</id>
+    <name provenance="Freebase_Company_1936">MTU Friedrichshafen</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3693+Freebase_Company_1173</id>
+    <name provenance="Freebase_Company_1173">Ghost</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_47+Freebase_Company_1119</id>
+    <name provenance="Forbes_Company_47">Ford Motor</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_566+Freebase_Company_180</id>
+    <name provenance="DBPedia_Company_566">Ammann</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1590+Freebase_Company_2060</id>
+    <name provenance="Forbes_Company_1590">NVIDIA</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3268+Freebase_Company_1090</id>
+    <name provenance="DBPedia_Company_3268">Fiat Automobiles</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_87+Freebase_Company_33</id>
+    <name provenance="Freebase_Company_33">A Place for Mom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7966+Freebase_Company_2535</id>
+    <name provenance="DBPedia_Company_7966">Sinopharm</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_36+Freebase_Company_1991</id>
+    <name provenance="Freebase_Company_1991">Nestlé</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_746+Freebase_Company_132</id>
+    <name provenance="Freebase_Company_132">Alcoa</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_133+Freebase_Company_1423</id>
+    <name provenance="Forbes_Company_133">Iberdrola</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_715+Freebase_Company_3142</id>
+    <name provenance="Freebase_Company_3142">Yahoo!</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4672+Freebase_Company_1533</id>
+    <name provenance="DBPedia_Company_4672">Janus Capital</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_237+Freebase_Company_943</id>
+    <name provenance="Freebase_Company_943">East Japan Railway</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2493+Freebase_Company_810</id>
+    <name provenance="DBPedia_Company_2493">DeLonghi</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6886+Forbes_Company_1091+Freebase_Company_2187</id>
+    <name provenance="Freebase_Company_2187">PKN Orlen</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4405+Freebase_Company_1464</id>
+    <name provenance="Freebase_Company_1464">Indieflix</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8361+Freebase_Company_2653</id>
+    <name provenance="Freebase_Company_2653">Styria Media</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1806+Forbes_Company_974+Freebase_Company_614</id>
+    <name provenance="DBPedia_Company_1806">CGI</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4373+Freebase_Company_1450</id>
+    <name provenance="DBPedia_Company_4373">IMEC</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5076+Freebase_Company_1675</id>
+    <name provenance="DBPedia_Company_5076">Lao Brewery</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_243+Freebase_Company_230</id>
+    <name provenance="Forbes_Company_243">Archer Daniels Midland</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8481+Freebase_Company_2699</id>
+    <name provenance="Freebase_Company_2699">Symphony Teleca</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_21+Freebase_Company_1191</id>
+    <name provenance="Freebase_Company_1191">Gazprom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_160+Freebase_Company_2945</id>
+    <name provenance="Forbes_Company_160">United Parcel Service</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4026+Freebase_Company_1305</id>
+    <name provenance="DBPedia_Company_4026">Hargreaves Lansdown</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_830+Freebase_Company_1516</id>
+    <name provenance="Forbes_Company_830">ITC</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_946+Freebase_Company_2148</id>
+    <name provenance="Forbes_Company_946">Pentair</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7193+Forbes_Company_1417+Freebase_Company_89</id>
+    <name provenance="Freebase_Company_89">Adobe Systems</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_514+Freebase_Company_273</id>
+    <name provenance="Freebase_Company_273">Atlas Copco</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5278+Freebase_Company_1730</id>
+    <name provenance="DBPedia_Company_5278">LogicBoxes</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_371+Freebase_Company_2336</id>
+    <name provenance="Forbes_Company_371">Richemont</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5410+Freebase_Company_1768</id>
+    <name provenance="DBPedia_Company_5410">Magna Steyr</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4247+Forbes_Company_1690+Freebase_Company_1403</id>
+    <name provenance="Forbes_Company_1690">Hugo Boss</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_651+Freebase_Company_1701</id>
+    <name provenance="Freebase_Company_1701">Liberty Media</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_345+Freebase_Company_2049</id>
+    <name provenance="Freebase_Company_2049">Northrop Grumman</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7558+Freebase_Company_2390</id>
+    <name provenance="Freebase_Company_2390">RWE Supply &amp;amp; Trading CZ</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9296+Forbes_Company_442+Freebase_Company_2973</id>
+    <name provenance="DBPedia_Company_9296">Vale (mining company)</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4763+Forbes_Company_4+Freebase_Company_1552</id>
+    <name provenance="Freebase_Company_1552">JPMorgan Chase</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_24+Freebase_Company_464</id>
+    <name provenance="Freebase_Company_464">BNP Paribas</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1064+Freebase_Company_341</id>
+    <name provenance="Freebase_Company_341">Bank Pekao</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3618+Forbes_Company_7+Freebase_Company_1201</id>
+    <name provenance="DBPedia_Company_3618">General Electric</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3325+Freebase_Company_1109</id>
+    <name provenance="DBPedia_Company_3325">Fiskars</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_198+Freebase_Company_1726</id>
+    <name provenance="Forbes_Company_198">Lockheed Martin</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_544+Forbes_Company_42+Freebase_Company_175</id>
+    <name provenance="DBPedia_Company_544">American</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5825+DBPedia_Company_5826+DBPedia_Company_8377+Forbes_Company_37+Freebase_Company_1893</id>
+    <name provenance="DBPedia_Company_8377">Sumitomo Mitsui Financial</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_906+Freebase_Company_236</id>
+    <name provenance="Forbes_Company_906">Areva</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4742+Forbes_Company_41+Freebase_Company_1547</id>
+    <name provenance="Freebase_Company_1547">Johnson &amp;amp; Johnson</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_822+Freebase_Company_257</id>
+    <name provenance="Freebase_Company_257">Assicurazioni Generali</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1976+Forbes_Company_82+Freebase_Company_657</id>
+    <name provenance="Forbes_Company_82">Cisco Systems</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5593+Freebase_Company_1815</id>
+    <name provenance="DBPedia_Company_5593">McFit</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7321+Freebase_Company_2311</id>
+    <name provenance="DBPedia_Company_7321">Renaissance Technologies</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_307+Freebase_Company_112</id>
+    <name provenance="Freebase_Company_112">Ahlstrom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7507+Freebase_Company_2372</id>
+    <name provenance="Freebase_Company_2372">Rovi</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_383+Freebase_Company_2809</id>
+    <name provenance="Freebase_Company_2809">rmo Fisher Scientific</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6099+Freebase_Company_1977</id>
+    <name provenance="DBPedia_Company_6099">Natixis</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9156+Freebase_Company_2928</id>
+    <name provenance="Freebase_Company_2928">Ubisoft Montreal</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3896+Freebase_Company_1274</id>
+    <name provenance="Freebase_Company_1274">Grundfos</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_565+Freebase_Company_580</id>
+    <name provenance="Freebase_Company_580">Carlsberg</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1923+Freebase_Company_637</id>
+    <name provenance="DBPedia_Company_1923">Chocolat Frey</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_194+Freebase_Company_19</id>
+    <name provenance="Forbes_Company_194">3M</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9168+Freebase_Company_2934</id>
+    <name provenance="Freebase_Company_2934">uhlsport GmbH</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2818+Freebase_Company_959</id>
+    <name provenance="Freebase_Company_959">EDAG</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1447+Freebase_Company_1521</id>
+    <name provenance="Freebase_Company_1521">ITV</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_89+Freebase_Company_774</id>
+    <name provenance="Forbes_Company_89">Credit Agricole</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_902+Freebase_Company_2789</id>
+    <name provenance="Forbes_Company_902">Hershey</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1488+Freebase_Company_2576</id>
+    <name provenance="Forbes_Company_1488">Old Republic</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_33+Freebase_Company_306</id>
+    <name provenance="Freebase_Company_306">AXA</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5795+Freebase_Company_1884</id>
+    <name provenance="DBPedia_Company_5795">Minky</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2729+Freebase_Company_915</id>
+    <name provenance="Freebase_Company_915">Dubai World</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8774+Forbes_Company_275+Freebase_Company_2793</id>
+    <name provenance="Forbes_Company_275">Linde</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1405+Freebase_Company_471</id>
+    <name provenance="DBPedia_Company_1405">Booz Allen Hamilton</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1159+Freebase_Company_1500</id>
+    <name provenance="Forbes_Company_1159">Intuit</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1603+Freebase_Company_944</id>
+    <name provenance="Freebase_Company_944">Eastman Kodak</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7636+Forbes_Company_22+Freebase_Company_2425</id>
+    <name provenance="DBPedia_Company_7636">Samsung Telecommunications</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_39+Freebase_Company_1012</id>
+    <name provenance="Freebase_Company_1012">Eni</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1728+Freebase_Company_862</id>
+    <name provenance="Forbes_Company_1728">Dicks Sporting Goods</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1879+Freebase_Company_1430</id>
+    <name provenance="Freebase_Company_1430">ICAP</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3166+Freebase_Company_1172</id>
+    <name provenance="DBPedia_Company_3166">F%C3%B6rde Reederei Seetouristik</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_521+Freebase_Company_2414</id>
+    <name provenance="Freebase_Company_2414">Safeway</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8915+Freebase_Company_2867</id>
+    <name provenance="Freebase_Company_2867">Tods</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_535+Freebase_Company_173</id>
+    <name provenance="DBPedia_Company_535">American Double Deckers</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_836+Freebase_Company_1629</id>
+    <name provenance="Freebase_Company_1629">Kone</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9574+Forbes_Company_831+Freebase_Company_3064</id>
+    <name provenance="DBPedia_Company_9574">Waste Management</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_546+Freebase_Company_792</id>
+    <name provenance="Freebase_Company_792">Daikin</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9800+Forbes_Company_558+Freebase_Company_3135</id>
+    <name provenance="DBPedia_Company_9800">Xcel Energy</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1052+Freebase_Company_137</id>
+    <name provenance="Forbes_Company_1052">All Nippon Airways</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4146+Forbes_Company_138+Freebase_Company_1367</id>
+    <name provenance="Freebase_Company_1367">Hitachi</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8523+Freebase_Company_680</id>
+    <name provenance="Freebase_Company_680">CloudMade</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_369+Freebase_Company_2879</id>
+    <name provenance="Forbes_Company_369">Toshiba</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6284+Forbes_Company_631+Freebase_Company_2037</id>
+    <name provenance="DBPedia_Company_6284">Nokia</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_347+Freebase_Company_1638</id>
+    <name provenance="Forbes_Company_347">Kraft Foods</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7702+Freebase_Company_2461</id>
+    <name provenance="Freebase_Company_2461">Schiesser</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_125+Freebase_Company_2926</id>
+    <name provenance="Forbes_Company_125">US Bancorp</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1511+Freebase_Company_2525</id>
+    <name provenance="Forbes_Company_1511">Sigma-Aldrich</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6844+Freebase_Company_2172</id>
+    <name provenance="DBPedia_Company_6844">Pilatus Aircraft</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9102+Freebase_Company_2915</id>
+    <name provenance="DBPedia_Company_9102">Turkish Aerospace</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4944+Freebase_Company_1618</id>
+    <name provenance="Freebase_Company_1618">Koch</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_218+Freebase_Company_518</id>
+    <name provenance="Freebase_Company_518">BT</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4421+Forbes_Company_1317+Freebase_Company_1470</id>
+    <name provenance="Freebase_Company_1470">Infineon Technologies</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5757+Freebase_Company_1870</id>
+    <name provenance="Freebase_Company_1870">Miele</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_189+Freebase_Company_74</id>
+    <name provenance="Freebase_Company_74">Actelion</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2836+Freebase_Company_965</id>
+    <name provenance="DBPedia_Company_2836">Edoardo Raffinerie Garrone</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1339+Freebase_Company_1058</id>
+    <name provenance="Freebase_Company_1058">Evraz</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_145+Freebase_Company_850</id>
+    <name provenance="Freebase_Company_850">Deutsche Telekom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_137+Freebase_Company_2790</id>
+    <name provenance="Freebase_Company_2790">Home Depot</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8465+Forbes_Company_480+Freebase_Company_2689</id>
+    <name provenance="DBPedia_Company_8465">Swiss Life</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9064+Freebase_Company_2901</id>
+    <name provenance="DBPedia_Company_9064">Triumph (TWN)</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6780+Freebase_Company_2154</id>
+    <name provenance="Freebase_Company_2154">Pernod Ricard</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6496+Freebase_Company_2091</id>
+    <name provenance="DBPedia_Company_6496">Online Trading Academy</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1378+Forbes_Company_84+Freebase_Company_467</id>
+    <name provenance="Forbes_Company_84">Boeing</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8441+Forbes_Company_436+Freebase_Company_2676</id>
+    <name provenance="Freebase_Company_2676">Suzuki Motor</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_969+Freebase_Company_309</id>
+    <name provenance="Freebase_Company_309">Azienda Trasporti Milanesi</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8590+Freebase_Company_2733</id>
+    <name provenance="Freebase_Company_2733">Tchibo</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1699+Forbes_Company_212+Freebase_Company_582</id>
+    <name provenance="Freebase_Company_582">Carrefour</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5703+Forbes_Company_1305+Freebase_Company_1852</id>
+    <name provenance="Freebase_Company_1852">Metro</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7648+Forbes_Company_867+Freebase_Company_2430</id>
+    <name provenance="Freebase_Company_2430">SanDisk</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_317+Freebase_Company_2758</id>
+    <name provenance="Forbes_Company_317">Teliasonera</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9198+Freebase_Company_2939</id>
+    <name provenance="Freebase_Company_2939">UniFirst</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7684+Freebase_Company_2450</id>
+    <name provenance="Freebase_Company_2450">SBB Cargo</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_127+Freebase_Company_894</id>
+    <name provenance="Freebase_Company_894">Dow Chemical</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1198+Freebase_Company_275</id>
+    <name provenance="Freebase_Company_275">Atos</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6365+DBPedia_Company_8675+DBPedia_Company_8998+Freebase_Company_2891</id>
+    <name provenance="DBPedia_Company_6365">Nuclearelectrica</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_522+Freebase_Company_88</id>
+    <name provenance="Freebase_Company_88">Adidas</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_658+Freebase_Company_3004</id>
+    <name provenance="Freebase_Company_3004">VF</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2511+Freebase_Company_695</id>
+    <name provenance="DBPedia_Company_2511">Democracy Data &amp; Communications</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_167+Freebase_Company_839</id>
+    <name provenance="Freebase_Company_839">Deutsche Bank</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1369+Freebase_Company_106</id>
+    <name provenance="Forbes_Company_1369">AGCO</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2888+Freebase_Company_979</id>
+    <name provenance="Freebase_Company_979">Elektrobit</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5482+Forbes_Company_374+Freebase_Company_1785</id>
+    <name provenance="Forbes_Company_374">Marathon Oil</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1892+DBPedia_Company_1903+DBPedia_Company_1905+Freebase_Company_633</id>
+    <name provenance="DBPedia_Company_1903">China Petrochemical</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7699+Freebase_Company_2455</id>
+    <name provenance="DBPedia_Company_7699">Schaltbau</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8580+Forbes_Company_1940+Freebase_Company_123</id>
+    <name provenance="Forbes_Company_1940">Akamai Technologies</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5457+Freebase_Company_1905</id>
+    <name provenance="DBPedia_Company_5457">Mandriva</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7088+Freebase_Company_2240</id>
+    <name provenance="Freebase_Company_2240">Prudential plc</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4686+Freebase_Company_1538</id>
+    <name provenance="DBPedia_Company_4686">Jazztel</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9840+Freebase_Company_3144</id>
+    <name provenance="Freebase_Company_3144">Yamaha Motor</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9520+Freebase_Company_3052</id>
+    <name provenance="DBPedia_Company_9520">Wacom (company)</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5025+DBPedia_Company_9247+Forbes_Company_26+Freebase_Company_3001</id>
+    <name provenance="DBPedia_Company_9247">Univision Communications</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7569+Freebase_Company_2397</id>
+    <name provenance="Freebase_Company_2397">S-</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4959+Freebase_Company_1628</id>
+    <name provenance="DBPedia_Company_4959">Konarka Technologies</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2136+Freebase_Company_717</id>
+    <name provenance="Freebase_Company_717">Communications of America</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_16+Freebase_Company_660</id>
+    <name provenance="Freebase_Company_660">Citigroup</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_86+Freebase_Company_2949</id>
+    <name provenance="Freebase_Company_2949">UnitedHealth</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1352+Freebase_Company_2978</id>
+    <name provenance="Forbes_Company_1352">Vallourec</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_872+Freebase_Company_2074</id>
+    <name provenance="Forbes_Company_872">Oi</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1848+Freebase_Company_1681</id>
+    <name provenance="Freebase_Company_1681">Lawson</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_120+Freebase_Company_364</id>
+    <name provenance="Freebase_Company_364">Bayer</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1407+Forbes_Company_1043+Freebase_Company_474</id>
+    <name provenance="Freebase_Company_474">BorgWarner</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_13+Freebase_Company_334</id>
+    <name provenance="Forbes_Company_13">Bank of America</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_215+Freebase_Company_738</id>
+    <name provenance="Freebase_Company_738">Continental AG</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4489+Forbes_Company_78+Freebase_Company_1487</id>
+    <name provenance="Freebase_Company_1487">Intel</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_669+Freebase_Company_216</id>
+    <name provenance="DBPedia_Company_669">Appian</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_608+Freebase_Company_2650</id>
+    <name provenance="Freebase_Company_2650">Stryker</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_5394+Forbes_Company_397+Freebase_Company_1761</id>
+    <name provenance="Forbes_Company_397">Macys</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_385+Freebase_Company_314</id>
+    <name provenance="Forbes_Company_385">Baker Hughes</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1983+Freebase_Company_1161</id>
+    <name provenance="Forbes_Company_1983">Fuji Electric</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_483+Freebase_Company_1163</id>
+    <name provenance="Freebase_Company_1163">Fujifilm</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_776+Freebase_Company_245</id>
+    <name provenance="DBPedia_Company_776">Arup Limited</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8372+Freebase_Company_2659</id>
+    <name provenance="Freebase_Company_2659">Suez Environnement</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_154+Freebase_Company_2256</id>
+    <name provenance="Forbes_Company_154">Qualcomm</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_670+Freebase_Company_1514</id>
+    <name provenance="Freebase_Company_1514">Isuzu Motors Ltd</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1116+Forbes_Company_429+Freebase_Company_335</id>
+    <name provenance="Forbes_Company_1116">Bank of Nanjing</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1878+Freebase_Company_2715</id>
+    <name provenance="Forbes_Company_1878">Taiheiyo Cement</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_932+Freebase_Company_855</id>
+    <name provenance="Forbes_Company_932">Dexia</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_6018+Freebase_Company_1952</id>
+    <name provenance="Freebase_Company_1952">Mytilineos</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2812+Freebase_Company_958</id>
+    <name provenance="Freebase_Company_958">Ecover</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_741+Freebase_Company_853</id>
+    <name provenance="Forbes_Company_741">Devon Energy</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1878+Forbes_Company_1492+Freebase_Company_719</id>
+    <name provenance="DBPedia_Company_1878">Chicony Electronics</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1589+Freebase_Company_224</id>
+    <name provenance="Freebase_Company_224">Arabesque Asset Management</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1937+Freebase_Company_1299</id>
+    <name provenance="Freebase_Company_1299">Hanesbrands</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4244+Freebase_Company_1402</id>
+    <name provenance="DBPedia_Company_4244">Hudbay Minerals</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_46+Freebase_Company_1515</id>
+    <name provenance="Forbes_Company_46">ItaÃº Unibanco</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_606+Freebase_Company_201</id>
+    <name provenance="Freebase_Company_201">Anheuser-Busch</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_910+Freebase_Company_2043</id>
+    <name provenance="Freebase_Company_2043">Nordstrom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7481+Freebase_Company_2363</id>
+    <name provenance="Freebase_Company_2363">Rolls-Royce Motor Cars</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1785+Freebase_Company_606</id>
+    <name provenance="Freebase_Company_606">Centrotherm Photovoltaics</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3898+Freebase_Company_1275</id>
+    <name provenance="Freebase_Company_1275">Gruner + Jahr</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_189+Freebase_Company_2870</id>
+    <name provenance="Freebase_Company_2870">Tokio Marine</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3891+Freebase_Company_1272</id>
+    <name provenance="Freebase_Company_1272">e SEB</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_2958+Freebase_Company_997</id>
+    <name provenance="DBPedia_Company_2958">ENAIRE</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_340+Freebase_Company_1890</id>
+    <name provenance="Forbes_Company_340">Mitsubishi Electric</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8686+Freebase_Company_1453</id>
+    <name provenance="Freebase_Company_1453">Impetus Technologies</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_364+Freebase_Company_1226</id>
+    <name provenance="Forbes_Company_364">Gilead Sciences</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_9051+Freebase_Company_2662</id>
+    <name provenance="DBPedia_Company_9051">Trident Microsystems</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8522+Forbes_Company_348+Freebase_Company_2720</id>
+    <name provenance="Freebase_Company_2720">Takeda Pharmaceutical</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1427+Forbes_Company_660+Freebase_Company_483</id>
+    <name provenance="DBPedia_Company_1427">Bouygues</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4961+Freebase_Company_1630</id>
+    <name provenance="Freebase_Company_1630">Konecranes</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7064+Forbes_Company_1063+Freebase_Company_2231</id>
+    <name provenance="Freebase_Company_2231">ProLogis</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1171+Freebase_Company_1343</id>
+    <name provenance="Freebase_Company_1343">Henry Schein</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_277+Freebase_Company_2415</id>
+    <name provenance="Freebase_Company_2415">Saint-Gobain</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1099+Freebase_Company_1202</id>
+    <name provenance="Freebase_Company_1202">General Growth Properties</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8267+Forbes_Company_919+Freebase_Company_2628</id>
+    <name provenance="Forbes_Company_919">Starbucks</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4534+Forbes_Company_939+Freebase_Company_1502</id>
+    <name provenance="Forbes_Company_939">Investec</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7810+Freebase_Company_2507</id>
+    <name provenance="DBPedia_Company_7810">Sevmash</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7346+Freebase_Company_2319</id>
+    <name provenance="DBPedia_Company_7346">ResellerClub</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_80+Freebase_Company_1354</id>
+    <name provenance="Forbes_Company_80">Hewlett-Packard</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_1910+Freebase_Company_631</id>
+    <name provenance="Freebase_Company_631">China Shenhua Energy</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3764+Freebase_Company_1240</id>
+    <name provenance="Freebase_Company_1240">Gocomparecom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7417+Freebase_Company_1223</id>
+    <name provenance="Freebase_Company_1223">GFT Technologies</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_163+Freebase_Company_847</id>
+    <name provenance="Forbes_Company_163">Deutsche Post</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7589+Freebase_Company_2412</id>
+    <name provenance="DBPedia_Company_7589">SafeNet</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_1283+Freebase_Company_2027</id>
+    <name provenance="Freebase_Company_2027">Nikon</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8569+Forbes_Company_332+Freebase_Company_2728</id>
+    <name provenance="DBPedia_Company_8569">Tata Chemicals</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_4308+Freebase_Company_1427</id>
+    <name provenance="Freebase_Company_1427">IBS Software Services</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_705+Freebase_Company_1183</id>
+    <name provenance="Forbes_Company_705">Gap</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_69+Freebase_Company_1848</id>
+    <name provenance="Forbes_Company_69">MetLife</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_7449+Freebase_Company_2352</id>
+    <name provenance="Freebase_Company_2352">Robinson Helicopter</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>Forbes_Company_525+Freebase_Company_2084</id>
+    <name provenance="Forbes_Company_525">Omnicom</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_3938+Freebase_Company_1283</id>
+    <name provenance="Freebase_Company_1283">Guinness Brewery</name>
+    <locations provenance=""/>
+  </company>
+  <company>
+    <id>DBPedia_Company_8096+Freebase_Company_2575</id>
+    <name provenance="Freebase_Company_2575">Soilmec</name>
+    <locations provenance=""/>
+  </company>
+</companies>

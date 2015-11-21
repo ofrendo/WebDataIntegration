@@ -6,43 +6,40 @@
 		<properties SelectedLanguage="builtin" MakePathsAbsoluteOnGeneration="1"/>
 		<structure>
 			<children>
-				<component name="target_schema_company_v3" library="xml" uid="20" kind="14">
-					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
-					<view ltx="180" lty="-177" rbx="504" rby="349"/>
+				<component name="concat" library="core" uid="24" kind="5" growable="1" growablebasename="value">
+					<properties/>
+					<sources>
+						<datapoint pos="0" key="112"/>
+						<datapoint pos="1" key="110"/>
+					</sources>
+					<targets>
+						<datapoint/>
+					</targets>
+					<view ltx="51" lty="249" rbx="126" rby="307"/>
+				</component>
+				<component name="constant" library="core" uid="25" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="111"/>
+					</targets>
+					<view ltx="4" lty="197" rbx="147" rby="215"/>
 					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-									<namespace uid="http://www.altova.com/mapforce"/>
-								</namespaces>
-							</header>
-							<entry name="FileInstance" ns="1" expanded="1">
-								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
-									<entry name="companies" expanded="1">
-										<entry name="company" inpkey="53" expanded="1">
-											<entry name="Company_ID" inpkey="54"/>
-											<entry name="name" inpkey="55"/>
-											<entry name="industries" inpkey="56"/>
-											<entry name="revenue" inpkey="57"/>
-											<entry name="numberOfEmployees" inpkey="58"/>
-											<entry name="dateFounded" inpkey="59"/>
-											<entry name="assets" inpkey="60"/>
-											<entry name="keyPeople" inpkey="61"/>
-											<entry name="countries" inpkey="62"/>
-											<entry name="locations" expanded="1">
-												<entry name="location" expanded="1">
-													<entry name="name" inpkey="63"/>
-												</entry>
-											</entry>
-										</entry>
-									</entry>
-								</entry>
-							</entry>
-						</root>
-						<document schema="..\target_schema_company_v3.xsd" inputinstance="..\target_schema_company_v3.xml" outputinstance="..\target_schema_company_v3.xml" instanceroot="{}companies"/>
+						<constant value="Freebase_Company_" datatype="string"/>
 						<wsdl/>
 					</data>
+				</component>
+				<component name="auto-number" library="core" uid="23" kind="5">
+					<properties/>
+					<sources>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="109"/>
+					</targets>
+					<view ltx="-151" lty="197" rbx="-20" rby="287"/>
 				</component>
 				<component name="company_dbpedia" library="text" uid="22" kind="16">
 					<properties/>
@@ -86,6 +83,44 @@
 								</names>
 							</settings>
 						</text>
+					</data>
+				</component>
+				<component name="target_schema_company_v3" library="xml" uid="20" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="180" lty="-177" rbx="504" rby="349"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="companies" expanded="1">
+										<entry name="company" inpkey="53" expanded="1">
+											<entry name="Company_ID" inpkey="54"/>
+											<entry name="name" inpkey="55"/>
+											<entry name="industries" inpkey="56"/>
+											<entry name="revenue" inpkey="57"/>
+											<entry name="numberOfEmployees" inpkey="58"/>
+											<entry name="dateFounded" inpkey="59"/>
+											<entry name="assets" inpkey="60"/>
+											<entry name="keyPeople" inpkey="61"/>
+											<entry name="countries" inpkey="62"/>
+											<entry name="locations" expanded="1">
+												<entry name="location" expanded="1">
+													<entry name="name" inpkey="63"/>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="..\target_schema_company_v3.xsd" inputinstance="..\target_schema_company_v3.xml" outputinstance="..\target_schema_company_v3.xml" instanceroot="{}companies"/>
+						<wsdl/>
 					</data>
 				</component>
 			</children>
@@ -145,6 +180,16 @@
 					<vertex vertexkey="96">
 						<edges>
 							<edge vertexkey="60" edgekey="107"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="109">
+						<edges>
+							<edge vertexkey="110" edgekey="113"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="111">
+						<edges>
+							<edge vertexkey="112" edgekey="114"/>
 						</edges>
 					</vertex>
 				</vertices>
