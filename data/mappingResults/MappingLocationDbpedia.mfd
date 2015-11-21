@@ -6,6 +6,27 @@
 		<properties SelectedLanguage="builtin" MakePathsAbsoluteOnGeneration="1"/>
 		<structure>
 			<children>
+				<component name="scientific_to_numeric" library="user" blackbox="0" uid="186" kind="19" visible="0">
+					<view ltx="475" lty="33" rbx="603" rby="50"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="string" inpkey="121" componentid="169"/>
+						</root>
+						<root rootindex="1">
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="Field1" outkey="122" componentid="170"/>
+						</root>
+					</data>
+				</component>
 				<component name="location_dbpedia" library="text" uid="23" kind="16">
 					<properties/>
 					<view ltx="5" lty="-24" rbx="261" rby="269"/>
@@ -57,9 +78,9 @@
 								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
 									<entry name="companies" expanded="1">
 										<entry name="company" inpkey="53" expanded="1">
+											<entry name="Company_ID" inpkey="131"/>
 											<entry name="locations" expanded="1">
 												<entry name="location" expanded="1">
-													<entry name="Location_ID" inpkey="116"/>
 													<entry name="name" inpkey="63"/>
 													<entry name="population" inpkey="117"/>
 													<entry name="area" inpkey="118"/>
@@ -76,27 +97,6 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="scientific_to_numeric" library="user" blackbox="0" uid="186" kind="19" visible="0">
-					<view ltx="475" lty="33" rbx="603" rby="50"/>
-					<data>
-						<root scrollposition="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="string" inpkey="121" componentid="169"/>
-						</root>
-						<root rootindex="1">
-							<header>
-								<namespaces>
-									<namespace/>
-								</namespaces>
-							</header>
-							<entry name="Field1" outkey="122" componentid="170"/>
-						</root>
-					</data>
-				</component>
 			</children>
 			<graph directed="1">
 				<edges/>
@@ -108,7 +108,7 @@
 					</vertex>
 					<vertex vertexkey="110">
 						<edges>
-							<edge vertexkey="116" edgekey="124"/>
+							<edge vertexkey="131" edgekey="132"/>
 						</edges>
 					</vertex>
 					<vertex vertexkey="111">
