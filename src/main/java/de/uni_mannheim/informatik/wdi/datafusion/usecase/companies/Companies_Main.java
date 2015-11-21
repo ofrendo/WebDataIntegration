@@ -18,9 +18,6 @@ import de.uni_mannheim.informatik.wdi.datafusion.FusableDataSet;
 import de.uni_mannheim.informatik.wdi.datafusion.evaluation.DataFusionEvaluator;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.NameEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.NameFuser;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.FusableMovie;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.FusableMovieFactory;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.MovieXMLFormatter;
 
 public class Companies_Main {
 
