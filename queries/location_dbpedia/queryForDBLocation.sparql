@@ -7,10 +7,13 @@ WHERE {
 {?location rdf:type dbo:City  .}
 union
 {?location rdf:type dbo:AdministrativeRegion  .}
+union
+{?location rdf:type dbo:Location  .}
 ?location rdfs:label ?label .
 ?location dbo:areaTotal ?areaTotal .
 ?location dbo:elevation ?elevation .
 ?location dbo:country ?country .
 ?location dbo:populationTotal ?pop .
-FILTER(?pop >= 10000 && (lang(?label) = 'en'))
+FILTER((lang(?label) = 'en'))
 }
+
