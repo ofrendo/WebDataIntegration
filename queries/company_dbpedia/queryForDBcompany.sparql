@@ -1,3 +1,7 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+
+
 SELECT ?company 
 group_concat(distinct str(?locationCity);separator=";;") as ?locationCity 
 group_concat(distinct str(?locationCountry);separator=";;") as ?locationCountry

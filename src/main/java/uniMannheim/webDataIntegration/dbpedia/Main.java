@@ -12,23 +12,23 @@ public class Main {
 	
 	
 	public static void main(String[] args) throws UnsupportedEncodingException {
-		String format = "json"; //could be "json" or "xml"
+		String format = "csv"; //could be "json" or "xml"
 
 		String queryCompany = Utils.readFile(pathQueryCompany);
-		if (false) {
+		if (true) {
 			GenericUrl urlCompany = new GenericUrl("http://dbpedia.org/sparql");
 			urlCompany.put("format", format);
 			//urlCompany.put("default-graph-uri", URLEncoder.encode("http://dbpedia.org", "UTF-8"));
 			urlCompany.put("query", queryCompany);
 			String httpResult = Utils.doHTTPRequest(urlCompany);
 			System.out.println("Result length: " + httpResult.length());
-			Utils.writeFile("data/company_dbpedia." + format, httpResult);
+			Utils.writeFile("data/company_dbpedia_temp." + format, httpResult);
 		}
 		
 		
 		format = "csv";
 		
-		if (true) {
+		if (false) {
 			String queryLocation = Utils.readFile(pathQueryLocation);
 			GenericUrl urlLocation = new GenericUrl("http://dbpedia.org/sparql");
 			urlLocation.put("format", format);
