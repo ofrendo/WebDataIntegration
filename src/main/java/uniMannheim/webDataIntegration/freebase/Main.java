@@ -32,7 +32,8 @@ public class Main {
 	      JSONParser parser = new JSONParser();
 	      //String query = "[{"id":null,\"name\":null,\"type\":\"/astronomy/planet\"}]";
 	      String query = "";
-	      String path = "queries/company_freebase/query.json";
+//	      String path = "queries/company_freebase/query.json";
+	      String path = "queries/company_freebase/query_v2.json";
 	      FileReader fr = new FileReader(path);
 	      BufferedReader br = new BufferedReader(fr);
 	      while (br.ready()) {
@@ -87,7 +88,8 @@ public class Main {
 	      resultString = allResults.toJSONString();
 	      //resultString = resultString.replace("\\", "");
 	      
-	      Utils.writeFile("data/company_freebase.json", resultString);
+//	      Utils.writeFile("data/company_freebase.json", resultString);
+	      Utils.writeFile("data/company_freebase_v2.json", resultString);
 	      
 	    } catch (Exception ex) {
 	      ex.printStackTrace();
