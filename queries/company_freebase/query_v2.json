@@ -1,0 +1,35 @@
+[{
+  "timestamp": null,
+  "name": null,
+  "name!=": "null",
+  "/business/employer/number_of_employees": [{
+    "number": null,
+    "optional": true
+  }],
+  "/business/business_operation/revenue": [{
+    "/measurement_unit/dated_money_value/amount": null,
+    "/measurement_unit/dated_money_value/valid_date": null,
+    "limit": 1,
+    "sort": "/measurement_unit/dated_money_value/valid_date",
+    "optional": true
+  }],
+  "/business/business_operation/net_profit": [{
+    "/measurement_unit/dated_money_value/amount": null,
+    "/measurement_unit/dated_money_value/valid_date": null,
+    "limit": 1,
+    "sort": "/measurement_unit/dated_money_value/valid_date",
+    "optional": true
+  }],
+  "/organization/organization/headquarters": [{
+    "/location/mailing_address/citytown": null,
+    "/location/mailing_address/country": null
+  }],
+  "/organization/organization/leadership": [{
+    "/organization/leadership/person": null,
+    "optional": true
+  }],
+  "/organization/organization/date_founded": null,
+  "/business/business_operation/industry": [],
+  "limit": 500,
+  "sort": "timestamp"
+}]
