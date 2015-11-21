@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<companies>
+	<company>
+		<Company_ID>Forbes_Company_117</Company_ID>
+		<name>Schlumberger</name>
+		<industries>Oil Services Equipment,Oil and Gas Field Services, NEC</industries>
+		<revenue>8472000000</revenue> <!--http://www.slb.com/news/press_releases/2015/2015_1015_q3_earnings.aspx -->
+		<numberOfEmployees>120000</numberOfEmployees> <!-- http://www.forbes.com/companies/schlumberger/ -->
+		<dateFounded>1927</dateFounded> <!--http://www.forbes.com/companies/schlumberger/ -->
+		<assets>66900000000</assets> <!--http://www.forbes.com/companies/schlumberger/  -->
+		<marketValue>109800000000</marketValue> <!--http://www.forbes.com/companies/schlumberger/ -->
+		<profit>5440000000</profit> <!-- http://www.forbes.com/companies/schlumberger/  -->
+		<continent>North America</continent>
+        <keyPeople>Paal Kibsgaard</keyPeople> <!--http://www.forbes.com/companies/schlumberger/ -->
+		<countries>United States</countries>
+		<locations>
+			<location>
+				<name>Houston, Texas</name>
+				<population>27,695,284</population> <!-- https://en.wikipedia.org/wiki/Texas -->
+				<area>696,241</area> <!-- https://en.wikipedia.org/wiki/Texas -->
+				<elevation>520</elevation> <!-- https://en.wikipedia.org/wiki/Texas -->
+				<country>United States</country>
+			</location>
+		</locations>
+	</company>
+</companies>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<companies>
+	<company>
+		<Company_ID>Forbes_Company_48</Company_ID>
+		<name>BMW Group</name>
+		<industries>Automotive_industry,Truck Manufacturers</industries>
+		<revenue>20970000000</revenue> <!--http://www.bmwgroup.com/e/0_0_www_bmwgroup_com/investor_relations/finanzberichte/zwischenberichte/2015/0915/pdf/Q3_2015_BMW_Group_EN.pdf -->
+		<numberOfEmployees>116324</numberOfEmployees> <!-- http://www.forbes.com/companies/bmw-group/ -->
+		<dateFounded>1916</dateFounded> <!--http://www.forbes.com/companies/bmw-group/ -->
+		<assets>187320000000</assets> <!--http://www.forbes.com/companies/bmw-group/  -->
+		<marketValue>81400000000</marketValue> <!--http://www.forbes.com/companies/bmw-group/ -->
+		<profit>7690000000</profit> <!-- http://www.forbes.com/companies/bmw-group/  -->
+		<continent>Europe</continent>
+        <keyPeople>Norbert Reithofer</keyPeople> <!--http://www.forbes.com/companies/bmw-group/ -->
+		<countries>Germany</countries>
+		<locations>
+			<location>
+				<name>Munich</name> <!--http://www.forbes.com/companies/bmw-group/ -->
+				<population>1,407,836</population> <!-- https://en.wikipedia.org/wiki/Munich -->
+				<area>310.43 </area> <!-- https://en.wikipedia.org/wiki/Munich -->
+				<elevation>520</elevation> <!-- https://en.wikipedia.org/wiki/Munich -->
+				<country>Germany</country>
+			</location>
+		</locations>
+	</company>
+</companies>

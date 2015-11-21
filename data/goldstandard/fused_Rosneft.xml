@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<companies>
+	<company>
+		<Company_ID>Forbes_Company_34</Company_ID>
+		<name>Rosneft</name>
+		<industries>il Gas Operations, Petroleum industry</industries>
+		<revenue>25200000000</revenue> <!-- http://www.rosneft.com/news/pressrelease/31082015.html -->
+		<numberOfEmployees>248900</numberOfEmployees> <!-- http://www.statista.com/statistics/264671/top-20-companies-based-on-number-of-employees/ -->
+		<dateFounded>1976</dateFounded> <!--http://www.forbes.com/companies/rosneft/ -->
+		<assets>149970000000</assets> <!--http://www.forbes.com/companies/rosneft/ -->
+		<marketValue>51100000000</marketValue> <!--http://www.forbes.com/companies/rosneft/ -->
+		<profit>9010000000</profit> <!-- http://www.forbes.com/companies/rosneft/ -->
+		<continent>Asia</continent>
+        <keyPeople>Alexander Nekipelov,Igor Sechin</keyPeople> <!--http://dbpedia.org/page/Rosneft -->
+		<countries>Russia</countries>
+		<locations>
+			<location>
+				<name>Moscow</name>
+				<population>142,098,141</population> <!-- http://www.worldometers.info/world-population/russia-population/ -->
+				<area>2511</area> <!-- https://en.wikipedia.org/wiki/Moscow -->
+				<elevation>156</elevation> <!-- https://en.wikipedia.org/wiki/Moscow -->
+				<country>http://dbpedia.org/resource/Russia</country>
+			</location>
+		</locations>
+	</company>
+</companies>
