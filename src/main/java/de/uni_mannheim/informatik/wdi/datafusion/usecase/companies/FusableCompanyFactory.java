@@ -17,7 +17,7 @@ public class FusableCompanyFactory extends MatchableFactory<FusableCompany> impl
 	
 	private CompanyFactory companyFactory;
 	public FusableCompanyFactory(String printCompanyID) {
-		this.companyFactory = new CompanyFactory(null, null, printCompanyID);
+		this.companyFactory = new CompanyFactory(null, printCompanyID);
 	}
 	
 	

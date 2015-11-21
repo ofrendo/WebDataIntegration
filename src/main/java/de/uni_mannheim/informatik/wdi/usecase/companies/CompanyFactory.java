@@ -1,5 +1,6 @@
 package de.uni_mannheim.informatik.wdi.usecase.companies;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.joda.time.DateTime;
@@ -28,13 +29,11 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		<keyPeople>James F. Mccann;;Christopher G. Mccann;;William E Shea;;Stephen J Bozzo;;David Taiclet;;Gerard M Gallagher</keyPeople>
 	</company>
 */
-	private String idPrefix;
 	private String printCompanyID = null;
 	private String attributeToCount = null;
 	public int attributeCounter = 0;
 	
-	public CompanyFactory(String idPrefix, String attributeToCount, String printCompanyID) {
-		this.idPrefix = idPrefix;
+	public CompanyFactory(String attributeToCount, String printCompanyID) {
 		this.attributeToCount = attributeToCount;
 		this.printCompanyID = printCompanyID;
 	}
@@ -108,12 +107,20 @@ public class CompanyFactory extends MatchableFactory<Company> {
 		List<Location> locations = getObjectListFromChildElement(node, "locations", "location", 
 				new LocationFactory(), provenanceInfo);
 		
+		if (locations == null) {
+			locations = new ArrayList<Location>();
+		}
+			
+		
 		if (company.getIdentifier().contains("Eleven") || company.getIdentifier().contains("Kyushu")) {
 			//System.out.println(name);
 			//System.out.println(locations);
 		}
 		
 		company.setLocations(locations);
+		if (company.getLocations() == null) {
+			System.out.println("locations still null");
+		}
 		
 		if (company.getIdentifier().equals(this.printCompanyID)) {
 			System.out.println(company);

@@ -16,20 +16,43 @@ import de.uni_mannheim.informatik.wdi.datafusion.DataFusionEngine;
 import de.uni_mannheim.informatik.wdi.datafusion.DataFusionStrategy;
 import de.uni_mannheim.informatik.wdi.datafusion.FusableDataSet;
 import de.uni_mannheim.informatik.wdi.datafusion.evaluation.DataFusionEvaluator;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.NameEvaluationRule;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.NameFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.FusableMovie;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.FusableMovieFactory;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.MovieXMLFormatter;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.evaluation.ActorsEvaluationRule;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.evaluation.DateEvaluationRule;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.evaluation.DirectorEvaluationRule;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.evaluation.TitleEvaluationRule;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.fusers.ActorsFuser;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.fusers.DateFuser;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.fusers.DirectorFuser;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.fusers.TitleFuser;
 
 public class Companies_Main {
 
+/* SAMPLE company
+<?xml version="1.0" encoding="UTF-8"?>
+<companies>
+	<company>
+		<Company_ID>Forbes_Company_15</Company_ID>	
+		<name>Apple</name>
+		<industries>Computer hardware;;Software;;Consumer electronics;;Technology;;Electronic Computer Manufacturing;;Digital distribution</industries>
+		<revenue>234000000000</revenue> <!-- http://www.apple.com/pr/library/2015/10/27Apple-Reports-Record-Fourth-Quarter-Results.html -->
+		<numberOfEmployees>92600</numberOfEmployees> <!-- http://www.statista.com/statistics/273439/number-of-employees-of-apple-since-2005/ -->
+		<dateFounded>1976</dateFounded> <!--http://www.forbes.com/companies/apple/-->
+		<assets>261890000000</assets> <!--http://www.forbes.com/companies/apple/-->
+		<marketValue>741800000000</marketValue> <!--http://www.forbes.com/companies/apple/-->
+		<profit>53400000000</profit> <!-- http://www.telegraph.co.uk/technology/apple/11959016/Apple-reports-biggest-annual-profit-in-history.html -->
+		<continent>North America</continent>
+		<keyPeople>Timothy Cook</keyPeople> <!--http://www.forbes.com/companies/apple/-->
+		<countries>United States of America</countries>
+		<locations>
+			<location>
+				<name>Cupertino</name> 
+				<population>58302</population> <!-- https://suburbanstats.org/population/california/how-many-people-live-in-cupertino -->
+				<area>29.16</area> <!-- https://en.wikipedia.org/wiki/Cupertino,_California -->
+				<elevation>72</elevation> <!-- https://en.wikipedia.org/wiki/Cupertino,_California -->
+				<country>http://dbpedia.org/resource/United_States</country>
+			</location>
+		</locations>
+	</company>
+</companies>
+ */
+	
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException, TransformerException {
 		String printCompanyID = null;
 		
@@ -44,9 +67,9 @@ public class Companies_Main {
 		dsFreebase.loadFromXML(
 				new File("data/mappingResults/IntegratedCompanyFreebase.xml"),
 				new FusableCompanyFactory(printCompanyID), "/companies/company");
-		//dsDBpedia.loadFromXML(
-		//		new File("data/mappingResults/IntegratedCompanyDBpedia.xml"), 
-	//			new FusableCompanyFactory(printCompanyID), "/companies/company");
+		dsDBpedia.loadFromXML(
+				new File("data/mappingResults/IntegratedCompanyDBpedia.xml"), 
+				new FusableCompanyFactory(printCompanyID), "/companies/company");
 		dsLocation.loadFromXML(
 				new File("data/mappingResults/IntegratedLocationDBpedia.xml"), 
 				new FusableCompanyFactory(printCompanyID), "/companies/company");
@@ -71,45 +94,42 @@ public class Companies_Main {
 		// load the correspondences
 		CorrespondenceSet<FusableCompany> correspondences = new CorrespondenceSet<>();
 		correspondences.loadCorrespondences(new File("data/resolutionResults/companyForbes_2_companyFreebase_correspondences.csv"), dsForbes, dsFreebase);
-		//correspondences.loadCorrespondences(new File("data/resolutionResults/companyFreebase_2_companyDBpedia_correspondences.csv"), dsFreebase, dsDBpedia);
+		correspondences.loadCorrespondences(new File("data/resolutionResults/companyFreebase_2_companyDBpedia_correspondences.csv"), dsFreebase, dsDBpedia);
 		
-		/*
+		
 		// write group size distribution
-		correspondences.writeGroupSizeDistribution(new File("usecase/movie/output/group_size_distribution.csv"));
+		correspondences.writeGroupSizeDistribution(new File("data/fusionResults/group_size_distribution.csv"));
 		
 		// define the fusion strategy
-		DataFusionStrategy<FusableMovie> strategy = new DataFusionStrategy<>(new FusableMovieFactory());
+		DataFusionStrategy<FusableCompany> strategy = new DataFusionStrategy<>(new FusableCompanyFactory(printCompanyID));
 		// add attribute fusers
 		// Note: The attribute name is only used for printing the reports
-		strategy.addAttributeFuser("Title", new TitleFuser(), new TitleEvaluationRule());
-		strategy.addAttributeFuser("Director", new DirectorFuser(), new DirectorEvaluationRule());
-		strategy.addAttributeFuser("Date", new DateFuser(), new DateEvaluationRule());
-		strategy.addAttributeFuser("Actors", new ActorsFuser(), new ActorsEvaluationRule());
+		strategy.addAttributeFuser("Name", new NameFuser(), new NameEvaluationRule());
 		
 		// create the fusion engine
-		DataFusionEngine<FusableMovie> engine = new DataFusionEngine<>(strategy);
+		DataFusionEngine<FusableCompany> engine = new DataFusionEngine<>(strategy);
 		
 		// calculate cluster consistency
 		engine.printClusterConsistencyReport(correspondences);
 		
 		// run the fusion
-		FusableDataSet<FusableMovie> fusedDataSet = engine.run(correspondences);
+		FusableDataSet<FusableCompany> fusedDataSet = engine.run(correspondences);
 		
 		// write the result
-		fusedDataSet.writeXML(new File("usecase/movie/output/fused.xml"), new MovieXMLFormatter());
+		fusedDataSet.writeXML(new File("data/fusionResults/fused.xml"), new CompanyXMLFormatter());
 		
 		// load the gold standard
-		DataSet<FusableMovie> gs = new FusableDataSet<>();
+		DataSet<FusableCompany> gs = new FusableDataSet<>();
 		gs.loadFromXML(
-				new File("usecase/movie/goldstandard/fused.xml"),
-				new FusableMovieFactory(), "/movies/movie");
+				new File("data/goldstandard/fused.xml"),
+				new FusableCompanyFactory(printCompanyID), "/companies/company");
 		
 		// evaluate
-		DataFusionEvaluator<FusableMovie> evaluator = new DataFusionEvaluator<>(strategy);
+		DataFusionEvaluator<FusableCompany> evaluator = new DataFusionEvaluator<>(strategy);
 		evaluator.setVerbose(true);
 		double accuracy = evaluator.evaluate(fusedDataSet, gs);
 		
-		System.out.println(String.format("Accuracy: %.2f", accuracy));*/
+		System.out.println(String.format("Accuracy: %.2f", accuracy));
 		
 	}
 	

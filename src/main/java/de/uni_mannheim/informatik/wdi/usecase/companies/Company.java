@@ -1,5 +1,6 @@
 package de.uni_mannheim.informatik.wdi.usecase.companies;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.joda.time.DateTime;
@@ -109,7 +110,12 @@ public class Company extends Record {
 	}
 
 	public List<Location> getLocations() {
-		return locations;
+		if (locations == null) {
+			return new ArrayList<Location>();
+		}
+		else {
+			return locations;
+		}
 	}
 
 	public void setLocations(List<Location> locations) {
