@@ -35,10 +35,10 @@ public class Companies_Main_Freebase_DBpedia {
 		DataSet<Company> dsFreebase = new DataSet<>();
 		CompanyFactory freebaseFactory = new CompanyFactory(attributeToCount, 
 				//null);
-				"Genzyme");
+				"Freebase_Company_2367"); //rosneft
 		CompanyFactory dbpediaFactory = new CompanyFactory(attributeToCount, 
 				//null);
-				"http://dbpedia.org/resource/Genzyme");
+				"DBPedia_Company_9009");
 		DataSet<Company> dsDBpedia = new DataSet<>();
 		dsFreebase.loadFromXML(
 				new File("data/mappingResults/IntegratedCompanyFreebase.xml"), freebaseFactory, "/companies/company");
@@ -72,7 +72,7 @@ public class Companies_Main_Freebase_DBpedia {
 		LinearCombinationMatchingRule<Company> rule = new LinearCombinationMatchingRule<>(
 				intercept, threshold
 				//);
-				, "Genzyme", "http://dbpedia.org/resource/Genzyme");
+				, "Freebase_Company_2367", "DBPedia_Company_9009");
 				//, "4INFO", "http://dbpedia.org/resource/Jive_Software");
 				//, "http://dbpedia.org/resource/The_Coca-Cola_Company", "The Coca-Cola Company");
 				
