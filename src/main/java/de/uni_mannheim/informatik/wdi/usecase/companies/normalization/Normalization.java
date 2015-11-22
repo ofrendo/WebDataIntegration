@@ -101,8 +101,8 @@ public class Normalization {
 			return -1;
 		
 		Double value = Double.valueOf(input);
-		if (value < 100) {
-			value *= 10^9;
+		if (value < 200) {
+			value *= Math.pow(10, 9);
 		}
 		
 		return value.longValue();

@@ -83,6 +83,12 @@ public class CompanyXMLFormatter extends XMLFormatter<FusableCompany> {
 				"industries", record.getIndustries(),
 				record.getMergedAttributeProvenance(FusableCompany.INDUSTRIES), doc));
 		
+		company.appendChild(createTextElementWithProvenance(
+				"revenue", record.getRevenue() > 0 ?
+						   "" + record.getRevenue() :
+						   "",
+				record.getMergedAttributeProvenance(FusableCompany.REVENUE), doc));
+		
 		
 		
 		

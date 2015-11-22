@@ -20,9 +20,11 @@ import de.uni_mannheim.informatik.wdi.datafusion.evaluation.DataFusionEvaluator;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.CountriesEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.IndustriesEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.NameEvaluationRule;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.RevenueEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.CountriesFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.IndustriesFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.NameFuser;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.RevenueFuser;
 
 public class Companies_Main {
 
@@ -56,7 +58,7 @@ public class Companies_Main {
  */
 	
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException, TransformerException {
-		String printCompanyID = null;
+		String printCompanyID = null; //"Forbes_Company_35";
 		
 		// load the data sets
 		FusableDataSet<FusableCompany> dsForbes = new FusableDataSet<>();
@@ -80,7 +82,7 @@ public class Companies_Main {
 		dsForbes.setScore(2.0);
 		dsFreebase.setScore(1.0);
 		dsDBpedia.setScore(1.0);
-		dsLocation.setScore(4.0);
+		dsLocation.setScore(1.5);
 		dsForbes.setDate(DateTime.parse("2014-01-01"));
 		dsFreebase.setDate(DateTime.parse("2015-11-21"));
 		dsDBpedia.setDate(DateTime.parse("2015-11-21"));
@@ -113,7 +115,7 @@ public class Companies_Main {
 		strategy.addAttributeFuser("Name", new NameFuser(), new NameEvaluationRule());
 		strategy.addAttributeFuser("Countries", new CountriesFuser(), new CountriesEvaluationRule());
 		strategy.addAttributeFuser("Industries", new IndustriesFuser(), new IndustriesEvaluationRule());
-		
+		strategy.addAttributeFuser("Revenue", new RevenueFuser(), new RevenueEvaluationRule());
 		
 		// create the fusion engine
 		DataFusionEngine<FusableCompany> engine = new DataFusionEngine<>(strategy);

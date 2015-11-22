@@ -2,6 +2,7 @@ package de.uni_mannheim.informatik.wdi.identityresolution.similarity.companyStri
 
 import org.apache.commons.lang3.StringUtils;
 
+import de.uni_mannheim.informatik.wdi.identityresolution.similarity.numeric.PercentageSimilarity;
 import de.uni_mannheim.informatik.wdi.identityresolution.similarity.string.LevenshteinSimilarity;
 import de.uni_mannheim.informatik.wdi.usecase.companies.Company;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyIndustriesComparator;
@@ -44,6 +45,11 @@ public class CompanyComparisonTest extends TestCase {
 		String s2 = "Oil and Gas Field Services, NEC";
 		LevenshteinSimilarity l = new LevenshteinSimilarity();
 		System.out.println("Levenshtein sim " + s1 + " AND " + s2 + "=" + l.calculate(s1, s2));
+		
+		Long l1 = new Long("173800000000");
+		Long l2 = new Long("234000000000");
+		PercentageSimilarity sim = new PercentageSimilarity(1);
+		System.out.println("Percentage sim: " + sim.calculate((double) l1, (double) l2));
 	}
 
 }
