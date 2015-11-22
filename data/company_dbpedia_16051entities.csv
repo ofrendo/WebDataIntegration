@@ -4693,7 +4693,7 @@ Allen Cocumelli;;Eric M. Polis;;Renee Warden",1988,http://dbpedia.org/resource/I
 DBPedia_Company_4509,http://dbpedia.org/resource/E.Leclerc,http://dbpedia.org/resource/Ivry-sur-Seine,http://dbpedia.org/resource/France,,1949,,47,94000,
 DBPedia_Company_4510,http://dbpedia.org/resource/E.ON,http://dbpedia.org/resource/D%C3%BCsseldorf,Germany,Johannes Teyssen;;Werner Wenning,2000,http://dbpedia.org/resource/Electric_utility,1.13E+11,78889,1.53E+11
 DBPedia_Company_4511,http://dbpedia.org/resource/E.ON_Russia,http://dbpedia.org/resource/Surgut,http://dbpedia.org/resource/Russia,Maxim Gennadyevich Shirokov;;Yuri Sablukov,2006,http://dbpedia.org/resource/Electricity,2.40E+09,5300,
-DBPedia_Company_4512,http://dbpedia.org/resource/E.SUN_Commercial_Bank,http://dbpedia.org/resource/Taipei,http://dbpedia.org/resource/Taiwan,"Gary Tseng ÔºàChairmanÔº?,1992""",http://dbpedia.org/resource/Bank,,,,
+DBPedia_Company_4512,http://dbpedia.org/resource/E.SUN_Commercial_Bank,http://dbpedia.org/resource/Taipei,http://dbpedia.org/resource/Taiwan,"Gary Tseng ÔºàChairmanÔº?,1992""",,,,,
 DBPedia_Company_4513,http://dbpedia.org/resource/E._A._Juffali_and_Brothers,http://dbpedia.org/resource/Jeddah,http://dbpedia.org/resource/Saudi_Arabia,,1946,,,,
 DBPedia_Company_4514,http://dbpedia.org/resource/E._C._Stearns_&_Company,"http://dbpedia.org/resource/Onondaga_County,_New_York;;http://dbpedia.org/resource/Syracuse,_New_York",http://dbpedia.org/resource/United_States,"Son, John Edward Stearns, was secretary of the company in 1929 and had been in active charge of the business since his father, Edward C. Stearns retired a few years earlier",1864,http://dbpedia.org/resource/Builders_hardware,,3500,
 DBPedia_Company_4515,http://dbpedia.org/resource/E._C._Stearns_Bicycle_Agency,"http://dbpedia.org/resource/Syracuse,_New_York",http://dbpedia.org/resource/United_States,Herbert E. Maslin,1893,http://dbpedia.org/resource/Bicycle_industry,,2000,
@@ -6810,7 +6810,7 @@ DBPedia_Company_6559,http://dbpedia.org/resource/Hatchards,http://dbpedia.org/re
 DBPedia_Company_6560,http://dbpedia.org/resource/Hatena_(company),Kyoto,Japan,,2001,http://dbpedia.org/resource/Web_service,,71,
 DBPedia_Company_6561,http://dbpedia.org/resource/Hathor_Exploration,http://dbpedia.org/resource/Vancouver,http://dbpedia.org/resource/Canada,,1996,http://dbpedia.org/resource/Uranium_mining,,,
 DBPedia_Company_6562,http://dbpedia.org/resource/Hatley_(brand),http://dbpedia.org/resource/Antoine_Charles_Louis_de_Lasalle,Canada,,1987,http://dbpedia.org/resource/Retail,,140,
-DBPedia_Company_6563,http://dbpedia.org/resource/Hatteras_Financial_Corp,"http://dbpedia.org/resource/Winston-Salem,_North_Carolina",http://dbpedia.org/resource/United_States,"Ôº?012.12Ôº?,2007""",http://dbpedia.org/resource/Real_estate_investment_trust,,,,
+DBPedia_Company_6563,http://dbpedia.org/resource/Hatteras_Financial_Corp,"http://dbpedia.org/resource/Winston-Salem,_North_Carolina",http://dbpedia.org/resource/United_States,"Ôº?012.12Ôº?,2007""",,,,,
 DBPedia_Company_6564,http://dbpedia.org/resource/Hatz,http://dbpedia.org/resource/Ruhstorf_an_der_Rott,http://dbpedia.org/resource/Germany,"* Christian Hatz 
 * Wolfram Hatz",1880,,,,
 DBPedia_Company_6565,http://dbpedia.org/resource/Haudenosaunee_Development_Institute,16,http://dbpedia.org/resource/Canada,"Aaron Detlor;;Brian Doolittle;;Hazel E. Hill 
@@ -10961,7 +10961,7 @@ DBPedia_Company_10560,http://dbpedia.org/resource/Oysho,http://dbpedia.org/resou
 DBPedia_Company_10561,http://dbpedia.org/resource/Oyster_(company),"New York City, New York",United States,,,,,,
 DBPedia_Company_10562,http://dbpedia.org/resource/Ozburn-Hessey_Logistics,"http://dbpedia.org/resource/Brentwood,_Tennessee",http://dbpedia.org/resource/United_States,"Randy Curran, CEO",1951,http://dbpedia.org/resource/Logistics,,6000,
 DBPedia_Company_10563,http://dbpedia.org/resource/P%C3%9CR_Gum,"Toronto, Ontario",Canada,"‚Ü?,"","",,,
-http://dbpedia.org/resource/P&D_Coachworks""",http://dbpedia.org/resource/Murwillumbah,Australia,,1990,http://dbpedia.org/resource/Bus_manufacturing
+http://dbpedia.org/resource/P&D_Coachworks""",,Australia,,1990,
 DBPedia_Company_10564,http://dbpedia.org/resource/P&L_Transportation,"http://dbpedia.org/resource/Wilmington,_Delaware",http://dbpedia.org/resource/United_States,,1995,http://dbpedia.org/resource/Rail_transport,,,
 DBPedia_Company_10565,http://dbpedia.org/resource/P&M_Aviation,Rochdale and Marlborough,http://dbpedia.org/resource/United_Kingdom,,2003,http://dbpedia.org/resource/Aerospace,,,
 DBPedia_Company_10566,http://dbpedia.org/resource/P&O_Irish_Sea,http://dbpedia.org/resource/Dover,http://dbpedia.org/resource/England,,1998,,,,
@@ -13159,7 +13159,7 @@ DBPedia_Company_12680,http://dbpedia.org/resource/Shelton_Vineyards,"Dobson, NC"
 DBPedia_Company_12681,http://dbpedia.org/resource/Shemaroo_Entertainment,http://dbpedia.org/resource/Mumbai,http://dbpedia.org/resource/India,,1962,,,,
 DBPedia_Company_12682,http://dbpedia.org/resource/Shenergy_Group,http://dbpedia.org/resource/Shanghai,http://dbpedia.org/resource/China,Chairman: Qiu Weiguo,1996,http://dbpedia.org/resource/Energy,,,
 DBPedia_Company_12683,http://dbpedia.org/resource/Shenhua_Group,http://dbpedia.org/resource/Beijing,http://dbpedia.org/resource/China,Chairman: Mr. Zhang Zifei,1995,http://dbpedia.org/resource/Coal,,150000,
-DBPedia_Company_12684,"http://dbpedia.org/resource/Shenzhen_Changhong_Technology_Co.,_Ltd.",http://dbpedia.org/resource/Guangdong;;http://dbpedia.org/resource/Longgang;;http://dbpedia.org/resource/Pingshan_New_District;;http://dbpedia.org/resource/Shenzhen,China,"Li Huanchang ÊùéÁÑïÊò?, Zhou Guoquan Âë®ÂõΩÈì?, Tan Longquan Ë∞≠ÈæôÊ≥?, WangYunfang Áéã‰∫ëËä?,1987""",http://dbpedia.org/resource/Injection_moulding,3.51E+08,2100,,
+DBPedia_Company_12684,"http://dbpedia.org/resource/Shenzhen_Changhong_Technology_Co.,_Ltd.",http://dbpedia.org/resource/Guangdong;;http://dbpedia.org/resource/Longgang;;http://dbpedia.org/resource/Pingshan_New_District;;http://dbpedia.org/resource/Shenzhen,China,"Li Huanchang ÊùéÁÑïÊò?, Zhou Guoquan Âë®ÂõΩÈì?, Tan Longquan Ë∞≠ÈæôÊ≥?, WangYunfang Áéã‰∫ëËä?,1987""",,3.51E+08,2100,,
 DBPedia_Company_12685,http://dbpedia.org/resource/Shenzhen_Energy,http://dbpedia.org/resource/Guangdong;;http://dbpedia.org/resource/Shenzhen,http://dbpedia.org/resource/China,Chairman: Mr. Gao Zimin,1993,http://dbpedia.org/resource/Electricity_generation,,,
 DBPedia_Company_12686,http://dbpedia.org/resource/Shenzhen_International_Holdings,http://dbpedia.org/resource/Hong_Kong,http://dbpedia.org/resource/China,Chairman: Mr. Guo Yuan,2000,http://dbpedia.org/resource/Logistics,,,
 DBPedia_Company_12687,http://dbpedia.org/resource/Shenzhen_Investment,http://dbpedia.org/resource/Hong_Kong,http://dbpedia.org/resource/China,Chairman: Mr. Hu Aimin,1991,http://dbpedia.org/resource/Conglomerate_(company),,,
@@ -13956,7 +13956,7 @@ DBPedia_Company_13448,http://dbpedia.org/resource/Sun_Television_and_Appliances,
 DBPedia_Company_13449,http://dbpedia.org/resource/Sunac_China,http://dbpedia.org/resource/Tianjin,http://dbpedia.org/resource/China,Chairman: Mr. Sun Hongbin,2003,http://dbpedia.org/resource/Real_estate,,,
 DBPedia_Company_13450,http://dbpedia.org/resource/Sundance_Industries,"http://dbpedia.org/resource/Valencia,_California",http://dbpedia.org/resource/United_States,Steven Jennings,1989,http://dbpedia.org/resource/Firearm,,,
 DBPedia_Company_13451,http://dbpedia.org/resource/Sundance_Resources,http://dbpedia.org/resource/Perth,Australia,"Craig Oliver ‚Ä?;Don Lewis ‚Ä?;Geoff Wedlock ‚Ä?;Giulio Casello;;John Carr-Gregg ‚Ä?;John Jones ‚Ä?;Ken Talbot ‚Ä?,"","",,,
-http://dbpedia.org/resource/Sunday_Communications_Limited""",http://dbpedia.org/resource/Hong_Kong,http://dbpedia.org/resource/China,"Alexander Anthony Arena, (Chairman)",1997,http://dbpedia.org/resource/Mobile_telephony
+http://dbpedia.org/resource/Sunday_Communications_Limited""",,http://dbpedia.org/resource/China,"Alexander Anthony Arena, (Chairman)",1997,
 DBPedia_Company_13452,http://dbpedia.org/resource/Sundberg-Ferar,"Walled Lake, Michigan",United States,"Curt Bailey, President;;David Thimm, VP;;Jeff DeBoer, VP",1934,,,,
 DBPedia_Company_13453,http://dbpedia.org/resource/Sundog_(company),"http://dbpedia.org/resource/Fargo,_North_Dakota",United States,"Brent Teiken , Greg Ness",1996,http://dbpedia.org/resource/Marketing;;http://dbpedia.org/resource/Technology,,100,
 DBPedia_Company_13454,http://dbpedia.org/resource/Sundream_Motion_Pictures,http://dbpedia.org/resource/Tsuen_Wan,http://dbpedia.org/resource/Hong_Kong,Stephen Ng;;Tom Cheung;;William Kwan,2005,http://dbpedia.org/resource/Film,,,
