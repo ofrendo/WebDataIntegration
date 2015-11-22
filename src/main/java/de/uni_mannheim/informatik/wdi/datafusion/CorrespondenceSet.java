@@ -44,11 +44,17 @@ public class CorrespondenceSet<RecordType extends Matchable & Fusable> {
 		while((values = reader.readNext()) != null) {
 			// check if the ids exist in the provided datasets
 			if(first.getRecord(values[0])==null) {
-				System.err.println(String.format("Record %s not found in first dataset", values[0]));
+				System.err.println(
+						String.format("Record %s not found in 1st dataset: " +
+									  correspondenceFile  + ", " + first.getRandomRecord().getProvenance(), 
+									  values[0]));
 				continue;
 			}
 			if(second.getRecord(values[1])==null) {
-				System.err.println(String.format("Record %s not found in second dataset", values[0]));
+				System.err.println(
+						String.format("Record %s not found in 2nd dataset: " +
+								  second.getRandomRecord().getIdentifier()  + ", " + second.getRandomRecord().getProvenance(), 
+								  values[1]));
 				continue;
 			}
 			

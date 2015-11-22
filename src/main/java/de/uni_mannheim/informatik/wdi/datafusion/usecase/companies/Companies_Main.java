@@ -2,6 +2,7 @@ package de.uni_mannheim.informatik.wdi.datafusion.usecase.companies;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.TransformerException;
@@ -90,8 +91,12 @@ public class Companies_Main {
 		
 		// load the correspondences
 		CorrespondenceSet<FusableCompany> correspondences = new CorrespondenceSet<>();
-		correspondences.loadCorrespondences(new File("data/resolutionResults/companyForbes_2_companyFreebase_correspondences.csv"), dsForbes, dsFreebase);
-		correspondences.loadCorrespondences(new File("data/resolutionResults/companyFreebase_2_companyDBpedia_correspondences.csv"), dsFreebase, dsDBpedia);
+		correspondences.loadCorrespondences(
+				new File("data/resolutionResults/companyForbes_2_companyFreebase_correspondences.csv"),
+				dsForbes, dsFreebase);
+		correspondences.loadCorrespondences(
+				new File("data/resolutionResults/companyFreebase_2_companyDBpedia_correspondences.csv"), 
+				dsFreebase, dsDBpedia);
 		
 		
 		// write group size distribution
@@ -113,7 +118,12 @@ public class Companies_Main {
 		FusableDataSet<FusableCompany> fusedDataSet = engine.run(correspondences);
 		
 		// write the result
-		fusedDataSet.writeXML(new File("data/fusionResults/fused.xml"), new CompanyXMLFormatter());
+		ArrayList<FusableDataSet<FusableCompany>> datasets = new ArrayList<>();
+		datasets.add(dsForbes);
+		datasets.add(dsFreebase);
+		datasets.add(dsDBpedia);
+		datasets.add(dsLocation);
+		fusedDataSet.writeXML(new File("data/fusionResults/fused.xml"), new CompanyXMLFormatter(datasets));
 		
 		// load the gold standard
 		DataSet<FusableCompany> gs = new FusableDataSet<>();
@@ -125,7 +135,7 @@ public class Companies_Main {
 		DataFusionEvaluator<FusableCompany> evaluator = new DataFusionEvaluator<>(strategy);
 		evaluator.setVerbose(true);
 		double accuracy = evaluator.evaluate(fusedDataSet, gs);
-		
+
 		System.out.println(String.format("Accuracy: %.2f", accuracy));
 		
 	}

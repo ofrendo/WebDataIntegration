@@ -53,7 +53,7 @@ public class DataFusionEvaluator<RecordType extends Matchable & Fusable> {
 		
 		for(RecordType record : goldStandard.getRecords()) {
 			RecordType fused = dataset.getRecord(record.getIdentifier());
-			
+			//System.out.println(fused);
 			if(fused!=null) {
 				for(String attribute : strategy.getEvaluationRules().keySet()) {
 					EvaluationRule<RecordType> r = strategy.getEvaluationRules().get(attribute);

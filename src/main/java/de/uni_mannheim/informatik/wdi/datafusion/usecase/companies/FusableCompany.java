@@ -42,6 +42,7 @@ public class FusableCompany extends Company implements Fusable {
 	}
 	
 	public static final String NAME = "name";
+	public static final String ORIGINAL_NAME = "originalName";
 	public static final String INDUSTRIES = "industries";
 	public static final String REVENUE = "revenue";
 	public static final String NUMBER_OF_EMPLOYEES = "numberOfEmployees";
@@ -52,13 +53,14 @@ public class FusableCompany extends Company implements Fusable {
 	public static final String CONTINENT = "contintent";
 	public static final String KEY_PEOPLE = "keyPeople";
 	public static final String COUNTRIES = "countries";
+	public static final String ORIGINAL_COUNTRIES = "originalCountries";
 	public static final String LOCATIONS = "locations";
 	
 	@Override
 	public Collection<String> getAttributeNames() {
-		return Arrays.asList(new String[] { NAME, INDUSTRIES, REVENUE, NUMBER_OF_EMPLOYEES, 
+		return Arrays.asList(new String[] { NAME, ORIGINAL_NAME, INDUSTRIES, REVENUE, NUMBER_OF_EMPLOYEES, 
 				DATE_FOUNDED, ASSETS, MARKET_VALUE, PROFIT, CONTINENT,
-				KEY_PEOPLE, COUNTRIES, LOCATIONS});
+				KEY_PEOPLE, COUNTRIES, ORIGINAL_COUNTRIES, LOCATIONS});
 	}
 
 	@Override
@@ -66,6 +68,8 @@ public class FusableCompany extends Company implements Fusable {
 		switch (attributeName) {
 		case NAME:
 			return getName()!=null && !getName().isEmpty();
+		case ORIGINAL_NAME:
+			return getOriginalName()!=null && !getOriginalName().isEmpty();
 		case INDUSTRIES:
 			return getIndustries()!=null && !getIndustries().isEmpty();
 		case REVENUE:
@@ -86,6 +90,8 @@ public class FusableCompany extends Company implements Fusable {
 			return getKeyPeople()!=null && !getKeyPeople().isEmpty();
 		case COUNTRIES:
 			return getCountries()!=null && !getCountries().isEmpty();
+		case ORIGINAL_COUNTRIES:
+			return getOriginalCountries()!=null && !getOriginalCountries().isEmpty();
 		case LOCATIONS:
 			return getLocations()!=null && getLocations().size() > 0;
 		default:

@@ -5,7 +5,6 @@ import de.uni_mannheim.informatik.wdi.datafusion.FusedValue;
 import de.uni_mannheim.informatik.wdi.datafusion.RecordGroup;
 import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.string.LongestString;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.FusableCompany;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.movies.FusableMovie;
 
 public class NameFuser extends AttributeValueFuser<String, FusableCompany> {
 	
