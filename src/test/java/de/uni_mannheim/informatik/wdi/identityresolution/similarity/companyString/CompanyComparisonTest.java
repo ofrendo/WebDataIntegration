@@ -2,6 +2,7 @@ package de.uni_mannheim.informatik.wdi.identityresolution.similarity.companyStri
 
 import org.apache.commons.lang3.StringUtils;
 
+import de.uni_mannheim.informatik.wdi.identityresolution.similarity.string.LevenshteinSimilarity;
 import de.uni_mannheim.informatik.wdi.usecase.companies.Company;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyIndustriesComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyStringAttributeComparatorJaccard;
@@ -39,7 +40,10 @@ public class CompanyComparisonTest extends TestCase {
 							new CompanyIndustriesComparator().compare(c1,  c2));
 		System.out.println("KeyPeople comparison: " + peopleCompare.compare(c1, c2));
 		
-		//FuzzyLevenshteinSimilarity
+		String s1 = "Oil and Gas Field Services";
+		String s2 = "Oil and Gas Field Services, NEC";
+		LevenshteinSimilarity l = new LevenshteinSimilarity();
+		System.out.println("Levenshtein sim " + s1 + " AND " + s2 + "=" + l.calculate(s1, s2));
 	}
 
 }

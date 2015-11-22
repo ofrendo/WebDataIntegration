@@ -11,7 +11,33 @@ import de.uni_mannheim.informatik.wdi.usecase.companies.Location;
 
 public class CompanyXMLFormatter extends XMLFormatter<FusableCompany> {
 	
-	LocationXMLFormatter locationFormatter = new LocationXMLFormatter();
+	/*
+<company>
+	<Company_ID>Forbes_Company_15</Company_ID>	
+	<name>Apple</name>
+	<industries>Computer hardware;;Software;;Consumer electronics;;Technology;;Electronic Computer Manufacturing;;Digital distribution</industries>
+	<revenue>234000000000</revenue> <!-- http://www.apple.com/pr/library/2015/10/27Apple-Reports-Record-Fourth-Quarter-Results.html -->
+	<numberOfEmployees>92600</numberOfEmployees> <!-- http://www.statista.com/statistics/273439/number-of-employees-of-apple-since-2005/ -->
+	<dateFounded>1976</dateFounded> <!--http://www.forbes.com/companies/apple/-->
+	<assets>261890000000</assets> <!--http://www.forbes.com/companies/apple/-->
+	<marketValue>741800000000</marketValue> <!--http://www.forbes.com/companies/apple/-->
+	<profit>53400000000</profit> <!-- http://www.telegraph.co.uk/technology/apple/11959016/Apple-reports-biggest-annual-profit-in-history.html -->
+	<continent>North America</continent>
+	<keyPeople>Timothy Cook</keyPeople> <!--http://www.forbes.com/companies/apple/-->
+	<countries>United States of America</countries>
+	<locations>
+		<location>
+			<name>Cupertino</name> 
+			<population>58302</population> <!-- https://suburbanstats.org/population/california/how-many-people-live-in-cupertino -->
+			<area>29.16</area> <!-- https://en.wikipedia.org/wiki/Cupertino,_California -->
+			<elevation>72</elevation> <!-- https://en.wikipedia.org/wiki/Cupertino,_California -->
+			<country>http://dbpedia.org/resource/United_States</country>
+		</location>
+	</locations>
+</company>
+	 */
+	
+	private LocationXMLFormatter locationFormatter = new LocationXMLFormatter();
 	private ArrayList<FusableDataSet<FusableCompany>> datasets;
 	
 	public CompanyXMLFormatter(ArrayList<FusableDataSet<FusableCompany>> datasets) {
@@ -39,6 +65,29 @@ public class CompanyXMLFormatter extends XMLFormatter<FusableCompany> {
 			}
 		}
 		company.appendChild(createTextElementWithProvenance("name", originalName, nameProvenanceID, doc));
+		
+		/*String countriesProvenanceID = record.getMergedAttributeProvenance(FusableCompany.COUNTRIES);
+		String originalCountries = null;
+		for (FusableDataSet<FusableCompany> dataset : datasets) {
+			for (FusableCompany fusableCompanyCountries : dataset.getRecords()) {
+				if (fusableCompanyCountries.getIdentifier().equals(countriesProvenanceID)) {
+					originalCountries = fusableCompanyCountries.getOriginalCountries();
+				}
+			}
+		}*/
+		//System.out.println(countriesProvenanceID);
+		company.appendChild(createTextElementWithProvenance(
+				"countries", record.getCountries(),
+				record.getMergedAttributeProvenance(FusableCompany.COUNTRIES), doc));
+		company.appendChild(createTextElementWithProvenance(
+				"industries", record.getIndustries(),
+				record.getMergedAttributeProvenance(FusableCompany.INDUSTRIES), doc));
+		
+		
+		
+		
+		
+		
 		
 		company.appendChild(createLocationsElement(record, doc));
 		

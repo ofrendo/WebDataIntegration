@@ -17,7 +17,11 @@ import de.uni_mannheim.informatik.wdi.datafusion.DataFusionEngine;
 import de.uni_mannheim.informatik.wdi.datafusion.DataFusionStrategy;
 import de.uni_mannheim.informatik.wdi.datafusion.FusableDataSet;
 import de.uni_mannheim.informatik.wdi.datafusion.evaluation.DataFusionEvaluator;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.CountriesEvaluationRule;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.IndustriesEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.NameEvaluationRule;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.CountriesFuser;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.IndustriesFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.NameFuser;
 
 public class Companies_Main {
@@ -107,6 +111,9 @@ public class Companies_Main {
 		// add attribute fusers
 		// Note: The attribute name is only used for printing the reports
 		strategy.addAttributeFuser("Name", new NameFuser(), new NameEvaluationRule());
+		strategy.addAttributeFuser("Countries", new CountriesFuser(), new CountriesEvaluationRule());
+		strategy.addAttributeFuser("Industries", new IndustriesFuser(), new IndustriesEvaluationRule());
+		
 		
 		// create the fusion engine
 		DataFusionEngine<FusableCompany> engine = new DataFusionEngine<>(strategy);

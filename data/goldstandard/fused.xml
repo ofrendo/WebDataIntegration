@@ -26,7 +26,7 @@
 	<company>
 		<Company_ID>Forbes_Company_48</Company_ID>
 		<name>BMW Group</name>
-		<industries>Automotive_industry,Truck Manufacturers</industries>
+		<industries>Automotive industry;;Truck Manufacturers</industries>
 		<revenue>20970000000</revenue> <!--http://www.bmwgroup.com/e/0_0_www_bmwgroup_com/investor_relations/finanzberichte/zwischenberichte/2015/0915/pdf/Q3_2015_BMW_Group_EN.pdf -->
 		<numberOfEmployees>116324</numberOfEmployees> <!-- http://www.forbes.com/companies/bmw-group/ -->
 		<dateFounded>1916</dateFounded> <!--http://www.forbes.com/companies/bmw-group/ -->
@@ -49,7 +49,7 @@
 	<company>
 		<Company_ID>Forbes_Company_35</Company_ID>
 		<name>IBM</name>
-		<industries>Computer_hardware,Information_technology_consulting,Software</industries>
+		<industries>Computer hardware;;Information technology onsulting;;Software</industries>
 		<revenue>8127000000</revenue> <!--https://www-03.ibm.com/press/us/en/pressrelease/47884.wss -->
 		<numberOfEmployees>379592</numberOfEmployees> <!-- http://www.forbes.com/companies/ibm/ -->
 		<dateFounded>1911</dateFounded> <!--http://www.forbes.com/companies/ibm/ -->
@@ -58,7 +58,7 @@
 		<profit>12020000000</profit> <!-- http://www.forbes.com/companies/ibm/  -->
 		<continent>North America</continent>
         <keyPeople>Virginia Rometty</keyPeople> <!--http://www.forbes.com/companies/ibm/ -->
-		<countries>United States</countries>
+		<countries>United States of America</countries>
 		<locations>
 			<location>
 				<name>Armonk, New York</name> <!--http://www.forbes.com/companies/ibm/ -->
@@ -72,7 +72,7 @@
 	<company>
 		<Company_ID>Forbes_Company_117</Company_ID>
 		<name>Schlumberger</name>
-		<industries>Oil Services Equipment,Oil and Gas Field Services, NEC</industries>
+		<industries>Oil Services Equipment;;Oil and Gas Field Services;;NEC</industries>
 		<revenue>8472000000</revenue> <!--http://www.slb.com/news/press_releases/2015/2015_1015_q3_earnings.aspx -->
 		<numberOfEmployees>120000</numberOfEmployees> <!-- http://www.forbes.com/companies/schlumberger/ -->
 		<dateFounded>1927</dateFounded> <!--http://www.forbes.com/companies/schlumberger/ -->
@@ -81,7 +81,7 @@
 		<profit>5440000000</profit> <!-- http://www.forbes.com/companies/schlumberger/  -->
 		<continent>North America</continent>
         <keyPeople>Paal Kibsgaard</keyPeople> <!--http://www.forbes.com/companies/schlumberger/ -->
-		<countries>United States</countries>
+		<countries>United States of America</countries>
 		<locations>
 			<location>
 				<name>Houston, Texas</name>
@@ -104,7 +104,7 @@
 		<profit>11700000000</profit> <!-- http://www.forbes.com/companies/intel/  -->
 		<continent>North America</continent>
         <keyPeople>Brian Krzanich</keyPeople> <!--http://www.forbes.com/companies/intel -->
-		<countries>United States</countries>
+		<countries>United States of America</countries>
 		<locations>
 			<location>
 				<name>Santa Clara, California</name>

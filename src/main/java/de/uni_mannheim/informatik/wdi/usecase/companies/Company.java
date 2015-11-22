@@ -133,6 +133,7 @@ public class Company extends Record {
 				"\nOriginalName: " + getOriginalName() +
 				"\ncountries: " + getCountries() + 
 				"\nOriginalCountries: " + getOriginalCountries() +
+				"\nIndustries: " + getIndustries() + 
 				"\nRevenue: " + getRevenue() +
 				"\nNumberOfEmployees: " + getNumberOfEmployees() + 
 				"\nDateFounded: " + getDateFounded() + 
