@@ -55,7 +55,7 @@ public class Companies_Main_Freebase_DBpedia {
 		CompanyBlocker blocker = new CompanyBlocker();
 		
 		//Results from rapidminer
-		double threshold = 0.55; //should be 0.5 always
+		double threshold = 0.7; //should be 0.5 always
 		double nameWeight = 0.689;
 		double countriesWeight = 0.088;
 		double industriesWeight = 0.025;

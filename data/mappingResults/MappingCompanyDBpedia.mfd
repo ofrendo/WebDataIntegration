@@ -55,7 +55,31 @@
 						<wsdl/>
 					</data>
 				</component>
-				<component name="company_dbpedia" library="text" uid="22" kind="16">
+				<component name="auto-number" library="core" uid="23" kind="5">
+					<properties/>
+					<sources>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="109"/>
+					</targets>
+					<view ltx="-279" lty="209" rbx="-125" rby="291"/>
+				</component>
+				<component name="constant" library="core" uid="25" kind="2">
+					<properties/>
+					<targets>
+						<datapoint pos="0" key="111"/>
+					</targets>
+					<view ltx="-115" lty="181" rbx="31" rby="197"/>
+					<data>
+						<constant value="Freebase_Company_" datatype="string"/>
+						<wsdl/>
+					</data>
+				</component>
+				<component name="company_dbpedia_16051entities" library="text" uid="22" kind="16">
 					<properties/>
 					<view ltx="-349" lty="-154" rbx="-90" rby="122"/>
 					<data>
@@ -81,9 +105,9 @@
 							</entry>
 						</root>
 						<wsdl/>
-						<text type="csv" inputinstance="..\company_dbpedia.csv" encoding="1000" byteorder="1" byteordermark="0">
+						<text type="csv" inputinstance="..\company_dbpedia_16051entities.csv" encoding="1000" byteorder="1" byteordermark="0">
 							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
-								<names root="company_dbpedia" block="Rows">
+								<names root="company_dbpedia_16051entities" block="Rows">
 									<field0 name="DBPedia_Company_ID" type="string"/>
 									<field1 name="company" type="string"/>
 									<field2 name="locationCity" type="string"/>
@@ -97,30 +121,6 @@
 								</names>
 							</settings>
 						</text>
-					</data>
-				</component>
-				<component name="auto-number" library="core" uid="23" kind="5">
-					<properties/>
-					<sources>
-						<datapoint/>
-						<datapoint/>
-						<datapoint/>
-						<datapoint/>
-					</sources>
-					<targets>
-						<datapoint pos="0" key="109"/>
-					</targets>
-					<view ltx="-279" lty="209" rbx="-125" rby="291"/>
-				</component>
-				<component name="constant" library="core" uid="25" kind="2">
-					<properties/>
-					<targets>
-						<datapoint pos="0" key="111"/>
-					</targets>
-					<view ltx="-115" lty="181" rbx="31" rby="197"/>
-					<data>
-						<constant value="Freebase_Company_" datatype="string"/>
-						<wsdl/>
 					</data>
 				</component>
 			</children>

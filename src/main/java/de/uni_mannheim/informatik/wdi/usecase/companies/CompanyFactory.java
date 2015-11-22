@@ -78,7 +78,9 @@ public class CompanyFactory extends MatchableFactory<Company> {
 
 		//set value
 		company.setName(Normalization.normalizeCompanyName(name));
+		company.setOriginalName(name);
 		company.setCountries(Normalization.normalizeCountries(countries));
+		company.setOriginalCountries(countries);
 		company.setContinent(continent);
 		company.setIndustries(industries);
 		company.setRevenue(Normalization.normalizeProfitOrRevenue(revenue));

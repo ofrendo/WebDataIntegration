@@ -29,7 +29,9 @@ public class Company extends Record {
 */
 	
 	private String name;
+	private String originalName;
 	private String countries;
+	private String originalCountries;
 	private String continent;
 	private String industries;
 	private long revenue = -1;
@@ -128,7 +130,9 @@ public class Company extends Record {
 				"\nProvenance: " + getProvenance() +
 				"\nID: " + getIdentifier() + 
 				"\nName: " + getName() + 
+				"\nOriginalName: " + getOriginalName() +
 				"\ncountries: " + getCountries() + 
+				"\nOriginalCountries: " + getOriginalCountries() +
 				"\nRevenue: " + getRevenue() +
 				"\nNumberOfEmployees: " + getNumberOfEmployees() + 
 				"\nDateFounded: " + getDateFounded() + 
@@ -167,6 +171,22 @@ public class Company extends Record {
 
 	public void setMarketValue(long marketValue) {
 		this.marketValue = marketValue;
+	}
+
+	public String getOriginalName() {
+		return originalName;
+	}
+
+	public void setOriginalName(String originalName) {
+		this.originalName = originalName;
+	}
+
+	public String getOriginalCountries() {
+		return originalCountries;
+	}
+
+	public void setOriginalCountries(String originalCountries) {
+		this.originalCountries = originalCountries;
 	}
 }
 

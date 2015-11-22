@@ -23,5 +23,33 @@ optional{?company dbo:foundingYear ?foundingYear .}
 optional{?company dbo:industry ?industry .}
 optional{?company dbo:revenue ?revenue .}
 optional{?company dbo:assets ?asset .}
+}ORDER BY ?company
+LIMIT 9000 OFFSET 0
 
-}
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+
+
+SELECT ?company 
+group_concat(distinct str(?locationCity);separator=";;") as ?locationCity 
+group_concat(distinct str(?locationCountry);separator=";;") as ?locationCountry
+group_concat(distinct str(?keyPeople);separator=";;") as ?keyPeople 
+group_concat(distinct str(?foundingYear);separator=";;") as ?foundingYear
+group_concat(distinct str(?industry);separator=";;") as ?industry
+max(?revenue) as ?revenue
+?numberOfEmployees
+?asset
+
+WHERE {
+
+{?company rdf:type dbo:Company} UNION {?company dbr:type dbr:Public_company} .
+optional{?company dbo:numberOfEmployees ?numberOfEmployees .}
+?company dbp:locationCity ?locationCity.
+?company dbp:locationCountry ?locationCountry.
+optional{?company dbp:keyPeople ?keyPeople .}
+optional{?company dbo:foundingYear ?foundingYear .}
+optional{?company dbo:industry ?industry .}
+optional{?company dbo:revenue ?revenue .}
+optional{?company dbo:assets ?asset .}
+}ORDER BY ?company
+LIMIT 9000 OFFSET 9000

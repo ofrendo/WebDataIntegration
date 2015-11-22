@@ -47,7 +47,7 @@
 		</locations>
 	</company>
 	<company>
-		<Company_ID>DBPedia_Company_4304</Company_ID>
+		<Company_ID>Forbes_Company_35</Company_ID>
 		<name>IBM</name>
 		<industries>Computer_hardware,Information_technology_consulting,Software</industries>
 		<revenue>8127000000</revenue> <!--https://www-03.ibm.com/press/us/en/pressrelease/47884.wss -->
