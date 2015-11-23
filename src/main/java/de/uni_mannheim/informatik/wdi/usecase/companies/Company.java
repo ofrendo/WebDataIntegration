@@ -138,6 +138,8 @@ public class Company extends Record {
 				"\nNumberOfEmployees: " + getNumberOfEmployees() + 
 				"\nDateFounded: " + getDateFounded() + 
 				"\nProfit: " + getProfit() +
+				"\nAssets: " + getAssets() + 
+				"\nMarketValue: " + getMarketValue() +
 				"\nKeyPeople: " + getKeyPeople() + 
 				"\nLocations: \n" + getLocationsString() +
 				"======================";

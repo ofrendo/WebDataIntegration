@@ -17,12 +17,14 @@ import de.uni_mannheim.informatik.wdi.datafusion.DataFusionEngine;
 import de.uni_mannheim.informatik.wdi.datafusion.DataFusionStrategy;
 import de.uni_mannheim.informatik.wdi.datafusion.FusableDataSet;
 import de.uni_mannheim.informatik.wdi.datafusion.evaluation.DataFusionEvaluator;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.AssetsEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.CountriesEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.DateFoundedEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.IndustriesEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.NameEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.NumberOfEmployeesEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.RevenueEvaluationRule;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.AssetsFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.CountriesFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.DateFoundedFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.IndustriesFuser;
@@ -62,8 +64,8 @@ public class Companies_Main {
  */
 	
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException, TransformerException {
-		String printCompanyID = null; //"Forbes_Company_35";
-		
+		//String printCompanyID = "Forbes_Company_35";  //null;
+		String printCompanyID = null;
 		// load the data sets
 		FusableDataSet<FusableCompany> dsForbes = new FusableDataSet<>();
 		FusableDataSet<FusableCompany> dsFreebase = new FusableDataSet<>();
@@ -130,6 +132,7 @@ public class Companies_Main {
 		strategy.addAttributeFuser("Revenue", new RevenueFuser(), new RevenueEvaluationRule());
 		strategy.addAttributeFuser("NumberOfEmployees", new NumberOfEmployeesFuser(), new NumberOfEmployeesEvaluationRule());
 		strategy.addAttributeFuser("DateFounded", new DateFoundedFuser(), new DateFoundedEvaluationRule());
+		strategy.addAttributeFuser("Assets", new AssetsFuser(), new AssetsEvaluationRule());
 		
 		// create the fusion engine
 		DataFusionEngine<FusableCompany> engine = new DataFusionEngine<>(strategy);
