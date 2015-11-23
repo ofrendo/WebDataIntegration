@@ -86,25 +86,33 @@ public class Companies_Main {
 		dsDBpedia.setScore(1.0);
 		dsLocation.setScore(1.5);
 		dsForbes.setDate(DateTime.parse("2014-01-01"));
-		dsFreebase.setDate(DateTime.parse("2015-11-21"));
-		dsDBpedia.setDate(DateTime.parse("2015-11-21"));
-		dsLocation.setDate(DateTime.parse("2015-11-21"));
+		//dsFreebase.setDate(DateTime.parse("2015-11-21"));
+		//dsDBpedia.setDate(DateTime.parse("2015-11-21"));
+		//dsLocation.setDate(DateTime.parse("2015-11-21"));
 		// print dataset density
-		System.out.println("IntegratedCompanyForbes.xml");
+		/*System.out.println("IntegratedCompanyForbes.xml");
 		dsForbes.printDataSetDensityReport();
 		System.out.println("IntegratedCompanyFreebase.xml");
 		dsFreebase.printDataSetDensityReport();
 		System.out.println("IntegratedCompanyDBpedia.xml");
-		dsDBpedia.printDataSetDensityReport();
+		dsDBpedia.printDataSetDensityReport();*/
+		//System.out.println("IntegratedLocationDBpedia.xml");
+		//dsLocation.printDataSetDensityReport();
 		
 		// load the correspondences
 		CorrespondenceSet<FusableCompany> correspondences = new CorrespondenceSet<>();
 		correspondences.loadCorrespondences(
 				new File("data/resolutionResults/companyForbes_2_companyFreebase_correspondences.csv"),
-				dsForbes, dsFreebase);
+				dsForbes, dsFreebase,
+				true);
 		correspondences.loadCorrespondences(
 				new File("data/resolutionResults/companyFreebase_2_companyDBpedia_correspondences.csv"), 
-				dsFreebase, dsDBpedia);
+				dsFreebase, dsDBpedia,
+				true);
+		correspondences.loadCorrespondences(
+				new File("data/resolutionResults/company_2_location_correspondences.csv"),
+				dsDBpedia, dsLocation,
+				false);
 		
 		
 		// write group size distribution

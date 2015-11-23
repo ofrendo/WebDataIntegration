@@ -36,7 +36,10 @@ public class CorrespondenceSet<RecordType extends Matchable & Fusable> {
 	 * @param second
 	 * @throws IOException
 	 */
-	public void loadCorrespondences(File correspondenceFile, FusableDataSet<RecordType> first, FusableDataSet<RecordType> second) throws IOException {
+	public void loadCorrespondences(File correspondenceFile, 
+			FusableDataSet<RecordType> first, 
+			FusableDataSet<RecordType> second,
+			boolean transitive) throws IOException {
 		CSVReader reader = new CSVReader(new FileReader(correspondenceFile));
 		
 		String[] values = null;
@@ -62,31 +65,49 @@ public class CorrespondenceSet<RecordType extends Matchable & Fusable> {
 			RecordGroup<RecordType> grp1 = recordIndex.get(values[0]);
 			RecordGroup<RecordType> grp2 = recordIndex.get(values[1]);
 			
-			
-			if(grp1==null && grp2==null) {
-				// no existing groups, create a new one
-				RecordGroup<RecordType> grp = new RecordGroup<>();
-				grp.addRecord(values[0], first);
-				grp.addRecord(values[1], second);
-				recordIndex.put(values[0], grp);
-				recordIndex.put(values[1], grp);
-				groups.add(grp);
-			} else if(grp1!=null && grp2==null) {
-				// one existing group, add to this group
-				grp1.addRecord(values[1], second);
-				recordIndex.put(values[1], grp1);
-			} else if(grp1==null && grp2!=null) {
-				// one existing group, add to this group
-				grp2.addRecord(values[0], first);
-				recordIndex.put(values[0], grp2);
-			} else {
-				// two existing groups, merge
-				grp1.mergeWith(grp2);
-				
-				for(String id : grp2.getRecordIds()) {
-					recordIndex.put(id, grp1);
+			if (transitive == true) {
+				if(grp1==null && grp2==null) {
+					// no existing groups, create a new one
+					RecordGroup<RecordType> grp = new RecordGroup<>();
+					grp.addRecord(values[0], first);
+					grp.addRecord(values[1], second);
+					recordIndex.put(values[0], grp);
+					recordIndex.put(values[1], grp);
+					groups.add(grp);
+				} else if(grp1!=null && grp2==null) {
+					// one existing group, add to this group
+					grp1.addRecord(values[1], second);
+					recordIndex.put(values[1], grp1);
+				} else if(grp1==null && grp2!=null) {
+					// one existing group, add to this group
+					grp2.addRecord(values[0], first);
+					recordIndex.put(values[0], grp2);
+				} else {
+					// two existing groups, merge
+					grp1.mergeWith(grp2);
+					
+					for(String id : grp2.getRecordIds()) {
+						recordIndex.put(id, grp1);
+					}
 				}
 			}
+			else {
+				if (grp1==null) {
+					// no existing groups, create a new one
+					RecordGroup<RecordType> grp = new RecordGroup<>();
+					grp.addRecord(values[0], first);
+					grp.addRecord(values[1], second);
+					recordIndex.put(values[0], grp);
+					recordIndex.put(values[1], grp);
+					groups.add(grp);
+				}
+				else {
+					// a group for company exists already, add to this group
+					grp1.addRecord(values[1], second);
+					recordIndex.put(values[1], grp1);
+				}
+			}
+			
 		}
 		
 		reader.close();
@@ -115,6 +136,9 @@ public class CorrespondenceSet<RecordType extends Matchable & Fusable> {
 			
 			if(count==null) {
 				count = 0;
+			}
+			if (size == 8) {
+				System.out.println(grp.getRecordIds());
 			}
 			
 			sizeDist.put(size, ++count);

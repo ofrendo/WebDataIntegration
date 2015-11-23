@@ -61,8 +61,8 @@ public class Movies_Main {
 		
 		// load the correspondences
 		CorrespondenceSet<FusableMovie> correspondences = new CorrespondenceSet<>();
-		correspondences.loadCorrespondences(new File("usecase/movie/correspondences/academy_awards_2_actors_correspondences.csv"), ds1, ds2);
-		correspondences.loadCorrespondences(new File("usecase/movie/correspondences/actors_2_golden_globes_correspondences.csv"), ds2, ds3);
+		correspondences.loadCorrespondences(new File("usecase/movie/correspondences/academy_awards_2_actors_correspondences.csv"), ds1, ds2, true);
+		correspondences.loadCorrespondences(new File("usecase/movie/correspondences/actors_2_golden_globes_correspondences.csv"), ds2, ds3, true);
 		
 		// write group size distribution
 		correspondences.writeGroupSizeDistribution(new File("usecase/movie/output/group_size_distribution.csv"));
