@@ -37,6 +37,7 @@ public class CompanyXMLFormatter extends XMLFormatter<FusableCompany> {
 </company>
 	 */
 	
+	private static int counter = 1;
 	private LocationXMLFormatter locationFormatter = new LocationXMLFormatter();
 	private ArrayList<FusableDataSet<FusableCompany>> datasets;
 	
@@ -53,6 +54,7 @@ public class CompanyXMLFormatter extends XMLFormatter<FusableCompany> {
 	public Element createElementFromRecord(FusableCompany record, Document doc) {
 		Element company = doc.createElement("company");
 
+		company.appendChild(createTextElement("fusion_counter", "" + counter++, doc));
 		company.appendChild(createTextElement("id", record.getIdentifier(), doc));
 		
 		String nameProvenanceID = record.getMergedAttributeProvenance(FusableCompany.NAME);
@@ -83,13 +85,19 @@ public class CompanyXMLFormatter extends XMLFormatter<FusableCompany> {
 				"industries", record.getIndustries(),
 				record.getMergedAttributeProvenance(FusableCompany.INDUSTRIES), doc));
 		
+		long revenue = record.getRevenue();
 		company.appendChild(createTextElementWithProvenance(
-				"revenue", record.getRevenue() > 0 ?
-						   "" + record.getRevenue() :
+				"revenue", revenue > 0 ?
+						   "" + revenue :
 						   "",
 				record.getMergedAttributeProvenance(FusableCompany.REVENUE), doc));
 		
-		
+		int numberOfEmployees = record.getNumberOfEmployees();
+		company.appendChild(createTextElementWithProvenance(
+				"numberOfEmployees", numberOfEmployees > 0 ?
+						   "" + numberOfEmployees :
+						   "",
+				record.getMergedAttributeProvenance(FusableCompany.NUMBER_OF_EMPLOYEES), doc));
 		
 		
 		
