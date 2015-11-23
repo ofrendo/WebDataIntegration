@@ -1,3 +1,13 @@
-/WDIProjectReport.pdf
-/WDIProjectReport.synctex.gz
+
+/ProjectSummary.synctex.gz
 /tmp/
+
+*.aux
+*.bbl
+*.blg
+*.loa
+*.lof
+*.log
+*.lot
+*.toc
+*.thm
