@@ -18,11 +18,13 @@ import de.uni_mannheim.informatik.wdi.datafusion.DataFusionStrategy;
 import de.uni_mannheim.informatik.wdi.datafusion.FusableDataSet;
 import de.uni_mannheim.informatik.wdi.datafusion.evaluation.DataFusionEvaluator;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.CountriesEvaluationRule;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.DateFoundedEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.IndustriesEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.NameEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.NumberOfEmployeesEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.RevenueEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.CountriesFuser;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.DateFoundedFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.IndustriesFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.NameFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.NumberOfEmployeesFuser;
@@ -127,6 +129,7 @@ public class Companies_Main {
 		strategy.addAttributeFuser("Industries", new IndustriesFuser(), new IndustriesEvaluationRule());
 		strategy.addAttributeFuser("Revenue", new RevenueFuser(), new RevenueEvaluationRule());
 		strategy.addAttributeFuser("NumberOfEmployees", new NumberOfEmployeesFuser(), new NumberOfEmployeesEvaluationRule());
+		strategy.addAttributeFuser("DateFounded", new DateFoundedFuser(), new DateFoundedEvaluationRule());
 		
 		// create the fusion engine
 		DataFusionEngine<FusableCompany> engine = new DataFusionEngine<>(strategy);
@@ -136,6 +139,7 @@ public class Companies_Main {
 		
 		// run the fusion
 		FusableDataSet<FusableCompany> fusedDataSet = engine.run(correspondences);
+		fusedDataSet.printDataSetDensityReport();
 		
 		// write the result
 		ArrayList<FusableDataSet<FusableCompany>> datasets = new ArrayList<>();

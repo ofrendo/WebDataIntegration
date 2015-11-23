@@ -2,6 +2,7 @@ package de.uni_mannheim.informatik.wdi.datafusion.usecase.companies;
 
 import java.util.ArrayList;
 
+import org.joda.time.DateTime;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
@@ -99,6 +100,12 @@ public class CompanyXMLFormatter extends XMLFormatter<FusableCompany> {
 						   "",
 				record.getMergedAttributeProvenance(FusableCompany.NUMBER_OF_EMPLOYEES), doc));
 		
+		company.appendChild(createTextElementWithProvenance(
+				"dateFounded", 
+				record.getDateFounded() != null ?
+						record.getDateFounded().toString("dd-MM-yyyy") :
+						"",
+				record.getMergedAttributeProvenance(FusableCompany.DATE_FOUNDED), doc));
 		
 		
 		

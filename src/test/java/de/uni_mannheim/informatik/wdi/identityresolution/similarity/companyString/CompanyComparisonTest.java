@@ -1,6 +1,7 @@
 package de.uni_mannheim.informatik.wdi.identityresolution.similarity.companyString;
 
 import org.apache.commons.lang3.StringUtils;
+import org.joda.time.DateTime;
 
 import de.uni_mannheim.informatik.wdi.identityresolution.similarity.numeric.PercentageSimilarity;
 import de.uni_mannheim.informatik.wdi.identityresolution.similarity.string.LevenshteinSimilarity;
@@ -50,6 +51,14 @@ public class CompanyComparisonTest extends TestCase {
 		Long l2 = new Long("234000000000");
 		PercentageSimilarity sim = new PercentageSimilarity(1);
 		System.out.println("Percentage sim: " + sim.calculate((double) l1, (double) l2));
+		
+		//Date tests
+		DateTime d1 = DateTime.parse("1999-01-01");
+		DateTime d2 = DateTime.parse("2015");
+		System.out.println(d1);
+		System.out.println(d2);
+		System.out.println(d1.toString("dd-MM-yyyy"));
+		
 	}
 
 }

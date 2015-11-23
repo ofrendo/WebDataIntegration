@@ -138,7 +138,7 @@ public class CorrespondenceSet<RecordType extends Matchable & Fusable> {
 				count = 0;
 			}
 			if (size == 8) {
-				System.out.println(grp.getRecordIds());
+				//System.out.println(grp.getRecordIds());
 			}
 			
 			sizeDist.put(size, ++count);

@@ -189,6 +189,24 @@ public class Company extends Record {
 	public void setOriginalCountries(String originalCountries) {
 		this.originalCountries = originalCountries;
 	}
+	
+	public double getCompleteness() {
+		int count = 0;
+		if (getName()!=null && !getName().isEmpty()) count++;
+		if (getIndustries()!=null && !getIndustries().isEmpty()) count++;
+		if (getRevenue() > 0) count++;
+		if (getNumberOfEmployees() > 0) count ++;
+		if (getDateFounded() != null) count++;
+		if (getAssets() > 0) count++;
+		if (getMarketValue() > 0) count++;
+		if (getProfit() > 0) count++;
+		if (getContinent()!=null && !getContinent().isEmpty()) count++;
+		if (getKeyPeople()!=null && !getKeyPeople().isEmpty()) count++;
+		if (getCountries()!=null && !getCountries().isEmpty()) count++;
+		if (getLocations().size() > 0) count++;
+		
+		return (double) count / (double) 12;
+	}
 }
 
 
