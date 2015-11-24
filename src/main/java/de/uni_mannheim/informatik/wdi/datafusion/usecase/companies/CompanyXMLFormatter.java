@@ -112,6 +112,11 @@ public class CompanyXMLFormatter extends XMLFormatter<FusableCompany> {
 						   "",
 				record.getMergedAttributeProvenance(FusableCompany.ASSETS), doc));
 		
+		company.appendChild(createTextElementWithProvenance(
+				"marketValue", record.getMarketValue() > 0 ?
+						   "" + record.getMarketValue() :
+						   "",
+				record.getMergedAttributeProvenance(FusableCompany.MARKET_VALUE), doc));
 		
 		company.appendChild(createLocationsElement(record, doc));
 		

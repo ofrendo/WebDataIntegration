@@ -24,10 +24,12 @@ import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.In
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.NameEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.NumberOfEmployeesEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.RevenueEvaluationRule;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.SingleSourceEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.AssetsFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.CountriesFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.DateFoundedFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.IndustriesFuser;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.MarketValueFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.NameFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.NumberOfEmployeesFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.RevenueFuser;
@@ -133,6 +135,7 @@ public class Companies_Main {
 		strategy.addAttributeFuser("NumberOfEmployees", new NumberOfEmployeesFuser(), new NumberOfEmployeesEvaluationRule());
 		strategy.addAttributeFuser("DateFounded", new DateFoundedFuser(), new DateFoundedEvaluationRule());
 		strategy.addAttributeFuser("Assets", new AssetsFuser(), new AssetsEvaluationRule());
+		strategy.addAttributeFuser("MarketValue", new MarketValueFuser(), new SingleSourceEvaluationRule());
 		
 		// create the fusion engine
 		DataFusionEngine<FusableCompany> engine = new DataFusionEngine<>(strategy);
