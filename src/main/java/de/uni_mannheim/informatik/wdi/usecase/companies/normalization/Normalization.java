@@ -58,6 +58,8 @@ public class Normalization {
 	public static String normalizeLocationName(String location) {
 		String[] parts = location.split("/");
 		String result = parts[parts.length-1];
+		result = result.replaceAll("_", " ");
+		result = result.split(",")[0];
 		return result;
 	}
 	
@@ -71,7 +73,7 @@ public class Normalization {
 		
 		String[][] mapping = {
 				{"United Kingdom", "UK", "England", "Britain"},
-				{"United States of America", "US","USA","U.S","U.S.A","United States","America","Contiguous United States"}
+				{"United States of America", "US", "USA", "U.S", "U.S.", "U.S.A","United States","America","Contiguous United States"}
 		};
 		
 		//HashMap<String,String> mapping = new HashMap<>();

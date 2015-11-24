@@ -40,6 +40,7 @@ public class LocationFactory extends MatchableFactory<Location> {
 		int elevation = elevationString != null ? Double.valueOf(elevationString).intValue() : 0;
 		String country = getValueFromChildElement(node, "country");
 		
+		location.setOriginalName(name);
 		name = Normalization.normalizeLocationName(name);
 		country = Normalization.normalizeValueInDBpedia(country);
 		country = Normalization.normalizeCountries(country);

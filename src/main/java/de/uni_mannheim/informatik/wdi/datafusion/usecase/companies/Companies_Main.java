@@ -21,17 +21,23 @@ import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.As
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.CountriesEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.DateFoundedEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.IndustriesEvaluationRule;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.KeyPeopleEvaluationRule;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.LocationsEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.NameEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.NumberOfEmployeesEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.RevenueEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.SingleSourceEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.AssetsFuser;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.ContinentFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.CountriesFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.DateFoundedFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.IndustriesFuser;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.KeyPeopleFuser;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.LocationsFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.MarketValueFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.NameFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.NumberOfEmployeesFuser;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.ProfitFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.RevenueFuser;
 
 public class Companies_Main {
@@ -96,12 +102,12 @@ public class Companies_Main {
 		//dsDBpedia.setDate(DateTime.parse("2015-11-21"));
 		//dsLocation.setDate(DateTime.parse("2015-11-21"));
 		// print dataset density
-		/*System.out.println("IntegratedCompanyForbes.xml");
-		dsForbes.printDataSetDensityReport();
-		System.out.println("IntegratedCompanyFreebase.xml");
-		dsFreebase.printDataSetDensityReport();
-		System.out.println("IntegratedCompanyDBpedia.xml");
-		dsDBpedia.printDataSetDensityReport();*/
+		//System.out.println("IntegratedCompanyForbes.xml");
+		//dsForbes.printDataSetDensityReport();
+		//System.out.println("IntegratedCompanyFreebase.xml");
+		//dsFreebase.printDataSetDensityReport();
+		//System.out.println("IntegratedCompanyDBpedia.xml");
+		//dsDBpedia.printDataSetDensityReport();
 		//System.out.println("IntegratedLocationDBpedia.xml");
 		//dsLocation.printDataSetDensityReport();
 		
@@ -136,6 +142,10 @@ public class Companies_Main {
 		strategy.addAttributeFuser("DateFounded", new DateFoundedFuser(), new DateFoundedEvaluationRule());
 		strategy.addAttributeFuser("Assets", new AssetsFuser(), new AssetsEvaluationRule());
 		strategy.addAttributeFuser("MarketValue", new MarketValueFuser(), new SingleSourceEvaluationRule());
+		strategy.addAttributeFuser("Profit", new ProfitFuser(), new SingleSourceEvaluationRule());
+		strategy.addAttributeFuser("Continent", new ContinentFuser(), new SingleSourceEvaluationRule());
+		strategy.addAttributeFuser("KeyPeople", new KeyPeopleFuser(), new KeyPeopleEvaluationRule());
+		strategy.addAttributeFuser("Locations", new LocationsFuser(), new LocationsEvaluationRule());
 		
 		// create the fusion engine
 		DataFusionEngine<FusableCompany> engine = new DataFusionEngine<>(strategy);

@@ -17,10 +17,19 @@ public class LocationXMLFormatter extends XMLFormatter<Location> {
 	public Element createElementFromRecord(Location record, Document doc) {
 		Element location = doc.createElement("location");
 		
-		location.appendChild(createTextElement("name", record.getName(), doc));
-		location.appendChild(createTextElement("population", "" + record.getPopulation(), doc));
-		location.appendChild(createTextElement("area", "" + record.getArea(), doc));
-		location.appendChild(createTextElement("elevation", "" + record.getElevation(), doc));
+		location.appendChild(createTextElement("name", record.getOriginalName(), doc));
+		location.appendChild(createTextElement("population", 
+				record.getPopulation() > 0 ?
+				record.getPopulation() + "":
+				"", doc));
+		location.appendChild(createTextElement("area", 
+				record.getArea() > 0 ?
+				record.getArea() + "" :
+				"", doc));
+		location.appendChild(createTextElement("elevation", 
+				record.getElevation() > 0 ?
+				record.getElevation() + "" :
+				"", doc));
 		location.appendChild(createTextElement("country", record.getCountry(), doc));
 		
 		return location;
