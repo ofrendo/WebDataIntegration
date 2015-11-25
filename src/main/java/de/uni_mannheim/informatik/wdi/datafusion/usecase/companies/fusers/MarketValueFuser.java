@@ -9,7 +9,7 @@ import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.conflictresol
 public class MarketValueFuser extends AttributeValueFuser<Long, FusableCompany> {
 	
 	public MarketValueFuser() {
-		super(new SingleSourceResolution<>());
+		super(new SingleSourceResolution<Long,FusableCompany>());
 	}
 	
 	@Override

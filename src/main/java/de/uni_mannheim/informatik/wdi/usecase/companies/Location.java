@@ -20,6 +20,7 @@ public class Location extends Record {
 */
 	
 	private String name;
+	private String originalName;
 	private int population;
 	private long area;
 	private int elevation;
@@ -77,11 +78,32 @@ public class Location extends Record {
 		}
 		else {
 			return "\t name=" + getName() +
+				   "\n\t originalName=" + getOriginalName() +
 				   "\n\t population=" + getPopulation() + 
 				   "\n\t area=" + getArea() +
 				   "\n\t elevation=" + getElevation() + 
 				   "\n\t country=" + getCountry();
 		}
 	}
+	
+	public double getCompleteness() {
+		int count = 0;
+		if (getName()!=null && !getName().isEmpty()) count++;
+		if (getPopulation() > 0) count++;
+		if (getArea() > 0) count++;
+		if (getElevation() > 0) count++;
+		if (getCountry()!=null && !getCountry().isEmpty()) count++;
+		
+		return (double) count / (double) 5;
+	}
+
+	public String getOriginalName() {
+		return originalName;
+	}
+
+	public void setOriginalName(String originalName) {
+		this.originalName = originalName;
+	}
+	
 
 }

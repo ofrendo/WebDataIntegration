@@ -33,22 +33,23 @@ public class Locations_Main {
 		DataSet<Company> dsLocations = new DataSet<>();
 		dsCompanies.loadFromXML(
 				new File(dbpediaXML),
-				new CompanyFactory(null, null), 
+				new CompanyFactory(null, "DBPedia_Company_6924"), 
 				"/companies/company");
 		dsLocations.loadFromXML(
 				new File("data/mappingResults/IntegratedLocationDBpedia.xml"),
-				new CompanyFactory(null, null),   
+				new CompanyFactory(null, "Location_Dbpedia_1235"),   
 				"/companies/company");
 		
 		CompanyLocationBlocker blocker = new CompanyLocationBlocker();
 		
-		double threshold = 1; //should be 0.5 always if using rapidminer
+		double threshold = 0.86; //should be 0.5 always if using rapidminer
 		double nameWeight = 1.0;
 		double countryWeight = 0.195;
 		double intercept = 0;
 		
 		LinearCombinationMatchingRule<Company> rule = new LinearCombinationMatchingRule<>(
-				intercept, threshold);
+				intercept, threshold,
+				"DBPedia_Company_6924", "Location_Dbpedia_1235");
 		
 		rule.addComparator(new CompanyLocationComparatorJaccard(), nameWeight);
 		rule.addComparator(new CompanyLocationCountryComparator(), countryWeight);

@@ -35,10 +35,10 @@ public class Companies_Main_Freebase_DBpedia {
 		DataSet<Company> dsFreebase = new DataSet<>();
 		CompanyFactory freebaseFactory = new CompanyFactory(attributeToCount, 
 				//null);
-				"Freebase_Company_2367"); //rosneft
+				"Freebase_Company_1425"); //rosneft
 		CompanyFactory dbpediaFactory = new CompanyFactory(attributeToCount, 
 				//null);
-				"DBPedia_Company_9009");
+				"DBPedia_Company_6924");
 		DataSet<Company> dsDBpedia = new DataSet<>();
 		dsFreebase.loadFromXML(
 				new File("data/mappingResults/IntegratedCompanyFreebase.xml"), freebaseFactory, "/companies/company");
@@ -55,7 +55,7 @@ public class Companies_Main_Freebase_DBpedia {
 		CompanyBlocker blocker = new CompanyBlocker();
 		
 		//Results from rapidminer
-		double threshold = 0.7; //should be 0.5 always
+		double threshold = 0.67; //should be 0.5 always
 		double nameWeight = 0.689;
 		double countriesWeight = 0.088;
 		double industriesWeight = 0.025;
@@ -72,7 +72,7 @@ public class Companies_Main_Freebase_DBpedia {
 		LinearCombinationMatchingRule<Company> rule = new LinearCombinationMatchingRule<>(
 				intercept, threshold
 				//);
-				, "Freebase_Company_2367", "DBPedia_Company_9009");
+				, "Freebase_Company_1425", "DBPedia_Company_6924");
 				//, "4INFO", "http://dbpedia.org/resource/Jive_Software");
 				//, "http://dbpedia.org/resource/The_Coca-Cola_Company", "The Coca-Cola Company");
 				

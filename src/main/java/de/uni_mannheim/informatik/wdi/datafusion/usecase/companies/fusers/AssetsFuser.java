@@ -9,7 +9,7 @@ import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.FusableCompan
 public class AssetsFuser extends AttributeValueFuser<Long, FusableCompany> {
 	
 	public AssetsFuser() {
-		super(new FavourSources<>());
+		super(new FavourSources<Long,FusableCompany>());
 	}
 	
 	@Override

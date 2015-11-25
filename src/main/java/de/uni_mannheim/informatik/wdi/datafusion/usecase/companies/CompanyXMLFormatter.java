@@ -118,6 +118,20 @@ public class CompanyXMLFormatter extends XMLFormatter<FusableCompany> {
 						   "",
 				record.getMergedAttributeProvenance(FusableCompany.MARKET_VALUE), doc));
 		
+		company.appendChild(createTextElementWithProvenance(
+				"profit", record.getProfit() > 0 ?
+						   "" + record.getProfit() :
+						   "",
+				record.getMergedAttributeProvenance(FusableCompany.PROFIT), doc));
+		
+		company.appendChild(createTextElementWithProvenance(
+				"continent", record.getContinent(),
+				record.getMergedAttributeProvenance(FusableCompany.CONTINENT), doc));
+		
+		company.appendChild(createTextElementWithProvenance(
+				"keyPeople", record.getKeyPeople(),
+				record.getMergedAttributeProvenance(FusableCompany.KEY_PEOPLE), doc));
+		
 		company.appendChild(createLocationsElement(record, doc));
 		
 		return company;
@@ -132,6 +146,8 @@ public class CompanyXMLFormatter extends XMLFormatter<FusableCompany> {
 	protected Element createLocationsElement(FusableCompany record, Document doc) {
 		Element locationsRoot = locationFormatter.createRootElement(doc);
 		locationsRoot.setAttribute("provenance", record.getMergedAttributeProvenance(FusableCompany.LOCATIONS));
+		
+		//System.out.println("Company locations size: " + record.getLocations().size());
 		
 		for(Location l : record.getLocations()) {
 			locationsRoot.appendChild(locationFormatter.createElementFromRecord(l, doc));
