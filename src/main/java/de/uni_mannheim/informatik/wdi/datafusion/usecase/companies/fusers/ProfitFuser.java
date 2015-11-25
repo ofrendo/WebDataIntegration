@@ -3,13 +3,13 @@ package de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers;
 import de.uni_mannheim.informatik.wdi.datafusion.AttributeValueFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.FusedValue;
 import de.uni_mannheim.informatik.wdi.datafusion.RecordGroup;
+import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.meta.FavourSources;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.FusableCompany;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.conflictresolution.SingleSourceResolution;
 
 public class ProfitFuser extends AttributeValueFuser<Long, FusableCompany>  {
 
 	public ProfitFuser() {
-		super(new SingleSourceResolution<>());
+		super(new FavourSources<>());
 	}
 	
 	@Override

@@ -30,7 +30,12 @@ public class FuzzyLevenshteinSimilarity extends SimilarityMeasure<String> {
 			intersectionNum += highestSim;
 		}
 		
-		double similarity = intersectionNum / ((arr1.length+arr2.length)-intersectionNum);
+		double similarity = intersectionNum;
+		if (arr1.length > 1 && arr2.length > 1) {
+			similarity = similarity / ((arr1.length+arr2.length)-intersectionNum);
+		}
+		
+		//double similarity = intersectionNum 
 		
 		return similarity;
 	}

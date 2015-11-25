@@ -23,8 +23,8 @@ import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecordCSVF
 import de.uni_mannheim.informatik.wdi.usecase.companies.blocking.CompanyBlocker;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyCountriesComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyIndustriesComparator;
+import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyNameComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyNumericAttributeComparator;
-import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyStringAttributeComparatorJaccard;
 
 /**
  * 
@@ -59,19 +59,19 @@ public class Companies_Main_Forbes_Freebase {
 				new CompanyFactory(null, null),   "/companies/company");
 		
 		//Results from rapidminer
-		double threshold = 0.55; //should be 0.5 always
-		double nameWeight = 0.656;
+		double threshold = 0.7; //should be 0.5 always
+		double nameWeight = 0.842;
 		double countriesWeight = 0.225;
-		double industriesWeight = 0.116;
+		double industriesWeight = 0.269;
 		double revenueWeight = 0.0;
 		double profitWeight = 0.0;
-		double intercept = -0.085;
+		double intercept = -0.178;
 		
 		LinearCombinationMatchingRule<Company> rule = new LinearCombinationMatchingRule<>(
 				intercept, threshold);
 		//Need to be careful: SAP and SAP SE, China Citic Bank, China Merchants Bank
 		
-		rule.addComparator(new CompanyStringAttributeComparatorJaccard("name"), nameWeight);
+		rule.addComparator(new CompanyNameComparator(), nameWeight);
 		rule.addComparator(new CompanyCountriesComparator(), countriesWeight);
 		rule.addComparator(new CompanyIndustriesComparator(), industriesWeight);
 		//rule.addComparator(new CompanyStringAttributeComparatorJaccard("headquarters"), 1); // not in forbes
@@ -99,7 +99,7 @@ public class Companies_Main_Forbes_Freebase {
 		
 		// load the gold standard (training set)
 		GoldStandard gsTraining = new GoldStandard();
-		gsTraining.loadFromCSVFile(new File("data/goldstandard/forbes_freebase_goldstandard_train.csv"));
+		gsTraining.loadFromCSVFile(new File("data/goldstandard/forbes_freebase_goldstandard_train_ID.csv"));
 
 		// create the data set for learning a matching rule (use this file in RapidMiner)
 		DataSet<DefaultRecord> features = engine
@@ -110,7 +110,7 @@ public class Companies_Main_Forbes_Freebase {
 		
 		// load the gold standard (test set)
 		GoldStandard gsTest = new GoldStandard();
-		gsTest.loadFromCSVFile(new File("data/goldstandard/forbes_freebase_goldstandard_test.csv"));
+		gsTest.loadFromCSVFile(new File("data/goldstandard/forbes_freebase_goldstandard_test_ID.csv"));
 
 		// evaluate the result
 		MatchingEvaluator<Company> evaluator = new MatchingEvaluator<>(true);

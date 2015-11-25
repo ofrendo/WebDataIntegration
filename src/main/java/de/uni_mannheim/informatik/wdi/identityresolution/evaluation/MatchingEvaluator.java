@@ -7,6 +7,7 @@ import java.util.List;
 import de.uni_mannheim.informatik.wdi.Matchable;
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.Correspondence;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.Pair;
+import de.uni_mannheim.informatik.wdi.usecase.companies.Company;
 
 /**
  * Evaluates a set of correspondences against a gold standard.
@@ -43,6 +44,10 @@ public class MatchingEvaluator<RecordType extends Matchable> {
 		double highestWrong = -1;
 		
 		for(Correspondence<RecordType> correspondence : correspondences) {
+			
+			RecordType r1 = correspondence.getFirstRecord();
+			RecordType r2 = correspondence.getSecondRecord();	
+			
 			if(goldStandard.containsPositive(correspondence.getFirstRecord(), correspondence.getSecondRecord())) {
 				correct++;
 				matched++;
@@ -51,11 +56,20 @@ public class MatchingEvaluator<RecordType extends Matchable> {
 							lowestCorrect;
 				
 				if(verbose) {
-					System.out.println(String.format("[correct] %s,%s,%s", 
-							correspondence.getFirstRecord().getIdentifier(), 
-							correspondence.getSecondRecord().getIdentifier(), 
-							Double.toString(correspondence.getSimilarityScore())));
-					
+					if (correspondence.getFirstRecord() instanceof Company) {
+						System.out.println(String.format("[correct] %s,%s,%s, %s, %S", 
+								r1.getIdentifier(), 
+								r2.getIdentifier(), 
+								Double.toString(correspondence.getSimilarityScore()),
+								((Company) r1).getName(),
+								((Company) r2).getName()));
+					}
+					else {
+						System.out.println(String.format("[correct] %s,%s,%s", 
+								correspondence.getFirstRecord().getIdentifier(), 
+								correspondence.getSecondRecord().getIdentifier(), 
+								Double.toString(correspondence.getSimilarityScore())));
+					}
 					// remove pair from positives
 					Iterator<Pair<String, String>> it = positives.iterator();
 					while(it.hasNext()) {
@@ -76,7 +90,20 @@ public class MatchingEvaluator<RecordType extends Matchable> {
 						highestWrong;
 				
 				if(verbose) {
-					System.out.println(String.format("[wrong] %s,%s,%s", correspondence.getFirstRecord().getIdentifier(), correspondence.getSecondRecord().getIdentifier(), Double.toString(correspondence.getSimilarityScore())));
+					if (correspondence.getFirstRecord() instanceof Company) {
+						System.out.println(String.format("[wrong] %s,%s,%s, %s, %S", 
+								r1.getIdentifier(), 
+								r2.getIdentifier(), 
+								Double.toString(correspondence.getSimilarityScore()),
+								((Company) r1).getName(),
+								((Company) r2).getName()));
+					}
+					else {
+						System.out.println(String.format("[wrong] %s,%s,%s", 
+								correspondence.getFirstRecord().getIdentifier(), 
+								correspondence.getSecondRecord().getIdentifier(), 
+								Double.toString(correspondence.getSimilarityScore())));
+					}
 				}
 			}
 		}

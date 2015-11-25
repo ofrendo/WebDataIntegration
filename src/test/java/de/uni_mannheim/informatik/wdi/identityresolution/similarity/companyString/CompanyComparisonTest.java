@@ -14,8 +14,8 @@ public class CompanyComparisonTest extends TestCase {
 
 	public void testCalculateCompanySimilarity() {
 //		String n1 = "Chevron";
-		//String n1 = "Apple  Inc.";
-		String n1 = "http://dbpedia.org/resource/The_Coca-Cola_Company";
+		String n1 = "Apple Inc. ";
+		//String n1 = "The_Coca-Cola_Company";
 		//String i1 = "National Commercial Banks;;Investment banking;;Financial Services;;Offices of Bank Holding Companies";
 		String i1 = "http://dbpedia.org/resource/Drink";
 		String kp1 = "Durinda Biesman, Senior Vice President, Global Service Delivery;;Gregory Ayers, Chief Financial Officer;;Mariann McDonagh, Chief Marketing Officer;;Paul Jarman, Chief Executive Officer;;Scott Welch, Chief Operating Officer;;Sunny Gosain, Executive Vice President &amp; Chief Product Officer;;Theodore Stern, Executive Chairman";
@@ -24,8 +24,8 @@ public class CompanyComparisonTest extends TestCase {
 		c1.setIndustries(i1);
 		c1.setKeyPeople(kp1);
 		
-		//String n2 = "Apple Inc.";
-		String n2 = "The Coca-Cola Company";
+		String n2 = "Apple Inc.";
+		//String n2 = "The Coca-Cola Company";
 //		String n2 = "Chevron Corporation";		
 		//String i2 = "Major Banks";
 		String i2 = "Beverages";
@@ -35,6 +35,8 @@ public class CompanyComparisonTest extends TestCase {
 		c2.setIndustries(i2);
 		c2.setKeyPeople(kp2);
 		
+		LevenshteinSimilarity levenshteinSim = new LevenshteinSimilarity();
+		System.out.println("Levenshtein name sim: " + levenshteinSim.calculate(n1, n2));
 		CompanyStringAttributeComparatorJaccard nameCompare = new CompanyStringAttributeComparatorJaccard("name");
 		CompanyStringAttributeComparatorJaccard peopleCompare = new CompanyStringAttributeComparatorJaccard("keyPeople");
 		System.out.println("Name comparison: " + nameCompare.compare(c1, c2));
