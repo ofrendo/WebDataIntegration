@@ -1,0 +1,43 @@
+\section{Data translation}
+\subsection{Data collection}
+%For each subsubsection below:
+%Which format did the data have? CSV, JSON, XLSX?
+%Size of each dataset? (how many entities)
+%Which attributes were collected for each dataset? 
+%Why? Optional ones? Nonoptional ones? Resulting sparsity of each attribute?
+%How did collect each dataset?
+
+\subsubsection{Forbes}
+%Silvia/Zehui
+
+\subsubsection{Freebase}
+%Yiru
+
+\subsubsection{DBpedia: Companies}
+%Silvia/Zehui
+
+\subsubsection{DBpedia: Locations}
+%Silvia/Zehui
+
+\subsection{Integrated schema}
+%Take from data\ForbesPlan\Forbes-integrated schema.docx
+
+
+
+\subsection{Data transformations}
+%Oliver
+%Which attributes did we transform in which way? 
+%Also: Example for each transformation showing why we did it
+%DBpedia values: Very often URL
+%Company and location names: Removed common strings that are inconsistent among datasets, e.g. Apple / Apple, Inc.
+% 	also: Replaced punctuation and symbols like "_" or "."
+%	Result example: Apple (Forbes) <-> Apple,_Inc (DBpedia)
+%Countries: Replaced different spellings of same word 
+%	e.g. US, USA, U.S., America with "United States of America" or UK, England with United Kingdom
+%Numeric attributes to do with money: Scientific notation, small values from Forbes
+%	e.g. 1.17E+10 ==> 11.700.000.000
+% 	e.g. 483,1 (Apple in Forbes) ==> 483.100.000.000
+
+
+
+

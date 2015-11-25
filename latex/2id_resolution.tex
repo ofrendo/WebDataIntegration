@@ -1,0 +1,52 @@
+\section{Identity resolution}
+\subsection{Gold standards}
+%For each of the subsubsections below:
+%Content and size of your gold standard and procedure used to create it
+%Give a few corner cases
+%	companies that are very similar but not the same
+%	companies that are not similar but are the same
+
+\subsubsection{Forbes $\leftrightarrow$ Freebase}
+%Silvia/Zehui
+
+\subsubsection{Freebase $\leftrightarrow$ DBpedia companies}
+%Yiru
+
+\subsubsection{DBpedia companies $\leftrightarrow$ DBpedia locations}
+%Silvia/Zehui
+
+
+\subsection{Matching rules}
+%Oliver
+%Which matching rules did you try?
+%What happened with P/R and F1?
+%Table comparing the results of the different matching rules
+%Choose maybe only one of the above?
+
+\subsection{Blocking functions}
+%Oliver
+%Changes in runtime, number of matches, reduction ratio
+
+Notes on blocking function:
+
+Freebase vs Forbes: 
+- Country is always available in Forbes, sparse in Freebase (EXACT NUMBER)
+
+Freebase vs DBPedia:
+- Country is somewhat sparse in both datasets (EXACT NUMBER)
+- DateFounded somewhat sparse in both (EXACT NUMBER)
+
+Company vs Location
+- Country is only way to go
+
+Own idea: Implement own partitioning blocker, but more fuzzy logic
+- I.E. Country first, then date, then location or so as alternative (EXACT NUMBER)
+- Generate more pairs, matching rule will take care if its same company or not- more conservative approach
+
+
+\subsection{Learning matching rules}
+%Oliver
+%Using linear regression etc
+%Why was this better than handwritten one
+%One example where we compare lots of attributes
+
