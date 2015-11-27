@@ -33,11 +33,11 @@ public class Locations_Main {
 		DataSet<Company> dsLocations = new DataSet<>();
 		dsCompanies.loadFromXML(
 				new File(dbpediaXML),
-				new CompanyFactory(null, "DBPedia_Company_6924"), 
+				new CompanyFactory(null, null), 
 				"/companies/company");
 		dsLocations.loadFromXML(
 				new File("data/mappingResults/IntegratedLocationDBpedia.xml"),
-				new CompanyFactory(null, "Location_Dbpedia_1235"),   
+				new CompanyFactory(null, null),   
 				"/companies/company");
 		
 		CompanyLocationBlocker blocker = new CompanyLocationBlocker();

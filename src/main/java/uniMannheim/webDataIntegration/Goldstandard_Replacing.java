@@ -20,17 +20,21 @@ import de.uni_mannheim.informatik.wdi.usecase.companies.normalization.Normalizat
 public class Goldstandard_Replacing {
 
 	public static void main(String[] args) throws XPathExpressionException, ParserConfigurationException, SAXException, IOException {
-		String path = "data/goldstandard/forbes_freebase_goldstandard_train.csv";
-		String resultPath = "data/goldstandard/forbes_freebase_goldstandard_train_ID.csv";
+		String path = "data/goldstandard/location_goldstandard_train.csv";
+		String resultPath = "data/goldstandard/location_goldstandard_train_ID.csv";
 		
 		DataSet<Company> dsFreebase = new DataSet<>();
-		DataSet<Company> dsForbes = new DataSet<>();
-		dsForbes.loadFromXML(
-				new File("data/mappingResults/IntegratedCompanyForbes.xml"),
-				new CompanyFactory(null, null),   "/companies/company");
+		CompanyFactory freebaseFactory = new CompanyFactory(null, 
+				//null);
+				"Freebase_Company_943"); //rosneft
+		CompanyFactory dbpediaFactory = new CompanyFactory(null, 
+				//null);
+				"DBPedia_Company_15465");
+		DataSet<Company> dsDBpedia = new DataSet<>();
 		dsFreebase.loadFromXML(
-				new File("data/mappingResults/IntegratedCompanyFreebase.xml"),
-				new CompanyFactory(null, null), "/companies/company"); //"Freebase_Company_237"
+				new File("data/mappingResults/IntegratedCompanyFreebase.xml"), freebaseFactory, "/companies/company");
+		dsDBpedia.loadFromXML(
+				new File("data/mappingResults/IntegratedCompanyDBpedia.xml"), dbpediaFactory, "/companies/company");
 		
 		
 		GoldStandard gs = new GoldStandard();
@@ -40,24 +44,26 @@ public class Goldstandard_Replacing {
 		CSVWriter writer = new CSVWriter(new FileWriter(resultPath));
 		for (Pair<String,String> pair : gs.getNegativeExamples()) {
 			//First one is forbes, 2nd is freebase
-			String nameForbes = Normalization.normalizeCompanyName(pair.getFirst());
-			String idForbes = getCompanyIDByName(dsForbes, nameForbes);
+			String nameDBpedia = Normalization.normalizeValueInDBpedia(pair.getFirst());
+			nameDBpedia = Normalization.normalizeCompanyName(nameDBpedia);
+			String idDBpedia = getCompanyIDByName(dsDBpedia, nameDBpedia);
 			
 			String nameFreebase = Normalization.normalizeCompanyName(pair.getSecond());
 			String idFreebase = getCompanyIDByName(dsFreebase, nameFreebase);
 
-			String result[] = {idForbes, idFreebase, "FALSE"};
+			String result[] = {idDBpedia, idFreebase, "FALSE"};
 			writer.writeNext(result);			
 		}
 		for (Pair<String,String> pair : gs.getPositiveExamples()) {
 			//First one is forbes, 2nd is freebase
-			String nameForbes = Normalization.normalizeCompanyName(pair.getFirst());
-			String idForbes = getCompanyIDByName(dsForbes, nameForbes);
+			String nameDBpedia = Normalization.normalizeValueInDBpedia(pair.getFirst());
+			nameDBpedia = Normalization.normalizeCompanyName(nameDBpedia);
+			String idDBpedia = getCompanyIDByName(dsDBpedia, nameDBpedia);
 			
 			String nameFreebase = Normalization.normalizeCompanyName(pair.getSecond());
 			String idFreebase = getCompanyIDByName(dsFreebase, nameFreebase);
 			
-			String result[] = {idForbes, idFreebase, "TRUE"};
+			String result[] = {idDBpedia, idFreebase, "TRUE"};
 			writer.writeNext(result);			
 		}
 		

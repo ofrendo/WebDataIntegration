@@ -39,11 +39,11 @@ public class CompanyStringAttributeComparatorJaccard extends Comparator<Company>
 		String value1 = null;
 		String value2 = null;
 		switch (comparisonAttribute) {
-		case "name":
+		case "name_TEMP":
 			value1 = company1.getName();
 			value2 = company2.getName();
 			break;
-		case "keyPeople":
+		case "keyPeople_TEMP":
 			value1 = company1.getKeyPeople();
 			value2 = company2.getKeyPeople();
 			break;

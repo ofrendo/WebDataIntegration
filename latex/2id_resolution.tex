@@ -21,12 +21,67 @@ Aim here was to generate correspondences between companies of two different sour
 %hard cases :China Pacific Insurance, CHINA LIFE INSURANCE, ; West Japan Railway, EAST JAPAN RAILWAY (FALSE); Vodafone, VODAFONE PLC (TRUE)
 %Oliver
 %Which matching rules did you try?
+%%%%%%%%%%%%%%BEGIN TABLE
+
+\begin{table}[]
+\centering
+\begin{tabular}{lllll}
+\textbf{Attribute} & \textbf{MatchingRule} & \textbf{P} & \textbf{R} & \textbf{F1} \\
+\multicolumn{5}{l}{\textbf{Forbes vs Freebase}} \\
+name & Equals & 1,0000 & 0,7500 & 0,8571 \\
+ & Levenshtein & 0,8571 & 1,0000 & 0,9231 \\
+countries & Equals & 0,8571 & 1,0000 & 0,9231 \\
+ & Jaccard & 0,8571 & 1,0000 & 0,9231 \\
+ & Highest Jaccard & 0,8571 & 1,0000 & 0,9231 \\
+industries & Jaccard & 0,9091 & 0,8333 & 0,8696 \\
+ & \begin{tabular}[c]{@{}l@{}}Combination of Jaccard\\ and Levenshtein\end{tabular} & 0,8571 & 1,0000 & 0,9231 \\
+\begin{tabular}[c]{@{}l@{}}revenue/\\ profit\end{tabular} & \begin{tabular}[c]{@{}l@{}}PercentageSimilarity\\ (max\_percentage=0.5)\end{tabular} & 0,8571 & 1,0000 & 0,9231 \\
+\multicolumn{5}{l}{\textbf{Freebase vs DBpedia}} \\
+\begin{tabular}[c]{@{}l@{}}revenue/\\ numberOfEmployees\end{tabular} & \begin{tabular}[c]{@{}l@{}}PercentageSimilarity\\ (max\_percentage=0.5)\end{tabular} & 0,9167 & 0,9167 & 0,9167 \\
+dateFounded & \begin{tabular}[c]{@{}l@{}}YearSimilarity\\ (maxDifference=20)\end{tabular} & 0,9167 & 0,9167 & 0,9167 \\
+keyPeople & Jaccard & 0,9167 & 0,9167 & 0,9167 \\
+ & \begin{tabular}[c]{@{}l@{}}Combination of Jaccard\\ and Levenshtein\end{tabular} & 0,9167 & 0,9167 & 0,9167 \\
+locations & Jaccard & 0,9167 & 0,9167 & 0,9167 \\
+ & Highest Jaccard & 0,9167 & 0,9167 & 0,9167 \\
+\multicolumn{5}{l}{\textbf{DBpedia companies vs DBpedia locations}} \\
+countries & Highest Jaccard & 0,9706 & 0,9429 & 0,9565 \\
+locations & Jaccard & 0,9630 & 0,7429 & 0,8387 \\
+ & Highest Jaccard & 0,9706 & 0,9429 & 0,9429
+\end{tabular}
+\caption{Matching rule accuracies}
+\label{my-label}
+\end{table}
+
+%%%%%%%%%%%%%%END TABLE
+
+Comments:
+COUNTRIES
+May have an effect on companies that have multiple countries and thus the number of correspondencies
+INDUSTRIES
+Needed a better measure than just Jaccard or Levenshtein because of misspellings or slight differences, e.g. "Transport" and "Transportation"
+REVENUE/PROFIT
+Numeric data from Freebase is too sparse, unreliabe or outdated. Learning a matching rule in RapidMiner confirms this by assigning weights of 0 to both these attributes.
+
+
+LOCATIONS: No need for Levenshtein
+	NAME: New York and New York City need Jaccard. Probably no misspellings though
 
 
 %What happened with P/R and F1?
 %Table comparing P/R/F1 of the different matching rules
 %Choose maybe only one of the above?
 
+HARD CASES
+Central Japan Railway, EAST JAPAN RAILWAY (FALSE)
+Vodafone, Vodafone Group plc (TRUE)
+Syracuse, Utah AND Syracuse, New York
+"Chicago and Nashville" as single attribute from DBpedia
+
+EXAMPLE FOR HIGHEST JACCARD 
+	C1=New York, Chicago. C2 New York. Should be correspondence, so similarity = 1
+	Couldn't just take highest equals because of New York and New York City for example
+	
+COMBINATION OF LEVENSHTEIN AND JACCARD: Why? Why are they better than normal values?
 \subsection{Blocking functions}
 %Oliver
 %Changes in runtime, number of matches, reduction ratio
@@ -52,5 +107,5 @@ Own idea: Implement own partitioning blocker, but more fuzzy logic
 %Oliver
 %Using linear regression etc
 %Why was this better than handwritten one
-%One example where we compare lots of attributes
+%Discussion of both learned rules
 

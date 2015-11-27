@@ -589,6 +589,18 @@
 		</locations>
 	</company>
 	<company>
+		<Company_ID>Location_Dbpedia_401</Company_ID>
+		<locations>
+			<location>
+				<name>Syracuse, Utah</name>
+				<population>25775</population>
+				<area>2.26E+07</area>
+				<elevation>1306.07</elevation>
+				<country>http://dbpedia.org/resource/United_States</country>
+			</location>
+		</locations>
+	</company>
+	<company>
 		<Company_ID>Location_Dbpedia_50</Company_ID>
 		<locations>
 			<location>
@@ -4796,18 +4808,6 @@
 				<population>20362</population>
 				<area>2.91E+07</area>
 				<elevation>325</elevation>
-				<country>http://dbpedia.org/resource/United_States</country>
-			</location>
-		</locations>
-	</company>
-	<company>
-		<Company_ID>Location_Dbpedia_401</Company_ID>
-		<locations>
-			<location>
-				<name>Syracuse, Utah</name>
-				<population>25775</population>
-				<area>2.26E+07</area>
-				<elevation>1306.07</elevation>
 				<country>http://dbpedia.org/resource/United_States</country>
 			</location>
 		</locations>

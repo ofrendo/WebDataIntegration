@@ -17,7 +17,17 @@ public class CompanyCountriesComparator extends Comparator<Company> {
 	public double compare(Company c1, Company c2) {
 		if (c1.getCountries() == null || c2.getCountries() == null) 
 			return 0;
-			
+		
+		// Equals comparator
+		//return c1.getCountries().equals(c2.getCountries()) ? 1 : 0;
+		
+		// Jaccard comparator
+		/*String c1s = c1.getCountries().replaceAll(";;", " ");
+		String c2s = c2.getCountries().replaceAll(";;", " ");
+		
+		return sim.calculate(c1s, c2s);*/
+		
+		// Highest matching comparator
 		String[] c1s = c1.getCountries().split(";;");
 		String[] c2s = c2.getCountries().split(";;");
 		

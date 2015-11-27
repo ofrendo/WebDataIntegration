@@ -24,9 +24,10 @@ import de.uni_mannheim.informatik.wdi.usecase.companies.blocking.CompanyBlocker;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyCountriesComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyDateFoundedComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyIndustriesComparator;
+import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyKeyPeopleComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyLocationComparatorJaccard;
+import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyNameComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyNumericAttributeComparator;
-import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyStringAttributeComparatorJaccard;
 
 public class Companies_Main_Freebase_DBpedia {
 
@@ -35,10 +36,10 @@ public class Companies_Main_Freebase_DBpedia {
 		DataSet<Company> dsFreebase = new DataSet<>();
 		CompanyFactory freebaseFactory = new CompanyFactory(attributeToCount, 
 				//null);
-				"Freebase_Company_1425"); //rosneft
+				"Freebase_Company_943"); //rosneft
 		CompanyFactory dbpediaFactory = new CompanyFactory(attributeToCount, 
 				//null);
-				"DBPedia_Company_6924");
+				"DBPedia_Company_15465");
 		DataSet<Company> dsDBpedia = new DataSet<>();
 		dsFreebase.loadFromXML(
 				new File("data/mappingResults/IntegratedCompanyFreebase.xml"), freebaseFactory, "/companies/company");
@@ -55,7 +56,7 @@ public class Companies_Main_Freebase_DBpedia {
 		CompanyBlocker blocker = new CompanyBlocker();
 		
 		//Results from rapidminer
-		double threshold = 0.67; //should be 0.5 always
+		double threshold = 0.67; //was 0.67, good value ~667 correspondences
 		double nameWeight = 0.689;
 		double countriesWeight = 0.088;
 		double industriesWeight = 0.025;
@@ -72,14 +73,14 @@ public class Companies_Main_Freebase_DBpedia {
 		LinearCombinationMatchingRule<Company> rule = new LinearCombinationMatchingRule<>(
 				intercept, threshold
 				//);
-				, "Freebase_Company_1425", "DBPedia_Company_6924");
+				, "Freebase_Company_943", "DBPedia_Company_15465");
 				//, "4INFO", "http://dbpedia.org/resource/Jive_Software");
 				//, "http://dbpedia.org/resource/The_Coca-Cola_Company", "The Coca-Cola Company");
 				
 		//Need to be careful: 
 		// SAP and SAP SE
 		// China Citic Bank, China Merchants Bank
-		rule.addComparator(new CompanyStringAttributeComparatorJaccard("name"), nameWeight);
+		rule.addComparator(new CompanyNameComparator(), nameWeight);
 		rule.addComparator(new CompanyCountriesComparator(), countriesWeight);
 		rule.addComparator(new CompanyIndustriesComparator(), industriesWeight);
 		
@@ -89,7 +90,7 @@ public class Companies_Main_Freebase_DBpedia {
 		rule.addComparator(new CompanyNumericAttributeComparator("numberOfEmployees", 0.5), numberOfEmployeesWeight);
 		rule.addComparator(new CompanyDateFoundedComparator(), dateFoundedWeight);
 		
-		rule.addComparator(new CompanyStringAttributeComparatorJaccard("keyPeople"), keyPeopleWeight);
+		rule.addComparator(new CompanyKeyPeopleComparator(), keyPeopleWeight);
 		rule.addComparator(new CompanyLocationComparatorJaccard(), locationsWeight);
 		
 		
@@ -107,7 +108,7 @@ public class Companies_Main_Freebase_DBpedia {
 		
 		// load the gold standard (training set)
 		GoldStandard gsTraining = new GoldStandard();
-		gsTraining.loadFromCSVFile(new File("data/goldstandard/dbpedia_freebase_goldstandard_train.csv"));
+		gsTraining.loadFromCSVFile(new File("data/goldstandard/dbpedia_freebase_goldstandard_train_ID.csv"));
 
 		// create the data set for learning a matching rule (use this file in RapidMiner)
 		DataSet<DefaultRecord> features = engine
@@ -118,7 +119,7 @@ public class Companies_Main_Freebase_DBpedia {
 		
 		// load the gold standard (test set)
 		GoldStandard gsTest = new GoldStandard();
-		gsTest.loadFromCSVFile(new File("data/goldstandard/dbpedia_freebase_goldstandard_test.csv"));
+		gsTest.loadFromCSVFile(new File("data/goldstandard/dbpedia_freebase_goldstandard_test_ID.csv"));
 
 		// evaluate the result
 		MatchingEvaluator<Company> evaluator = new MatchingEvaluator<>(true);

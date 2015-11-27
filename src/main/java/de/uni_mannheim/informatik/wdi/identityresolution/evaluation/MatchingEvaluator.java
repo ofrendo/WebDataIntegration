@@ -57,12 +57,16 @@ public class MatchingEvaluator<RecordType extends Matchable> {
 				
 				if(verbose) {
 					if (correspondence.getFirstRecord() instanceof Company) {
+						String name2 = ((Company) r2).getName() != null ?
+								((Company) r2).getName() :
+								((Company) r2).getLocations().get(0).getName();
+						
 						System.out.println(String.format("[correct] %s,%s,%s, %s, %S", 
 								r1.getIdentifier(), 
 								r2.getIdentifier(), 
 								Double.toString(correspondence.getSimilarityScore()),
 								((Company) r1).getName(),
-								((Company) r2).getName()));
+								name2));
 					}
 					else {
 						System.out.println(String.format("[correct] %s,%s,%s", 
@@ -90,13 +94,17 @@ public class MatchingEvaluator<RecordType extends Matchable> {
 						highestWrong;
 				
 				if(verbose) {
+					String name2 = ((Company) r2).getName() != null ?
+							((Company) r2).getName() :
+							((Company) r2).getLocations().get(0).getName();
+					
 					if (correspondence.getFirstRecord() instanceof Company) {
 						System.out.println(String.format("[wrong] %s,%s,%s, %s, %S", 
 								r1.getIdentifier(), 
 								r2.getIdentifier(), 
 								Double.toString(correspondence.getSimilarityScore()),
 								((Company) r1).getName(),
-								((Company) r2).getName()));
+								name2));
 					}
 					else {
 						System.out.println(String.format("[wrong] %s,%s,%s", 

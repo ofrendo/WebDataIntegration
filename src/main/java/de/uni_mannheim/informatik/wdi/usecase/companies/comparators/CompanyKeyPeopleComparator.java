@@ -1,35 +1,27 @@
 package de.uni_mannheim.informatik.wdi.usecase.companies.comparators;
 
-import com.wcohen.ss.Jaccard;
-import com.wcohen.ss.api.Token;
-
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.Comparator;
 import de.uni_mannheim.informatik.wdi.identityresolution.similarity.string.TokenizingJaccardSimilarity;
 import de.uni_mannheim.informatik.wdi.usecase.companies.Company;
 import de.uni_mannheim.informatik.wdi.usecase.companies.similarity.FuzzyLevenshteinSimilarity;
 
-/**
- * Choose the highest similarity between two arrays of industries
- * @author Oliver
- *
- */
-public class CompanyIndustriesComparator extends Comparator<Company> {
+public class CompanyKeyPeopleComparator extends Comparator<Company> {
 	
 	private FuzzyLevenshteinSimilarity sim = new FuzzyLevenshteinSimilarity();
 	private TokenizingJaccardSimilarity simJaccard = new TokenizingJaccardSimilarity();
 	
 	@Override
 	public double compare(Company c1, Company c2) {
-		if (c1.getIndustries() == null || c2.getIndustries() == null)
+		if (c1.getKeyPeople() == null || c2.getKeyPeople() == null)
 			return 0;
 		
 		// Jaccard
-		/* String i1s = c1.getIndustries().replaceAll(";;", " ");
-		String i2s = c2.getIndustries().replaceAll(";;", " ");
-		return simJaccard.calculate(i1s, i2s); */
+		//String k1s = c1.getKeyPeople().replaceAll(";;", " ");
+		//String k2s = c2.getKeyPeople().replaceAll(";;", " ");
+		//return simJaccard.calculate(k1s, k2s); 
 		
 		// Own mix of jaccard and levenshtein
-		double similarity = sim.calculate(c1.getIndustries(), c2.getIndustries());
+		double similarity = sim.calculate(c1.getKeyPeople(), c2.getKeyPeople());
 		return similarity;
 	}
 	

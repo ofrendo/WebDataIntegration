@@ -23,7 +23,15 @@ public class CompanyLocationComparatorJaccard extends Comparator<Company> {
 			return 0;
 		}
 		
-		String l1s[] = getConcatenatedLocationNames(l1).split(";;");
+		// Normal Jaccard
+		String l1s = getConcatenatedLocationNames(l1);
+		String l2s = getConcatenatedLocationNames(l2);
+		l1s = l1s.replaceAll(";;", " ");
+		l2s = l2s.replaceAll(";;", " ");
+		return sim.calculate(l1s, l2s);
+		
+		// Highest Jaccard
+		/*String l1s[] = getConcatenatedLocationNames(l1).split(";;");
 		String l2s[] = getConcatenatedLocationNames(l2).split(";;");
 		
 		double result = 0;
@@ -34,7 +42,7 @@ public class CompanyLocationComparatorJaccard extends Comparator<Company> {
 			}
 		}
 		
-		return result;
+		return result;*/
 	}
 	
 	private String getConcatenatedLocationNames(List<Location> list) {

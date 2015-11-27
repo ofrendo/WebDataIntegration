@@ -19,9 +19,8 @@ public class CompanyNameComparator extends Comparator<Company> {
 	
 	@Override
 	public double compare(Company record1, Company record2) {
-		double result = record1.getName().equals(record2.getName()) ? 1 : 0; //equals
-		//double result = simLevenshtein.calculate(record1.getName(), record2.getName());
-		//double result = simCombination.calculate(record1.getName(), record2.getName()); //use combination
+		//double result = record1.getName().equals(record2.getName()) ? 1 : 0; //equals
+		double result = simCombination.calculate(record1.getName(), record2.getName()); //use combination (just levenshtein)
 		return result;
 	}
 

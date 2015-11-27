@@ -1,8 +1,7 @@
 http://dbpedia.org/resource/Citi_orient_securities,China Merchants Bank,FALSE
 http://dbpedia.org/resource/American_Eagle_Outfitters,American Express,FALSE
-http://dbpedia.org/resource/Bhubaneswar,Banco do Brasil,FALSE
-http://dbpedia.org/resource/Prudential_Financial,Prudential,FALSE
-http://dbpedia.org/resource/Eidos_Interactive,CNOOC,FALSE
+http://dbpedia.org/resource/Prudential_Financial,Prudential plc,TRUE
+http://dbpedia.org/resource/Eidos_Interactive,CNOOC Limited,FALSE
 http://dbpedia.org/resource/Newegg,Symantec Corporation,FALSE
 http://dbpedia.org/resource/East_Japan_Railway_Company,Central Japan Railway Company,FALSE
 http://dbpedia.org/resource/Tavant_Technologies,Akamai Technologies,FALSE
