@@ -4,7 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.Comparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.Company;
-import de.uni_mannheim.informatik.wdi.usecase.companies.similarity.FuzzyLevenshteinSimilarity;
+import de.uni_mannheim.informatik.wdi.usecase.companies.similarity.FuzzyJaccardSimilarity;
 
 /**
  * Compare two companies with each other, based on a given String attribute
@@ -27,7 +27,7 @@ public class CompanyStringAttributeComparatorJaccard extends Comparator<Company>
 	</company>
 */
 	
-	private FuzzyLevenshteinSimilarity sim = new FuzzyLevenshteinSimilarity();
+	private FuzzyJaccardSimilarity sim = new FuzzyJaccardSimilarity();
 	private String comparisonAttribute;
 
 	public CompanyStringAttributeComparatorJaccard(String comparisonAttribute) {
@@ -39,11 +39,11 @@ public class CompanyStringAttributeComparatorJaccard extends Comparator<Company>
 		String value1 = null;
 		String value2 = null;
 		switch (comparisonAttribute) {
-		case "name_TEMP":
+		case "name":
 			value1 = company1.getName();
 			value2 = company2.getName();
 			break;
-		case "keyPeople_TEMP":
+		case "keyPeople":
 			value1 = company1.getKeyPeople();
 			value2 = company2.getKeyPeople();
 			break;

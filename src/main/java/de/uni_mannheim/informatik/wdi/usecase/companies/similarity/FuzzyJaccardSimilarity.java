@@ -4,7 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 
 import de.uni_mannheim.informatik.wdi.identityresolution.similarity.SimilarityMeasure;
 
-public class FuzzyLevenshteinSimilarity extends SimilarityMeasure<String> {
+public class FuzzyJaccardSimilarity extends SimilarityMeasure<String> {
 
 	@Override
 	public double calculate(String value1, String value2) {

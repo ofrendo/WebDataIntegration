@@ -41,6 +41,7 @@ public class Locations_Main {
 				"/companies/company");
 		
 		CompanyLocationBlocker blocker = new CompanyLocationBlocker();
+		//CrossProductBlocker<Company> blocker = new CrossProductBlocker<>();
 		
 		double threshold = 0.86; //should be 0.5 always if using rapidminer
 		double nameWeight = 1.0;

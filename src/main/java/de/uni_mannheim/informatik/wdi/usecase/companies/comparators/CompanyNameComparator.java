@@ -3,7 +3,7 @@ package de.uni_mannheim.informatik.wdi.usecase.companies.comparators;
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.Comparator;
 import de.uni_mannheim.informatik.wdi.identityresolution.similarity.string.LevenshteinSimilarity;
 import de.uni_mannheim.informatik.wdi.usecase.companies.Company;
-import de.uni_mannheim.informatik.wdi.usecase.companies.similarity.FuzzyLevenshteinSimilarity;
+import de.uni_mannheim.informatik.wdi.usecase.companies.similarity.FuzzyJaccardSimilarity;
 
 /**
  * Use Levenshtein to compare names
@@ -15,7 +15,7 @@ public class CompanyNameComparator extends Comparator<Company> {
 	private LevenshteinSimilarity simLevenshtein = new LevenshteinSimilarity();
 	
 	
-	private FuzzyLevenshteinSimilarity simCombination = new FuzzyLevenshteinSimilarity();
+	private FuzzyJaccardSimilarity simCombination = new FuzzyJaccardSimilarity();
 	
 	@Override
 	public double compare(Company record1, Company record2) {

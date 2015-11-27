@@ -1,7 +1,7 @@
 % do not change these two lines (this is a hard requirement
 % there is one exception: you might replace oneside by twoside in case you deliver 
 % the printed version in the accordant format
-\documentclass[11pt,titlepage,oneside,openany]{book}
+\documentclass[11pt,titlepage,oneside,openany]{article}
 \usepackage{times}
 
 
@@ -25,8 +25,7 @@
 \newtheorem{proposition}{Proposition}
 
 %OWN PACKAGES
-\usepackage{multirow}
-
+\usepackage{enumitem}
 
 % its always useful to have some shortcuts (some are specific for algorithms
 % if you do not like your formating you can change it here (instead of scanning through the whole text)
@@ -72,9 +71,9 @@
 \begin{titlepage}
 	\vspace*{2cm}
   \begin{center}
-   {\Large The Extremes of Good and Evil\\}
+   {\Large Web Data Integration\\}
    \vspace{2cm} 
-   {Master Thesis\\}
+   {Student project report\\}
    \vspace{2cm}
    {presented by\\
     Oliver Frendo (1510432), \\
@@ -85,7 +84,7 @@
    \vspace{1cm} 
    {submitted to the\\
     Data and Web Science Group\\
-    Prof.\ Dr.\ Right Name Here\\
+    Prof.\ Dr.\ Christian Bizer\\
     University of Mannheim\\} \vspace{2cm}
    {\today}
   \end{center}
@@ -111,13 +110,13 @@
 % okay, start new numbering ... here is where it really starts
 \pagenumbering{arabic}
 
-\chapter{Web Data Integration}
-\include{0introduction}
-\include{1data_translation}
-\include{2id_resolution}
-\include{3data_fusion}
+%\chapter{Web Data Integration}
+\input{0introduction}
+\input{1data_translation}
+\input{2id_resolution}
+\input{3data_fusion}
 
-
+\newpage
 \bibliographystyle{plain}
 \bibliography{ProjectSummary-ref}
 

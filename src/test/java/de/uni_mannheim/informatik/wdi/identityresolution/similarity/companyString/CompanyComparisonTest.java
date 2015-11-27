@@ -17,7 +17,7 @@ public class CompanyComparisonTest extends TestCase {
 		String n1 = "Apple Inc. ";
 		//String n1 = "The_Coca-Cola_Company";
 		//String i1 = "National Commercial Banks;;Investment banking;;Financial Services;;Offices of Bank Holding Companies";
-		String i1 = "http://dbpedia.org/resource/Drink";
+		String i1 = "Computer, Transportation";
 		String kp1 = "Durinda Biesman, Senior Vice President, Global Service Delivery;;Gregory Ayers, Chief Financial Officer;;Mariann McDonagh, Chief Marketing Officer;;Paul Jarman, Chief Executive Officer;;Scott Welch, Chief Operating Officer;;Sunny Gosain, Executive Vice President &amp; Chief Product Officer;;Theodore Stern, Executive Chairman";
 		Company c1 = new Company(n1, null); //Forbes
 		c1.setName(n1);
@@ -28,7 +28,7 @@ public class CompanyComparisonTest extends TestCase {
 		//String n2 = "The Coca-Cola Company";
 //		String n2 = "Chevron Corporation";		
 		//String i2 = "Major Banks";
-		String i2 = "Beverages";
+		String i2 = "Computers, Transport";
 		String kp2 = "Mark Miller;;Tim Jenkins;;Mari Tangredi;;Brian Slitt;;Arash Saffarnia;;Kirsten McMullen;;Ed Koenig;;Michelle Estabrook;;Chuck Moxley;;Arthur Coleman;;Julie Shumaker;;Prakash Chandra;;Yonggang Xu;;Prashant Chaudhary;;Richard Qiu;;Zaw Thet;;Ray Colwell;;Ted C. Burns;;Patricia Clark;;Rajiv Parikh;;Markus A. Nordvik;;Dennis Yang;;Markus A. Nordvik;;Rajiv Parikh;;Chris Record;;Dave Matthews;;JB Sugar";
 		Company c2 = new Company(n2, null); //Freebase
 		c2.setName(n2);

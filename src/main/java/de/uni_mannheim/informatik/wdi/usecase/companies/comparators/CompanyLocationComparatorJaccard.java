@@ -7,7 +7,7 @@ import de.uni_mannheim.informatik.wdi.identityresolution.matching.Comparator;
 import de.uni_mannheim.informatik.wdi.identityresolution.similarity.string.TokenizingJaccardSimilarity;
 import de.uni_mannheim.informatik.wdi.usecase.companies.Company;
 import de.uni_mannheim.informatik.wdi.usecase.companies.Location;
-import de.uni_mannheim.informatik.wdi.usecase.companies.similarity.FuzzyLevenshteinSimilarity;
+import de.uni_mannheim.informatik.wdi.usecase.companies.similarity.FuzzyJaccardSimilarity;
 
 public class CompanyLocationComparatorJaccard extends Comparator<Company> {
 	
@@ -24,14 +24,14 @@ public class CompanyLocationComparatorJaccard extends Comparator<Company> {
 		}
 		
 		// Normal Jaccard
-		String l1s = getConcatenatedLocationNames(l1);
+		/*String l1s = getConcatenatedLocationNames(l1);
 		String l2s = getConcatenatedLocationNames(l2);
 		l1s = l1s.replaceAll(";;", " ");
 		l2s = l2s.replaceAll(";;", " ");
-		return sim.calculate(l1s, l2s);
+		return sim.calculate(l1s, l2s);*/
 		
 		// Highest Jaccard
-		/*String l1s[] = getConcatenatedLocationNames(l1).split(";;");
+		String l1s[] = getConcatenatedLocationNames(l1).split(";;");
 		String l2s[] = getConcatenatedLocationNames(l2).split(";;");
 		
 		double result = 0;
@@ -42,7 +42,7 @@ public class CompanyLocationComparatorJaccard extends Comparator<Company> {
 			}
 		}
 		
-		return result;*/
+		return result;
 	}
 	
 	private String getConcatenatedLocationNames(List<Location> list) {
