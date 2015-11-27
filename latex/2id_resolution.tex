@@ -1,3 +1,4 @@
+%\newpage
 \section{Identity resolution}
 \subsection{Gold standards}
 %For each of the subsubsections below:
@@ -27,7 +28,7 @@ This section explains the matching rules we tried in order to generate correspon
 
 %%%%%%%%%%%%%%BEGIN TABLE
 
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \begin{tabular}{|l|l|l|l|l|}
 \hline
@@ -63,7 +64,7 @@ In particular the rules for \texttt{name}, \texttt{industries} and \texttt{locat
 
 $$sim_{Jaccard+Levenshtein} = \frac{\sum_{x,y} max(sim_{Levenshtein}(x,y))} {|x|+|y| - \sum_{x,y} max(sim_{Levenshtein}(x,y))}
 
-\texttt{locations} and \texttt{countries} were compared using \textit{Highest Jaccard}: This means we compared each location of an entity with each location of another entity using Jaccard and then picked the highest value. To give an example: Comparing a company with two locations "New York" and "London" with another company with only one location "New York City" would give bad results using \textit{Equals} or \textit{Levenshtein}, which is why we chose to use the highest Jaccard value. Very often there were entities with multiple countries or locations but only single intersections. Due to the sparsity and potential unreliability of Freebase and DBpedia we wanted the similarity to reflect this. Lastly we compared numeric attributes such as \texttt{Revenue} using the PercentageSimilarity: However numeric data from Freebase and DBpedia is too sparse, unreliable or outdated. Learning a matching rule in RapidMiner confirms this by assigning weights of 0 to both these attributes.
+To give an example of two companies with two industries each: "Computer, Transportation" and "Computers, Transport" would generate a similarity of 0 with Jaccard but 0.75 with our approach. We used the same approach for comparing \texttt{keyPeople}, where misspellings of names are more important. \texttt{locations} and \texttt{countries} were compared using \textit{Highest Jaccard}: This means we compared each location of an entity with each location of another entity using Jaccard and then picked the highest value. To give an example: Comparing a company with two locations "New York" and "London" with another company with only one location "New York City" would give bad results using \textit{Equals} or \textit{Levenshtein}, which is why we chose to use the highest Jaccard value. Very often there were entities with multiple countries or locations but only single intersections. Due to the sparsity and potential unreliability of Freebase and DBpedia we wanted the similarity to reflect this. Lastly we compared numeric attributes such as \texttt{Revenue} using the PercentageSimilarity: However numeric data from Freebase and DBpedia is too sparse, unreliable or outdated. Learning a matching rule via linear regression confirms this by assigning weights of 0 to both these attributes.
 
 
 
@@ -87,7 +88,7 @@ Table \ref{tableBlockingFunctions} shows the blocking functions we tried and use
 
 %%%%%%%%%%%%%%BEGIN TABLE
 
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \begin{tabular}{|l|l|c|c|c|l|l|l|}
 \hline
@@ -124,7 +125,27 @@ Table \ref{tableBlockingFunctions} shows the blocking functions we tried and use
 
 \subsection{Learning matching rules}
 %Oliver
+We were able to improve the results of our identity resolution by learning the weights for a linear matching rule from a linear regression in RapidMiner over our handwritten rules. To give an example, the learned weights for the datasets from Freebase and DBpedia are as follows. Interestingly, both \texttt{keyPeople} and \texttt{locations} seem to be important,  while the weights for both numeric attributes \textttt{revenue} and \texttt{numberOfEmployees} is assigned a weight of 0, indicating the attributes are not very useful for an accurate comparison. Lastly the \texttt{name} attribute has the highest weight, as expected.
+\begin{center}
+\begin{array}{lrlr}
+\text{name} & 0.689       & \text{revenue} & 0.000\\
+\text{countries} & 0.088  & \text{numberOfEmployees} & 0.000\\
+\text{industries} & 0.025 & \text{keyPeople} & 0.377\\
+\text{dateFounded} & 0.170& \text{locations} & 0.218\\
+intercept & -0.135
+\end{array}
+\end{center}
+
+
+
+
 %Using linear regression etc
 %Why was this better than handwritten one
 %Discussion of both learned rules
+
+
+
+
+
+
 

@@ -18,14 +18,35 @@ The Forbes offers a .xls file with a list of Top 2000 companies during the perio
 \subsubsection{DBpedia: Company }
 The information of company is extracted from DBpedia, since it provides relatively complete information.  To access information from DBPedia we used the public SPARQL endpoint (at http://dbpedia.org/sparql). Figure 1.1 is our query for company, actually there is total 764398 companies in DBpedia, which would be too much for us and also not easy to handle it in terms of processing time and space. In order to reduce the number of data, we limit the company types to "company" and "public company" and only extract the companies that provide attributes "LocationCity" and "LocationCountry", these two attributes can also be related with Location Information, that's why we consider them as necessary and others are optional. On the other hand, if all these attributes are necessary, there will be only few thousands companies extracted, because not all companies have all these nine attributes, in this case few overlapping data will be in the final integration results. In addition to this, as many attributes such as KeyPeople, locationCity have multiple values which result in the same company would appear more than one times, to avoid these duplicates we used "group\_contac", a function in Sparql, to group many value together. There are also many values for Revenue but without date notation, so we just took the maximum value. 
 
+%\begin{figure}[H]
+%	\begin{center}
+%	\includegraphics[width=10cm]{DB_Com}
+%	\caption[DBpedia Query For Company]{DBpedia Query For Company}
+%	\label{fig:db}
+%	\end{center}
+%\end{figure}
+
 \subsubsection{Freebase: Company}
 %Yiru
 Freebase, like DBPedia, offers a web service which can be queried for data. Instead of SPARQL, however, the service is used by sending JSON requests. Like DBPedia this lets us select certain companies, or companies with certain attributes.
 
 
+
 \subsubsection{DBpedia: Location}
 %Silvia/Zehui
 We also extracted Location information from DBpedia with the same method as Company. Figure 1.2 is the query for location. For the same reason as Company, we limit the location types to "city" and "AdministrativeRegion", which are more relevant to our company dataset. Also some attributes have many values without extra information, it's hard to identify which one represents the current state, thus, we just took the maximum number of them among multiple values. Furthermore, the name of locations are provide in different languages, while in our project we just focus on english, so we filtered language as english.
+
+%\begin{figure}[H]
+%	\begin{center}
+%	\includegraphics[width=10cm]{DB_Loc}
+%	\caption[DBpedia Query For Location]{DBpedia Query For Location}
+%	\label{fig:db}
+%	\end{center}
+%\end{figure}
+
+
+
+
 
 
 \begin{table}[H]
@@ -57,7 +78,7 @@ We also extracted Location information from DBpedia with the same method as Comp
 %Take from data\ForbesPlan\Forbes-integrated schema.docx
 We looked into four datasets and did the following Integrated Schema.In this table we use prefix dataset 1, 2, 3,4 respectively represent Forbes, DBpedia(company), Freebase and DBpedia(Location)
 
-\begin{table}[h]
+\begin{table}[H]
 \centering
 \caption{Integrated Schema}
 \label{my-label}
@@ -84,38 +105,29 @@ location & elevation & dataset 4 & / \\ \hline
 
 
 \subsection{Data transformations}
-In this phase, two kinds of transformations occurred. One is processed during mapping, another one is processed with Java Programming. First of all, during mapping process, since revenue and assets are written in scientific notation, while in our target schema it should be in original data, therefore we used some functions in Mapforce to convert scientific notation into decimals. Secondly, the original data has no ID, but it will be used later, so we also append "ID" for these four dataset individually with "GenerateID" function provided by MapForce.
-In addition, many attributes in Dbpedia are in the form of URL, while only the values are meaningful, thus, we removed the URL part with Java and extracted values we want, in the mean time, we also replaced punctuation and symbols like "\_" or ".". Furthermore, some words, that have various spellings such as US, USA, U.S, America, were replaced with unified United States of America.
+Transformations were applied at two different points in this phase. The first was applied during mapping while the second was applied in the Java project. To begin with, numeric attributes with big values such as revenue or assets were often retrieved in scientific notation. Accordingly a function within MapForce was used to convert the numbers into a decimal notation. Secondly the datasets did not possess an ID attribute. Because it was going to be used later, it was generated with "GenerateID" in MapForce. 
+
+The next transformations occured in Java. Many values, especially from the two DBpedia datasets, were loaded in the form of a URL due to our SPARQL query. As such the URL was parsed and only the actual value was kept. In addition, punctation and symbols such as "\_" were removed. Lastly we normalized country values, which was an important step for the blocking functions used later on in identity resolution. Especially values for the USA were transformed from spellings such as "US", "USA", "United States" to "United States of America".
 
 
-%\begin{figure}[H]
-%	\begin{center}
-%	\includegraphics[width=10cm]{DB_Com}
-%	\caption[DBpedia Query For Company]{DBpedia Query For Company}
-%	\label{fig:db}
-%	\end{center}
-%\end{figure}
 
-
-%\begin{figure}[H]
-%	\begin{center}
-%	\includegraphics[width=10cm]{DB_Loc}
-%	\caption[DBpedia Query For Location]{DBpedia Query For Location}
-%	\label{fig:db}
-%	\end{center}
-%\end{figure}
-%Oliver
-%Which attributes did we transform in which way? 
-%Also: Example for each transformation showing why we did it
+%Numeric attributes to do with money: Scientific notation, small values from Forbes
+%	e.g. 1.17E+10 ==> 11.700.000.000
+% 	e.g. 483,1 (Apple in Forbes) ==> 483.100.000.000
 %DBpedia values: Very often URL
 %Company and location names: Removed common strings that are inconsistent among datasets, e.g. Apple / Apple, Inc.
 % 	also: Replaced punctuation and symbols like "_" or "."
 %	Result example: Apple (Forbes) <-> Apple,_Inc (DBpedia)
+
+
+%Oliver
+%Which attributes did we transform in which way? 
+%Also: Example for each transformation showing why we did it
+
+
 %Countries: Replaced different spellings of same word 
 %	e.g. US, USA, U.S., America with "United States of America" or UK, England with United Kingdom
-%Numeric attributes to do with money: Scientific notation, small values from Forbes
-%	e.g. 1.17E+10 ==> 11.700.000.000
-% 	e.g. 483,1 (Apple in Forbes) ==> 483.100.000.000
+
 
 
 
