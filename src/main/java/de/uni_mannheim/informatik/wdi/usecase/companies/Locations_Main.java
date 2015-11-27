@@ -10,6 +10,7 @@ import javax.xml.xpath.XPathExpressionException;
 import org.xml.sax.SAXException;
 
 import de.uni_mannheim.informatik.wdi.DataSet;
+import de.uni_mannheim.informatik.wdi.identityresolution.blocking.CrossProductBlocker;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.GoldStandard;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.MatchingEvaluator;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.Performance;
@@ -18,7 +19,6 @@ import de.uni_mannheim.informatik.wdi.identityresolution.matching.LinearCombinat
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.MatchingEngine;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecord;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecordCSVFormatter;
-import de.uni_mannheim.informatik.wdi.usecase.companies.blocking.CompanyLocationBlocker;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyLocationComparatorJaccard;
 import de.uni_mannheim.informatik.wdi.usecase.companies.locations.comparators.CompanyLocationCountryComparator;
 
@@ -40,7 +40,8 @@ public class Locations_Main {
 				new CompanyFactory(null, null),   
 				"/companies/company");
 		
-		CompanyLocationBlocker blocker = new CompanyLocationBlocker();
+		//CompanyLocationBlocker blocker = new CompanyLocationBlocker();
+		CrossProductBlocker<Company> blocker = new CrossProductBlocker<>();
 		
 		double threshold = 0.86; //should be 0.5 always if using rapidminer
 		double nameWeight = 1.0;

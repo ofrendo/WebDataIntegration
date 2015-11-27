@@ -15,38 +15,43 @@
 \subsubsection{DBpedia companies $\leftrightarrow$ DBpedia locations}
 %Silvia/Zehui
 
-
+\newpage
 \subsection{Matching rules}
-Aim here was to generate correspondences between companies of two different sources. 
-%hard cases :China Pacific Insurance, CHINA LIFE INSURANCE, ; West Japan Railway, EAST JAPAN RAILWAY (FALSE); Vodafone, VODAFONE PLC (TRUE)
 %Oliver
-%Which matching rules did you try?
+This section explains the matching rules we tried in order to generate correspondences accurately. We matched the following datasets with each other:
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item Forbes vs Freebase
+\item Freebase vs DBpedia
+\item DBpedia companies vs DBpedia locations
+\end{itemize}
+
 %%%%%%%%%%%%%%BEGIN TABLE
 
-\begin{table}[]
+\begin{table}[h]
 \centering
-\begin{tabular}{lllll}
-\textbf{Attribute} & \textbf{MatchingRule} & \textbf{P} & \textbf{R} & \textbf{F1} \\
-\multicolumn{5}{l}{\textbf{Forbes vs Freebase}} \\
-name & Equals & 1,0000 & 0,7500 & 0,8571 \\
- & Levenshtein & 0,8571 & 1,0000 & 0,9231 \\
-countries & Equals & 0,8571 & 1,0000 & 0,9231 \\
- & Jaccard & 0,8571 & 1,0000 & 0,9231 \\
- & Highest Jaccard & 0,8571 & 1,0000 & 0,9231 \\
-industries & Jaccard & 0,9091 & 0,8333 & 0,8696 \\
- & \begin{tabular}[c]{@{}l@{}}Combination of Jaccard\\ and Levenshtein\end{tabular} & 0,8571 & 1,0000 & 0,9231 \\
-\begin{tabular}[c]{@{}l@{}}revenue/\\ profit\end{tabular} & \begin{tabular}[c]{@{}l@{}}PercentageSimilarity\\ (max\_percentage=0.5)\end{tabular} & 0,8571 & 1,0000 & 0,9231 \\
-\multicolumn{5}{l}{\textbf{Freebase vs DBpedia}} \\
-\begin{tabular}[c]{@{}l@{}}revenue/\\ numberOfEmployees\end{tabular} & \begin{tabular}[c]{@{}l@{}}PercentageSimilarity\\ (max\_percentage=0.5)\end{tabular} & 0,9167 & 0,9167 & 0,9167 \\
-dateFounded & \begin{tabular}[c]{@{}l@{}}YearSimilarity\\ (maxDifference=20)\end{tabular} & 0,9167 & 0,9167 & 0,9167 \\
-keyPeople & Jaccard & 0,9167 & 0,9167 & 0,9167 \\
- & \begin{tabular}[c]{@{}l@{}}Combination of Jaccard\\ and Levenshtein\end{tabular} & 0,9167 & 0,9167 & 0,9167 \\
-locations & Jaccard & 0,9167 & 0,9167 & 0,9167 \\
- & Highest Jaccard & 0,9167 & 0,9167 & 0,9167 \\
-\multicolumn{5}{l}{\textbf{DBpedia companies vs DBpedia locations}} \\
-countries & Highest Jaccard & 0,9706 & 0,9429 & 0,9565 \\
-locations & Jaccard & 0,9630 & 0,7429 & 0,8387 \\
- & Highest Jaccard & 0,9706 & 0,9429 & 0,9429
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Attribute} & \textbf{MatchingRule} & \textbf{P} & \textbf{R} & \textbf{F1} \\ \hline
+\multicolumn{5}{|l|}{\textbf{Forbes vs Freebase}} \\ \hline
+\multirow{2}{*}{name} & Equals & 1,0000 & 0,7500 & 0,8571 \\ \cline{2-5} 
+ & Levenshtein & 0,8571 & 1,0000 & 0,9231 \\ \hline
+\multirow{3}{*}{countries} & Equals & 0,8571 & 1,0000 & 0,9231 \\ \cline{2-5} 
+ & Jaccard & 0,8571 & 1,0000 & 0,9231 \\ \cline{2-5} 
+ & Highest Jaccard & 0,8571 & 1,0000 & 0,9231 \\ \hline
+\multirow{2}{*}{industries} & Jaccard & 0,9091 & 0,8333 & 0,8696 \\ \cline{2-5} 
+ & \begin{tabular}[c]{@{}l@{}}Combination of Jaccard\\ and Levenshtein\end{tabular} & 0,8571 & 1,0000 & 0,9231 \\ \hline
+\begin{tabular}[c]{@{}l@{}}revenue/\\ profit\end{tabular} & \begin{tabular}[c]{@{}l@{}}PercentageSimilarity\\ (max\_percentage=0.5)\end{tabular} & 0,8571 & 1,0000 & 0,9231 \\ \hline
+\multicolumn{5}{|l|}{\textbf{Freebase vs DBpedia}} \\ \hline
+\begin{tabular}[c]{@{}l@{}}revenue/\\ numberOfEmployees\end{tabular} & \begin{tabular}[c]{@{}l@{}}PercentageSimilarity\\ (max\_percentage=0.5)\end{tabular} & 0,9167 & 0,9167 & 0,9167 \\ \hline
+dateFounded & \begin{tabular}[c]{@{}l@{}}YearSimilarity\\ (maxDifference=20)\end{tabular} & 0,9167 & 0,9167 & 0,9167 \\ \hline
+\multirow{2}{*}{keyPeople} & Jaccard & 0,9167 & 0,9167 & 0,9167 \\ \cline{2-5} 
+ & \begin{tabular}[c]{@{}l@{}}Combination of Jaccard\\ and Levenshtein\end{tabular} & 0,9167 & 0,9167 & 0,9167 \\ \hline
+\multirow{2}{*}{locations} & Jaccard & 0,9167 & 0,9167 & 0,9167 \\ \cline{2-5} 
+ & Highest Jaccard & 0,9167 & 0,9167 & 0,9167 \\ \hline
+\multicolumn{5}{|l|}{\textbf{DBpedia companies vs DBpedia locations}} \\ \hline
+countries & Highest Jaccard & 0,9706 & 0,9429 & 0,9565 \\ \hline
+\multirow{2}{*}{locations} & Jaccard & 0,9630 & 0,7429 & 0,8387 \\ \cline{2-5} 
+ & Highest Jaccard & 0,9706 & 0,9429 & 0,9429 \\ \hline
 \end{tabular}
 \caption{Matching rule accuracies}
 \label{my-label}
@@ -54,53 +59,67 @@ locations & Jaccard & 0,9630 & 0,7429 & 0,8387 \\
 
 %%%%%%%%%%%%%%END TABLE
 
-Comments:
-COUNTRIES
-May have an effect on companies that have multiple countries and thus the number of correspondencies
-INDUSTRIES
-Needed a better measure than just Jaccard or Levenshtein because of misspellings or slight differences, e.g. "Transport" and "Transportation"
-REVENUE/PROFIT
-Numeric data from Freebase is too sparse, unreliabe or outdated. Learning a matching rule in RapidMiner confirms this by assigning weights of 0 to both these attributes.
+In particular the rules for \texttt{name}, \texttt{industries} and \texttt{locations} show different results. For \texttt{name} we chose to use Levenshtein because of misspellings, or because of the company type (e.g. "Inc." or "PLC"). However, this also introduces some problematic cases such as "West Japan Railway" and "East Japan Railway", which are different companies but possess very similar attribute values and also generate a very high Levenshtein similarity. For \texttt{industries} we tried Jaccard first. This however is not an accurate measure of similarity because of slight differences like "Transport" and "Transportation". As such we chose to use a combination of Jaccard and Levenshtein which led to better results:
+
+$$sim_{Jaccard+Levenshtein} = \frac{\sum_{x,y} max(sim_{Levenshtein}(x,y))} {|x|+|y| - \sum_{x,y} max(sim_{Levenshtein}(x,y))}
+
+\texttt{locations} and \texttt{countries} were compared using \textit{Highest Jaccard}: This means we compared each location of an entity with each location of another entity using Jaccard and then picked the highest value. To give an example: Comparing a company with two locations "New York" and "London" with another company with only one location "New York City" would give bad results using \textit{Equals} or \textit{Levenshtein}, which is why we chose to use the highest Jaccard value. Very often there were entities with multiple countries or locations but only single intersections. Due to the sparsity and potential unreliability of Freebase and DBpedia we wanted the similarity to reflect this. Lastly we compared numeric attributes such as \texttt{Revenue} using the PercentageSimilarity: However numeric data from Freebase and DBpedia is too sparse, unreliable or outdated. Learning a matching rule in RapidMiner confirms this by assigning weights of 0 to both these attributes.
 
 
-LOCATIONS: No need for Levenshtein
-	NAME: New York and New York City need Jaccard. Probably no misspellings though
 
 
-%What happened with P/R and F1?
-%Table comparing P/R/F1 of the different matching rules
-%Choose maybe only one of the above?
+%HARD CASES
+%Vodafone, VODAFONE PLC (TRUE)
+%China Pacific Insurance, CHINA LIFE INSURANCE
+%Central Japan Railway, EAST JAPAN RAILWAY (FALSE)
+%Vodafone, Vodafone Group plc (TRUE)
+%Syracuse, Utah AND Syracuse, New York
+%"Chicago and Nashville" as single attribute from DBpedia
 
-HARD CASES
-Central Japan Railway, EAST JAPAN RAILWAY (FALSE)
-Vodafone, Vodafone Group plc (TRUE)
-Syracuse, Utah AND Syracuse, New York
-"Chicago and Nashville" as single attribute from DBpedia
-
-EXAMPLE FOR HIGHEST JACCARD 
-	C1=New York, Chicago. C2 New York. Should be correspondence, so similarity = 1
-	Couldn't just take highest equals because of New York and New York City for example
+%EXAMPLE FOR HIGHEST JACCARD 
+%	C1=New York, Chicago. C2 New York. Should be correspondence, so similarity = 1
+%	Couldn't just take highest equals because of New York and New York City for example
 	
-COMBINATION OF LEVENSHTEIN AND JACCARD: Why? Why are they better than normal values?
+	
 \subsection{Blocking functions}
 %Oliver
-%Changes in runtime, number of matches, reduction ratio
+Table \ref{tableBlockingFunctions} shows the blocking functions we tried and used in our project. For the comparison of the Forbes and Freebase datasets a partitioning by \texttt{countries} shows good results, which is consistent with the high density of the attribute in both datasets. We also tried a sorted neighbourhood approach on the same attribute which seemed to be less effective. Using a cross product approach for comparing Freebase with DBpedia was impossible due to the large size of DBpedia. As such we tried partitioning by \texttt{countries}, \texttt{dateFounded} (where the blocking key is $year/20$) and a combination of the two. The combination reflects our own implementation of a partitioning blocker, where we generate a match to be evaluated if the one of the two blocking keys are the same. This shows the best results because both attributes are relatively, but not completely, dense in both datasets, which is why the reduction ratio is lower then when using only one of the two. When comparing companies with locations from the DBpedia datasets \texttt{countries} is the only possible blocking key. 
 
-Notes on blocking function:
+%%%%%%%%%%%%%%BEGIN TABLE
 
-Freebase vs Forbes: 
-- Country is always available in Forbes, sparse in Freebase (EXACT NUMBER)
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|c|c|c|l|l|l|}
+\hline
+\multicolumn{1}{|c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Dataset \\ Comparison\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Blocking \\ function\end{tabular}}} & \textbf{Time} & \textbf{Match} & \textbf{Ratio} & \multicolumn{1}{c|}{\textbf{P}} & \multicolumn{1}{c|}{\textbf{R}} & \multicolumn{1}{c|}{\textbf{F1}} \\ \hline
+\multirow{3}{*}{\begin{tabular}[c]{@{}l@{}}Forbes vs \\ Freebase\end{tabular}} & CrossProduct & 00:32 & 509 & 1,00 & \multicolumn{1}{c|}{0,86} & \multicolumn{1}{c|}{1,00} & \multicolumn{1}{c|}{0,92} \\ \cline{2-8} 
+ & \begin{tabular}[c]{@{}l@{}}SortedNeigh.\\ (Country)\end{tabular} & 00:05 & 319 & 6,80 & \multicolumn{1}{c|}{0,87} & \multicolumn{1}{c|}{0,58} & \multicolumn{1}{c|}{0,70} \\ \cline{2-8} 
+ & \begin{tabular}[c]{@{}l@{}}Partitioning\\ (Country)\end{tabular} & 00:02 & 425 & 20,19 & 0,86 & 1,00 & 0,92 \\ \hline
+\multirow{3}{*}{\begin{tabular}[c]{@{}l@{}}Freebase vs \\ DBpedia\end{tabular}} & \begin{tabular}[c]{@{}l@{}}Partitioning\\ (Country)\end{tabular} & 00:44 & 576 & 15,92 & 0,90 & 0,75 & 0,82 \\ \cline{2-8} 
+ & \begin{tabular}[c]{@{}l@{}}Partitioning\\ (DateFounded)\end{tabular} & 00:39 & 496 & 9,43 & 0,89 & 0,67 & 0,76 \\ \cline{2-8} 
+ & \begin{tabular}[c]{@{}l@{}}Partitioning\\ (Combination)\end{tabular} & 01:22 & 671 & 6,13 & 0,92 & 0,92 & 0,92 \\ \hline
+\begin{tabular}[c]{@{}l@{}}Companies\\ vs\\ Locations\end{tabular} & \begin{tabular}[c]{@{}l@{}}Partitioning\\ (Country)\end{tabular} & 00:41 & 7.921 & 4,11 & 0,97 & 0,94 & 0,96 \\ \hline
+\end{tabular}
+\caption{Blocking functions}
+\label{tableBlockingFunctions}
+\end{table}
 
-Freebase vs DBPedia:
-- Country is somewhat sparse in both datasets (EXACT NUMBER)
-- DateFounded somewhat sparse in both (EXACT NUMBER)
+%%%%%%%%%%%%%%END TABLE
 
-Company vs Location
-- Country is only way to go
+%Notes on blocking function:
+%Freebase vs Forbes: 
+%- Country is always available in Forbes, sparse in Freebase (EXACT NUMBER)
 
-Own idea: Implement own partitioning blocker, but more fuzzy logic
-- I.E. Country first, then date, then location or so as alternative (EXACT NUMBER)
-- Generate more pairs, matching rule will take care if its same company or not- more conservative approach
+%Freebase vs DBPedia:
+%- Country is somewhat sparse in both datasets (EXACT NUMBER)
+%- DateFounded somewhat sparse in both (EXACT NUMBER)
+
+%Company vs Location
+%- Country is only way to go
+
+%Own idea: Own implementation of partitioning blocker, but more fuzzy logic
+%- I.E. Country first, then date, then location or so as alternative (EXACT NUMBER)
+%- Generate more pairs, matching rule will take care if its same company or not- more conservative approach
 
 
 \subsection{Learning matching rules}

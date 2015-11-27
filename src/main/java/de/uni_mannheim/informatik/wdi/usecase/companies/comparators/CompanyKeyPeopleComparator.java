@@ -3,11 +3,11 @@ package de.uni_mannheim.informatik.wdi.usecase.companies.comparators;
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.Comparator;
 import de.uni_mannheim.informatik.wdi.identityresolution.similarity.string.TokenizingJaccardSimilarity;
 import de.uni_mannheim.informatik.wdi.usecase.companies.Company;
-import de.uni_mannheim.informatik.wdi.usecase.companies.similarity.FuzzyLevenshteinSimilarity;
+import de.uni_mannheim.informatik.wdi.usecase.companies.similarity.FuzzyJaccardSimilarity;
 
 public class CompanyKeyPeopleComparator extends Comparator<Company> {
 	
-	private FuzzyLevenshteinSimilarity sim = new FuzzyLevenshteinSimilarity();
+	private FuzzyJaccardSimilarity sim = new FuzzyJaccardSimilarity();
 	private TokenizingJaccardSimilarity simJaccard = new TokenizingJaccardSimilarity();
 	
 	@Override

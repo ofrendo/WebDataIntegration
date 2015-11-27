@@ -12,6 +12,8 @@ import javax.xml.xpath.XPathExpressionException;
 import org.xml.sax.SAXException;
 
 import de.uni_mannheim.informatik.wdi.DataSet;
+import de.uni_mannheim.informatik.wdi.identityresolution.blocking.Blocker;
+import de.uni_mannheim.informatik.wdi.identityresolution.blocking.CrossProductBlocker;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.GoldStandard;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.MatchingEvaluator;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.Performance;
@@ -20,7 +22,6 @@ import de.uni_mannheim.informatik.wdi.identityresolution.matching.LinearCombinat
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.MatchingEngine;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecord;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecordCSVFormatter;
-import de.uni_mannheim.informatik.wdi.usecase.companies.blocking.CompanyBlocker;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyCountriesComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyIndustriesComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyNameComparator;
@@ -84,9 +85,10 @@ public class Companies_Main_Forbes_Freebase {
 		rule.addComparator(new CompanyNumericAttributeComparator("profit", 0.5), profitWeight);  //seems this is not usable to compare!
 		
 		// create the matching engine
-		//Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyCountryBlockingFunction());;
-		CompanyBlocker blocker = new CompanyBlocker();
-		//Blocker<Company> blocker = new CrossProductBlocker<>();
+		//Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyDateFoundedBlockingFunction());;
+		//CompanyBlocker blocker = new CompanyBlocker();
+		Blocker<Company> blocker = new CrossProductBlocker<>();
+		//Blocker<Company> blocker = new SortedNeighbourhoodBlocker<>(new CompanyCountryBlockingFunction(), 20);
 		MatchingEngine<Company> engine = new MatchingEngine<>(rule, blocker);
 		
 		// run the matching

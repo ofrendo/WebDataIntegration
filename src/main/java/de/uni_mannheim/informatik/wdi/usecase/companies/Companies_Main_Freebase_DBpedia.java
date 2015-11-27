@@ -12,6 +12,8 @@ import javax.xml.xpath.XPathExpressionException;
 import org.xml.sax.SAXException;
 
 import de.uni_mannheim.informatik.wdi.DataSet;
+import de.uni_mannheim.informatik.wdi.identityresolution.blocking.Blocker;
+import de.uni_mannheim.informatik.wdi.identityresolution.blocking.CrossProductBlocker;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.GoldStandard;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.MatchingEvaluator;
 import de.uni_mannheim.informatik.wdi.identityresolution.evaluation.Performance;
@@ -20,7 +22,6 @@ import de.uni_mannheim.informatik.wdi.identityresolution.matching.LinearCombinat
 import de.uni_mannheim.informatik.wdi.identityresolution.matching.MatchingEngine;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecord;
 import de.uni_mannheim.informatik.wdi.identityresolution.model.DefaultRecordCSVFormatter;
-import de.uni_mannheim.informatik.wdi.usecase.companies.blocking.CompanyBlocker;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyCountriesComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyDateFoundedComparator;
 import de.uni_mannheim.informatik.wdi.usecase.companies.comparators.CompanyIndustriesComparator;
@@ -50,10 +51,10 @@ public class Companies_Main_Freebase_DBpedia {
 		System.out.println("freebaseFactory attributeCount=" + freebaseFactory.attributeCounter);
 		System.out.println("dbpediaFactory attributeCount=" + dbpediaFactory.attributeCounter);
 		
-		//Blocker<Company> blocker = new CrossProductBlocker<>();
+		Blocker<Company> blocker = new CrossProductBlocker<>();
 		//Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyCountryBlockingFunction());
 		//Blocker<Company> blocker = new PartitioningBlocker<>(new CompanyDateFoundedBlockingFunction());
-		CompanyBlocker blocker = new CompanyBlocker();
+		//CompanyBlocker blocker = new CompanyBlocker();
 		
 		//Results from rapidminer
 		double threshold = 0.67; //was 0.67, good value ~667 correspondences
