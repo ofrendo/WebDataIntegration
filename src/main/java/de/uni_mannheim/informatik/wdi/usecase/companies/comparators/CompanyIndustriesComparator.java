@@ -24,13 +24,13 @@ public class CompanyIndustriesComparator extends Comparator<Company> {
 			return 0;
 		
 		// Jaccard
-		String i1s = c1.getIndustries().replaceAll(";;", " ");
-		String i2s = c2.getIndustries().replaceAll(";;", " ");
-		return simJaccard.calculate(i1s, i2s); 
+		//String i1s = c1.getIndustries().replaceAll(";;", " ");
+		//String i2s = c2.getIndustries().replaceAll(";;", " ");
+		//return simJaccard.calculate(i1s, i2s); 
 		
 		// Own mix of jaccard and levenshtein
-		//double similarity = sim.calculate(c1.getIndustries(), c2.getIndustries());
-		//return similarity;
+		double similarity = sim.calculate(c1.getIndustries(), c2.getIndustries());
+		return similarity;
 	}
 	
 }
