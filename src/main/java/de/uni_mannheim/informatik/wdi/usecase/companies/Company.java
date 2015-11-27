@@ -34,12 +34,12 @@ public class Company extends Record {
 	private String originalCountries;
 	private String continent;
 	private String industries;
-	private long revenue = -1;
-	private int numberOfEmployees = -1;
+	private long revenue = 0;
+	private int numberOfEmployees = 0;
 	private DateTime dateFounded;
-	private long profit = -1;
-	private long assets = -1;
-	private long marketValue = -1;
+	private long profit = 0;
+	private long assets = 0;
+	private long marketValue = 0;
 	private String keyPeople;
 	private List<Location> locations;
 	

@@ -102,14 +102,14 @@ public class Companies_Main {
 		//dsDBpedia.setDate(DateTime.parse("2015-11-21"));
 		//dsLocation.setDate(DateTime.parse("2015-11-21"));
 		// print dataset density
-		//System.out.println("IntegratedCompanyForbes.xml");
-		//dsForbes.printDataSetDensityReport();
-		//System.out.println("IntegratedCompanyFreebase.xml");
-		//dsFreebase.printDataSetDensityReport();
-		//System.out.println("IntegratedCompanyDBpedia.xml");
-		//dsDBpedia.printDataSetDensityReport();
-		//System.out.println("IntegratedLocationDBpedia.xml");
-		//dsLocation.printDataSetDensityReport();
+		System.out.println("IntegratedCompanyForbes.xml");
+		dsForbes.printDataSetDensityReport();
+		System.out.println("IntegratedCompanyFreebase.xml");
+		dsFreebase.printDataSetDensityReport();
+		System.out.println("IntegratedCompanyDBpedia.xml");
+		dsDBpedia.printDataSetDensityReport();
+		System.out.println("IntegratedLocationDBpedia.xml");
+		dsLocation.printDataSetDensityReport();
 		
 		// load the correspondences
 		CorrespondenceSet<FusableCompany> correspondences = new CorrespondenceSet<>();
@@ -134,18 +134,18 @@ public class Companies_Main {
 		DataFusionStrategy<FusableCompany> strategy = new DataFusionStrategy<>(new FusableCompanyFactory(printCompanyID));
 		// add attribute fusers
 		// Note: The attribute name is only used for printing the reports
-		strategy.addAttributeFuser("Name", new NameFuser(), new NameEvaluationRule());
-		strategy.addAttributeFuser("Countries", new CountriesFuser(), new CountriesEvaluationRule());
-		strategy.addAttributeFuser("Industries", new IndustriesFuser(), new IndustriesEvaluationRule());
-		strategy.addAttributeFuser("Revenue", new RevenueFuser(), new RevenueEvaluationRule());
-		strategy.addAttributeFuser("NumberOfEmployees", new NumberOfEmployeesFuser(), new NumberOfEmployeesEvaluationRule());
-		strategy.addAttributeFuser("DateFounded", new DateFoundedFuser(), new DateFoundedEvaluationRule());
-		strategy.addAttributeFuser("Assets", new AssetsFuser(), new AssetsEvaluationRule());
-		strategy.addAttributeFuser("MarketValue", new MarketValueFuser(), new SingleSourceEvaluationRule());
-		strategy.addAttributeFuser("Profit", new ProfitFuser(), new SingleSourceEvaluationRule());
-		strategy.addAttributeFuser("Continent", new ContinentFuser(), new SingleSourceEvaluationRule());
-		strategy.addAttributeFuser("KeyPeople", new KeyPeopleFuser(), new KeyPeopleEvaluationRule());
-		strategy.addAttributeFuser("Locations", new LocationsFuser(), new LocationsEvaluationRule());
+		strategy.addAttributeFuser("name", new NameFuser(), new NameEvaluationRule());
+		strategy.addAttributeFuser("countries", new CountriesFuser(), new CountriesEvaluationRule());
+		strategy.addAttributeFuser("industries", new IndustriesFuser(), new IndustriesEvaluationRule());
+		strategy.addAttributeFuser("revenue", new RevenueFuser(), new RevenueEvaluationRule());
+		strategy.addAttributeFuser("numberOfEmployees", new NumberOfEmployeesFuser(), new NumberOfEmployeesEvaluationRule());
+		strategy.addAttributeFuser("dateFounded", new DateFoundedFuser(), new DateFoundedEvaluationRule());
+		strategy.addAttributeFuser("assets", new AssetsFuser(), new AssetsEvaluationRule());
+		strategy.addAttributeFuser("marketValue", new MarketValueFuser(), new SingleSourceEvaluationRule());
+		strategy.addAttributeFuser("profit", new ProfitFuser(), new SingleSourceEvaluationRule());
+		strategy.addAttributeFuser("continent", new ContinentFuser(), new SingleSourceEvaluationRule());
+		strategy.addAttributeFuser("keyPeople", new KeyPeopleFuser(), new KeyPeopleEvaluationRule());
+		strategy.addAttributeFuser("locations", new LocationsFuser(), new LocationsEvaluationRule());
 		
 		// create the fusion engine
 		DataFusionEngine<FusableCompany> engine = new DataFusionEngine<>(strategy);
@@ -155,6 +155,8 @@ public class Companies_Main {
 		
 		// run the fusion
 		FusableDataSet<FusableCompany> fusedDataSet = engine.run(correspondences);
+		
+		System.out.println("FUSED RESULT");
 		fusedDataSet.printDataSetDensityReport();
 		
 		// write the result

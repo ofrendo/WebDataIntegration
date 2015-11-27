@@ -50,7 +50,7 @@ public class FusableCompany extends Company implements Fusable {
 	public static final String ASSETS = "assets";
 	public static final String MARKET_VALUE = "marketValue";
 	public static final String PROFIT = "profit";
-	public static final String CONTINENT = "contintent";
+	public static final String CONTINENT = "continent";
 	public static final String KEY_PEOPLE = "keyPeople";
 	public static final String COUNTRIES = "countries";
 	public static final String ORIGINAL_COUNTRIES = "originalCountries";
@@ -58,9 +58,9 @@ public class FusableCompany extends Company implements Fusable {
 	
 	@Override
 	public Collection<String> getAttributeNames() {
-		return Arrays.asList(new String[] { NAME, ORIGINAL_NAME, INDUSTRIES, REVENUE, NUMBER_OF_EMPLOYEES, 
+		return Arrays.asList(new String[] { NAME, INDUSTRIES, REVENUE, NUMBER_OF_EMPLOYEES, 
 				DATE_FOUNDED, ASSETS, MARKET_VALUE, PROFIT, CONTINENT,
-				KEY_PEOPLE, COUNTRIES, ORIGINAL_COUNTRIES, LOCATIONS});
+				KEY_PEOPLE, COUNTRIES, LOCATIONS}); //ORIGINAL_COUNTRIES ORIGINAL_NAME
 	}
 
 	@Override
@@ -73,17 +73,17 @@ public class FusableCompany extends Company implements Fusable {
 		case INDUSTRIES:
 			return getIndustries()!=null && !getIndustries().isEmpty();
 		case REVENUE:
-			return getRevenue() > 0;
+			return getRevenue() != 0;
 		case NUMBER_OF_EMPLOYEES:
-			return getNumberOfEmployees() > 0;
+			return getNumberOfEmployees() != 0;
 		case DATE_FOUNDED:
 			return getDateFounded()!=null;
 		case ASSETS:
-			return getAssets() > 0;
+			return getAssets() != 0;
 		case MARKET_VALUE:
-			return getMarketValue() > 0;
+			return getMarketValue() != 0;
 		case PROFIT:
-			return getProfit() > 0;
+			return getProfit() != 0;
 		case CONTINENT:
 			return getContinent()!=null && !getContinent().isEmpty();
 		case KEY_PEOPLE:
@@ -93,7 +93,7 @@ public class FusableCompany extends Company implements Fusable {
 		case ORIGINAL_COUNTRIES:
 			return getOriginalCountries()!=null && !getOriginalCountries().isEmpty();
 		case LOCATIONS:
-			return getLocations()!=null && getLocations().size() > 0;
+			return getLocations()!=null && getLocations().size() != 0;
 		default:
 			return false;
 		}

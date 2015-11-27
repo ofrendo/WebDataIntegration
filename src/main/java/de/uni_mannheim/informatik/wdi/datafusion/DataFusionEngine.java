@@ -81,8 +81,38 @@ public class DataFusionEngine<RecordType extends Matchable & Fusable> {
 	public void printClusterConsistencyReport(CorrespondenceSet<RecordType> correspondences) {
 		System.out.println("Attribute Consistencies:");
 		Map<String, Double> consistencies = getAttributeConsistencies(correspondences);
-		for(String att : consistencies.keySet()) {
-			System.out.println(String.format("\t%s: %.2f", att, consistencies.get(att)));
+		
+		String[] consistencyResults = {
+				"name:" + consistencies.get("name"),
+				"countries:" + consistencies.get("countries"),
+				"industries: " + consistencies.get("industries"),
+				"revenue: " + consistencies.get("revenue"),
+				"numberOfEmployees: " + consistencies.get("numberOfEmployees"),
+				"dateFounded: " + consistencies.get("dateFounded"),
+				"assets: " + consistencies.get("assets"),
+				"marketValue: " + consistencies.get("marketValue"),
+				"profit: " + consistencies.get("profit"),
+				"continent: " + consistencies.get("continent"),
+				"keyPeople: " + consistencies.get("keyPeople"),
+				"locations: " + consistencies.get("locations")
+		};
+		//for(String att : consistencies.keySet()) {
+		//	System.out.println(String.format("\t%s: %.2f", att, consistencies.get(att)));
+		//}
+		for (String c : consistencyResults) {
+			String[] parts = c.split(":");
+			
+			double con = Double.valueOf(parts[1]);
+			System.out.println(String.format("\t%s \t %.2f",
+					parts[0], con));
 		}
 	}
 }
+
+
+
+
+
+
+
+

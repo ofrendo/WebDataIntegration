@@ -100,7 +100,7 @@ public class Normalization {
 	
 	public static long normalizeProfitOrRevenue(String input) {
 		if (input == null) 
-			return -1;
+			return 0;
 		
 		Double value = Double.valueOf(input);
 		if (value < 1000) {

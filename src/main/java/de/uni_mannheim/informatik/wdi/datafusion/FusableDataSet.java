@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.SortedMap;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -181,9 +182,31 @@ public class FusableDataSet<RecordType extends Matchable & Fusable> extends
 				.println(String.format("DataSet density: %.2f", getDensity()));
 		System.out.println("Attributes densities:");
 		Map<String, Double> densities = getAttributeDensities();
-		for (String att : densities.keySet()) {
-			System.out.println(String.format("\t%s: %.2f", att,
-					densities.get(att)));
+		
+		String[] densityResults = {
+				"name:" + densities.get("name"),
+				"countries:" + densities.get("countries"),
+				"industries: " + densities.get("industries"),
+				"revenue: " + densities.get("revenue"),
+				"numberOfEmployees: " + densities.get("numberOfEmployees"),
+				"dateFounded: " + densities.get("dateFounded"),
+				"assets: " + densities.get("assets"),
+				"marketValue: " + densities.get("marketValue"),
+				"profit: " + densities.get("profit"),
+				"continent: " + densities.get("continent"),
+				"keyPeople: " + densities.get("keyPeople"),
+				"locations: " + densities.get("locations")
+		};
+		
+		//for (String att : densities.keySet()) {
+		for (String d : densityResults) {
+			String[] parts = d.split(":");
+			
+			double den = Double.valueOf(parts[1]);
+			System.out.println(String.format("\t%s \t %.2f",
+					parts[0], den));
+			//System.out.println(String.format("\t%s: %.2f", att,
+			//		densities.get(att)));
 		}
 	}
 
