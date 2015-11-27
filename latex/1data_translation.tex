@@ -85,7 +85,7 @@ location & elevation & dataset 4 & / \\ \hline
 
 \subsection{Data transformations}
 In this phase, two kinds of transformations occurred. One is processed during mapping, another one is processed with Java Programming. First of all, during mapping process, since revenue and assets are written in scientific notation, while in our target schema it should be in original data, therefore we used some functions in Mapforce to convert scientific notation into decimals. Secondly, the original data has no ID, but it will be used later, so we also append "ID" for these four dataset individually with "GenerateID" function provided by MapForce.
-In addition, many attributes in Dbpedia are in the form of URL, while only the values are meaningful, thus, we removed the URL part with Java and extracted values we want, in the mean time, we also replaced punctuation and symbols like "\_" or ".". Furthermore, some words, that have various spellings such as US, USA, U.S, America, were replaced with unified ?United States of America?.
+In addition, many attributes in Dbpedia are in the form of URL, while only the values are meaningful, thus, we removed the URL part with Java and extracted values we want, in the mean time, we also replaced punctuation and symbols like "\_" or ".". Furthermore, some words, that have various spellings such as US, USA, U.S, America, were replaced with unified United States of America.
 
 
 \begin{figure}[H]
