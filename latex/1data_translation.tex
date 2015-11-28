@@ -18,13 +18,13 @@ The Forbes offers a .xls file with a list of Top 2000 companies during the perio
 \subsubsection{DBpedia: Company }
 The information of company is extracted from DBpedia, since it provides relatively complete information.  To access information from DBPedia we used the public SPARQL endpoint (at http://dbpedia.org/sparql). Figure 1.1 is our query for company, actually there is total 764398 companies in DBpedia, which would be too much for us and also not easy to handle it in terms of processing time and space. In order to reduce the number of data, we limit the company types to "company" and "public company" and only extract the companies that provide attributes "LocationCity" and "LocationCountry", these two attributes can also be related with Location Information, that's why we consider them as necessary and others are optional. On the other hand, if all these attributes are necessary, there will be only few thousands companies extracted, because not all companies have all these nine attributes, in this case few overlapping data will be in the final integration results. In addition to this, as many attributes such as KeyPeople, locationCity have multiple values which result in the same company would appear more than one times, to avoid these duplicates we used "group\_contac", a function in Sparql, to group many value together. There are also many values for Revenue but without date notation, so we just took the maximum value. 
 
-%\begin{figure}[H]
-%	\begin{center}
-%	\includegraphics[width=10cm]{DB_Com}
-%	\caption[DBpedia Query For Company]{DBpedia Query For Company}
-%	\label{fig:db}
-%	\end{center}
-%\end{figure}
+\begin{figure}[H]
+	\begin{center}
+	\includegraphics[width=10cm]{DB_Com}
+	\caption[DBpedia Query For Company]{DBpedia Query For Company}
+	\label{fig:db}
+	\end{center}
+\end{figure}
 
 \subsubsection{Freebase: Company}
 %Yiru
