@@ -11,9 +11,9 @@ import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.FusableCompan
 public class NameFuser extends AttributeValueFuser<String, FusableCompany> {
 	
 	public NameFuser() {
-		super(new FavourSources<>());
+		//super(new FavourSources<>());
 		//super(new Voting<>());
-		//super(new LongestString<FusableCompany>());
+		super(new LongestString<FusableCompany>());
 	}
 	
 	@Override
