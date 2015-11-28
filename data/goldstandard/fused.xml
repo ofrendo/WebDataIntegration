@@ -115,5 +115,58 @@
 			</location>
 		</locations>
 	</company>
+	<company>
+		<Company_ID>Freebase_Company_68</Company_ID>
+		<name>ACI Worldwide</name><!--https://finance.yahoo.com/q/is?s=ACIW&annual-->
+		<industries>Payment systems;;Payments infrastructure;;Fraud prevention;;Risk management;;Infrastructure software</industries>
+		<revenue>1016149000</revenue> <!--https://finance.yahoo.com/q/is?s=ACIW&annual-->
+		<numberOfEmployees>4500</numberOfEmployees> <!-- http://www.aciworldwide.com/who-we-are/our-history.aspx -->
+		<dateFounded>1975</dateFounded> <!--http://www.aciworldwide.com/who-we-are/our-history.aspx -->
+		<assets>1680000000</assets> <!--http://files.shareholder.com/downloads/ACIW/3010632205x0xS1193125-14-76222/935036/filing.pdf  -->
+		<marketValue>2770000000</marketValue> <!--https://finance.yahoo.com/q/is?s=ACIW&annual -->
+		<profit>67560000</profit><!--https://finance.yahoo.com/q/is?s=ACIW&annual-->
+		<continent>North America</continent>
+        <keyPeople>Philip G. Heasley</keyPeople> <!---->
+		<countries>United States of America</countries>
+		<locations>
+			<location>
+				<name>Naples, Florida</name>
+				<population>21000</population> <!-- https://suburbanstats.org/population/california/how-many-people-live-in-santa-clara-county -->
+				<area>45.5</area> <!-- https://en.wikipedia.org/wiki/Santa_Clara,_California -->
+				<elevation>1</elevation> <!-- https://en.wikipedia.org/wiki/Texas -->
+				<country>United States</country>
+			</location>
+		</locations>
+	</company>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	
 </companies>

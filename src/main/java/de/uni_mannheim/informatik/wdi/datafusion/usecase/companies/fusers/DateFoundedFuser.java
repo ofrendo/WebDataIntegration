@@ -6,12 +6,14 @@ import de.uni_mannheim.informatik.wdi.datafusion.AttributeValueFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.FusedValue;
 import de.uni_mannheim.informatik.wdi.datafusion.RecordGroup;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.FusableCompany;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.conflictresolution.DateResolution;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.conflictresolution.DateResolutionCombination;
 
 public class DateFoundedFuser extends AttributeValueFuser<DateTime, FusableCompany>{
 	
 	public DateFoundedFuser() {
-		super(new DateResolution());
+		//super(new DateResolutionMostCompleteDate());
+		//super(new DateResolutionMostCompleteRecord());
+		super(new DateResolutionCombination());
 	}
 	
 	@Override

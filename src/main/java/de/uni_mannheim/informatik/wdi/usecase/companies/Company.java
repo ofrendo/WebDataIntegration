@@ -141,6 +141,7 @@ public class Company extends Record {
 				"\nAssets: " + getAssets() + 
 				"\nMarketValue: " + getMarketValue() +
 				"\nKeyPeople: " + getKeyPeople() + 
+				"\nContinent: " + getContinent() +
 				"\nLocations: \n" + getLocationsString() +
 				"======================";
 	}

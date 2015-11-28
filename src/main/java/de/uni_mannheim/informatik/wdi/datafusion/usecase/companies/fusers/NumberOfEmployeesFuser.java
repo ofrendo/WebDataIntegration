@@ -3,13 +3,14 @@ package de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers;
 import de.uni_mannheim.informatik.wdi.datafusion.AttributeValueFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.FusedValue;
 import de.uni_mannheim.informatik.wdi.datafusion.RecordGroup;
+import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.numeric.Average;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.FusableCompany;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.conflictresolution.Max;
 
 public class NumberOfEmployeesFuser extends AttributeValueFuser<Double, FusableCompany> {
 	
 	public NumberOfEmployeesFuser() {
-		super(new Max<FusableCompany>());
+		super(new Average<>());
+		//super(new Max<FusableCompany>());
 	}
 
 	@Override

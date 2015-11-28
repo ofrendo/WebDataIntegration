@@ -8,8 +8,9 @@ public class RevenueEvaluationRule extends EvaluationRule<FusableCompany> {
 	
 	@Override
 	public boolean isEqual(FusableCompany record1, FusableCompany record2) {
-		double pc = Math.abs(record1.getRevenue()-record2.getRevenue())/Math.max(record1.getRevenue(), record2.getRevenue());
-		return pc < 0.5;
+		double pc = (double) Math.abs(record1.getRevenue()-record2.getRevenue())/
+				(double) Math.max(record1.getRevenue(), record2.getRevenue());
+		return pc < 0.75;
 	}
 
 }

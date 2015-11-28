@@ -9,7 +9,7 @@ public class IndustriesEvaluationRule extends EvaluationRule<FusableCompany> {
 	private LevenshteinSimilarity sim = new LevenshteinSimilarity();
 	
 	/**
-	 * Is equal if at least one industry is the same
+	 * Is equal if at least one industry has levenshtein of over 0.8
 	 */
 	@Override
 	public boolean isEqual(FusableCompany record1, FusableCompany record2) {

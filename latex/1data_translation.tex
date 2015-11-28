@@ -75,30 +75,36 @@ We also extracted Location information from DBpedia with the same method as Comp
 %Take from data\ForbesPlan\Forbes-integrated schema.docx
 We looked into four datasets and did the following Integrated Schema.In this table we use prefix dataset 1, 2, 3,4 respectively represent Forbes, DBpedia(company), Freebase and DBpedia(Location)
 
+%================ BEGIN TABLE
+
 \begin{table}[H]
 \centering
-\caption{Integrated Schema}
-\label{my-label}
-\begin{tabular}{|c|c|c|c|}
+\begin{tabular}{|c|c|c|}
 \hline
-Class Name & Attributes Name & \begin{tabular}[c]{@{}c@{}}Datasets in which \\ attribute is found\end{tabular} & \begin{tabular}[c]{@{}c@{}}Conflict resolution\\        strategies\end{tabular} \\ \hline
-company & (company)name & dataset 1, 2, 3 & \begin{tabular}[c]{@{}c@{}}LongestString, \\ FavourSources, \\ Voting\end{tabular} \\ \hline
-company,location & country & dataset 1, 2, 3, 4 & Voting \\ \hline
-company & industries & dataset 1, 2, 3 & Union \\ \hline
-company & \begin{tabular}[c]{@{}c@{}}Sales/\\ revenue\end{tabular} & dataset 1, 2, 3 & FavourSources \\ \hline
-company & \begin{tabular}[c]{@{}c@{}}number Of \\ Employees\end{tabular} & dataset 2, 3 & \begin{tabular}[c]{@{}c@{}}Average,\\ Growth: Max\end{tabular} \\ \hline
-company & \begin{tabular}[c]{@{}c@{}}founding year/ \\ date founded\end{tabular} & dataset 2, 3 & \begin{tabular}[c]{@{}c@{}}MostComplete\\ (complete date) \\ AND,\\ MostComplete \\ (sample)\end{tabular} \\ \hline
-company & Assets & dataset 1, 2 & FavourSources \\ \hline
-company & Market Value & dataset 1 & / \\ \hline
-company & profit & dataset 1, 3 & FavourSources \\ \hline
-company & continent & dataset 1 & / \\ \hline
-company & \begin{tabular}[c]{@{}c@{}}keyPeople/\\  leadership\end{tabular} & dataset 2, 3 & Union \\ \hline
-\begin{tabular}[c]{@{}c@{}}company,\\ location\end{tabular} & name & dataset 2, 3, 4 & \begin{tabular}[c]{@{}c@{}}Union AND \\ FavourSources\end{tabular} \\ \hline
-location & \begin{tabular}[c]{@{}c@{}}population\\ total\end{tabular} & dataset 4 & / \\ \hline
-location & area total & dataset 4 & / \\ \hline
-location & elevation & dataset 4 & / \\ \hline
+\textbf{Class Name} & \textbf{Attributes Name} & \textbf{\begin{tabular}[c]{@{}c@{}}Datasets in which\\ the attribute is found\end{tabular}} \\ \hline
+company & (company) name & dataset 1, 2, 3 \\ \hline
+company, location & country & dataset 1, 2, 3, 4 \\ \hline
+company & industries & dataset 1, 2, 3 \\ \hline
+company & revenue & dataset 1, 2, 3 \\ \hline
+company & numberOfEmployees & dataset 2, 3 \\ \hline
+company & dateFounded & dataset 2, 3 \\ \hline
+company & assets & dataset 1, 2 \\ \hline
+company & marketValue & dataset 1 \\ \hline
+company & profit & dataset 1, 3 \\ \hline
+company & continent & dataset 1 \\ \hline
+company & keyPeople & dataset 2, 3 \\ \hline
+company, location & (location) name & dataset 2, 3, 4 \\ \hline
+location & population & dataset 4 \\ \hline
+location & area & dataset 4 \\ \hline
+location & elevation & dataset 4 \\ \hline
 \end{tabular}
+\caption{Integrated schema}
+\label{my-label}
 \end{table}
+
+%==================== END TABLE
+
+
 
 
 \subsection{Data transformations}
@@ -126,6 +132,30 @@ The next transformations occured in Java. Many values, especially from the two D
 %	e.g. US, USA, U.S., America with "United States of America" or UK, England with United Kingdom
 
 
-
+%=================================== OLD
+%\begin{table}[H]
+%\centering
+%\caption{Integrated Schema}
+%\label{my-label}
+%\begin{tabular}{|c|c|c|c|}
+%\hline
+%Class Name & Attributes Name & \begin{tabular}[c]{@{}c@{}}Datasets in which \\ attribute is found\end{tabular} & \begin{tabular}[c]{@{}c@{}}Conflict resolution\\        %strategies\end{tabular} \\ \hline
+%company & (company)name & dataset 1, 2, 3 & \begin{tabular}[c]{@{}c@{}}LongestString, \\ FavourSources, \\ Voting\end{tabular} \\ \hline
+%company,location & country & dataset 1, 2, 3, 4 & Voting \\ \hline
+%company & industries & dataset 1, 2, 3 & Union \\ \hline
+%company & \begin{tabular}[c]{@{}c@{}}Sales/\\ revenue\end{tabular} & dataset 1, 2, 3 & FavourSources \\ \hline
+%company & \begin{tabular}[c]{@{}c@{}}number Of \\ Employees\end{tabular} & dataset 2, 3 & \begin{tabular}[c]{@{}c@{}}Average,\\ Growth: Max\end{tabular} \\ \hline
+%company & \begin{tabular}[c]{@{}c@{}}founding year/ \\ date founded\end{tabular} & dataset 2, 3 & \begin{tabular}[c]{@{}c@{}}MostComplete\\ (complete date) \\ AND,\\ MostComplete \\ %(sample)\end{tabular} \\ \hline
+%company & Assets & dataset 1, 2 & FavourSources \\ \hline
+%company & Market Value & dataset 1 & / \\ \hline
+%company & profit & dataset 1, 3 & FavourSources \\ \hline
+%company & continent & dataset 1 & / \\ \hline
+%company & \begin{tabular}[c]{@{}c@{}}keyPeople/\\  leadership\end{tabular} & dataset 2, 3 & Union \\ \hline
+%\begin{tabular}[c]{@{}c@{}}company,\\ location\end{tabular} & name & dataset 2, 3, 4 & \begin{tabular}[c]{@{}c@{}}Union AND \\ FavourSources\end{tabular} \\ \hline
+%location & \begin{tabular}[c]{@{}c@{}}population\\ total\end{tabular} & dataset 4 & / \\ \hline
+%location & area total & dataset 4 & / \\ \hline
+%location & elevation & dataset 4 & / \\ \hline
+%\end{tabular}
+%\end{table}
 
 

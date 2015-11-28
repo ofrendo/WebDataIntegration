@@ -1,15 +1,16 @@
 \section{Data fusion}
 \subsection{Input data}
 %Oliver
-%Provenance data: only basic data: Which file did a given record originate from?
+Table \ref{tableAttributeDensities} contains the attribute densities and consistencies for each dataset. One notable attribute is \texttt{countries}, which has a density of 1 in all datasets except for Freebase. This is due to the nature of Freebase: We query for company locations, which very often returns a city for which the country is not defined (see \footnote{http://www.freebase.com/m/0c0bbxc} for an example). The density of \texttt{locations} for Freebase, however, shows a density of 1, supporting this. It also explains why a cross product blocking function returns more matches than partitioning by country when comparing Freebase to another dataset (see table \ref{tableBlockingFunctions}).
+
 
 %==================BEGIN TABLE
 
 \begin{table}[H]
 \centering
-\begin{tabular}{|l|l|l|l|l|l|}
+\begin{tabular}{|l|c|c|c|c|c|}
 \hline
-\textbf{Attribute} & \textbf{Forbes} & \textbf{Freebase} & \textbf{DBpedia} & \textbf{Consistencies} & \textbf{Fused} \\ \hline
+\textbf{Attribute} & \multicolumn{1}{c|}{\textbf{Forbes}} & \multicolumn{1}{c|}{\textbf{Freebase}} & \multicolumn{1}{c|}{\textbf{DBpedia}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Consist-\\ encies\end{tabular}}} & \multicolumn{1}{c|}{\textbf{Fused}} \\ \hline
 name & 1,00 & 1,00 & 1,00 & 0,97 & 1,00 \\ \hline
 countries & 1,00 & 0,40 & 1,00 & 1,00 & 1,00 \\ \hline
 industries & 0,98 & 0,54 & 0,61 & 0,93 & 0,65 \\ \hline
@@ -23,22 +24,20 @@ continent & 1,00 & 0,00 & 0,00 & 1,00 & 0,06 \\ \hline
 keyPeople & 0,00 & 0,31 & 0,55 & 0,97 & 0,59 \\ \hline
 locations & 0,00 & 1,00 & 1,00 & 0,90 & 1,00 \\ \hline
 \end{tabular}
-\caption{My caption}
-\label{my-label}
+\caption{Attribute densities and consistencies per dataset}
+\label{tableAttributeDensities}
 \end{table}
 
 %==================END TABLE
 
-%Notable:
-%Freebase: Density of 1 for locations, yet density of 0.4 for countries. Nature of freebase: very often returns a town for which the country is not defined
-%example: http://www.freebase.com/m/0c0bbxc
+For this project we used the source as provenance data, as querying additional metadata (such as the author or the most recent date modified) for both Freebase and DBpedia would have made the data collection considerably more time consuming. 
+
 
 \subsection{Gold standard}
-Our fused file contains five entities and each entity involves 17 attributes.For a company the evenue, numberOfEmployees, assets, marketValue and profit are always changing over time, in oder to get the latest data, we searched for different external sources. Take APPLE for example, we went to the homepage of APPLE  to read the latest financial statement\footnote{http://www.apple.com/pr/library/2015/10/27Apple-Reports-Record-Fourth-Quarter-Results.html} and to get the revenue. And then went to statista\footnote{http://www.statista.com/statistics/273439/number-of-employees-of-apple-since-2005/} to acquire numberOfEmployees. And we got assets, marketValue and keyPeoplewent from Forbes\footnote{http://www.forbes.com/companies/apple/}. By comparison, Forbes offers a higher quality data than Freebase and Dbpedia. Because of the same reason, we also searched for relatively fresh data on wikipedia\footnote{https://en.wikipedia.org} for some attributes of Location, such as population, area and elevation. In a nut shell, DBpedia offers an outdated data and updating frequency is a little low. 
+Our fused file contains five entities and each entity involves 15 attributes.For a company the evenue, numberOfEmployees, assets, marketValue and profit are always changing over time, in oder to get the latest data, we searched for different external sources. Take APPLE for example, we went to the homepage of APPLE  to read the latest financial statement\footnote{http://www.apple.com/pr/library/2015/10/27Apple-Reports-Record-Fourth-Quarter-Results.html} and to get the revenue. And then went to statista \footnote{http://www.statista.com/statistics/273439/number-of-employees-of-apple-since-2005/} to acquire numberOfEmployees. And we got assets, marketValue and keyPeople went from Forbes\footnote{http://www.forbes.com/companies/apple/}. By comparison, Forbes offers a higher quality data than Freebase and Dbpedia. Because of the same reason, we also searched for relatively fresh data on wikipedia\footnote{https://en.wikipedia.org} for some attributes of Location, such as population, area and elevation. In a nut shell, DBpedia offers an outdated data and updating frequency is a little low.
+ 
 %Silvia/Zehui
 %Size, content, how did you create it?
-%Give a source as a footnote for example
-
 
 \subsection{Conflict resolution functions}
 %Oliver
@@ -47,6 +46,63 @@ Our fused file contains five entities and each entity involves 17 attributes.For
 %In the end also chose a combination of functions for some attributes
 %Own definitions, also own evaluation rules
 %Include stuff from integrated schema again
+
+%===================== BEGIN TABLE
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Attributes Name} & \textbf{\begin{tabular}[c]{@{}c@{}}Datasets in which\\ the attribute is found\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Conflict resolution\\ function\end{tabular}} & \textbf{Accuracy} \\ \hline
+\multirow{3}{*}{name} & \multirow{3}{*}{dataset 1, 2, 3} & FavourSources & 0,94 \\ \cline{3-4} 
+ &  & Voting & 0,94 \\ \cline{3-4} 
+ &  & LongestString & 0,94 \\ \hline
+country & dataset 1, 2, 3, 4 & Voting & 0,94 \\ \hline
+\multirow{2}{*}{industries} & \multirow{2}{*}{dataset 1, 2, 3} & Intersection & 0,88 \\ \cline{3-4} 
+ &  & Union & 0,94 \\ \hline
+revenue & dataset 1, 2, 3 & FavourSources & 0,94 \\ \hline
+\multirow{2}{*}{numberOfEmployees} & \multirow{2}{*}{dataset 2, 3} & Average & 0,94 \\ \cline{3-4} 
+ &  & Max & 0,93 \\ \hline
+\multirow{3}{*}{dateFounded} & \multirow{3}{*}{dataset 2, 3} & \begin{tabular}[c]{@{}c@{}}MostComplete\\ (date)\end{tabular} & 0,94 \\ \cline{3-4} 
+ &  & \begin{tabular}[c]{@{}c@{}}MostComplete\\ (sample)\end{tabular} & 0,94 \\ \cline{3-4} 
+ &  & Combination & 0,94 \\ \hline
+\multirow{2}{*}{assets} & \multirow{2}{*}{dataset 1, 2} & FavourSources & 0,93 \\ \cline{3-4} 
+ &  & Max & 0,94 \\ \hline
+\textit{marketValue} & \textit{dataset 1} & \textit{SingleSource} & \textit{0,94} \\ \hline
+\multirow{2}{*}{profit} & \multirow{2}{*}{dataset 1, 3} & FavourSources & 0,94 \\ \cline{3-4} 
+ &  & Max & 0,94 \\ \hline
+\textit{continent} & \textit{dataset 1} & \textit{SingleSource} & \textit{0,94} \\ \hline
+\multirow{2}{*}{keyPeople} & \multirow{2}{*}{dataset 2, 3} & Intersection & 0,93 \\ \cline{3-4} 
+ &  & Union & 0,94 \\ \hline
+\multirow{2}{*}{locationName} & \multirow{2}{*}{dataset 2, 3, 4} & \begin{tabular}[c]{@{}c@{}}Intersection+\\ FavourSources\end{tabular} & 0,93 \\ \cline{3-4} 
+ &  & \begin{tabular}[c]{@{}c@{}}Union+\\ FavourSources\end{tabular} & 0,94 \\ \hline
+\textit{population} & \textit{dataset 4} & \textit{SingleSource} & \textit{0,94} \\ \hline
+\textit{area} & \textit{dataset 4} & \textit{SingleSource} & \textit{0,94} \\ \hline
+\textit{elevation} & \textit{dataset 4} & \textit{SingleSource} & \textit{0,94} \\ \hline
+\end{tabular}
+\caption{Conflict resolution functions: Datasets 1, 2, 3 and 4 correspond to Forbes, DBpedia, Freebase and DBpedia locations}
+\label{my-label}
+\end{table}
+
+%===================== END TABLE
+
+The 0.06 accuracy missing is due to data not existing in any of the four datasets or very outdated data
+
+Numeric attributes
+Because of the age of the Forbes dataset and the unreliability of DBpedia/Freebase a high max percentage difference was used to evaluate whether they were equal
+
+Industries: Intersection had very few values left at the end of fusion because the industries from different sources were often very different. %MAYBE: Explain how we evaluted this
+Number of Employees: logically Max should be better, since companies want to be growing (same as profit should be positive). Looking deeper into this, the company IBM had a lower number of employees in reality than what was recorded in DBpedia, indicating outdated values in DBpedia. 
+
+Intersection vs UNION Interestingly: Intersection seemed to work better with keyPeople than with industries
+
+
+% A bit about evaluation rules
+%e.g. industry: Returns true if at least one of the companies have Levenshtein of over 0.8
+
+OWN IMPLEMENTATIONS:
+write here
+
 
 
 \subsection{Accuracy}

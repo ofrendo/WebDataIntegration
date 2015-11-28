@@ -3,6 +3,7 @@ package de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers;
 import de.uni_mannheim.informatik.wdi.datafusion.AttributeValueFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.FusedValue;
 import de.uni_mannheim.informatik.wdi.datafusion.RecordGroup;
+import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.ClusteredVote;
 import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.Voting;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.FusableCompany;
 

@@ -3,13 +3,17 @@ package de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers;
 import de.uni_mannheim.informatik.wdi.datafusion.AttributeValueFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.FusedValue;
 import de.uni_mannheim.informatik.wdi.datafusion.RecordGroup;
+import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.Voting;
+import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.meta.FavourSources;
 import de.uni_mannheim.informatik.wdi.datafusion.conflictresolution.string.LongestString;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.FusableCompany;
 
 public class NameFuser extends AttributeValueFuser<String, FusableCompany> {
 	
 	public NameFuser() {
-		super(new LongestString<FusableCompany>());
+		super(new FavourSources<>());
+		//super(new Voting<>());
+		//super(new LongestString<FusableCompany>());
 	}
 	
 	@Override

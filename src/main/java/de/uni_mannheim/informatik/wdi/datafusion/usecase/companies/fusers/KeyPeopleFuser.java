@@ -4,11 +4,13 @@ import de.uni_mannheim.informatik.wdi.datafusion.AttributeValueFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.FusedValue;
 import de.uni_mannheim.informatik.wdi.datafusion.RecordGroup;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.FusableCompany;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.conflictresolution.IntersectionString;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.conflictresolution.UnionString;
 
 public class KeyPeopleFuser extends AttributeValueFuser<String, FusableCompany>{
 
 	public KeyPeopleFuser() {
+		//super(new IntersectionString<>());
 		super(new UnionString<FusableCompany>());
 	}
 	

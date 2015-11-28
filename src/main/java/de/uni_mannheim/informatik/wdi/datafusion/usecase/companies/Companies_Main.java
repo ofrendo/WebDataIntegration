@@ -18,15 +18,17 @@ import de.uni_mannheim.informatik.wdi.datafusion.DataFusionStrategy;
 import de.uni_mannheim.informatik.wdi.datafusion.FusableDataSet;
 import de.uni_mannheim.informatik.wdi.datafusion.evaluation.DataFusionEvaluator;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.AssetsEvaluationRule;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.ContinentEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.CountriesEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.DateFoundedEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.IndustriesEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.KeyPeopleEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.LocationsEvaluationRule;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.MarketValueEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.NameEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.NumberOfEmployeesEvaluationRule;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.ProfitEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.RevenueEvaluationRule;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.evaluation.SingleSourceEvaluationRule;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.AssetsFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.ContinentFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.fusers.CountriesFuser;
@@ -96,20 +98,20 @@ public class Companies_Main {
 		dsForbes.setScore(2.0);
 		dsFreebase.setScore(1.0);
 		dsDBpedia.setScore(1.0);
-		dsLocation.setScore(1.5);
+		dsLocation.setScore(0.5);
 		dsForbes.setDate(DateTime.parse("2014-01-01"));
 		//dsFreebase.setDate(DateTime.parse("2015-11-21"));
 		//dsDBpedia.setDate(DateTime.parse("2015-11-21"));
 		//dsLocation.setDate(DateTime.parse("2015-11-21"));
 		// print dataset density
-		System.out.println("IntegratedCompanyForbes.xml");
-		dsForbes.printDataSetDensityReport();
-		System.out.println("IntegratedCompanyFreebase.xml");
-		dsFreebase.printDataSetDensityReport();
-		System.out.println("IntegratedCompanyDBpedia.xml");
-		dsDBpedia.printDataSetDensityReport();
-		System.out.println("IntegratedLocationDBpedia.xml");
-		dsLocation.printDataSetDensityReport();
+//		System.out.println("IntegratedCompanyForbes.xml");
+//		dsForbes.printDataSetDensityReport();
+//		System.out.println("IntegratedCompanyFreebase.xml");
+//		dsFreebase.printDataSetDensityReport();
+//		System.out.println("IntegratedCompanyDBpedia.xml");
+//		dsDBpedia.printDataSetDensityReport();
+//		System.out.println("IntegratedLocationDBpedia.xml");
+//		dsLocation.printDataSetDensityReport();
 		
 		// load the correspondences
 		CorrespondenceSet<FusableCompany> correspondences = new CorrespondenceSet<>();
@@ -141,9 +143,9 @@ public class Companies_Main {
 		strategy.addAttributeFuser("numberOfEmployees", new NumberOfEmployeesFuser(), new NumberOfEmployeesEvaluationRule());
 		strategy.addAttributeFuser("dateFounded", new DateFoundedFuser(), new DateFoundedEvaluationRule());
 		strategy.addAttributeFuser("assets", new AssetsFuser(), new AssetsEvaluationRule());
-		strategy.addAttributeFuser("marketValue", new MarketValueFuser(), new SingleSourceEvaluationRule());
-		strategy.addAttributeFuser("profit", new ProfitFuser(), new SingleSourceEvaluationRule());
-		strategy.addAttributeFuser("continent", new ContinentFuser(), new SingleSourceEvaluationRule());
+		strategy.addAttributeFuser("marketValue", new MarketValueFuser(), new MarketValueEvaluationRule());
+		strategy.addAttributeFuser("profit", new ProfitFuser(), new ProfitEvaluationRule());
+		strategy.addAttributeFuser("continent", new ContinentFuser(), new ContinentEvaluationRule());
 		strategy.addAttributeFuser("keyPeople", new KeyPeopleFuser(), new KeyPeopleEvaluationRule());
 		strategy.addAttributeFuser("locations", new LocationsFuser(), new LocationsEvaluationRule());
 		
@@ -151,13 +153,13 @@ public class Companies_Main {
 		DataFusionEngine<FusableCompany> engine = new DataFusionEngine<>(strategy);
 		
 		// calculate cluster consistency
-		engine.printClusterConsistencyReport(correspondences);
+		//engine.printClusterConsistencyReport(correspondences);
 		
 		// run the fusion
 		FusableDataSet<FusableCompany> fusedDataSet = engine.run(correspondences);
 		
 		System.out.println("FUSED RESULT");
-		fusedDataSet.printDataSetDensityReport();
+		//fusedDataSet.printDataSetDensityReport();
 		
 		// write the result
 		ArrayList<FusableDataSet<FusableCompany>> datasets = new ArrayList<>();

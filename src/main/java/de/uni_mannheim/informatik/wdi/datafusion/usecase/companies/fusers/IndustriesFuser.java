@@ -9,6 +9,7 @@ import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.conflictresol
 public class IndustriesFuser extends AttributeValueFuser<String, FusableCompany> {
 
 	public IndustriesFuser() {
+		//super(new IntersectionString<FusableCompany>());
 		super(new UnionString<FusableCompany>());
 	}
 

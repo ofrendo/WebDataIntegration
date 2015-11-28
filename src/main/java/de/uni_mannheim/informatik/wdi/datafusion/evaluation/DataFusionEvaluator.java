@@ -63,7 +63,26 @@ public class DataFusionEvaluator<RecordType extends Matchable & Fusable> {
 						|| (f.hasValue(record) && f.hasValue(fused) && r.isEqual(fused, record))) { // both have a value and it's the same value
 						correctValues++;
 					} else if(verbose) {
-						System.out.println(String.format("[error] %s: %s <> %s", r.getClass().getSimpleName(), fused.toString(), record.toString()));
+						String attributeName = r.getClass().getSimpleName().replaceAll("EvaluationRule", "");
+						String[] fusedLines = fused.toString().split("\n");
+						String[] recordLines = record.toString().split("\n");
+						
+						String resultFused = "";
+						for (String fLine : fusedLines) {
+							if ((fLine.contains("Provenance") || fLine.contains("ID") || fLine.contains("Name") || fLine.contains(attributeName)) 
+									&& !fLine.toLowerCase().contains("original")) {
+								resultFused += "\n" + fLine;
+							}
+						}
+						String resultRecord = "";
+						for (String rLine : recordLines) {
+							if ((rLine.contains("Provenance") || rLine.contains("ID") || rLine.contains("Name") || rLine.contains(attributeName))
+									&& !rLine.toLowerCase().contains("original")) {
+								resultRecord += "\n" + rLine;
+							}
+						}
+						System.out.println("=================================");
+						System.out.println(String.format("[error] %s: %s <> %s", r.getClass().getSimpleName(), resultFused, resultRecord));
 					}
 				}
 			}

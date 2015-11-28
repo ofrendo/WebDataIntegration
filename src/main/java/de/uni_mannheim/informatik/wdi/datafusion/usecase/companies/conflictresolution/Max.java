@@ -16,11 +16,11 @@ public class Max<RecordType extends Matchable & Fusable> extends ConflictResolut
 			return new FusedValue<>((Double)null);
 		} else {
 		
-			double max = 0.0;
+			double max = Double.NEGATIVE_INFINITY;
 			
 			FusableValue<Double,RecordType> maxValue = null;
 			for(FusableValue<Double, RecordType> value : values) {
-				if (max < value.getValue())  {
+				if (max <= value.getValue())  {
 					max = value.getValue();
 					maxValue = value;
 				}
@@ -29,6 +29,7 @@ public class Max<RecordType extends Matchable & Fusable> extends ConflictResolut
 			}
 			
 			FusedValue<Double, RecordType> result = new FusedValue<>(max);
+			//System.out.println(maxValue);
 			result.addOriginalRecord(maxValue);
 			
 			return result;
