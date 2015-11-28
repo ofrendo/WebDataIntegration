@@ -6,15 +6,30 @@
 %Give a few corner cases
 %	companies that are very similar but not the same
 %	companies that are not similar but are the same
+As described that we have four datasets in total , we made three types of gold standards . For the convenience of matching , entities in smaller size dataset are compared to the bigger one and all gold standards are selected by stratified distribution in ascending order . The corner cases in our project are mainly about companies which are very similar but not the same and companies have different names but are the same entity.
 
-\subsubsection{Forbes $\leftrightarrow$ Freebase}
+\Paragraph{Forbes and Freebase}
 %Silvia/Zehui
+are compared by the shared attributes : company name , country , industries , and revenue . The gold standard has 220 pairs in total with 120 false and 100 true . Types of corner cases are divided into abbreviation , Incomplete name , Similar name and Same name with different countries or industries. We took some examples as following:
 
-\subsubsection{Freebase $\leftrightarrow$ DBpedia companies}
+\textbf{Abbreviation}: Bank of China V.S. Industrial and Commercial Bank of China (Asia) , TRUE \\
+\textbf{Incomplete name}: Chevron V.S. Chevron Corporation , TRUE  \\
+\textbf{Similar name}: BP V.S. TNK-BP , FALSE \\
+\textbf{different country/industry}: Makita (U.S) V.S. Makita (Japan) \\
+
+\Paragraph{Freebase and DBPedia companies}
 %Yiru
 
-\subsubsection{DBpedia companies $\leftrightarrow$ DBpedia locations}
+
+\Paragraph{DBPedia companies and DBPedia locations}
 %Silvia/Zehui
+has two shared attributes: location city and location country . Because city name extracted from DBPedia Location has multiple values due to muti-districts in one city , we defined the city without specific district name as the only true value for integration . The total gold standards size for this part is 270 pairs with 190 false and 80 true.\\
+Example of corner cases: \\
+New York V.S. New York City , TRUE
+New York V.S. Syracuse, New York , FALSE
+http://dbpedia.org/resource/New_York_City V.S. New York City , TRUE
+http://dbpedia.org/resource/New_York_City V.S. Syracuse, New York , FALSE
+
 
 \newpage
 \subsection{Matching rules}
