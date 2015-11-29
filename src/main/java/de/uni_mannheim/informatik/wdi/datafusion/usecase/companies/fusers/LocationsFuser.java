@@ -6,14 +6,14 @@ import de.uni_mannheim.informatik.wdi.datafusion.AttributeValueFuser;
 import de.uni_mannheim.informatik.wdi.datafusion.FusedValue;
 import de.uni_mannheim.informatik.wdi.datafusion.RecordGroup;
 import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.FusableCompany;
-import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.conflictresolution.LocationIntersection;
+import de.uni_mannheim.informatik.wdi.datafusion.usecase.companies.conflictresolution.LocationUnion;
 import de.uni_mannheim.informatik.wdi.usecase.companies.Location;
 
 public class LocationsFuser extends AttributeValueFuser<List<Location>, FusableCompany>  {
 	
 	public LocationsFuser() {
-		super(new LocationIntersection());
-		//super(new LocationUnion());
+		//super(new LocationIntersection());
+		super(new LocationUnion());
 	}
 
 	@Override

@@ -28,8 +28,8 @@ The information of company is extracted from DBpedia, since it provides relative
 
 \subsubsection{Freebase: Company}
 %Yiru
-Freebase, like DBPedia, offers a web service which can be queried for data. Instead of SPARQL, however, the service is used by sending JSON requests. Like DBPedia this lets us select certain companies, or companies with certain attributes.
-
+Freebase provides web service to query data and return in JSON. The total number of entities is 3,182. We make name nonoptional, since we want to use it to compare companies in each dataset. Also, number\_of\_employees is nonoptional, because the amount for being optional is around 230,000 and we don't want to use it. The rest attributes are all optional.
+First we test queries on the query page to make sure we get the right data. Then, we build a Java project to execute the MQL Read API which provides access to the Freebase database by Metaweb query language (MQL). Additionally, during the mapping procedure, we occur some problem about multiple values in JSON array and JSON object, it couldn't match in target schema because of the various number of values. Thus, we convert them into one string and separate with two semicolons while excuting Java project.
 
 
 \subsubsection{DBpedia: Location}
@@ -45,27 +45,23 @@ We also extracted Location information from DBpedia with the same method as Comp
 %\end{figure}
 
 
-
-
-
-
 \begin{table}[H]
 \centering
-\caption{Basic Profile of Each Dataset}
-\label{my-label}
-\begin{tabular}{|c|c|c|c|c|c|}
+\begin{tabular}{|l|l|l|l|l|l|}
 \hline
-\multicolumn{1}{|l|}{}         & \multicolumn{1}{l|}{Source} & \multicolumn{1}{l|}{Format} & \multicolumn{1}{l|}{Class} & \multicolumn{1}{l|}{\#Entities} & \multicolumn{1}{l|}{\#Attributes} \\ \hline
-                               & \multicolumn{5}{c|}{List of Attributes}                                                                                                                      \\ \hline
-\multirow{Forbes Global} & forbes.com                  & xlsx                        & company                    & 2000                            & 7                                 \\ \cline{2-6} 
-                               & \multicolumn{5}{c|}{Company,country,industry,revenue,assets,marketvalue,profit}                                                                              \\ \hline
-\multirow{DBpedia}       & dbpedia.org/sparql          & csv                         & company                    & 16051                           & 9                                 \\ \cline{2-6} 
-                               & \multicolumn{5}{c|}{\begin{tabular}[c]{@{}c@{}}Company,country,industry,revenue,numberOfemployees,\\ foundingYear,assets,keyPeople,location\end{tabular}}    \\ \hline
-\multirow{Freebase}      & freebase.com/query          & json                        & company                    &                                 & 9                                 \\ \cline{2-6} 
-                               & \multicolumn{5}{c|}{\begin{tabular}[c]{@{}c@{}}Company,country,industry,revenue,numberOfemployees,\\ foundingYear,profit,keyPeople,location\end{tabular}}    \\ \hline
-\multirow{Dbpeida}       & dbpedia.org/sparql          & csv                         & location                   & 3270                            & 5                                 \\ \cline{2-6} 
-                               & \multicolumn{5}{c|}{Location,country,population,area,elevation}                                                                                              \\ \hline
+ & Source & Format & Class & \#Entities & \#Attributes \\ \hline
+ & \multicolumn{5}{c|}{List of attributes} \\ \hline
+\multirow{2}{*}{Forbes} & forbes.com & xlsx & company & \multicolumn{1}{c|}{2000} & \multicolumn{1}{c|}{7} \\ \cline{2-6} 
+ & \multicolumn{5}{l|}{\begin{tabular}[c]{@{}l@{}}name, countries, industries, revenue, assets,\\ marketValue, profit\end{tabular}} \\ \hline
+\multirow{2}{*}{DBpedia} & dbpedia.org/sparql & csv & company & \multicolumn{1}{c|}{16051} & \multicolumn{1}{c|}{9} \\ \cline{2-6} 
+ & \multicolumn{5}{l|}{\begin{tabular}[c]{@{}l@{}}name, countries, industries, revenue, numberOfEmployees,\\ dateFounded, profit, keyPeople, locations\end{tabular}} \\ \hline
+\multirow{2}{*}{Freebase} & freebase.com/query & json & company & 3182 & 9 \\ \cline{2-6} 
+ & \multicolumn{5}{l|}{\begin{tabular}[c]{@{}l@{}}name, countries, industries, revenue, numberOfEmployees,\\ dateFounded, profit, keyPeople, locations\end{tabular}} \\ \hline
+\multirow{2}{*}{DBpedia} & dbpedia.org/sparql & csv & location & 3270 & 5 \\ \cline{2-6} 
+ & \multicolumn{5}{l|}{locationName, country, population, area, elevation} \\ \hline
 \end{tabular}
+\caption{Basic profile of each dataset}
+\label{my-label}
 \end{table}
 
 

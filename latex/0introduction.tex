@@ -1,4 +1,21 @@
-\section{Introduction to data and use case}
 %Yiru
 %Take information from project abstract
+\section{Introduction to Use Case and Datasets}
+\subsection{Use Case}
+In this project, our purpose is to integrate a dataset about companies with another dataset about cities their headquarters are located in. However, in order to gather more information about companies, first we combine several datasets together, which are all about companies but come from different sources. Then we will integrate this result with location. As such the resulting integrated dataset may be used for additional information regarding companies and their location around the world.
 
+%not sure if we need this part
+First, we gather data from each data source. For most datasets we write queries for different web services(DBpedia and Freebase) to request data about companies and location. One dataset is provided as .xls file, so we transfer it into .csv file for mapping. Since a company might have abbreviation in each dataset, we do some transformation on name and country.
+In second phase, we identify a company in multiple datasets by their overlapping attributes. In order to reduce the comparing time, we use country as blocking key in most situations.
+Then, by using specific resolution strategies for each attribute, we solve the conflicting information about companies. In the end these datasets can be merged together and represented in the form of our integrated target schema.
+%
+
+\subsection{Datasets}
+\subsubsection{Forbes}
+Forbes is an American business magazine and it is well known for its lists and rankings, including its lists of the richest Americans (the Forbes 400) and rankings of world's top companies (the Forbes Global 2000). The ranking is based on a mix of four metrics: sales, profit, assets and market value. This dataset has 2000 entities and 11 attributes which mostly are about financial. Particularly, the value in financial attributes are showed in billion. In addition, this dataset contains official information, compared to DBPedia and Freebase which contains information less complete and less trustworthy.
+\subsubsection{DBpedia}
+To access information about companies from DBPedia we plan to use the public SPARQL endpoint (at http://dbpedia.org/sparql). This also makes it possible to filter companies by certain attributes. An example would be to only use companies for this project that have the numberOfEmployees attribute with a value higher than 100. However, in this case this also reduces the number of entities available from DBPedia from 64,255 to 11,966. Using similar parameters for instances of locations, e.g. a populationTotal of at least 10.000, we reduce the number of entities from 725.546 to 43.783.
+DBPedia also offers its data in the form of a data dump. However, here we may run into technical difficulties based on the size of the files (2.4GB compressed). Also, we would have to set up our own local server with a SPARQL endpoint.
+\subsubsection{Freebase}
+Freebase, like DBPedia, offers a web service which can be queried for data. Instead of SPARQL, however, the service is used by sending JSON requests. Like DBPedia this lets us select certain companies, or companies with certain attributes. By setting the same restrictions, e.g. only selecting companies with the number\_of\_employees attribute, the number of entities is reduced from 283,906 to 3,182.
+An alternative would be to use a data dump they offer (developers.google.com/freebase/data), however here we run into similar size problems (22GB gzipped, 250GB uncompressed).
