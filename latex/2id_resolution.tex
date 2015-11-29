@@ -19,6 +19,36 @@ are compared by the shared attributes : company name , country , industries , an
 
 \Paragraph{Freebase and DBPedia companies}
 %Yiru
+The size of gold standard between Freebase and DBpedia is 200, including 102 false cases and 98 true cases. First we choose one company in Freebase and then search it in DBpedia. If match, then put it in true case. If not, then find one which has a similar name or equivalent values in other attributes, e.g. countries or industries.
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\centering
+\caption{Companies that are very similar but not the same}
+\label{my-label}
+\begin{tabular}{llllrrclcc}
+                  & \multicolumn{1}{c}{\textbf{Company ID}} & \multicolumn{1}{c}{\textbf{name}}                             & \multicolumn{1}{c}{\textbf{industries}} & \multicolumn{1}{c}{\textbf{revenue}} & \multicolumn{1}{c}{\textbf{numberOfEmployees}}        & \textbf{dateFounded} & \multicolumn{1}{c}{\textbf{keyPeople}}     & \textbf{countries}                                     & \textbf{location}                                                \\
+\multirow{2}{*}{} & DBPedia\_Company\_4511                  & http://dbpedia.org/resource/E.ON\_Russia                      & http://dbpedia.org/resource/Electricity & 2.40E+09                             & 5300                                                  & 2006                 & Maxim Gennadyevich Shirokov;;Yuri Sablukov & \multicolumn{1}{l}{http://dbpedia.org/resource/Russia} & \multicolumn{1}{l}{http://dbpedia.org/resource/Surgut}           \\
+                  & Freebase\_Company\_935                  & E.ON                                                          & Utilities;;Combination Utilities, NEC   & 94356000000                          & \begin{tabular}[c]{@{}r@{}}87815\\ 80612\end{tabular} & 2000-06-16           & Johannes Teyssen                           & Germany                                                & Düsseldorf                                                       \\
+\multirow{2}{*}{} & DBPedia\_Company\_10348                 & http://dbpedia.org/resource/Okinawa\_Electric\_Power\_Company &                                         & 162501                               & 2495                                                  & 1972                 &                                            & \multicolumn{1}{l}{http://dbpedia.org/resource/Japan}  & \multicolumn{1}{l}{http://dbpedia.org/resource/Urasoe,\_Okinawa} \\
+                  & Freebase\_Company\_2077                 & Oki Electric Industry                                         & Electronics                             &                                      & 17415                                                 & 1881-01              & Hideichi Kawasaki                          & Japan                                                  & Minato                                                          
+\end{tabular}
+\end{table}
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[]
+\centering
+\caption{Companies that are not similar but are the same}
+\label{my-label}
+\begin{tabular}{llllrrclcc}
+                  & \multicolumn{1}{c}{\textbf{Company ID}} & \multicolumn{1}{c}{\textbf{name}}            & \multicolumn{1}{c}{\textbf{industries}}                                                                                                & \multicolumn{1}{c}{\textbf{revenue}} & \multicolumn{1}{c}{\textbf{numberOfEmployees}} & \textbf{dateFounded} & \multicolumn{1}{c}{\textbf{keyPeople}}             & \textbf{countries}                                    & \textbf{location}                                      \\
+\multirow{2}{*}{} & DBPedia\_Company\_11805                 & http://dbpedia.org/resource/Repsol           & http://dbpedia.org/resource/Petroleum\_industry                                                                                        & 56298                                & 24214                                          & 1987                 & Antonio Brufau Niubó (, Josu Jon Imaz San Miguel ) & \multicolumn{1}{l}{http://dbpedia.org/resource/Spain} & \multicolumn{1}{l}{http://dbpedia.org/resource/Madrid} \\
+                  & Freebase\_Company\_2318                 & Repsol YPF S.A.                              & Crude Petroleum and Natural Gas Extraction;;Petroleum industry                                                                         & 72705600000                          & 36700                                          & 1986                 & Antonio Brufau Niubó                               & Spain                                                 & Madrid                                                 \\
+\multirow{2}{*}{} & DBPedia\_Company\_15286                 & http://dbpedia.org/resource/Wacom\_(company) & http://dbpedia.org/resource/Input\_device;;http://dbpedia.org/resource/Software                                                        &                                      & 1427                                           & 1983                 & Masahiko Yamada                                    & Japan                                                 & Kazo, Saitama                                          \\
+                  & Freebase\_Company\_3052                 & Wacom                                        & Software;;All Other Miscellaneous Electrical Equipment and Component Manufacturing;;Electrical Machinery, Equipment, and Supplies, NEC &                                      & 584                                            & 1983-07-12           & Masahiko Yamada                                    & Japan                                                 & Saitama                                               
+\end{tabular}
+\end{table}
 
 
 \Paragraph{DBPedia companies and DBPedia locations}
