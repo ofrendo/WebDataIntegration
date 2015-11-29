@@ -28,7 +28,7 @@ The information of company is extracted from DBpedia, since it provides relative
 
 \subsubsection{Freebase: Company}
 %Yiru
-Freebase provides web service to query data and return in JSON. The total number of entities is 3,182. We make name nonoptional, since we want to use it to compare companies in each dataset. Also, number_of_employees is nonoptional, because the amount for being optional is around 230,000 and we don't want to use it. The rest attributes are all optional.
+Freebase provides web service to query data and return in JSON. The total number of entities is 3,182. We make name nonoptional, since we want to use it to compare companies in each dataset. Also, number\_of\_employees is nonoptional, because the amount for being optional is around 230,000 and we don't want to use it. The rest attributes are all optional.
 First we test queries on the query page to make sure we get the right data. Then, we build a Java project to execute the MQL Read API which provides access to the Freebase database by Metaweb query language (MQL). Additionally, during the mapping procedure, we occur some problem about multiple values in JSON array and JSON object, it couldn't match in target schema because of the various number of values. Thus, we convert them into one string and separate with two semicolons while excuting Java project.
 
 
