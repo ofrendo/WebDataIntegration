@@ -1,6 +1,6 @@
 \section{Data translation}
 \subsection{Data collection}
-In order to collect suitable data we tried different data service providers such as Datahub, finally we have collected total four datasets from three different sources and in three different formats, including: 
+From these four datasets we could get the following data, describing the basic information about four datasets.
 
 %For each subsubsection below:
 %Which format did the data have? CSV, JSON, XLSX?
@@ -12,37 +12,6 @@ In order to collect suitable data we tried different data service providers such
 
 
 
-\subsubsection{Forbes: Company}
-%Silvia/Zehui
-The Forbes offers a .xls file with a list of Top 2000 companies during the period 2000 to 2014 which were published in Forbes magazine because of great performance in terms of business achievements. This dataset describes the basic information about these top 2000 companies. For example, location shows where this company is founded, industry depicts what fields the company focus on and so on.
-\subsubsection{DBpedia: Company }
-The information of company is extracted from DBpedia, since it provides relatively complete information.  To access information from DBPedia we used the public SPARQL endpoint (at http://dbpedia.org/sparql). Figure 1.1 is our query for company, actually there is total 764398 companies in DBpedia, which would be too much for us and also not easy to handle it in terms of processing time and space. In order to reduce the number of data, we limit the company types to "company" and "public company" and only extract the companies that provide attributes "LocationCity" and "LocationCountry", these two attributes can also be related with Location Information, that's why we consider them as necessary and others are optional. On the other hand, if all these attributes are necessary, there will be only few thousands companies extracted, because not all companies have all these nine attributes, in this case few overlapping data will be in the final integration results. In addition to this, as many attributes such as KeyPeople, locationCity have multiple values which result in the same company would appear more than one times, to avoid these duplicates we used "group\_contac", a function in Sparql, to group many value together. There are also many values for Revenue but without date notation, so we just took the maximum value. 
-
-\begin{figure}[H]
-	\begin{center}
-	\includegraphics[width=10cm]{DB_Com}
-	\caption[DBpedia Query For Company]{DBpedia Query For Company}
-	\label{fig:db}
-	\end{center}
-\end{figure}
-
-\subsubsection{Freebase: Company}
-%Yiru
-Freebase provides a web service to query data and return in JSON. The total number of entities is 3,182. We make name nonoptional, since we want to use it to compare companies in each dataset. Also, \texttt{number\_of\_employees} is nonoptional, because the amount for being optional is around 230,000 and we don't want to use it. The rest attributes are all optional.
-First we test queries on the query page to make sure we get the right data. Then, we build a Java project to execute the MQL Read API. Additionally, during the mapping procedure, we occur some problem about multiple values in JSON array and JSON object, it couldn't match in target schema because of the various number of values. Thus, we convert them into one string and separate with two semicolons while excuting Java project.
-
-
-\subsubsection{DBpedia: Location}
-%Silvia/Zehui
-We also extracted Location information from DBpedia with the same method as Company. Figure 1.2 is the query for location. For the same reason as Company, we limit the location types to "city" and "AdministrativeRegion", which are more relevant to our company dataset. Also some attributes have many values without extra information, it's hard to identify which one represents the current state, thus, we just took the maximum number of them among multiple values. Furthermore, the name of locations are provide in different languages, while in our project we just focus on english, so we filtered language as english.
-
-%\begin{figure}[H]
-%	\begin{center}
-%	\includegraphics[width=10cm]{DB_Loc}
-%	\caption[DBpedia Query For Location]{DBpedia Query For Location}
-%	\label{fig:db}
-%	\end{center}
-%\end{figure}
 
 
 \begin{table}[H]
