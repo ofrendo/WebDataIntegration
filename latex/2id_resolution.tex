@@ -6,7 +6,7 @@
 %Give a few corner cases
 %	companies that are very similar but not the same
 %	companies that are not similar but are the same
-As described above we have four datasets in total. We created three gold standards divided into a training set and a test set. Each test set's size is 10\% of the training set's size mostly including corner cases. For the convenience of matching, entities in smaller size dataset are compared to the bigger one and all gold standards are selected by stratified distribution in ascending order. The corner cases in our project are mainly entities which are very similar but not the same and entities that have different names but are the same entity.
+As described above we have four datasets in total. We created three gold standards divided into a training set and a test set. Each test set's size is 10\% of the training set's size mostly including corner cases. The method of finding same entities is to compare the entity from dataset with smaller size to another one and all gold standards are selected by stratified distribution in ascending order. The corner cases in our project are mainly entities which are very similar but not the same and entities that have different names but are the same entity.
 %Silvia/Zehui
 \paragraph{Forbes and Freebase} are compared by the shared attributes: company name, country, industries and revenue. The gold standard has 220 pairs in total, 120 of which are false and 100 of which are true. We labeled the types of our corner cases as Abbreviation, Incomplete name, Similar name and Same name with different countries or industries. Some examples of this are:
 \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
