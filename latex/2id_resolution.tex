@@ -6,24 +6,34 @@
 %Give a few corner cases
 %	companies that are very similar but not the same
 %	companies that are not similar but are the same
-As described that we have four datasets in total, we made three types of gold standards divided into training set and test set. Each test set has 10\% size of training set with corner cases selected. For the convenience of matching, entities in smaller size dataset are compared to the bigger one and all gold standards are selected by stratified distribution in ascending order. The corner cases in our project are mainly about companies which are very similar but not the same and companies have different names but are the same entity.
+As described above we have four datasets in total. We created three gold standards divided into a training set and a test set. Each test set's size is 10\% of the training set's size mostly including corner cases. For the convenience of matching, entities in smaller size dataset are compared to the bigger one and all gold standards are selected by stratified distribution in ascending order. The corner cases in our project are mainly entities which are very similar but not the same and entities that have different names but are the same entity.
 %Silvia/Zehui
-\paragraph{Forbes and Freebase} are compared by the shared attributes: company name, country, industries, and revenue. The gold standard has 220 pairs in total with 120 false and 100 true. Types of corner cases are divided into Abbreviation, Incomplete name, Similar name and Same name with different countries or industries. Some examples are as following:\\
-Bank of China V.S. Industrial and Commercial Bank of China, TRUE \\
-Chevron V.S. Chevron Corporation, TRUE  \\
-BP V.S. TNK-BP, FALSE \\
-Makita (U.S) V.S. Makita (Japan), FALSE
+\paragraph{Forbes and Freebase} are compared by the shared attributes: company name, country, industries and revenue. The gold standard has 220 pairs in total, 120 of which are false and 100 of which are true. We labeled the types of our corner cases as Abbreviation, Incomplete name, Similar name and Same name with different countries or industries. Some examples of this are:
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+%\item Bank of China vs Industrial and Commercial Bank of China  
+\item Chevron vs Chevron Corporation $\longrightarrow true$
+\item BP vs TNK-BP $\longrightarrow false$ 
+\item Makita (U.S) vs Makita (Japan) $\longrightarrow false$
+\end{itemize}
+
+
 %Yiru
-\paragraph{Freebase and DBpedia} gold standard has size of 200 pairs, including 110 false cases and 90 true cases. First we choose one company in Freebase and then search it in DBpedia. If they match, then put it in true case, otherwise find one which has a similar name or equivalent values in other attributes, e.g. countries or industries. Here are some examples: \\
-http://dbpedia.org/resource/Okinawa\_Electric\_Company, Oki Electric Industry, FALSE\\
-http://dbpedia.org/resource/E.ON\_Russia V.S. E.ON, FALSE\\
-http://dbpedia.org/resource/Repsol V.S. Repsol YPF S.A., TRUE\\
-http://dbpedia.org/resource/Wacom\_(company) V.S. Wacom, TRUE
+\paragraph{Freebase and DBpedia:} This gold standard has 200 pairs, including 110 false cases and 90 true cases. To create it we chose one company in Freebase and then searched for it in DBpedia. If they matched, we added it as true, otherwise we looked for one which has a similar name or equivalent values in other attributes, for example countries or industries. Some examples of corner cases are:
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item Okinawa\_Electric\_Company vs Oki Electric Industry $\longrightarrow false$
+\item E.ON\_Russia vs E.ON $\longrightarrow false$
+\item Repsol vs Repsol YPF S.A. $\longrightarrow true$
+\item Wacom\_(company) vs Wacom $\longrightarrow true$
+\end{itemize}
+
+
 %Silvia/Zehui
-\paragraph{DBPedia companies and DBPedia locations} has two shared attributes: location city and location country . Because city name extracted from DBPedia Location has multiple values due to muti-districts in one city , we defined the city without specific district name as the only true value for integration . The total gold standards size for this part is 270 pairs with 190 false and 80 true.\\
-Example of corner cases are: \\
-New York V.S. New York City , TRUE  \\
-http://dbpedia.org/resource/New\_York\_City V.S. Syracuse, New York , FALSE
+\paragraph{DBpedia companies and DBpedia locations} has two shared attributes: locationCity and locationCountry. Because city names extracted from DBpedia locations have multiple values due to multiple districts in one city, we defined the city without a specific district name as the value for integration. This gold standard has 270 pairs, 190 of which false and 80 of which are true. Two examples of corner cases are: 
+\begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
+\item New York vs New York City $\longrightarrow true$
+\item New\_York\_City V.S. Syracuse, New York $\longrightarrow false$
+\end{itemize}
+
 
 \newpage
 \subsection{Matching rules}

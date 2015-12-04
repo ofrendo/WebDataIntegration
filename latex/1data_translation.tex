@@ -1,6 +1,8 @@
-\section{Data translation}
 \subsection{Data collection}
-From these four datasets we could get the following data, describing the basic information about four datasets.
+The results of our data collection are shown in table 1, which describes the basic profiles of each dataset. 
+
+%To sum up the results of our data collection
+%From these four datasets we could get the following data, describing the basic information about four datasets.
 
 %For each subsubsection below:
 %Which format did the data have? CSV, JSON, XLSX?
@@ -73,7 +75,8 @@ location & elevation & dataset 4 \\ \hline
 
 
 \subsection{Data transformations}
-Transformations were applied at two different points in this phase. The first was applied during mapping while the second was applied in the Java project. To begin with, numeric attributes with big values such as revenue or assets were often retrieved in scientific notation. Accordingly a function within MapForce was used to convert the numbers into a decimal notation. Secondly the datasets did not possess an ID attribute. Because it was going to be used later, it was generated with "GenerateID" in MapForce. 
+%Oliver
+Transformations were applied at two different points in this phase. The first was applied during mapping while the second was applied in the Java project. To begin with, numeric attributes with big values such as revenue or assets were often retrieved in scientific notation. Accordingly a function within MapForce was used to convert the numbers into a decimal notation. Secondly the datasets did not possess an ID attribute. Because it was going to be used later, it was generated with \texttt{GenerateID} in MapForce. 
 
 The next transformations occured in Java. Many values, especially from the two DBpedia datasets, were loaded in the form of a URL due to our SPARQL query. As such the URL was parsed and only the actual value was kept. In addition, punctation and symbols such as "\_" were removed. Lastly we normalized country values, which was an important step for the blocking functions used later on in identity resolution. Especially values for the USA were transformed from spellings such as "US", "USA", "United States" to "United States of America".
 
