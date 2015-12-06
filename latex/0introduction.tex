@@ -20,24 +20,24 @@ Forbes is an American business magazine and is well known for its lists and rank
 
 \subsubsection{DBpedia: Companies}
 To access information in DBPedia we used the public SPARQL endpoint\footnote{http://dbpedia.org/sparql}. Figure 1 contains an excerpt of our query for companies. A problem we ran into early is the sheer number of companies (764,398) in DBpedia.
-In order to reduce this number we limit the resource types to \texttt{Company} and \texttt{Public\_company} and only extract the companies that provide values for the attributes \texttt{locationCity} and \texttt{locationCountry}. We later use these attributes for blocking functions and to create correspondences, which is why we consider them to be neccessary, while others are optional. If we defined all attributes to be non-optional this dataset would contain only a few thousand companies, as not all companies have all values for all nine attributes. In addition to this some attributes such as \texttt{KeyPeople} have multiple values. As a result the company would appear more than once. In order to avoid duplicates we used the SPARQL function \texttt{group\_concat} to group values together. There were other attributes such as \texttt{Revenue} with multiple values. Lacking any provenance information such as a date we decided to use the maximum value.
+In order to reduce this number we limit the resource types to \texttt{Company} and \texttt{Public\_company} and only extract the companies that provide values for the attributes \texttt{locationCity} and \texttt{locationCountry}. We later use these attributes for blocking functions and to create correspondences, which is why we consider them to be neccessary, while others are optional. If we defined all attributes to be non-optional this dataset would contain only a few thousand companies, as not all companies have all values for all nine attributes. In addition to this some attributes such as \texttt{KeyPeople} have multiple values. As a result the company would appear more than once. In order to avoid duplicates we used the SPARQL function \texttt{group\_concat} to group values together. In addition, there were other attributes such as \texttt{Revenue} with multiple values. Lacking any provenance information such as a date we decided to use the maximum value.
  % actually there is total 764398 companies in DBpedia, which would be too much for us and also not easy to handle it in terms of processing time and space.
  
 \begin{figure}[H]
 	\begin{center}
 	\includegraphics[width=10cm]{DB_Com}
-	\caption[DBpedia Query For Company]{DBpedia Query For Company}
+	\caption[DBpedia query for companies]{DBpedia query for companies}
 	\label{fig:db}
 	\end{center}
 \end{figure}
 
 \subsubsection{Freebase: Companies}
-Freebase provides a web service to query entities and returns them in a JSON format. The total number of entities returned by our query is 3,182. Similar to the SPARQL query above we decided to make some attributes optional while others are non-optional. Specifically, the \texttt{number\_of\_employees} is non-optional because we use it to compare companies in each dataset and to reduce the number of companies down from 230,000. To make sure we receive the right attributes we first test queries on the query page. To actually retrieve the data we used Java to make calls to the MQL Read API\footnote{https://developers.google.com/freebase/v1/mqlread?hl=en}. To avoid issues during the mapping procedure in MapFroce we concatenated attributes with multiple values with a delimiter. 
+Freebase provides a web service to query entities and returns them in a JSON format. The total number of entities returned by our query is 3,182. Similar to the SPARQL query above we decided to make some attributes optional while others are non-optional. Specifically, the \texttt{number\_of\_employees} is non-optional because we use it to compare companies in each dataset and to reduce the number of companies down from 230,000. To make sure we receive the right attributes we first tested queries on the query page. To actually retrieve the data we used Java to make calls to the MQL Read API\footnote{https://developers.google.com/freebase/v1/mqlread?hl=en}. To avoid issues during the mapping procedure in MapForce we concatenated attributes with multiple values with a delimiter. 
 
 \begin{figure}[H]
 	\begin{center}
 	\includegraphics[width=9cm]{Freebase_query}
-	\caption[Freebase Query For Company]{Freebase Query For Company}
+	\caption[Freebase query for companies]{Freebase query for companies}
 	\label{fig:db}
 	\end{center}
 \end{figure}

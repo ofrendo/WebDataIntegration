@@ -6,7 +6,7 @@
 %Give a few corner cases
 %	companies that are very similar but not the same
 %	companies that are not similar but are the same
-As described above we have four datasets in total. We created three gold standards divided into a training set and a test set. Each test set's size is 10\% of the training set's size mostly including corner cases. The method of finding same entities is to compare the entity from dataset with smaller size to another one and all gold standards are selected by stratified distribution in ascending order. The corner cases in our project are mainly entities which are very similar but not the same and entities that have different names but are the same entity.
+As described above we have four datasets in total. We created three gold standards divided into a training set and a test set. Each test set's size is 10\% of the training set's size mostly including corner cases. The method of finding the same entities is to compare an entity from a dataset with a smaller size to one with a greater size and all gold standards are selected by stratified distribution in ascending order. The corner cases in our project are mainly entities which are very similar but not the same and entities that have different names but describe the same entity.
 %Silvia/Zehui
 \paragraph{Forbes and Freebase} are compared by the shared attributes: company name, country, industries and revenue. The gold standard has 220 pairs in total, 120 of which are false and 100 of which are true. We labeled the types of our corner cases as Abbreviation, Incomplete name, Similar name and Same name with different countries or industries. Some examples of this are:
 \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
@@ -18,7 +18,7 @@ As described above we have four datasets in total. We created three gold standar
 
 
 %Yiru
-\paragraph{Freebase and DBpedia:} This gold standard has 200 pairs, including 110 false cases and 90 true cases. To create it we chose one company in Freebase and then searched for it in DBpedia. If they matched, we added it as true, otherwise we looked for one which has a similar name or equivalent values in other attributes, for example countries or industries. Some examples of corner cases are:
+\paragraph{Freebase and DBpedia:} This gold standard has 200 pairs, including 110 false cases and 90 true cases. To create it we chose one company in Freebase and then searched for it in DBpedia. If they matched, we added it as true, otherwise we looked for one which has a similar name or equivalent values in other attributes, for example countries or industries and added it as false. Some examples of corner cases are:
 \begin{itemize}[noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt]
 \item Okinawa\_Electric\_Company vs Oki Electric Industry $\longrightarrow false$
 \item E.ON\_Russia vs E.ON $\longrightarrow false$
@@ -103,7 +103,7 @@ To give an example of two companies with two industries each: "Computer, Transpo
 	
 \subsection{Blocking functions}
 %Oliver
-Table \ref{tableBlockingFunctions} shows the blocking functions we tried and used in our project. For the comparison of the Forbes and Freebase datasets a partitioning by \texttt{countries} shows good results, which is consistent with the high density of the attribute in both datasets. We also tried a sorted neighborhood approach on the same attribute which seemed to be less effective. Using a cross product approach for comparing Freebase with DBpedia was impossible due to the large size of DBpedia. As such we tried partitioning by \texttt{countries}, \texttt{dateFounded} (where the blocking key is $year/20$) and a combination of the two. The combination reflects our own implementation of a partitioning blocker, where we generate a match to be evaluated if the one of the two blocking keys are the same. This shows the best results because both attributes are relatively, but not completely, dense in both datasets, which is why the reduction ratio is lower then when using only one of the two. When comparing companies with locations from the DBpedia datasets \texttt{countries} is the only possible blocking key. 
+Table \ref{tableBlockingFunctions} shows the blocking functions we tried and used in our project. For the comparison of the Forbes and Freebase datasets a partitioning by \texttt{countries} shows good results, which is consistent with the high density of the attribute in both datasets. We also tried a sorted neighborhood approach on the same attribute, which seemed to be less effective. Using a cross product approach for comparing Freebase with DBpedia was impossible due to the large size of DBpedia. As such we tried partitioning by \texttt{countries}, \texttt{dateFounded} (where the blocking key is $year/20$) and a combination of the two. The combination reflects our own implementation of a partitioning blocker, where we generate a match to be evaluated if the one of the two blocking keys are the same. This shows the best results because both attributes are relatively, but not completely, dense in both datasets, which is why the reduction ratio is lower then when using only one of the two. When comparing companies with locations from the DBpedia datasets \texttt{countries} is the only possible blocking key. 
 
 %%%%%%%%%%%%%%BEGIN TABLE
 
@@ -144,7 +144,7 @@ Table \ref{tableBlockingFunctions} shows the blocking functions we tried and use
 
 \subsection{Learning matching rules}
 %Oliver
-We were able to improve the results of our identity resolution by learning the weights for a linear matching rule from a linear regression in RapidMiner over our handwritten rules. To give an example, the learned weights for the datasets from Freebase and DBpedia are as follows. Interestingly, both \texttt{keyPeople} and \texttt{locations} seem to be important,  while the weights for both numeric attributes \texttt{revenue} and \texttt{numberOfEmployees} is assigned a weight of 0, indicating the attributes are not very useful for an accurate comparison. Lastly the \texttt{name} attribute has the highest weight, as expected.
+We were able to improve the results of our identity resolution by learning the weights for a linear matching rule from a linear regression in RapidMiner over our handwritten rules. To give an example, the learned weights for the datasets from Freebase and DBpedia are as follows. Interestingly, both \texttt{keyPeople} and \texttt{locations} seem to be important,  while the weights for both numeric attributes \texttt{revenue} and \texttt{numberOfEmployees} is assigned a weight of 0, indicating the attributes are not very useful for an accurate comparison. Lastly the \texttt{name} attribute has the highest weight as expected.
 
 \begin{center}
 \begin{tabular}{lrlr}

@@ -1,29 +1,20 @@
-# WebDataIntegration
-Web Data Integration project
+# WebDataIntegration (Group 5)
+Our goal in this project is to integrate information about companies with information about cities in which their headquarters are located. The resulting dataset could then be analyzed from a data science point of view in order to find relationships, i.e. how does the population in a city correlate with the size or other attributes of companies. In order to gather more information about companies, we first combine several datasets together, all of which are about companies but derived from different sources. We then integrate this result with the data about locations.
 
-### Project abstract
-See /latex/ProjectAbstract.pdf for the current project abstract. 
-
-
-### DBPedia
-#### Companies
-Put queries under: [queries/company_dbpedia](/queries/company_dbpedia)
-
-This [gist](https://gist.github.com/szydan/e801fa687587d9eb0f6a) seems like it might be a good starting point, also for batch downloading, in case not all results can be downloaded at the same time.
-
-#### Locations
-Put queries under: [queries/location_dbpedia](/queries/location_dbpedia)
+### Development Folders
+* data: Contains each of the raw datasets, the gold standards and the mapping/resolution/fusion results
+* latex: .tex files for the project report 
+* lib: .jar files used as libraries in Java
+* queries: Our queries used for collecting data from Freebase and DBpedia
+* RapidMinerRepo: Contains the RapidMiner processes used to learn matching rules with a linear regression. Can be imported as a repository within RapidMiner
+* src: Java source code
+* usecase: Given sample files for a movie/actors use case
 
 
-### Freebase
-Put queries under: [queries/company_freebase](/queries/company_freebase)
 
+### Contributing
+* Oliver Frendo (1510432)
+* Dandan Li (1486051)
+* Zehui Wang (1482582)
+* Yi-Ru Cheng (1526763)
 
-## FUSEKI/TBD
-Probably won't need this, but could run a SPARQL server locally with this. Launch with 
-
-```
-fuseki-server --update --locl ../tbd/BNBLODB_sample //BNBLODB_sample
-```
-
-Then open web console at localhost:3030, can upload file there
