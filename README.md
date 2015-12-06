@@ -13,8 +13,8 @@ Our goal in this project is to integrate information about companies with inform
 
 
 ### Contributing
-* Oliver Frendo (1510432)
-* Dandan Li (1486051)
-* Zehui Wang (1482582)
-* Yi-Ru Cheng (1526763)
+* Oliver Frendo
+* Dandan Li
+* Zehui Wang 
+* Yi-Ru Cheng 
 
